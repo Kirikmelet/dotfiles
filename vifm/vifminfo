@@ -1,0 +1,2785 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/troyd/
+	..
+1575531364
+'b
+	/home/troyd/bin/
+	..
+1586523606
+'g
+	/home/troyd/documents/0portables/heartsofiron-iv
+	start.sh
+1585470569
+'h
+	/home/troyd/
+	..
+1586523606
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/troyd/.emacs.d/elpa/bui-20181218.1830
+	
+6
+d/home/troyd/.emacs.d/elpa
+	..
+0
+d/home/troyd/music
+	index.dat
+19
+d/home/troyd
+	pictures
+10
+d/home/troyd/pictures
+	0wallpaper
+2
+d/home/troyd/pictures/0wallpaper
+	anime
+5
+d/home/troyd/pictures/0wallpaper/anime
+	WA2000.(Girls.Frontline).full.2032766.jpg
+15
+d/home/troyd/pictures/0wallpaper
+	misc
+1
+d/home/troyd/pictures/0wallpaper/misc
+	windows_98-wallpaper-1920x1080 (2017_11_05 11_20_22 UTC).jpg
+20
+d/home/troyd/.config/emacs
+	recentf~
+9
+d/home/troyd
+	pictures
+12
+d/home/troyd/documents/0formats/c/1st_prog
+	..
+0
+d/home/troyd
+	pictures
+11
+d/home/troyd/.config/vifm
+	..
+0
+d/home/troyd/.config
+	cmus
+12
+d/home/troyd
+	downloads
+15
+d/home/troyd/downloads
+	..
+0
+d/home/troyd
+	downloads
+15
+d/home
+	troyd
+7
+d/home/troyd
+	downloads
+15
+d/home/troyd/.config/vifm
+	vifmimgpdfpage
+4
+d/home/troyd/.config/vifm/colors
+	..
+0
+d/home/troyd/.config/vifm
+	colors
+2
+d/home/troyd
+	cert
+13
+d/home
+	troyd
+7
+d/home/troyd
+	templates
+7
+d/home/troyd/templates
+	..
+0
+d/home/troyd
+	pictures
+11
+d/home/troyd/pictures
+	wth_shell.jpg
+9
+d/home/troyd/documents/0formats/py/browser
+	__pycache__
+1
+d/root
+	Documents
+1
+d/
+	usr
+13
+d/usr
+	local
+3
+d/usr/local
+	..
+0
+d/usr
+	share
+10
+d/usr/share
+	xsessions
+36
+d/usr/share/xsessions
+	dwm.desktop
+2
+d/home/troyd
+	public
+18
+d/home/troyd/.config/vifm
+	colors
+1
+d/home/troyd/.config/vifm/colors
+	Default.vifm
+1
+d/home/troyd
+	startup.sh
+27
+d/home/troyd/.config/vifm/colors
+	..
+0
+d/home/troyd/.config/vifm
+	colors
+1
+d/home/troyd/.config/vifm/colors
+	..
+0
+d/home/troyd
+	vimwiki_html
+16
+d/home/troyd/documents/0formats/c/1st_prog
+	file_browse.h
+4
+d/home/troyd
+	videos
+14
+d/home/troyd/videos
+	captures
+2
+d/home/troyd/videos/captures
+	_-hotg8hdci3s_x264.mp4
+4
+d/home/troyd/videos
+	anime
+1
+d/home/troyd/videos/anime
+	Angel Beats! (2010) [kuchikirukia] (philosophy-raws)
+1
+d/home/troyd/videos/anime/Angel Beats! (2010) [kuchikirukia] (philosophy-raws)
+	03. Angel Beats! (2010) [BD 1080p Hi10P AAC dual-audio ][kuchikirukia].mkv
+3
+d/home/troyd
+	music
+6
+d/home/troyd/music
+	jpop_n_shit
+19
+d/home/troyd/music/jpop_n_shit
+	pop
+1
+d/home/troyd/music/jpop_n_shit/pop
+	A Matter of Time-9wgZWAbG7rw.wv
+30
+d/home/troyd/music/jpop_n_shit
+	slow
+1
+d/home/troyd/music/jpop_n_shit/slow
+	A Matter of Time-9wgZWAbG7rw.wv
+6
+d/home/troyd/Applications
+	osu.AppImage
+1
+d/home/troyd
+	documents
+16
+d/home/troyd/documents
+	0portables
+6
+d/home/troyd/documents/0portables
+	heartsofiron-iv
+9
+d/home/troyd/documents/0portables/heartsofiron-iv
+	start.sh
+2
+d/home/troyd
+	documents
+16
+d/home/troyd/documents
+	0portables
+6
+d/home/troyd/documents/0portables
+	heartsofiron-iv
+9
+d/home/troyd/documents/0portables/heartsofiron-iv
+	start.sh
+2
+d/home/troyd
+	documents
+5
+d/home/troyd/documents
+	0portables
+2
+d/home/troyd/documents/0portables
+	heartsofiron-iv
+5
+d/home/troyd/documents/0portables/heartsofiron-iv
+	start.sh
+2
+d/home/troyd
+	desktop
+6
+d/home/troyd/.wine
+	drive_c
+2
+d/home/troyd/.wine/drive_c
+	Program Files (x86)
+4
+d/home/troyd/.wine/drive_c/Program Files (x86)
+	Valve
+13
+d/home/troyd/.wine/drive_c/Program Files (x86)/Valve
+	Half-Life
+1
+d/home/troyd/.wine/drive_c/Program Files (x86)/Valve/Half-Life
+	hl.exe
+22
+d/home/troyd
+	desktop
+6
+d/home/troyd/.wine/drive_c/Program Files (x86)/Valve/Half-Life
+	hl.exe
+22
+d/home/troyd
+	documents
+7
+d/home/troyd/documents
+	0portables
+2
+d/home/troyd/documents/0portables
+	heartsofiron-iv
+5
+d/home/troyd/documents/0portables/heartsofiron-iv
+	start.sh
+2
+d/home/troyd/documents/0formats/c/notamusicplayer
+	DEADJOE
+1
+d/home/troyd/.local/share/nvim/swap
+	..
+0
+d/home/troyd/.local/share/nvim
+	swap
+3
+d/home/troyd/.local/share/nvim/swap
+	%home%troyd%documents%0formats%c%notamusicplayer%main.c.swp
+1
+d/home/troyd
+	music
+13
+d/home/troyd/music
+	0a
+2
+d/home/troyd
+	music
+13
+d/home/troyd/music
+	city_pop
+18
+d/home/troyd/music/city_pop
+	..
+0
+d/home/troyd/music
+	city_pop
+18
+d/home/troyd/music/city_pop
+	mixes
+1
+d/home/troyd/music/city_pop/mixes
+	..
+0
+d/home/troyd/music/city_pop
+	mixes
+1
+d/home/troyd/music/city_pop/mixes
+	japanese songs you should listen if you feel with a party mood _ a big funky playlist-_rjQucJUWxk.flac
+7
+d/home/troyd/.config/vifm
+	vifmimgpdfpage
+5
+d/home/troyd/.config/cmus/playlists
+	..
+0
+d/home/troyd/Desktop/Manga/Sekirara ni Kiss/ch1
+	x-1.png
+1
+
+# Right window history (oldest to newest):
+D/root/.config/vifm
+	
+0
+D/home/troyd/music
+	..
+0
+D/home/troyd/music/jpop_n_shit/slow
+	
+0
+D/home/troyd/documents/0formats/0iso
+	
+0
+D/home/troyd/documents/books/programming
+	..
+0
+D/home/troyd/documents/books/programming/python
+	..
+0
+D/home/troyd/documents/books/programming
+	c
+1
+D/home/troyd/documents/books/programming/c
+	..
+0
+D/home/troyd/documents/books/programming
+	c
+1
+D/home/troyd/documents/books/programming/c
+	..
+0
+D/home/troyd/documents/books/programming
+	python
+2
+D/home/troyd/documents/books/programming/python
+	..
+0
+D/home/troyd/documents/books/programming
+	python
+2
+D/home/troyd/documents/books/programming/c
+	..
+0
+D/home/troyd/documents/books/programming
+	c
+1
+D/home/troyd/documents/books/programming/c
+	CGUIProgramming_FC_GUI_Programming.epub
+1
+D/home/troyd/documents/books
+	political
+2
+D/home/troyd/documents/books/political
+	das_kapitel
+1
+D/home/troyd/documents/books/political/das_kapitel
+	..
+0
+D/home/troyd/documents/books/political
+	eco_ur-fascism.pdf
+2
+D/
+	home
+4
+D/home/troyd/desktop
+	..
+0
+D/home
+	troyd
+6
+D/home/troyd/.config
+	..
+0
+D/home/troyd/.config/bspwm
+	bspwmrc
+1
+D/home/troyd/.ncmpcpp
+	..
+0
+D/home/troyd
+	Gdrive
+2
+D/home/troyd/Gdrive
+	..
+0
+D/home/troyd
+	pictures
+7
+D/home/troyd/pictures
+	wth_shell.jpg
+11
+D/home/troyd
+	pictures
+7
+D/home/troyd/pictures
+	0character_art
+2
+D/home/troyd
+	documents
+5
+D/home/troyd/documents
+	..
+0
+D/home/troyd
+	.emacs.d
+9
+D/home/troyd/.emacs.d
+	..
+0
+D/home/troyd
+	.emacs.d
+9
+D/home/troyd/.emacs.d
+	..
+0
+D/home/troyd
+	desktop
+4
+D/home/troyd/desktop
+	cinnamons × evening cinema - summertime (Official Music Video)-KMTo2LmixqQ.opus
+3
+D/home/troyd
+	Mail
+2
+D/home
+	troyd
+6
+D/home/troyd
+	desktop
+4
+D/home/troyd/desktop
+	..
+0
+D/home/troyd/.config/vifm
+	..
+0
+D/home/troyd/.config
+	vifm
+47
+D/home/troyd/documents/0formats/c/1st_prog
+	
+0
+D/home/troyd/documents/books/unix-linux
+	
+0
+D/home/troyd
+	
+0
+D/home/troyd/music
+	
+0
+D/home/troyd/music/11
+	
+0
+D/home/troyd
+	
+0
+D/home/troyd/pictures/0saved_pictures/0screenshots
+	
+0
+D/home/troyd/pictures/0wallpaper/anime
+	
+0
+D/home/troyd
+	
+0
+D/home/troyd/documents/0formats/c/1st_prog
+	
+0
+D/home/troyd/.config/vifm
+	
+0
+D/home/troyd
+	..
+0
+D/home/troyd/documents/0formats/c/1st_prog
+	
+0
+D/home/troyd
+	
+0
+D/usr/share/fonts
+	75dpi
+1
+D/home/troyd/.config/vifm
+	
+0
+D/home/troyd
+	..
+0
+D/home/troyd/.emacs.d
+	
+0
+D/home/troyd/music
+	
+0
+D/home/troyd
+	
+0
+D/home/troyd/.config/emacs
+	
+0
+D/home/troyd
+	
+0
+D/home/troyd/documents/0formats/c/1st_prog
+	
+0
+D/home/troyd
+	
+0
+D/home/troyd/.config/vifm
+	
+0
+D/home/troyd
+	
+0
+D/home/troyd/.config/vifm
+	
+0
+D/home/troyd/.config/vifm/colors
+	
+0
+D/home/troyd
+	..
+0
+D/home/troyd/documents/0formats/py/browser
+	
+0
+D/root
+	..
+0
+D/usr/local/share/xsessions
+	bspwm.desktop
+1
+D/home/troyd
+	..
+0
+D/home/troyd/.config/vifm/colors
+	Default.vifm
+1
+D/home/troyd
+	Applications
+1
+D/home/troyd/documents/0formats/c/1st_prog
+	..
+0
+D/home/troyd
+	..
+0
+D/home/troyd/Applications
+	
+0
+D/home/troyd
+	..
+0
+D/home/troyd/documents/0formats/c/notamusicplayer
+	..
+0
+D/home/troyd/.local/share/nvim/swap
+	
+0
+D/home/troyd
+	
+0
+D/home/troyd/.config/vifm
+	
+0
+D/home/troyd/.config/cmus/playlists
+	
+0
+D/home/troyd/Desktop/Manga/Sekirara ni Kiss/ch1
+	
+0
+
+# Command line history (oldest to newest):
+:mkdir pop
+:mkdir slow
+:!youtube-dl 0 opus https://www.youtube.com/watch?v=7gYG95NG1YA
+:mkdir c
+:mkdir python
+:cd 
+:cd .config
+:cd bspwm
+:ed
+:help
+:file
+:view
+:f
+:echo %C:p
+:echo %c:p
+:!echo %d
+:!echo %c:p | xclip 
+:!echo %c:p 
+:unexpected fault address 0xffffffff
+:!for i in *.mp3; rm $i; done
+:!for i in *.mp3; rm "$i"; done
+:!for i in *.mp3; rm "$i";done
+:!ccls
+:!sh start.sh
+:!rm -r ssl/
+:!sudo rm -r ssl/
+:!rm -r file%%3a/
+:tabnew
+:cd ~/.local/share/Paradox\ Interactive/Hearts\ of\ Iron\ IV/mod/
+:colorscheme Default
+:w
+:wq
+:cd /usr/local/share/xsessions/
+:!cp bspwm.desktop dwm.desktop
+:cd .config/vifm
+:cd .config/vimf
+:Q
+:file 
+:file mpv_nv
+:file mpv
+:open
+:e
+:cd ~/.wine
+:cd ~/.wine/drive_c/Program\ Files\ \(x86\)/Valve/Half-Life/
+:sourt
+:sort
+:yf
+:y
+:yaf
+:!xclip %i
+:q
+
+# Search history (oldest to newest):
+/lsp
+/siji
+
+# Prompt history (oldest to newest):
+pI Secretly Love U _ Piano & Cello _ Snail's House_Ujico.wav
+p20200114_-_hpsci_transmittal_letter_to_hjc_-_new_evidence_attachment.pd
+panime
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/troyd/.config/vifm/vifm-help.txt
+""/home/troyd/.config/vifm/vifmimgpdffile
+""/home/troyd/.config/vifm/vifmimgpdfpage
+""/home/troyd/.config/vifm/vifminfo
+""/home/troyd/.config/vifm/vifmrc
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/troyd/.local/share/vifm/Trash/000_100663299
+	/home/troyd/100663299
+t/home/troyd/.local/share/vifm/Trash/000_85983235
+	/home/troyd/85983235
+t/home/troyd/.local/share/vifm/Trash/000_fcitx-mozc-ut2
+	/home/troyd/fcitx-mozc-ut2
+t/home/troyd/.local/share/vifm/Trash/000_file%3a
+	/home/troyd/file%3a
+t/home/troyd/.local/share/vifm/Trash/000_file:
+	/home/troyd/file:
+t/home/troyd/.local/share/vifm/Trash/001_file:
+	/home/troyd/desktop/file:
+t/home/troyd/.local/share/vifm/Trash/000_20200114_-_hpsci_transmittal_letter_to_hjc_-_new_evidence_attachment.pdf
+	/home/troyd/desktop/20200114_-_hpsci_transmittal_letter_to_hjc_-_new_evidence_attachment.pdf
+t/home/troyd/.local/share/vifm/Trash/000_log
+	/home/troyd/log
+t/home/troyd/.local/share/vifm/Trash/000_log.txt
+	/home/troyd/log.txt
+t/home/troyd/.local/share/vifm/Trash/000_1c
+	/home/troyd/music/1c
+t/home/troyd/.local/share/vifm/Trash/000_1e
+	/home/troyd/music/1e
+t/home/troyd/.local/share/vifm/Trash/000_2c
+	/home/troyd/music/2c
+t/home/troyd/.local/share/vifm/Trash/000_2e
+	/home/troyd/music/2e
+t/home/troyd/.local/share/vifm/Trash/000_2f
+	/home/troyd/music/2f
+t/home/troyd/.local/share/vifm/Trash/000_3c
+	/home/troyd/music/3c
+t/home/troyd/.local/share/vifm/Trash/000_3f
+	/home/troyd/music/3f
+t/home/troyd/.local/share/vifm/Trash/000_4b
+	/home/troyd/music/4b
+t/home/troyd/.local/share/vifm/Trash/000_4e
+	/home/troyd/music/4e
+t/home/troyd/.local/share/vifm/Trash/000_5e
+	/home/troyd/music/5e
+t/home/troyd/.local/share/vifm/Trash/000_5f
+	/home/troyd/music/5f
+t/home/troyd/.local/share/vifm/Trash/000_06
+	/home/troyd/music/06
+t/home/troyd/.local/share/vifm/Trash/000_6b
+	/home/troyd/music/6b
+t/home/troyd/.local/share/vifm/Trash/000_6e
+	/home/troyd/music/6e
+t/home/troyd/.local/share/vifm/Trash/000_6f
+	/home/troyd/music/6f
+t/home/troyd/.local/share/vifm/Trash/000_08
+	/home/troyd/music/08
+t/home/troyd/.local/share/vifm/Trash/000_8f
+	/home/troyd/music/8f
+t/home/troyd/.local/share/vifm/Trash/000_9c
+	/home/troyd/music/9c
+t/home/troyd/.local/share/vifm/Trash/000_12
+	/home/troyd/music/12
+t/home/troyd/.local/share/vifm/Trash/000_16
+	/home/troyd/music/16
+t/home/troyd/.local/share/vifm/Trash/000_17
+	/home/troyd/music/17
+t/home/troyd/.local/share/vifm/Trash/000_25
+	/home/troyd/music/25
+t/home/troyd/.local/share/vifm/Trash/000_29
+	/home/troyd/music/29
+t/home/troyd/.local/share/vifm/Trash/000_31
+	/home/troyd/music/31
+t/home/troyd/.local/share/vifm/Trash/000_39
+	/home/troyd/music/39
+t/home/troyd/.local/share/vifm/Trash/000_42
+	/home/troyd/music/42
+t/home/troyd/.local/share/vifm/Trash/000_45
+	/home/troyd/music/45
+t/home/troyd/.local/share/vifm/Trash/000_47
+	/home/troyd/music/47
+t/home/troyd/.local/share/vifm/Trash/000_52
+	/home/troyd/music/52
+t/home/troyd/.local/share/vifm/Trash/000_53
+	/home/troyd/music/53
+t/home/troyd/.local/share/vifm/Trash/000_61
+	/home/troyd/music/61
+t/home/troyd/.local/share/vifm/Trash/000_72
+	/home/troyd/music/72
+t/home/troyd/.local/share/vifm/Trash/000_73
+	/home/troyd/music/73
+t/home/troyd/.local/share/vifm/Trash/000_78
+	/home/troyd/music/78
+t/home/troyd/.local/share/vifm/Trash/000_79
+	/home/troyd/music/79
+t/home/troyd/.local/share/vifm/Trash/000_82
+	/home/troyd/music/82
+t/home/troyd/.local/share/vifm/Trash/000_86
+	/home/troyd/music/86
+t/home/troyd/.local/share/vifm/Trash/000_88
+	/home/troyd/music/88
+t/home/troyd/.local/share/vifm/Trash/000_91
+	/home/troyd/music/91
+t/home/troyd/.local/share/vifm/Trash/000_98
+	/home/troyd/music/98
+t/home/troyd/.local/share/vifm/Trash/000_a0
+	/home/troyd/music/a0
+t/home/troyd/.local/share/vifm/Trash/000_a7
+	/home/troyd/music/a7
+t/home/troyd/.local/share/vifm/Trash/000_ac
+	/home/troyd/music/ac
+t/home/troyd/.local/share/vifm/Trash/000_b3
+	/home/troyd/music/b3
+t/home/troyd/.local/share/vifm/Trash/000_b4
+	/home/troyd/music/b4
+t/home/troyd/.local/share/vifm/Trash/000_b7
+	/home/troyd/music/b7
+t/home/troyd/.local/share/vifm/Trash/000_bd
+	/home/troyd/music/bd
+t/home/troyd/.local/share/vifm/Trash/000_c3
+	/home/troyd/music/c3
+t/home/troyd/.local/share/vifm/Trash/000_d5
+	/home/troyd/music/d5
+t/home/troyd/.local/share/vifm/Trash/000_d9
+	/home/troyd/music/d9
+t/home/troyd/.local/share/vifm/Trash/000_dd
+	/home/troyd/music/dd
+t/home/troyd/.local/share/vifm/Trash/000_e7
+	/home/troyd/music/e7
+t/home/troyd/.local/share/vifm/Trash/000_e9
+	/home/troyd/music/e9
+t/home/troyd/.local/share/vifm/Trash/000_ed
+	/home/troyd/music/ed
+t/home/troyd/.local/share/vifm/Trash/000_f1
+	/home/troyd/music/f1
+t/home/troyd/.local/share/vifm/Trash/000_f2
+	/home/troyd/music/f2
+t/home/troyd/.local/share/vifm/Trash/000_smplayer_screenshots
+	/home/troyd/pictures/smplayer_screenshots
+t/home/troyd/.local/share/vifm/Trash/000_"The Brotet" - Shiki No Uta
+	/home/troyd/music/"The Brotet" - Shiki No Uta
+t/home/troyd/.local/share/vifm/Trash/000_"The Brotet" - Shiki No Uta.opus
+	/home/troyd/music/"The Brotet" - Shiki No Uta.opus
+t/home/troyd/.local/share/vifm/Trash/000_( American Patriotic Songs ) - Download - 00 - Battle Cry of Freedom.opus
+	/home/troyd/music/( American Patriotic Songs ) - Download - 00 - Battle Cry of Freedom.opus
+t/home/troyd/.local/share/vifm/Trash/000_( Chinese National Songs ) - Yìyǒngjūn Jìnxíngqǔ (Zh,En).opus
+	/home/troyd/music/( Chinese National Songs ) - Yìyǒngjūn Jìnxíngqǔ (Zh,En).opus
+t/home/troyd/.local/share/vifm/Trash/000_( Lagu Kebangsaan Indonesia ) - Indonesia Raya.opus
+	/home/troyd/music/( Lagu Kebangsaan Indonesia ) - Indonesia Raya.opus
+t/home/troyd/.local/share/vifm/Trash/000_1b4c49cba8eb0a6b73f35bbbaf2f855c.jpg
+	/home/troyd/music/1b4c49cba8eb0a6b73f35bbbaf2f855c.jpg
+t/home/troyd/.local/share/vifm/Trash/000_02cbb6ef8197d299d1119392abe114f9.jpg
+	/home/troyd/music/02cbb6ef8197d299d1119392abe114f9.jpg
+t/home/troyd/.local/share/vifm/Trash/000_2e484dd5bbc886a95dd12b4202864164.jpg
+	/home/troyd/music/2e484dd5bbc886a95dd12b4202864164.jpg
+t/home/troyd/.local/share/vifm/Trash/000_5 Seconds of Summer - She Looks So Perfect.opus
+	/home/troyd/music/5 Seconds of Summer - She Looks So Perfect.opus
+t/home/troyd/.local/share/vifm/Trash/000_5 Seconds of Summer - Youngblood.opus
+	/home/troyd/music/5 Seconds of Summer - Youngblood.opus
+t/home/troyd/.local/share/vifm/Trash/000_8utterfly - また会ってる.opus
+	/home/troyd/music/8utterfly - また会ってる.opus
+t/home/troyd/.local/share/vifm/Trash/000_9edf9b6c62a84684fec9a9397e1d7678.jpg
+	/home/troyd/music/9edf9b6c62a84684fec9a9397e1d7678.jpg
+t/home/troyd/.local/share/vifm/Trash/000_9m88-Plastic Love.opus
+	/home/troyd/music/9m88-Plastic Love.opus
+t/home/troyd/.local/share/vifm/Trash/000_164 - Amanojaku.opus
+	/home/troyd/music/164 - Amanojaku.opus
+t/home/troyd/.local/share/vifm/Trash/000_164 - Static.opus
+	/home/troyd/music/164 - Static.opus
+t/home/troyd/.local/share/vifm/Trash/000_732bb75d207cd57b0b9a9b348b633617.jpg
+	/home/troyd/music/732bb75d207cd57b0b9a9b348b633617.jpg
+t/home/troyd/.local/share/vifm/Trash/000_0750e857c72ef4a5fff088dde88c6b0b.jpg
+	/home/troyd/music/0750e857c72ef4a5fff088dde88c6b0b.jpg
+t/home/troyd/.local/share/vifm/Trash/000_1986 Omega Tribe - Aquarium In Tears.opus
+	/home/troyd/music/1986 Omega Tribe - Aquarium In Tears.opus
+t/home/troyd/.local/share/vifm/Trash/000_1986 Omega Tribe - I'll Never Forget You.opus
+	/home/troyd/music/1986 Omega Tribe - I'll Never Forget You.opus
+t/home/troyd/.local/share/vifm/Trash/000_1986 Omega Tribe - 君は1000.opus
+	/home/troyd/music/1986 Omega Tribe - 君は1000.opus
+t/home/troyd/.local/share/vifm/Trash/000_2909c0982ff323c76d40244fde0967e6.jpg
+	/home/troyd/music/2909c0982ff323c76d40244fde0967e6.jpg
+t/home/troyd/.local/share/vifm/Trash/000_7569bd45b385f14a4193382df7d5fda9.jpg
+	/home/troyd/music/7569bd45b385f14a4193382df7d5fda9.jpg
+t/home/troyd/.local/share/vifm/Trash/000_76920c21c0e50275a95101862c6e9d78.jpg
+	/home/troyd/music/76920c21c0e50275a95101862c6e9d78.jpg
+t/home/troyd/.local/share/vifm/Trash/000_653438ce74ce2cf4034688823ec527fc.jpg
+	/home/troyd/music/653438ce74ce2cf4034688823ec527fc.jpg
+t/home/troyd/.local/share/vifm/Trash/000_A Great Big World - Say Something.opus
+	/home/troyd/music/A Great Big World - Say Something.opus
+t/home/troyd/.local/share/vifm/Trash/000_AYA AKA PANDA - あの頃から今.opus
+	/home/troyd/music/AYA AKA PANDA - あの頃から今.opus
+t/home/troyd/.local/share/vifm/Trash/000_Adele - All I Ask.opus
+	/home/troyd/music/Adele - All I Ask.opus
+t/home/troyd/.local/share/vifm/Trash/000_Adele - Someone Like You.opus
+	/home/troyd/music/Adele - Someone Like You.opus
+t/home/troyd/.local/share/vifm/Trash/000_Adele - When We Were Young.opus
+	/home/troyd/music/Adele - When We Were Young.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ai Higuchi - かぜ薬.opus
+	/home/troyd/music/Ai Higuchi - かぜ薬.opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - 3min.opus
+	/home/troyd/music/Aimer - 3min.opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - Blind to You.opus
+	/home/troyd/music/Aimer - Blind to You.opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - Blind to you.opus
+	/home/troyd/music/Aimer - Blind to you.opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - Hanabiratachi no March 「16th Single」(ENG SUB).opus
+	/home/troyd/music/Aimer - Hanabiratachi no March 「16th Single」(ENG SUB).opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - I beg you.opus
+	/home/troyd/music/Aimer - I beg you.opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - Koiwazurai.opus
+	/home/troyd/music/Aimer - Koiwazurai.opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - Last Stardust.opus
+	/home/troyd/music/Aimer - Last Stardust.opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - Refrain.opus
+	/home/troyd/music/Aimer - Refrain.opus
+t/home/troyd/.local/share/vifm/Trash/000_Aimyon - 空の青さを知る人よ.opus
+	/home/troyd/music/Aimyon - 空の青さを知る人よ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Akira Inoue - バルトークの影.opus
+	/home/troyd/music/Akira Inoue - バルトークの影.opus
+t/home/troyd/.local/share/vifm/Trash/000_Akira Terao - ルビーの指環.opus
+	/home/troyd/music/Akira Terao - ルビーの指環.opus
+t/home/troyd/.local/share/vifm/Trash/000_Alan Walker - The Spectre.opus
+	/home/troyd/music/Alan Walker - The Spectre.opus
+t/home/troyd/.local/share/vifm/Trash/000_Alessia Cara - How Far I'll Go - From Vaiana.opus
+	/home/troyd/music/Alessia Cara - How Far I'll Go - From Vaiana.opus
+t/home/troyd/.local/share/vifm/Trash/000_Alex Sierra - Little Do You Know.opus
+	/home/troyd/music/Alex Sierra - Little Do You Know.opus
+t/home/troyd/.local/share/vifm/Trash/000_All That Jazz - TAKE ME HOME COUNTRY ROADS ( Jazz Instrumental ).opus
+	/home/troyd/music/All That Jazz - TAKE ME HOME COUNTRY ROADS ( Jazz Instrumental ).opus
+t/home/troyd/.local/share/vifm/Trash/000_AmaLee - Connect (From "Madoka Magica").opus
+	/home/troyd/music/AmaLee - Connect (From "Madoka Magica").opus
+t/home/troyd/.local/share/vifm/Trash/000_Amy B - No Game No Life Opening.opus
+	/home/troyd/music/Amy B - No Game No Life Opening.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ann Lewis - 六本木心中 - Original Version.opus
+	/home/troyd/music/Ann Lewis - 六本木心中 - Original Version.opus
+t/home/troyd/.local/share/vifm/Trash/000_Anzen Chitai - 碧い瞳のエリス.opus
+	/home/troyd/music/Anzen Chitai - 碧い瞳のエリス.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ariana Grande - Into You.opus
+	/home/troyd/music/Ariana Grande - Into You.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ariana Grande - One Last Time.opus
+	/home/troyd/music/Ariana Grande - One Last Time.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ariana Grande - no tears left to cry.opus
+	/home/troyd/music/Ariana Grande - no tears left to cry.opus
+t/home/troyd/.local/share/vifm/Trash/000_Attack On Titan - Full English Opening 1.opus
+	/home/troyd/music/Attack On Titan - Full English Opening 1.opus
+t/home/troyd/.local/share/vifm/Trash/000_BEM – Opening Theme – Uchuu no Kioku-0mP5Zjm_jag.opus
+	/home/troyd/music/BEM – Opening Theme – Uchuu no Kioku-0mP5Zjm_jag.opus
+t/home/troyd/.local/share/vifm/Trash/000_BRADIO - Flyers.opus
+	/home/troyd/music/BRADIO - Flyers.opus
+t/home/troyd/.local/share/vifm/Trash/000_Baby Kiy - Hummingbirdキセツハズレノハナビ.opus
+	/home/troyd/music/Baby Kiy - Hummingbirdキセツハズレノハナビ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Becky G - Shower.opus
+	/home/troyd/music/Becky G - Shower.opus
+t/home/troyd/.local/share/vifm/Trash/000_Billy Bragg - The Internationale.opus
+	/home/troyd/music/Billy Bragg - The Internationale.opus
+t/home/troyd/.local/share/vifm/Trash/000_Black Clover - Gamushara.opus
+	/home/troyd/music/Black Clover - Gamushara.opus
+t/home/troyd/.local/share/vifm/Trash/000_Blanchehor - let me know.opus
+	/home/troyd/music/Blanchehor - let me know.opus
+t/home/troyd/.local/share/vifm/Trash/000_Bray me - GRACE.opus
+	/home/troyd/music/Bray me - GRACE.opus
+t/home/troyd/.local/share/vifm/Trash/000_Bruno Mars - Grenade.opus
+	/home/troyd/music/Bruno Mars - Grenade.opus
+t/home/troyd/.local/share/vifm/Trash/000_Bruno Mars - Just the Way You Are.opus
+	/home/troyd/music/Bruno Mars - Just the Way You Are.opus
+t/home/troyd/.local/share/vifm/Trash/000_Bruno Mars - Versace on the Floor.opus
+	/home/troyd/music/Bruno Mars - Versace on the Floor.opus
+t/home/troyd/.local/share/vifm/Trash/000_Bruno Mars - When I Was Your Man.opus
+	/home/troyd/music/Bruno Mars - When I Was Your Man.opus
+t/home/troyd/.local/share/vifm/Trash/000_Bullet Train - Body Rock.opus
+	/home/troyd/music/Bullet Train - Body Rock.opus
+t/home/troyd/.local/share/vifm/Trash/000_CHiCO with HoneyWorks - Watashi Idol Sengen.opus
+	/home/troyd/music/CHiCO with HoneyWorks - Watashi Idol Sengen.opus
+t/home/troyd/.local/share/vifm/Trash/000_CHiCOwithHoneyWorks - Sekai Wa Koi Ni Ochiteiru.opus
+	/home/troyd/music/CHiCOwithHoneyWorks - Sekai Wa Koi Ni Ochiteiru.opus
+t/home/troyd/.local/share/vifm/Trash/000_COCO - Omoide ga Ippai.opus
+	/home/troyd/music/COCO - Omoide ga Ippai.opus
+t/home/troyd/.local/share/vifm/Trash/000_CREAM - MVP.opus
+	/home/troyd/music/CREAM - MVP.opus
+t/home/troyd/.local/share/vifm/Trash/000_Calum Scott - Dancing On My Own.opus
+	/home/troyd/music/Calum Scott - Dancing On My Own.opus
+t/home/troyd/.local/share/vifm/Trash/000_Camila Cabello - Havana.opus
+	/home/troyd/music/Camila Cabello - Havana.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ceui - Centifolia.opus
+	/home/troyd/music/Ceui - Centifolia.opus
+t/home/troyd/.local/share/vifm/Trash/000_Charlie Puth - Attention.opus
+	/home/troyd/music/Charlie Puth - Attention.opus
+t/home/troyd/.local/share/vifm/Trash/000_Charlie Puth - Marvin Gaye.opus
+	/home/troyd/music/Charlie Puth - Marvin Gaye.opus
+t/home/troyd/.local/share/vifm/Trash/000_Charlie Puth - One Call Away.opus
+	/home/troyd/music/Charlie Puth - One Call Away.opus
+t/home/troyd/.local/share/vifm/Trash/000_Charlie Puth - We Don't Talk Anymore.opus
+	/home/troyd/music/Charlie Puth - We Don't Talk Anymore.opus
+t/home/troyd/.local/share/vifm/Trash/000_Cheat Codes - No Promises (feat Demi Lovato).opus
+	/home/troyd/music/Cheat Codes - No Promises (feat Demi Lovato).opus
+t/home/troyd/.local/share/vifm/Trash/000_City Pop シティーポップ パート 2-jZpeH_UfNiQ.opus
+	/home/troyd/music/City Pop シティーポップ パート 2-jZpeH_UfNiQ.opus
+t/home/troyd/.local/share/vifm/Trash/000_ClariS - Colorful-2017-.opus
+	/home/troyd/music/ClariS - Colorful-2017-.opus
+t/home/troyd/.local/share/vifm/Trash/000_ClariS - Connect ( Ost Puella Madoka Magica ) Lyric + English Translation.opus
+	/home/troyd/music/ClariS - Connect ( Ost Puella Madoka Magica ) Lyric + English Translation.opus
+t/home/troyd/.local/share/vifm/Trash/000_ClariS - Connect-2017-.opus
+	/home/troyd/music/ClariS - Connect-2017-.opus
+t/home/troyd/.local/share/vifm/Trash/000_ClariS - Hitorigoto.opus
+	/home/troyd/music/ClariS - Hitorigoto.opus
+t/home/troyd/.local/share/vifm/Trash/000_ClariS - Irodori.opus
+	/home/troyd/music/ClariS - Irodori.opus
+t/home/troyd/.local/share/vifm/Trash/000_ClariS.m3u
+	/home/troyd/music/ClariS.m3u
+t/home/troyd/.local/share/vifm/Trash/000_Claris - 01 - Connect.opus
+	/home/troyd/music/Claris - 01 - Connect.opus
+t/home/troyd/.local/share/vifm/Trash/000_Claris - Connect-2017-.opus
+	/home/troyd/music/Claris - Connect-2017-.opus
+t/home/troyd/.local/share/vifm/Trash/000_Clean Bandit - Symphony (feat Zara Larsson).opus
+	/home/troyd/music/Clean Bandit - Symphony (feat Zara Larsson).opus
+t/home/troyd/.local/share/vifm/Trash/000_Cover.jpg
+	/home/troyd/music/Cover.jpg
+t/home/troyd/.local/share/vifm/Trash/000_Cö Shu Nie - asphyxia.opus
+	/home/troyd/music/Cö Shu Nie - asphyxia.opus
+t/home/troyd/.local/share/vifm/Trash/000_DAOKO × 米津玄師 - 打上花火.opus
+	/home/troyd/music/DAOKO × 米津玄師 - 打上花火.opus
+t/home/troyd/.local/share/vifm/Trash/000_DAOKO米津玄師 - 打上花火.opus
+	/home/troyd/music/DAOKO米津玄師 - 打上花火.opus
+t/home/troyd/.local/share/vifm/Trash/000_DJ Snake - Let Me Love You.opus
+	/home/troyd/music/DJ Snake - Let Me Love You.opus
+t/home/troyd/.local/share/vifm/Trash/000_DREAMS COME TRUE - Ureshi Hazukashi Asagaeri.opus
+	/home/troyd/music/DREAMS COME TRUE - Ureshi Hazukashi Asagaeri.opus
+t/home/troyd/.local/share/vifm/Trash/000_Demi Lovato - Heart Attack.opus
+	/home/troyd/music/Demi Lovato - Heart Attack.opus
+t/home/troyd/.local/share/vifm/Trash/000_DempagumiInc - ギラメタスでんぱスターズ.opus
+	/home/troyd/music/DempagumiInc - ギラメタスでんぱスターズ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Drake - Alive Prod.opus
+	/home/troyd/music/Drake - Alive Prod.opus
+t/home/troyd/.local/share/vifm/Trash/000_Dua Lipa - IDGAF.opus
+	/home/troyd/music/Dua Lipa - IDGAF.opus
+t/home/troyd/.local/share/vifm/Trash/000_Dua Lipa - New Rules.opus
+	/home/troyd/music/Dua Lipa - New Rules.opus
+t/home/troyd/.local/share/vifm/Trash/000_EGOIST - Eiyu Unmei No Uta.opus
+	/home/troyd/music/EGOIST - Eiyu Unmei No Uta.opus
+t/home/troyd/.local/share/vifm/Trash/000_EGOIST - The Everlasting Guilty Crown.opus
+	/home/troyd/music/EGOIST - The Everlasting Guilty Crown.opus
+t/home/troyd/.local/share/vifm/Trash/000_EVERGLOW - Adios.opus
+	/home/troyd/music/EVERGLOW - Adios.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ed Sheeran - Castle on the Hill.opus
+	/home/troyd/music/Ed Sheeran - Castle on the Hill.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ed Sheeran - Galway Girl.opus
+	/home/troyd/music/Ed Sheeran - Galway Girl.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ed Sheeran - Happier.opus
+	/home/troyd/music/Ed Sheeran - Happier.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ed Sheeran - Photograph.opus
+	/home/troyd/music/Ed Sheeran - Photograph.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ed Sheeran - Shape of You.opus
+	/home/troyd/music/Ed Sheeran - Shape of You.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ed Sheeran - Thinking out Loud.opus
+	/home/troyd/music/Ed Sheeran - Thinking out Loud.opus
+t/home/troyd/.local/share/vifm/Trash/000_Eir Aoi - Ignite.opus
+	/home/troyd/music/Eir Aoi - Ignite.opus
+t/home/troyd/.local/share/vifm/Trash/000_Eir Aoi - Innocence.opus
+	/home/troyd/music/Eir Aoi - Innocence.opus
+t/home/troyd/.local/share/vifm/Trash/000_Eir Aoi - Utakata.opus
+	/home/troyd/music/Eir Aoi - Utakata.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ellie Goulding - How Long Will I Love You - Bonus Track.opus
+	/home/troyd/music/Ellie Goulding - How Long Will I Love You - Bonus Track.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ellie Goulding - Love Me Like You Do - From Fifty Shades Of Grey.opus
+	/home/troyd/music/Ellie Goulding - Love Me Like You Do - From Fifty Shades Of Grey.opus
+t/home/troyd/.local/share/vifm/Trash/000_Elza Kanzaki - Independence.opus
+	/home/troyd/music/Elza Kanzaki - Independence.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ernst Busch - Einheitsfrontlied.opus
+	/home/troyd/music/Ernst Busch - Einheitsfrontlied.opus
+t/home/troyd/.local/share/vifm/Trash/000_Eve - レーゾンデートル.opus
+	/home/troyd/music/Eve - レーゾンデートル.opus
+t/home/troyd/.local/share/vifm/Trash/000_FUKI - LOVE and CRY.opus
+	/home/troyd/music/FUKI - LOVE and CRY.opus
+t/home/troyd/.local/share/vifm/Trash/000_Fear and Loathing in Las Vegas - Let Me Hear.opus
+	/home/troyd/music/Fear and Loathing in Las Vegas - Let Me Hear.opus
+t/home/troyd/.local/share/vifm/Trash/000_Fubuki Koshiji - サントワマミー.opus
+	/home/troyd/music/Fubuki Koshiji - サントワマミー.opus
+t/home/troyd/.local/share/vifm/Trash/000_GENERATIONS from EXILE TRIBE - One in a Million -奇跡の夜に-.opus
+	/home/troyd/music/GENERATIONS from EXILE TRIBE - One in a Million -奇跡の夜に-.opus
+t/home/troyd/.local/share/vifm/Trash/000_GFRIEND - 恋の始まり.opus
+	/home/troyd/music/GFRIEND - 恋の始まり.opus
+t/home/troyd/.local/share/vifm/Trash/000_GUNDAM WING - White Reflection (Two-Mix GUNDAM WING - White Reflection (Two-Mix GUNDAM WING - White Reflection (Two-Mix GUNDAM WING - White Reflection (Two-Mix *ORI*).opus
+	/home/troyd/music/GUNDAM WING - White Reflection (Two-Mix GUNDAM WING - White Reflection (Two-Mix GUNDAM WING - White Reflection (Two-Mix GUNDAM WING - White Reflection (Two-Mix *ORI*).opus
+t/home/troyd/.local/share/vifm/Trash/000_Galactic Republic (SW) - User FivesArcTrooper5555 - Galactic Republic Anthem-all stars burn as one.opus
+	/home/troyd/music/Galactic Republic (SW) - User FivesArcTrooper5555 - Galactic Republic Anthem-all stars burn as one.opus
+t/home/troyd/.local/share/vifm/Trash/000_Girls Und Panzer - Panzerlied.opus
+	/home/troyd/music/Girls Und Panzer - Panzerlied.opus
+t/home/troyd/.local/share/vifm/Trash/000_Goblins from Mars - BIG BAD WOLF!.opus
+	/home/troyd/music/Goblins from Mars - BIG BAD WOLF!.opus
+t/home/troyd/.local/share/vifm/Trash/000_God knows... ''The Melancholy of Haruhi Suzumiya'' 【涼宮ハルヒの憂鬱】Kadokawa公認MAD【ﾍﾞｰｽ 演奏】-WWB01IuMvzA.opus
+	/home/troyd/music/God knows... ''The Melancholy of Haruhi Suzumiya'' 【涼宮ハルヒの憂鬱】Kadokawa公認MAD【ﾍﾞｰｽ 演奏】-WWB01IuMvzA.opus
+t/home/troyd/.local/share/vifm/Trash/000_Government Of The Ussr - Anthem Of The Ussr.opus
+	/home/troyd/music/Government Of The Ussr - Anthem Of The Ussr.opus
+t/home/troyd/.local/share/vifm/Trash/000_Gym Class Heroes - Stereo Hearts (feat Adam Levine).opus
+	/home/troyd/music/Gym Class Heroes - Stereo Hearts (feat Adam Levine).opus
+t/home/troyd/.local/share/vifm/Trash/000_Hailee Steinfeld - Starving.opus
+	/home/troyd/music/Hailee Steinfeld - Starving.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hanatan - Hana No Uta.opus
+	/home/troyd/music/Hanatan - Hana No Uta.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hanatan - Niwaka Ame.opus
+	/home/troyd/music/Hanatan - Niwaka Ame.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hanatan - Romeo And Cinderella.opus
+	/home/troyd/music/Hanatan - Romeo And Cinderella.opus
+t/home/troyd/.local/share/vifm/Trash/000_Haruhi Suzumiya - God Knows (FULL) ENGLISH ver AmaLee.opus
+	/home/troyd/music/Haruhi Suzumiya - God Knows (FULL) ENGLISH ver AmaLee.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hatsune Miku - Luka (Jenny) 【Vocaloid Cover】.opus
+	/home/troyd/music/Hatsune Miku - Luka (Jenny) 【Vocaloid Cover】.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hellsing ULTIMATE NEW OST No. 13 Iscariot Theme _ Jazz Funk clean version (Track 9)-0df6EZxtqcQ.opus
+	/home/troyd/music/Hellsing ULTIMATE NEW OST No. 13 Iscariot Theme _ Jazz Funk clean version (Track 9)-0df6EZxtqcQ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Heyayayay - Heman.opus
+	/home/troyd/music/Heyayayay - Heman.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hiromi Iwasaki - すみれ色の涙.opus
+	/home/troyd/music/Hiromi Iwasaki - すみれ色の涙.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hiroomi Tosaka - OVERDOSE.opus
+	/home/troyd/music/Hiroomi Tosaka - OVERDOSE.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hiroshi Mizuhara - 黒い花びら.opus
+	/home/troyd/music/Hiroshi Mizuhara - 黒い花びら.opus
+t/home/troyd/.local/share/vifm/Trash/000_Hitomi Shimatani - YUME日和.opus
+	/home/troyd/music/Hitomi Shimatani - YUME日和.opus
+t/home/troyd/.local/share/vifm/Trash/000_HitoshizukuP - Bad End Night.opus
+	/home/troyd/music/HitoshizukuP - Bad End Night.opus
+t/home/troyd/.local/share/vifm/Trash/000_HitoshizukuP - Crazy Night.opus
+	/home/troyd/music/HitoshizukuP - Crazy Night.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ho - Kago Tea Time - Fuyu No Hi.opus
+	/home/troyd/music/Ho - Kago Tea Time - Fuyu No Hi.opus
+t/home/troyd/.local/share/vifm/Trash/000_I'm - Slow Motion.opus
+	/home/troyd/music/I'm - Slow Motion.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Alien Alien.opus
+	/home/troyd/music/IKASAN - Alien Alien.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Asagao no Chiru Koro ni.opus
+	/home/troyd/music/IKASAN - Asagao no Chiru Koro ni.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Cutter Knife.opus
+	/home/troyd/music/IKASAN - Cutter Knife.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Da Vinci No Kokuhaku.opus
+	/home/troyd/music/IKASAN - Da Vinci No Kokuhaku.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Daybreak Frontline.opus
+	/home/troyd/music/IKASAN - Daybreak Frontline.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Dokusenyoku.opus
+	/home/troyd/music/IKASAN - Dokusenyoku.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Ever Lasting Night.opus
+	/home/troyd/music/IKASAN - Ever Lasting Night.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Flagile.opus
+	/home/troyd/music/IKASAN - Flagile.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Gaikotsu Gakudan To Riria.opus
+	/home/troyd/music/IKASAN - Gaikotsu Gakudan To Riria.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Haikei Natsu Ni Oboreru.opus
+	/home/troyd/music/IKASAN - Haikei Natsu Ni Oboreru.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Hello Planet.opus
+	/home/troyd/music/IKASAN - Hello Planet.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Idola No Circus.opus
+	/home/troyd/music/IKASAN - Idola No Circus.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Imagine Friends.opus
+	/home/troyd/music/IKASAN - Imagine Friends.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Issenkou.opus
+	/home/troyd/music/IKASAN - Issenkou.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Jougen No Tsuki.opus
+	/home/troyd/music/IKASAN - Jougen No Tsuki.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Kokoronashi.opus
+	/home/troyd/music/IKASAN - Kokoronashi.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Liar Dance.opus
+	/home/troyd/music/IKASAN - Liar Dance.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Moumoku No Uchuuhikoushi.opus
+	/home/troyd/music/IKASAN - Moumoku No Uchuuhikoushi.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Mozaik Role.opus
+	/home/troyd/music/IKASAN - Mozaik Role.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - RasberryMonster.opus
+	/home/troyd/music/IKASAN - RasberryMonster.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Reincarnation.opus
+	/home/troyd/music/IKASAN - Reincarnation.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Renai Saiban.opus
+	/home/troyd/music/IKASAN - Renai Saiban.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Sayonara Wonder Noise.opus
+	/home/troyd/music/IKASAN - Sayonara Wonder Noise.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Seitou No Marche.opus
+	/home/troyd/music/IKASAN - Seitou No Marche.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Senaka.opus
+	/home/troyd/music/IKASAN - Senaka.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Shissou Tune.opus
+	/home/troyd/music/IKASAN - Shissou Tune.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Solitude To Loneliness.opus
+	/home/troyd/music/IKASAN - Solitude To Loneliness.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Undead Enemy.opus
+	/home/troyd/music/IKASAN - Undead Enemy.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Yumechizu - Dreamlike Edition.opus
+	/home/troyd/music/IKASAN - Yumechizu - Dreamlike Edition.opus
+t/home/troyd/.local/share/vifm/Trash/000_IKASAN - Yuurei Yashiki no Kubitsuri Shoujo.opus
+	/home/troyd/music/IKASAN - Yuurei Yashiki no Kubitsuri Shoujo.opus
+t/home/troyd/.local/share/vifm/Trash/000_Icona Pop - I Love It (feat Charli XCX) - Original Version.opus
+	/home/troyd/music/Icona Pop - I Love It (feat Charli XCX) - Original Version.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ikimonogakari - Sakura.opus
+	/home/troyd/music/Ikimonogakari - Sakura.opus
+t/home/troyd/.local/share/vifm/Trash/000_Indonesiaku - Lagu Indonesia Raya 3 Stanza-gjqo_3_fZf4.opus
+	/home/troyd/music/Indonesiaku - Lagu Indonesia Raya 3 Stanza-gjqo_3_fZf4.opus
+t/home/troyd/.local/share/vifm/Trash/000_Internationale (dalam Bahasa Indonesia)-LwQNn5WRfnk.opus
+	/home/troyd/music/Internationale (dalam Bahasa Indonesia)-LwQNn5WRfnk.opus
+t/home/troyd/.local/share/vifm/Trash/000_Intial D - Deja Vu.opus
+	/home/troyd/music/Intial D - Deja Vu.opus
+t/home/troyd/.local/share/vifm/Trash/000_Iyo Matsumoto - バージニアラプソディ.opus
+	/home/troyd/music/Iyo Matsumoto - バージニアラプソディ.opus
+t/home/troyd/.local/share/vifm/Trash/000_JP Cooper - September Song.opus
+	/home/troyd/music/JP Cooper - September Song.opus
+t/home/troyd/.local/share/vifm/Trash/000_JYOCHO - 互いの宇宙.opus
+	/home/troyd/music/JYOCHO - 互いの宇宙.opus
+t/home/troyd/.local/share/vifm/Trash/000_James Arthur - Say You Won't Let Go.opus
+	/home/troyd/music/James Arthur - Say You Won't Let Go.opus
+t/home/troyd/.local/share/vifm/Trash/000_James TW - When You Love Someone.opus
+	/home/troyd/music/James TW - When You Love Someone.opus
+t/home/troyd/.local/share/vifm/Trash/000_Jason Mraz - I Won't Give Up.opus
+	/home/troyd/music/Jason Mraz - I Won't Give Up.opus
+t/home/troyd/.local/share/vifm/Trash/000_Jessie J - Flashlight - From Pitch Perfect 2 Soundtrack.opus
+	/home/troyd/music/Jessie J - Flashlight - From Pitch Perfect 2 Soundtrack.opus
+t/home/troyd/.local/share/vifm/Trash/000_Jewel - 夢が夢じゃなくなる日まで.opus
+	/home/troyd/music/Jewel - 夢が夢じゃなくなる日まで.opus
+t/home/troyd/.local/share/vifm/Trash/000_Jiro - About Me.opus
+	/home/troyd/music/Jiro - About Me.opus
+t/home/troyd/.local/share/vifm/Trash/000_Joel Adams - Please Don't Go.opus
+	/home/troyd/music/Joel Adams - Please Don't Go.opus
+t/home/troyd/.local/share/vifm/Trash/000_John Denver - Take Me Home Country Roads.opus
+	/home/troyd/music/John Denver - Take Me Home Country Roads.opus
+t/home/troyd/.local/share/vifm/Trash/000_John Legend - All of Me.opus
+	/home/troyd/music/John Legend - All of Me.opus
+t/home/troyd/.local/share/vifm/Trash/000_Jonas Blue - Mama.opus
+	/home/troyd/music/Jonas Blue - Mama.opus
+t/home/troyd/.local/share/vifm/Trash/000_Jonas Blue - Perfect Strangers.opus
+	/home/troyd/music/Jonas Blue - Perfect Strangers.opus
+t/home/troyd/.local/share/vifm/Trash/000_Jump Up Super Star! .opus
+	/home/troyd/music/Jump Up Super Star! .opus
+t/home/troyd/.local/share/vifm/Trash/000_Junichi Inagaki - ロングバージョン.opus
+	/home/troyd/music/Junichi Inagaki - ロングバージョン.opus
+t/home/troyd/.local/share/vifm/Trash/000_Junko Ohashi - シンプルラブ.opus
+	/home/troyd/music/Junko Ohashi - シンプルラブ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Justin Bieber - Friends (with BloodPop).opus
+	/home/troyd/music/Justin Bieber - Friends (with BloodPop).opus
+t/home/troyd/.local/share/vifm/Trash/000_Justin Bieber - Love Yourself.opus
+	/home/troyd/music/Justin Bieber - Love Yourself.opus
+t/home/troyd/.local/share/vifm/Trash/000_Justin Bieber - Sorry.opus
+	/home/troyd/music/Justin Bieber - Sorry.opus
+t/home/troyd/.local/share/vifm/Trash/000_Justin Timberlake - Mirrors.opus
+	/home/troyd/music/Justin Timberlake - Mirrors.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kagenuihana - Breriko.opus
+	/home/troyd/music/Kagenuihana - Breriko.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kagenuihana - Cherry Hunt.opus
+	/home/troyd/music/Kagenuihana - Cherry Hunt.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kalafina - Kizuato.opus
+	/home/troyd/music/Kalafina - Kizuato.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kalafina - Magia.opus
+	/home/troyd/music/Kalafina - Magia.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kana Adachi - 面影.opus
+	/home/troyd/music/Kana Adachi - 面影.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - Daybreak.opus
+	/home/troyd/music/Kano - Daybreak.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - HOPE.opus
+	/home/troyd/music/Kano - HOPE.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - Paddling Blue.opus
+	/home/troyd/music/Kano - Paddling Blue.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - QA.opus
+	/home/troyd/music/Kano - QA.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - loop loop loop.opus
+	/home/troyd/music/Kano - loop loop loop.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - さよならアダムとイヴ.opus
+	/home/troyd/music/Kano - さよならアダムとイヴ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - なんで.opus
+	/home/troyd/music/Kano - なんで.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - クライヤ.opus
+	/home/troyd/music/Kano - クライヤ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - ハロ-ハワユ.opus
+	/home/troyd/music/Kano - ハロ-ハワユ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - ピエロ.opus
+	/home/troyd/music/Kano - ピエロ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - マインドボイス.opus
+	/home/troyd/music/Kano - マインドボイス.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - メリーメリー.opus
+	/home/troyd/music/Kano - メリーメリー.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - ルカルカナイトフィーバー.opus
+	/home/troyd/music/Kano - ルカルカナイトフィーバー.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 世界で一番近くに居るのに.opus
+	/home/troyd/music/Kano - 世界で一番近くに居るのに.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 人生ベリーハードモード.opus
+	/home/troyd/music/Kano - 人生ベリーハードモード.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 六兆年と一夜物語.opus
+	/home/troyd/music/Kano - 六兆年と一夜物語.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 小夜子.opus
+	/home/troyd/music/Kano - 小夜子.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 想像フォレスト.opus
+	/home/troyd/music/Kano - 想像フォレスト.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 春に落ちて.opus
+	/home/troyd/music/Kano - 春に落ちて.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 桜のような恋でした.opus
+	/home/troyd/music/Kano - 桜のような恋でした.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 瞬きの星団.opus
+	/home/troyd/music/Kano - 瞬きの星団.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kano - 闇色アリス.opus
+	/home/troyd/music/Kano - 闇色アリス.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kansas - Icarus (Borne On Wings Of Steel)-H28AgoryWHE.opus
+	/home/troyd/music/Kansas - Icarus (Borne On Wings Of Steel)-H28AgoryWHE.opus
+t/home/troyd/.local/share/vifm/Trash/000_Katy Perry - Last Friday Night (TGIF).opus
+	/home/troyd/music/Katy Perry - Last Friday Night (TGIF).opus
+t/home/troyd/.local/share/vifm/Trash/000_Katy Perry - Part Of Me.opus
+	/home/troyd/music/Katy Perry - Part Of Me.opus
+t/home/troyd/.local/share/vifm/Trash/000_Katy Perry - Teenage Dream.opus
+	/home/troyd/music/Katy Perry - Teenage Dream.opus
+t/home/troyd/.local/share/vifm/Trash/000_Katy Perry - The One That Got Away - Radio Mix.opus
+	/home/troyd/music/Katy Perry - The One That Got Away - Radio Mix.opus
+t/home/troyd/.local/share/vifm/Trash/000_Katy Perry - Unconditionally.opus
+	/home/troyd/music/Katy Perry - Unconditionally.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kenshi Yonezu (Jubyphonic) - Lemon (Cover).opus
+	/home/troyd/music/Kenshi Yonezu (Jubyphonic) - Lemon (Cover).opus
+t/home/troyd/.local/share/vifm/Trash/000_Kenshi Yonezu - - Full! [4th.] Album - BOOTLEG.opus
+	/home/troyd/music/Kenshi Yonezu - - Full! [4th.] Album - BOOTLEG.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kenshi Yonezu - Peace Sign.opus
+	/home/troyd/music/Kenshi Yonezu - Peace Sign.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kie Kitano - Hazakura.opus
+	/home/troyd/music/Kie Kitano - Hazakura.opus
+t/home/troyd/.local/share/vifm/Trash/000_King Gnu - 傘.opus
+	/home/troyd/music/King Gnu - 傘.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kingo Hamada - 抱かれに来た女.opus
+	/home/troyd/music/Kingo Hamada - 抱かれに来た女.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kiyotaka Sugiyama - River's Island.opus
+	/home/troyd/music/Kiyotaka Sugiyama - River's Island.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kobasolo - I love you so much but I can't tell you (feat Asako).opus
+	/home/troyd/music/Kobasolo - I love you so much but I can't tell you (feat Asako).opus
+t/home/troyd/.local/share/vifm/Trash/000_Kobasolo - TT feat佐々木萌 (エドガーサリヴァン).opus
+	/home/troyd/music/Kobasolo - TT feat佐々木萌 (エドガーサリヴァン).opus
+t/home/troyd/.local/share/vifm/Trash/000_Kobasolo - secret base 君がくれたもの featえみい (テーマパークガール).opus
+	/home/troyd/music/Kobasolo - secret base 君がくれたもの featえみい (テーマパークガール).opus
+t/home/troyd/.local/share/vifm/Trash/000_Kobasolo - ひまわりの約束 feat春茶.opus
+	/home/troyd/music/Kobasolo - ひまわりの約束 feat春茶.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - A Song For Two.opus
+	/home/troyd/music/Kohmi Hirose - A Song For Two.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - DEARagain - Ver 205.opus
+	/home/troyd/music/Kohmi Hirose - DEARagain - Ver 205.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - GIFT.opus
+	/home/troyd/music/Kohmi Hirose - GIFT.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - Groovy.opus
+	/home/troyd/music/Kohmi Hirose - Groovy.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - I Wish.opus
+	/home/troyd/music/Kohmi Hirose - I Wish.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - Search-Light.opus
+	/home/troyd/music/Kohmi Hirose - Search-Light.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - Velvet.opus
+	/home/troyd/music/Kohmi Hirose - Velvet.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - promise - 2016.opus
+	/home/troyd/music/Kohmi Hirose - promise - 2016.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - promise.opus
+	/home/troyd/music/Kohmi Hirose - promise.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - とろけるリズム.opus
+	/home/troyd/music/Kohmi Hirose - とろけるリズム.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - ゲレンデがとけるほど恋したい - 2016.opus
+	/home/troyd/music/Kohmi Hirose - ゲレンデがとけるほど恋したい - 2016.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - ゲレンデがとけるほど恋したい.opus
+	/home/troyd/music/Kohmi Hirose - ゲレンデがとけるほど恋したい.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - ストロボ - 2016.opus
+	/home/troyd/music/Kohmi Hirose - ストロボ - 2016.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - ストロボ.opus
+	/home/troyd/music/Kohmi Hirose - ストロボ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - ドラマティックに恋して.opus
+	/home/troyd/music/Kohmi Hirose - ドラマティックに恋して.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - ピアニシモ.opus
+	/home/troyd/music/Kohmi Hirose - ピアニシモ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - ロマンスの神様 - 2016.opus
+	/home/troyd/music/Kohmi Hirose - ロマンスの神様 - 2016.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - ロマンスの神様.opus
+	/home/troyd/music/Kohmi Hirose - ロマンスの神様.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 二人のBirthday.opus
+	/home/troyd/music/Kohmi Hirose - 二人のBirthday.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 出会いの奇跡を大切に.opus
+	/home/troyd/music/Kohmi Hirose - 出会いの奇跡を大切に.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 夏だモン.opus
+	/home/troyd/music/Kohmi Hirose - 夏だモン.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 幸せをつかみたい.opus
+	/home/troyd/music/Kohmi Hirose - 幸せをつかみたい.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 恋のベスト10.opus
+	/home/troyd/music/Kohmi Hirose - 恋のベスト10.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 愛があれば大丈夫 - 2016.opus
+	/home/troyd/music/Kohmi Hirose - 愛があれば大丈夫 - 2016.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 愛があれば大丈夫.opus
+	/home/troyd/music/Kohmi Hirose - 愛があれば大丈夫.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 愛はバラード.opus
+	/home/troyd/music/Kohmi Hirose - 愛はバラード.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 愛は特効薬.opus
+	/home/troyd/music/Kohmi Hirose - 愛は特効薬.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 日付変更線.opus
+	/home/troyd/music/Kohmi Hirose - 日付変更線.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 最高のエンディングを共に.opus
+	/home/troyd/music/Kohmi Hirose - 最高のエンディングを共に.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 月の下で逢いましょう.opus
+	/home/troyd/music/Kohmi Hirose - 月の下で逢いましょう.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 歌いたいわ.opus
+	/home/troyd/music/Kohmi Hirose - 歌いたいわ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 真冬の帰り道.opus
+	/home/troyd/music/Kohmi Hirose - 真冬の帰り道.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 青い冬ハジマレ.opus
+	/home/troyd/music/Kohmi Hirose - 青い冬ハジマレ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kohmi Hirose - 黄昏.opus
+	/home/troyd/music/Kohmi Hirose - 黄昏.opus
+t/home/troyd/.local/share/vifm/Trash/000_Konosuba - I Wanna Go Home.opus
+	/home/troyd/music/Konosuba - I Wanna Go Home.opus
+t/home/troyd/.local/share/vifm/Trash/000_KurousaP - Jougen No Tsuki.opus
+	/home/troyd/music/KurousaP - Jougen No Tsuki.opus
+t/home/troyd/.local/share/vifm/Trash/000_Kyary Pamyu Pamyu - Kimiga iine kuretara.opus
+	/home/troyd/music/Kyary Pamyu Pamyu - Kimiga iine kuretara.opus
+t/home/troyd/.local/share/vifm/Trash/000_LONGMAN - Wish on.opus
+	/home/troyd/music/LONGMAN - Wish on.opus
+t/home/troyd/.local/share/vifm/Trash/000_Lady Antebellum - Need You Now.opus
+	/home/troyd/music/Lady Antebellum - Need You Now.opus
+t/home/troyd/.local/share/vifm/Trash/000_Learn From Lei Feng's Good Example - Patriotic Chinese Song (English Lyrics)-u3NJf9GtvCw.opus
+	/home/troyd/music/Learn From Lei Feng's Good Example - Patriotic Chinese Song (English Lyrics)-u3NJf9GtvCw.opus
+t/home/troyd/.local/share/vifm/Trash/000_Leftytube Choir - Seize The Means Of Production (Farewell Bat'ko).opus
+	/home/troyd/music/Leftytube Choir - Seize The Means Of Production (Farewell Bat'ko).opus
+t/home/troyd/.local/share/vifm/Trash/000_Leina - Crying memories.opus
+	/home/troyd/music/Leina - Crying memories.opus
+t/home/troyd/.local/share/vifm/Trash/000_LiSA - Catch the Moment.opus
+	/home/troyd/music/LiSA - Catch the Moment.opus
+t/home/troyd/.local/share/vifm/Trash/000_LiSA - Crossing Field.opus
+	/home/troyd/music/LiSA - Crossing Field.opus
+t/home/troyd/.local/share/vifm/Trash/000_Lieder der Bundeswehr-Grüne Teufel-TQ3BU7HszDs.opus
+	/home/troyd/music/Lieder der Bundeswehr-Grüne Teufel-TQ3BU7HszDs.opus
+t/home/troyd/.local/share/vifm/Trash/000_Linked Horizon - Guren no Yumiya.opus
+	/home/troyd/music/Linked Horizon - Guren no Yumiya.opus
+t/home/troyd/.local/share/vifm/Trash/000_Little Glee Monster - 愛しさにリボンをかけて.opus
+	/home/troyd/music/Little Glee Monster - 愛しさにリボンをかけて.opus
+t/home/troyd/.local/share/vifm/Trash/000_Little Mix - Black Magic.opus
+	/home/troyd/music/Little Mix - Black Magic.opus
+t/home/troyd/.local/share/vifm/Trash/000_Lizz Robinett - Senbonzakura English Cover .opus
+	/home/troyd/music/Lizz Robinett - Senbonzakura English Cover .opus
+t/home/troyd/.local/share/vifm/Trash/000_Lukas Graham - 7 Years.opus
+	/home/troyd/music/Lukas Graham - 7 Years.opus
+t/home/troyd/.local/share/vifm/Trash/000_Luna Haruna - Startear.opus
+	/home/troyd/music/Luna Haruna - Startear.opus
+t/home/troyd/.local/share/vifm/Trash/000_MADKID - RISE.opus
+	/home/troyd/music/MADKID - RISE.opus
+t/home/troyd/.local/share/vifm/Trash/000_MAGIC - Rude.opus
+	/home/troyd/music/MAGIC - Rude.opus
+t/home/troyd/.local/share/vifm/Trash/000_MAGIC OF LiFE - 素晴らしくて.opus
+	/home/troyd/music/MAGIC OF LiFE - 素晴らしくて.opus
+t/home/troyd/.local/share/vifm/Trash/000_MARY - 空奏列車.opus
+	/home/troyd/music/MARY - 空奏列車.opus
+t/home/troyd/.local/share/vifm/Trash/000_MKTO - Classic.opus
+	/home/troyd/music/MKTO - Classic.opus
+t/home/troyd/.local/share/vifm/Trash/000_MNEK - Never Forget You.opus
+	/home/troyd/music/MNEK - Never Forget You.opus
+t/home/troyd/.local/share/vifm/Trash/000_MONOGATARI Series - the last day of my adolescence.opus
+	/home/troyd/music/MONOGATARI Series - the last day of my adolescence.opus
+t/home/troyd/.local/share/vifm/Trash/000_MOSHIMO - ミルクティー.opus
+	/home/troyd/music/MOSHIMO - ミルクティー.opus
+t/home/troyd/.local/share/vifm/Trash/000_MYTH ROID - JINGO JUNGLE - HBB Remix.opus
+	/home/troyd/music/MYTH ROID - JINGO JUNGLE - HBB Remix.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mafumafu - Rewrite the Saga.opus
+	/home/troyd/music/Mafumafu - Rewrite the Saga.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mafumafu - リライトザサーガ.opus
+	/home/troyd/music/Mafumafu - リライトザサーガ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Maggie Lindemann - Pretty Girl - Cheat Codes X CADE Remix.opus
+	/home/troyd/music/Maggie Lindemann - Pretty Girl - Cheat Codes X CADE Remix.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mako Ishino - ハートで勝負
+	/home/troyd/music/Mako Ishino - ハートで勝負
+t/home/troyd/.local/share/vifm/Trash/000_Mako Ishino - ハートで勝負.opus
+	/home/troyd/music/Mako Ishino - ハートで勝負.opus
+t/home/troyd/.local/share/vifm/Trash/000_Maredith Placencia With Khosrean State Orchestra - The Warsawian.opus
+	/home/troyd/music/Maredith Placencia With Khosrean State Orchestra - The Warsawian.opus
+t/home/troyd/.local/share/vifm/Trash/000_Marie FD - Orion.opus
+	/home/troyd/music/Marie FD - Orion.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mariya Takeuchi Plastic Love 竹内 まりや
+	/home/troyd/music/Mariya Takeuchi Plastic Love 竹内 まりや
+t/home/troyd/.local/share/vifm/Trash/000_Mariya Takeuchi Plastic Love 竹内 まりや.opus
+	/home/troyd/music/Mariya Takeuchi Plastic Love 竹内 まりや.opus
+t/home/troyd/.local/share/vifm/Trash/000_Maroon 5 - Maps.opus
+	/home/troyd/music/Maroon 5 - Maps.opus
+t/home/troyd/.local/share/vifm/Trash/000_Maroon 5 - Payphone.opus
+	/home/troyd/music/Maroon 5 - Payphone.opus
+t/home/troyd/.local/share/vifm/Trash/000_Maroon 5 - Sugar.opus
+	/home/troyd/music/Maroon 5 - Sugar.opus
+t/home/troyd/.local/share/vifm/Trash/000_Marshmello - FRIENDS.opus
+	/home/troyd/music/Marshmello - FRIENDS.opus
+t/home/troyd/.local/share/vifm/Trash/000_Martin Garrix - In the Name of Love.opus
+	/home/troyd/music/Martin Garrix - In the Name of Love.opus
+t/home/troyd/.local/share/vifm/Trash/000_Martin Garrix - Scared to Be Lonely.opus
+	/home/troyd/music/Martin Garrix - Scared to Be Lonely.opus
+t/home/troyd/.local/share/vifm/Trash/000_Marty Friedman - Marine Bloomin'.opus
+	/home/troyd/music/Marty Friedman - Marine Bloomin'.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mary - Alice In 冷凍庫.opus
+	/home/troyd/music/Mary - Alice In 冷凍庫.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Black Board.opus
+	/home/troyd/music/Matsushita - Black Board.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Kashimashi Girl.opus
+	/home/troyd/music/Matsushita - Kashimashi Girl.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Kusare Gedou To Chocolate.opus
+	/home/troyd/music/Matsushita - Kusare Gedou To Chocolate.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Mousouzei.opus
+	/home/troyd/music/Matsushita - Mousouzei.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Onegai Darling.opus
+	/home/troyd/music/Matsushita - Onegai Darling.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Taketori Overnight Sensation.opus
+	/home/troyd/music/Matsushita - Taketori Overnight Sensation.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Umiyuri Kaitei Tan.opus
+	/home/troyd/music/Matsushita - Umiyuri Kaitei Tan.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Usotsuki.opus
+	/home/troyd/music/Matsushita - Usotsuki.opus
+t/home/troyd/.local/share/vifm/Trash/000_Matsushita - Yurufuwa Jukai Girl.opus
+	/home/troyd/music/Matsushita - Yurufuwa Jukai Girl.opus
+t/home/troyd/.local/share/vifm/Trash/000_Meghan Trainor - Dear Future Husband.opus
+	/home/troyd/music/Meghan Trainor - Dear Future Husband.opus
+t/home/troyd/.local/share/vifm/Trash/000_Meghan Trainor - Like I'm Gonna Lose You (feat John Legend).opus
+	/home/troyd/music/Meghan Trainor - Like I'm Gonna Lose You (feat John Legend).opus
+t/home/troyd/.local/share/vifm/Trash/000_Michael Jackson - Billie Jean.opus
+	/home/troyd/music/Michael Jackson - Billie Jean.opus
+t/home/troyd/.local/share/vifm/Trash/000_Michael Jackson - Smooth Criminal.opus
+	/home/troyd/music/Michael Jackson - Smooth Criminal.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mili - Boys in Kaleidosphere.opus
+	/home/troyd/music/Mili - Boys in Kaleidosphere.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mili - Camelia.opus
+	/home/troyd/music/Mili - Camelia.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mili - Every Other Ghost.opus
+	/home/troyd/music/Mili - Every Other Ghost.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mili - worldexecute(me).opus
+	/home/troyd/music/Mili - worldexecute(me).opus
+t/home/troyd/.local/share/vifm/Trash/000_Minako Honda - 1986年のマリリン.opus
+	/home/troyd/music/Minako Honda - 1986年のマリリン.opus
+t/home/troyd/.local/share/vifm/Trash/000_Minako Honda - TOKYO GIRL.opus
+	/home/troyd/music/Minako Honda - TOKYO GIRL.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mirei Toyama - ユキコイ.opus
+	/home/troyd/music/Mirei Toyama - ユキコイ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mitsuru Matsuoka EARNEST DRIVE - SURPRISE-DRIVE.opus
+	/home/troyd/music/Mitsuru Matsuoka EARNEST DRIVE - SURPRISE-DRIVE.opus
+t/home/troyd/.local/share/vifm/Trash/000_Mrs GREEN APPLE - Attitude.opus
+	/home/troyd/music/Mrs GREEN APPLE - Attitude.opus
+t/home/troyd/.local/share/vifm/Trash/000_My Favorite Things Sound Of Mu - Youtube.opus
+	/home/troyd/music/My Favorite Things Sound Of Mu - Youtube.opus
+t/home/troyd/.local/share/vifm/Trash/000_NU-KO - Heart No Chirarhythm.opus
+	/home/troyd/music/NU-KO - Heart No Chirarhythm.opus
+t/home/troyd/.local/share/vifm/Trash/000_NakamuraEmi - ボブディラン.opus
+	/home/troyd/music/NakamuraEmi - ボブディラン.opus
+t/home/troyd/.local/share/vifm/Trash/000_NakamuraEmi - 波を待つのさ.opus
+	/home/troyd/music/NakamuraEmi - 波を待つのさ.opus
+t/home/troyd/.local/share/vifm/Trash/000_NakamuraEmi - 相棒.opus
+	/home/troyd/music/NakamuraEmi - 相棒.opus
+t/home/troyd/.local/share/vifm/Trash/000_Nameless - Toumei Elergy.opus
+	/home/troyd/music/Nameless - Toumei Elergy.opus
+t/home/troyd/.local/share/vifm/Trash/000_Nana Mizuki - FINAL COMMANDER.opus
+	/home/troyd/music/Nana Mizuki - FINAL COMMANDER.opus
+t/home/troyd/.local/share/vifm/Trash/000_Nanahira - Kirakira Happy Lie.opus
+	/home/troyd/music/Nanahira - Kirakira Happy Lie.opus
+t/home/troyd/.local/share/vifm/Trash/000_Naoko Ken - Hitoru Jouzu.opus
+	/home/troyd/music/Naoko Ken - Hitoru Jouzu.opus
+t/home/troyd/.local/share/vifm/Trash/000_Nem - Nemurihime.opus
+	/home/troyd/music/Nem - Nemurihime.opus
+t/home/troyd/.local/share/vifm/Trash/000_Neru - How To Sekai Seifuku.opus
+	/home/troyd/music/Neru - How To Sekai Seifuku.opus
+t/home/troyd/.local/share/vifm/Trash/000_Neru - Saikyouiku.opus
+	/home/troyd/music/Neru - Saikyouiku.opus
+t/home/troyd/.local/share/vifm/Trash/000_Neru - Tokyo Teddy Bear.opus
+	/home/troyd/music/Neru - Tokyo Teddy Bear.opus
+t/home/troyd/.local/share/vifm/Trash/000_Nightcore - Reach for the Moon, Immortal Smoke-1vWf5H5m3_g.opus
+	/home/troyd/music/Nightcore - Reach for the Moon, Immortal Smoke-1vWf5H5m3_g.opus
+t/home/troyd/.local/share/vifm/Trash/000_Noisestorm - Crab Rave [Monstercat Release]-LDU_Txk06tM.opus
+	/home/troyd/music/Noisestorm - Crab Rave [Monstercat Release]-LDU_Txk06tM.opus
+t/home/troyd/.local/share/vifm/Trash/000_Noriko Sakai - お願いダーリン.opus
+	/home/troyd/music/Noriko Sakai - お願いダーリン.opus
+t/home/troyd/.local/share/vifm/Trash/000_Noriko Sakai - 碧いうさぎ.opus
+	/home/troyd/music/Noriko Sakai - 碧いうさぎ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Novelbright - 拝啓親愛なる君へ.opus
+	/home/troyd/music/Novelbright - 拝啓親愛なる君へ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Official HIGE DANdism - Rowan.opus
+	/home/troyd/music/Official HIGE DANdism - Rowan.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ohashi Ayaka - Daisuki. (TV Size).opus
+	/home/troyd/music/Ohashi Ayaka - Daisuki. (TV Size).opus
+t/home/troyd/.local/share/vifm/Trash/000_Olly Murs - Up.opus
+	/home/troyd/music/Olly Murs - Up.opus
+t/home/troyd/.local/share/vifm/Trash/000_Omnipony - My Little Changeling.opus
+	/home/troyd/music/Omnipony - My Little Changeling.opus
+t/home/troyd/.local/share/vifm/Trash/000_One Direction - Drag Me Down.opus
+	/home/troyd/music/One Direction - Drag Me Down.opus
+t/home/troyd/.local/share/vifm/Trash/000_One Direction - Story of My Life.opus
+	/home/troyd/music/One Direction - Story of My Life.opus
+t/home/troyd/.local/share/vifm/Trash/000_One Direction - What Makes You Beautiful.opus
+	/home/troyd/music/One Direction - What Makes You Beautiful.opus
+t/home/troyd/.local/share/vifm/Trash/000_OneRepublic - Counting Stars.opus
+	/home/troyd/music/OneRepublic - Counting Stars.opus
+t/home/troyd/.local/share/vifm/Trash/000_Only A Certain Specific Railgun - Only My Railgun.opus
+	/home/troyd/music/Only A Certain Specific Railgun - Only My Railgun.opus
+t/home/troyd/.local/share/vifm/Trash/000_Original Love - 二つの手のように.opus
+	/home/troyd/music/Original Love - 二つの手のように.opus
+t/home/troyd/.local/share/vifm/Trash/000_Oshimizu Nako - Diamond.opus
+	/home/troyd/music/Oshimizu Nako - Diamond.opus
+t/home/troyd/.local/share/vifm/Trash/000_POLKADOT STINGRAY - Telecaster Stripes.opus
+	/home/troyd/music/POLKADOT STINGRAY - Telecaster Stripes.opus
+t/home/troyd/.local/share/vifm/Trash/000_POLKADOT STINGRAY - 女神.opus
+	/home/troyd/music/POLKADOT STINGRAY - 女神.opus
+t/home/troyd/.local/share/vifm/Trash/000_Platina Jazz - Come Sweet Death (From Neon Genesis Evangelion) (feat Niklas Gabrielsson).opus
+	/home/troyd/music/Platina Jazz - Come Sweet Death (From Neon Genesis Evangelion) (feat Niklas Gabrielsson).opus
+t/home/troyd/.local/share/vifm/Trash/000_Platina Jazz - One More Time One More Chance (From 5 Centimeters Per Second) (feat Emily McEwan).opus
+	/home/troyd/music/Platina Jazz - One More Time One More Chance (From 5 Centimeters Per Second) (feat Emily McEwan).opus
+t/home/troyd/.local/share/vifm/Trash/000_Platina Jazz - The Real Folk Blue (From Cowboy Bepop) (feat Thomas Eby).opus
+	/home/troyd/music/Platina Jazz - The Real Folk Blue (From Cowboy Bepop) (feat Thomas Eby).opus
+t/home/troyd/.local/share/vifm/Trash/000_Platina Jazz - Undine (From Aria the Animation) (feat Emily McEwan).opus
+	/home/troyd/music/Platina Jazz - Undine (From Aria the Animation) (feat Emily McEwan).opus
+t/home/troyd/.local/share/vifm/Trash/000_Pnk - Just Give Me a Reason.opus
+	/home/troyd/music/Pnk - Just Give Me a Reason.opus
+t/home/troyd/.local/share/vifm/Trash/000_Porter Robinson & Madeon - Shelter Official Video Short Film with A-1 Pictures & Crunchy.opus
+	/home/troyd/music/Porter Robinson & Madeon - Shelter Official Video Short Film with A-1 Pictures & Crunchy.opus
+t/home/troyd/.local/share/vifm/Trash/000_Prussian Glory March in Minecraft Noteblocks-bwtiJfr9qks.opus
+	/home/troyd/music/Prussian Glory March in Minecraft Noteblocks-bwtiJfr9qks.opus
+t/home/troyd/.local/share/vifm/Trash/000_R City - Locked Away.opus
+	/home/troyd/music/R City - Locked Away.opus
+t/home/troyd/.local/share/vifm/Trash/000_RAN - 心はすぐそばに (Kokoro Wa Sugu Soba Ni - Dekat Di Hati)-g2H-JwnJzjM.opus
+	/home/troyd/music/RAN - 心はすぐそばに (Kokoro Wa Sugu Soba Ni - Dekat Di Hati)-g2H-JwnJzjM.opus
+t/home/troyd/.local/share/vifm/Trash/000_REOL - Lunatic.opus
+	/home/troyd/music/REOL - Lunatic.opus
+t/home/troyd/.local/share/vifm/Trash/000_REOL - 宵々古今.opus
+	/home/troyd/music/REOL - 宵々古今.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rachel Platten - Fight Song.opus
+	/home/troyd/music/Rachel Platten - Fight Song.opus
+t/home/troyd/.local/share/vifm/Trash/000_Red Army Choir (Not Really) - The Hunt For Red October.opus
+	/home/troyd/music/Red Army Choir (Not Really) - The Hunt For Red October.opus
+t/home/troyd/.local/share/vifm/Trash/000_Regierung Der Bundesrepublik Deutschland - Das Lied Der Deutschen
+	/home/troyd/music/Regierung Der Bundesrepublik Deutschland - Das Lied Der Deutschen
+t/home/troyd/.local/share/vifm/Trash/000_Regierung Der Bundesrepublik Deutschland - Das Lied Der Deutschen.opus
+	/home/troyd/music/Regierung Der Bundesrepublik Deutschland - Das Lied Der Deutschen.opus
+t/home/troyd/.local/share/vifm/Trash/000_Regierung Der Demokratische Deutschen Republik - Aufstanden Aus Ruinen.opus
+	/home/troyd/music/Regierung Der Demokratische Deutschen Republik - Aufstanden Aus Ruinen.opus
+t/home/troyd/.local/share/vifm/Trash/000_Regierung Der Demokratische Deutschen Republik - Katjuscha -
+	/home/troyd/music/Regierung Der Demokratische Deutschen Republik - Katjuscha -
+t/home/troyd/.local/share/vifm/Trash/000_Regierung Der Demokratische Deutschen Republik - Katjuscha -.opus
+	/home/troyd/music/Regierung Der Demokratische Deutschen Republik - Katjuscha -.opus
+t/home/troyd/.local/share/vifm/Trash/000_Regierung Der Demokratische Deutschen Republik - Unterwegs.opus
+	/home/troyd/music/Regierung Der Demokratische Deutschen Republik - Unterwegs.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rei - Sayonara Dake Ga Jinseida.opus
+	/home/troyd/music/Rei - Sayonara Dake Ga Jinseida.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rei Yasuda - dazzling tomorrow.opus
+	/home/troyd/music/Rei Yasuda - dazzling tomorrow.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rei Yasuda - アシンメトリー.opus
+	/home/troyd/music/Rei Yasuda - アシンメトリー.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rid - Irony.opus
+	/home/troyd/music/Rid - Irony.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rid - Koushi No Shinzou.opus
+	/home/troyd/music/Rid - Koushi No Shinzou.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rihwa - 一秒.opus
+	/home/troyd/music/Rihwa - 一秒.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rimi Natsukawa - 島人ぬ宝.opus
+	/home/troyd/music/Rimi Natsukawa - 島人ぬ宝.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rio - Heaven.opus
+	/home/troyd/music/Rio - Heaven.opus
+t/home/troyd/.local/share/vifm/Trash/000_Rio - Kokoronashi.opus
+	/home/troyd/music/Rio - Kokoronashi.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ruth B - Lost Boy.opus
+	/home/troyd/music/Ruth B - Lost Boy.opus
+t/home/troyd/.local/share/vifm/Trash/000_Ryo-kun - Kumo No Ito.opus
+	/home/troyd/music/Ryo-kun - Kumo No Ito.opus
+t/home/troyd/.local/share/vifm/Trash/000_S Kiyotaka & Omega Tribe - Do It Again
+	/home/troyd/music/S Kiyotaka & Omega Tribe - Do It Again
+t/home/troyd/.local/share/vifm/Trash/000_S Kiyotaka & Omega Tribe - Do It Again.opus
+	/home/troyd/music/S Kiyotaka & Omega Tribe - Do It Again.opus
+t/home/troyd/.local/share/vifm/Trash/000_SANARI - unknown.ogg
+	/home/troyd/music/SANARI - unknown.ogg
+t/home/troyd/.local/share/vifm/Trash/000_SARAZANMAI - Sarazanmai no Uta.ogg
+	/home/troyd/music/SARAZANMAI - Sarazanmai no Uta.ogg
+t/home/troyd/.local/share/vifm/Trash/000_SHE'S - Letter.ogg
+	/home/troyd/music/SHE'S - Letter.ogg
+t/home/troyd/.local/share/vifm/Trash/000_SHINJIRO ATAE (from AAA) - 好き好き好き.ogg
+	/home/troyd/music/SHINJIRO ATAE (from AAA) - 好き好き好き.ogg
+t/home/troyd/.local/share/vifm/Trash/000_SKRUZOs - Alarm.opus
+	/home/troyd/music/SKRUZOs - Alarm.opus
+t/home/troyd/.local/share/vifm/Trash/000_SOLIDEMO - 生と死.ogg
+	/home/troyd/music/SOLIDEMO - 生と死.ogg
+t/home/troyd/.local/share/vifm/Trash/000_SPEED - White Love.ogg
+	/home/troyd/music/SPEED - White Love.ogg
+t/home/troyd/.local/share/vifm/Trash/000_SQUID MELODY RED VERSION SPLATOON SONG ANTI-NIGHTCORE EDIT!.opus
+	/home/troyd/music/SQUID MELODY RED VERSION SPLATOON SONG ANTI-NIGHTCORE EDIT!.opus
+t/home/troyd/.local/share/vifm/Trash/000_Sam Smith - I'm Not The Only One.opus
+	/home/troyd/music/Sam Smith - I'm Not The Only One.opus
+t/home/troyd/.local/share/vifm/Trash/000_Sam Smith - Lay Me Down - Single Version.opus
+	/home/troyd/music/Sam Smith - Lay Me Down - Single Version.opus
+t/home/troyd/.local/share/vifm/Trash/000_Sam Smith - Stay With Me.ogg
+	/home/troyd/music/Sam Smith - Stay With Me.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Samurai Champloo - Shiki No Uta (HQ)-cNplZrRSjeI.opus
+	/home/troyd/music/Samurai Champloo - Shiki No Uta (HQ)-cNplZrRSjeI.opus
+t/home/troyd/.local/share/vifm/Trash/000_Samurai Champloo - Shiki No Uta.opus
+	/home/troyd/music/Samurai Champloo - Shiki No Uta.opus
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Bitter Sweet.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Bitter Sweet.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Collage.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Collage.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Fairy Tale - Instrumental.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Fairy Tale - Instrumental.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Fairy Tale.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Fairy Tale.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Gairo Light No Akaridake.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Gairo Light No Akaridake.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Itsukatenshininatte Aruiwaaoitorininatte Adam To Eve Ninatte Arienainara.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Itsukatenshininatte Aruiwaaoitorininatte Adam To Eve Ninatte Arienainara.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Kaze No Koewo Kikinagara - Instrumental.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Kaze No Koewo Kikinagara - Instrumental.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Kaze No Koewo Kikinagara.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Kaze No Koewo Kikinagara.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Koi Wa Kiraida.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Koi Wa Kiraida.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Koiwootosu.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Koiwootosu.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Naita Akaoni Warau Aozora.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Naita Akaoni Warau Aozora.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Pastel Rain.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Pastel Rain.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Pink Lemonade - Instrumental.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Pink Lemonade - Instrumental.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Pink Lemonade.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Pink Lemonade.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Rough Sketch.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Rough Sketch.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Rubicon - Instrumental.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Rubicon - Instrumental.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Rubicon.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Rubicon.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Sangatsu Ga Zutto Tsuzukebaii.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Sangatsu Ga Zutto Tsuzukebaii.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Seishunnante Iranaiwa.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Seishunnante Iranaiwa.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Siren.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Siren.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Soda Ice.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Soda Ice.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sangatsu no Phantasia - Tokyo.ogg
+	/home/troyd/music/Sangatsu no Phantasia - Tokyo.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sayonara My Love - Maiko Nakamura ft. NERDHEAD-6mybS4PqxOQ.opus
+	/home/troyd/music/Sayonara My Love - Maiko Nakamura ft. NERDHEAD-6mybS4PqxOQ.opus
+t/home/troyd/.local/share/vifm/Trash/000_Sayuri - Mikazuki.ogg
+	/home/troyd/music/Sayuri - Mikazuki.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sayuri - Parallel Line.ogg
+	/home/troyd/music/Sayuri - Parallel Line.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sayuri - Sorewa Chiisana Hikarinoyouna.ogg
+	/home/troyd/music/Sayuri - Sorewa Chiisana Hikarinoyouna.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Selphius - Frozen Starfall.opus
+	/home/troyd/music/Selphius - Frozen Starfall.opus
+t/home/troyd/.local/share/vifm/Trash/000_Selphius - Torikago.ogg
+	/home/troyd/music/Selphius - Torikago.ogg
+t/home/troyd/.local/share/vifm/Trash/000_September - Earth, Wind, & Fire Smooth Jazz Tribute-vlYjCDKYkaY.opus
+	/home/troyd/music/September - Earth, Wind, & Fire Smooth Jazz Tribute-vlYjCDKYkaY.opus
+t/home/troyd/.local/share/vifm/Trash/000_September 熱帯JAZZ楽団 Tropical Jazz Big Band-EaiwbACYdOE.opus
+	/home/troyd/music/September 熱帯JAZZ楽団 Tropical Jazz Big Band-EaiwbACYdOE.opus
+t/home/troyd/.local/share/vifm/Trash/000_Shakatak - Night Birds.ogg
+	/home/troyd/music/Shakatak - Night Birds.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Shamuon - Sayoko (Acoustic).opus
+	/home/troyd/music/Shamuon - Sayoko (Acoustic).opus
+t/home/troyd/.local/share/vifm/Trash/000_Shatter Curse of Pinkamina.opus
+	/home/troyd/music/Shatter Curse of Pinkamina.opus
+t/home/troyd/.local/share/vifm/Trash/000_Shawn Mendes - Mercy.ogg
+	/home/troyd/music/Shawn Mendes - Mercy.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Shawn Mendes - Stitches.ogg
+	/home/troyd/music/Shawn Mendes - Stitches.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Shawn Mendes - There's Nothing Holdin' Me Back.ogg
+	/home/troyd/music/Shawn Mendes - There's Nothing Holdin' Me Back.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Shawn Mendes - Treat You Better.ogg
+	/home/troyd/music/Shawn Mendes - Treat You Better.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Shiggy Jr - I like it.ogg
+	/home/troyd/music/Shiggy Jr - I like it.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Shin Rizumu - FUN.ogg
+	/home/troyd/music/Shin Rizumu - FUN.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ShiroNeko - Inferno (From Fire Force).ogg
+	/home/troyd/music/ShiroNeko - Inferno (From Fire Force).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Shoko Nakagawa - Heavy Girl.ogg
+	/home/troyd/music/Shoko Nakagawa - Heavy Girl.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Simone Kopmajer - Nothings gonna change my love for you.opus
+	/home/troyd/music/Simone Kopmajer - Nothings gonna change my love for you.opus
+t/home/troyd/.local/share/vifm/Trash/000_Siti Badriah - Lagi Syantik.ogg
+	/home/troyd/music/Siti Badriah - Lagi Syantik.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Skoop On Somebody - Just the 2 of Us (with May J).ogg
+	/home/troyd/music/Skoop On Somebody - Just the 2 of Us (with May J).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Soraru - 嘘つき魔女と灰色の虹 - acoustic ver.ogg
+	/home/troyd/music/Soraru - 嘘つき魔女と灰色の虹 - acoustic ver.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sou - Gekijou Aika.ogg
+	/home/troyd/music/Sou - Gekijou Aika.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Sou - Sainou Sampler.ogg
+	/home/troyd/music/Sou - Sainou Sampler.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Säkkijärven Polkka - Finnish Folk Song
+	/home/troyd/music/Säkkijärven Polkka - Finnish Folk Song
+t/home/troyd/.local/share/vifm/Trash/000_Säkkijärven Polkka - Finnish Folk Song.opus
+	/home/troyd/music/Säkkijärven Polkka - Finnish Folk Song.opus
+t/home/troyd/.local/share/vifm/Trash/000_T-SQUARE - Through The Thunderhead.ogg
+	/home/troyd/music/T-SQUARE - Through The Thunderhead.ogg
+t/home/troyd/.local/share/vifm/Trash/000_THE HOOPERS - からくりピエロ.ogg
+	/home/troyd/music/THE HOOPERS - からくりピエロ.ogg
+t/home/troyd/.local/share/vifm/Trash/000_THE HOOPERS - ジュエルの鼓動が聴こえるか.ogg
+	/home/troyd/music/THE HOOPERS - ジュエルの鼓動が聴こえるか.ogg
+t/home/troyd/.local/share/vifm/Trash/000_THE ORAL CIGARETTES - Kyouran Hey Kids.ogg
+	/home/troyd/music/THE ORAL CIGARETTES - Kyouran Hey Kids.ogg
+t/home/troyd/.local/share/vifm/Trash/000_TOUYU - Lost One No Goukoku.ogg
+	/home/troyd/music/TOUYU - Lost One No Goukoku.ogg
+t/home/troyd/.local/share/vifm/Trash/000_TRF - BILLIONAIRE.ogg
+	/home/troyd/music/TRF - BILLIONAIRE.ogg
+t/home/troyd/.local/share/vifm/Trash/000_TRF - 寒い夜だから.ogg
+	/home/troyd/music/TRF - 寒い夜だから.ogg
+t/home/troyd/.local/share/vifm/Trash/000_TWICE - Stronger.ogg
+	/home/troyd/music/TWICE - Stronger.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Taylor Swift - Bad Blood.ogg
+	/home/troyd/music/Taylor Swift - Bad Blood.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Taylor Swift - Blank Space.ogg
+	/home/troyd/music/Taylor Swift - Blank Space.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Taylor Swift - I Knew You Were Trouble.ogg
+	/home/troyd/music/Taylor Swift - I Knew You Were Trouble.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Taylor Swift - Wildest Dreams.ogg
+	/home/troyd/music/Taylor Swift - Wildest Dreams.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Tentara Nasional Indonesia - Mars Angkatan Laut.ogg
+	/home/troyd/music/Tentara Nasional Indonesia - Mars Angkatan Laut.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Tentara Nasional Indonesia - Tinggalkan Ayah Tinggalkan Ibu.ogg
+	/home/troyd/music/Tentara Nasional Indonesia - Tinggalkan Ayah Tinggalkan Ibu.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Battle Hymn of the Republic-hfccpd8YRNc(2).ogg
+	/home/troyd/music/The Battle Hymn of the Republic-hfccpd8YRNc(2).ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Chainsmokers - Closer.ogg
+	/home/troyd/music/The Chainsmokers - Closer.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Chainsmokers - Paris.ogg
+	/home/troyd/music/The Chainsmokers - Paris.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Chainsmokers - Something Just Like This.ogg
+	/home/troyd/music/The Chainsmokers - Something Just Like This.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Checkers - Song for USA(Long Version).ogg
+	/home/troyd/music/The Checkers - Song for USA(Long Version).ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Floor - Candy.ogg
+	/home/troyd/music/The Floor - Candy.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Internationale - GETchan Version [6 Year and 10k Sub Special!]-emJ2njF8tH0.opus
+	/home/troyd/music/The Internationale - GETchan Version [6 Year and 10k Sub Special!]-emJ2njF8tH0.opus
+t/home/troyd/.local/share/vifm/Trash/000_The Internationale(English)(Lyrics)-PPExpmtdMEw.opus
+	/home/troyd/music/The Internationale(English)(Lyrics)-PPExpmtdMEw.opus
+t/home/troyd/.local/share/vifm/Trash/000_The Internationale(Japanese Version).opus
+	/home/troyd/music/The Internationale(Japanese Version).opus
+t/home/troyd/.local/share/vifm/Trash/000_The Red Army Choir - Let's Go (From Maxime Perepelitsa).ogg
+	/home/troyd/music/The Red Army Choir - Let's Go (From Maxime Perepelitsa).ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Red Army Choir - Moscow Defender's Song.ogg
+	/home/troyd/music/The Red Army Choir - Moscow Defender's Song.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Red Army Choir - Soviet National Anthem.opus
+	/home/troyd/music/The Red Army Choir - Soviet National Anthem.opus
+t/home/troyd/.local/share/vifm/Trash/000_The Rolling Stones - Paint It Black.opus
+	/home/troyd/music/The Rolling Stones - Paint It Black.opus
+t/home/troyd/.local/share/vifm/Trash/000_The Script - Superheroes.ogg
+	/home/troyd/music/The Script - Superheroes.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Union Confederacy - Dixie
+	/home/troyd/music/The Union Confederacy - Dixie
+t/home/troyd/.local/share/vifm/Trash/000_The Union Confederacy - Dixie.ogg
+	/home/troyd/music/The Union Confederacy - Dixie.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Wanted - Glad You Came.ogg
+	/home/troyd/music/The Wanted - Glad You Came.ogg
+t/home/troyd/.local/share/vifm/Trash/000_The Weeknd - I Feel It Coming (80’s) Remix.opus
+	/home/troyd/music/The Weeknd - I Feel It Coming (80’s) Remix.opus
+t/home/troyd/.local/share/vifm/Trash/000_Tia - The Glory Days.ogg
+	/home/troyd/music/Tia - The Glory Days.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Tk From 凛として時雨 - Unravel (Cover).ogg
+	/home/troyd/music/Tk From 凛として時雨 - Unravel (Cover).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Tokimeki Records feat. ひかり - Plastic Love.opus
+	/home/troyd/music/Tokimeki Records feat. ひかり - Plastic Love.opus
+t/home/troyd/.local/share/vifm/Trash/000_Tokyo Ska Paradise Orchestra - Mas Que Nada - Caipirinha con Ska version.ogg
+	/home/troyd/music/Tokyo Ska Paradise Orchestra - Mas Que Nada - Caipirinha con Ska version.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Toto - Africa.ogg
+	/home/troyd/music/Toto - Africa.ogg
+t/home/troyd/.local/share/vifm/Trash/000_UVERworld - Colors of the Heart.ogg
+	/home/troyd/music/UVERworld - Colors of the Heart.ogg
+t/home/troyd/.local/share/vifm/Trash/000_United States Armed Forces - Taps.opus
+	/home/troyd/music/United States Armed Forces - Taps.opus
+t/home/troyd/.local/share/vifm/Trash/000_Veltpunch - CRAWL.ogg
+	/home/troyd/music/Veltpunch - CRAWL.ogg
+t/home/troyd/.local/share/vifm/Trash/000_WANIMA - 宝物.ogg
+	/home/troyd/music/WANIMA - 宝物.ogg
+t/home/troyd/.local/share/vifm/Trash/000_WEAVER - Boku No Subete.ogg
+	/home/troyd/music/WEAVER - Boku No Subete.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Waifu's of the World UNITE! - Kitauji High School plays the Internationale-4ytMIF4opkg.opus
+	/home/troyd/music/Waifu's of the World UNITE! - Kitauji High School plays the Internationale-4ytMIF4opkg.opus
+t/home/troyd/.local/share/vifm/Trash/000_Watanabe Saki (CV Risa Taneda) - Wareta Ringo.ogg
+	/home/troyd/music/Watanabe Saki (CV Risa Taneda) - Wareta Ringo.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Wham! - Last Christmas (Official Video).opus
+	/home/troyd/music/Wham! - Last Christmas (Official Video).opus
+t/home/troyd/.local/share/vifm/Trash/000_Wink - Cat-Walk Dancing ( (Especially For You II Live).ogg
+	/home/troyd/music/Wink - Cat-Walk Dancing ( (Especially For You II Live).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Wink - Especially For You (Especially For You II Live).ogg
+	/home/troyd/music/Wink - Especially For You (Especially For You II Live).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Wink - Sugar Baby Love.ogg
+	/home/troyd/music/Wink - Sugar Baby Love.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Wink - あの夏のシーガル Cherish (Especially For You II Live).ogg
+	/home/troyd/music/Wink - あの夏のシーガル Cherish (Especially For You II Live).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Wink - いちばん哀しい薔薇 (Especially For You II Live).ogg
+	/home/troyd/music/Wink - いちばん哀しい薔薇 (Especially For You II Live).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Wink - 夜にはぐれて Where Were You Last Night (Especially For You II Live).ogg
+	/home/troyd/music/Wink - 夜にはぐれて Where Were You Last Night (Especially For You II Live).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Wink - 銀星倶楽部 I'm In Mood For Dancing (Especially For You II Live).ogg
+	/home/troyd/music/Wink - 銀星倶楽部 I'm In Mood For Dancing (Especially For You II Live).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Wolpis Kater - 雨子.ogg
+	/home/troyd/music/Wolpis Kater - 雨子.ogg
+t/home/troyd/.local/share/vifm/Trash/000_YM - Yuku F Mei.ogg
+	/home/troyd/music/YM - Yuku F Mei.ogg
+t/home/troyd/.local/share/vifm/Trash/000_YURiKA - ふたりの羽根.ogg
+	/home/troyd/music/YURiKA - ふたりの羽根.ogg
+t/home/troyd/.local/share/vifm/Trash/000_YURiKA - 鏡面の波 - [Orchestra Ver].ogg
+	/home/troyd/music/YURiKA - 鏡面の波 - [Orchestra Ver].ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yoh kamiyama - Child Beat.ogg
+	/home/troyd/music/Yoh kamiyama - Child Beat.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yoko Oginome - ダンシングヒーロー(Eat You Up).ogg
+	/home/troyd/music/Yoko Oginome - ダンシングヒーロー(Eat You Up).ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yoshimi Iwasaki - Aka to Kuro.ogg
+	/home/troyd/music/Yoshimi Iwasaki - Aka to Kuro.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yoshimi Iwasaki - Fire.ogg
+	/home/troyd/music/Yoshimi Iwasaki - Fire.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yoshimi Iwasaki - Who.ogg
+	/home/troyd/music/Yoshimi Iwasaki - Who.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yosui Inoue - Make-up Shadow - Remastered 2018.ogg
+	/home/troyd/music/Yosui Inoue - Make-up Shadow - Remastered 2018.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yourenigma - I Know I'll Make it Through.opus
+	/home/troyd/music/Yourenigma - I Know I'll Make it Through.opus
+t/home/troyd/.local/share/vifm/Trash/000_Youtube - - Russian Hardbass
+	/home/troyd/music/Youtube - - Russian Hardbass
+t/home/troyd/.local/share/vifm/Trash/000_Youtube - - Russian Hardbass.opus
+	/home/troyd/music/Youtube - - Russian Hardbass.opus
+t/home/troyd/.local/share/vifm/Trash/000_Youtube - - 【1 Hour】Best Acoustic Japanese.opus
+	/home/troyd/music/Youtube - - 【1 Hour】Best Acoustic Japanese.opus
+t/home/troyd/.local/share/vifm/Trash/000_Youtube-Kalinka.opus
+	/home/troyd/music/Youtube-Kalinka.opus
+t/home/troyd/.local/share/vifm/Trash/000_Youtube-Мой адрес Советский Союз.ogg
+	/home/troyd/music/Youtube-Мой адрес Советский Союз.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yu Hayami - 哀愁情句.ogg
+	/home/troyd/music/Yu Hayami - 哀愁情句.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yukari Tamura = 田村ゆかり - 永遠のひとつ.ogg
+	/home/troyd/music/Yukari Tamura = 田村ゆかり - 永遠のひとつ.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yuki Saito - 初戀.ogg
+	/home/troyd/music/Yuki Saito - 初戀.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yuki Saitou - Kanashimi yo Konnichiwa.ogg
+	/home/troyd/music/Yuki Saitou - Kanashimi yo Konnichiwa.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yuki Saitou - Sotsugyou.ogg
+	/home/troyd/music/Yuki Saitou - Sotsugyou.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yukiko Okada - Akogare.ogg
+	/home/troyd/music/Yukiko Okada - Akogare.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yukiko Okada - Kuchibiru Network.ogg
+	/home/troyd/music/Yukiko Okada - Kuchibiru Network.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yukiko Okada - Lonesome Season.ogg
+	/home/troyd/music/Yukiko Okada - Lonesome Season.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yumi Arai - やさしさに包まれたなら.ogg
+	/home/troyd/music/Yumi Arai - やさしさに包まれたなら.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yumi Matsutoya - メトロポリスの片隅で.ogg
+	/home/troyd/music/Yumi Matsutoya - メトロポリスの片隅で.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yumi Matsutoya - 夕涼み.ogg
+	/home/troyd/music/Yumi Matsutoya - 夕涼み.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Yurica Hanatan - Orange.opus
+	/home/troyd/music/Yurica Hanatan - Orange.opus
+t/home/troyd/.local/share/vifm/Trash/000_ZAQ - Last Proof.ogg
+	/home/troyd/music/ZAQ - Last Proof.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ZAQ - カーストルーム.ogg
+	/home/troyd/music/ZAQ - カーストルーム.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ZAQ - 奇跡までのストレートライン.ogg
+	/home/troyd/music/ZAQ - 奇跡までのストレートライン.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ZAYN - I Dont Wanna Live Forever (Fifty Shades Darker) - From Fifty Shades Darker (Original Motion Picture Soundtrack).ogg
+	/home/troyd/music/ZAYN - I Dont Wanna Live Forever (Fifty Shades Darker) - From Fifty Shades Darker (Original Motion Picture Soundtrack).ogg
+t/home/troyd/.local/share/vifm/Trash/000_ZAYN - PILLOWTALK.ogg
+	/home/troyd/music/ZAYN - PILLOWTALK.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ZIPS - Liz No Naishin Kakumei.ogg
+	/home/troyd/music/ZIPS - Liz No Naishin Kakumei.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ZUTOMAYO - 勘冴えて悔しいわ.ogg
+	/home/troyd/music/ZUTOMAYO - 勘冴えて悔しいわ.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ZUTOMAYO - 居眠り遠征隊.ogg
+	/home/troyd/music/ZUTOMAYO - 居眠り遠征隊.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Zedd - Stay.ogg
+	/home/troyd/music/Zedd - Stay.ogg
+t/home/troyd/.local/share/vifm/Trash/000_Zero - Amanojaku.ogg
+	/home/troyd/music/Zero - Amanojaku.ogg
+t/home/troyd/.local/share/vifm/Trash/000_[English Subbed] 叭喇撃突ケ響 (Hibike Totsugeki Rappa)-29fkMjuImrY.opus
+	/home/troyd/music/[English Subbed] 叭喇撃突ケ響 (Hibike Totsugeki Rappa)-29fkMjuImrY.opus
+t/home/troyd/.local/share/vifm/Trash/000__The Living Tombstone - Squid Melody _Red Version_ _Splatoon Original Track_.opus
+	/home/troyd/music/_The Living Tombstone - Squid Melody _Red Version_ _Splatoon Original Track_.opus
+t/home/troyd/.local/share/vifm/Trash/000_arbeit - Die Internationale.opus
+	/home/troyd/music/arbeit - Die Internationale.opus
+t/home/troyd/.local/share/vifm/Trash/000_b61b10adc467c599e56dc6b7f2066ed8.jpg
+	/home/troyd/music/b61b10adc467c599e56dc6b7f2066ed8.jpg
+t/home/troyd/.local/share/vifm/Trash/000_back number 高嶺の花子さん（Full cover by Kobasolo & Lefty Hand Cream）-_Qfh8Lv6WyU.opus
+	/home/troyd/music/back number 高嶺の花子さん（Full cover by Kobasolo & Lefty Hand Cream）-_Qfh8Lv6WyU.opus
+t/home/troyd/.local/share/vifm/Trash/000_bb9b71790a08da32579dc033011892d4.jpg
+	/home/troyd/music/bb9b71790a08da32579dc033011892d4.jpg
+t/home/troyd/.local/share/vifm/Trash/000_buzzG - Shiwa.opus
+	/home/troyd/music/buzzG - Shiwa.opus
+t/home/troyd/.local/share/vifm/Trash/000_cinnamons × evening cinema - summertime (Official Music Video)-KMTo2LmixqQ.opus
+	/home/troyd/music/cinnamons × evening cinema - summertime (Official Music Video)-KMTo2LmixqQ.opus
+t/home/troyd/.local/share/vifm/Trash/000_claquepot - ahead.opus
+	/home/troyd/music/claquepot - ahead.opus
+t/home/troyd/.local/share/vifm/Trash/000_d4c05df0a8a2301c4c0ac74b86854d4a.jpg
+	/home/troyd/music/d4c05df0a8a2301c4c0ac74b86854d4a.jpg
+t/home/troyd/.local/share/vifm/Trash/000_d769da71c55a8cb0d12ab62ebb0ab852.jpg
+	/home/troyd/music/d769da71c55a8cb0d12ab62ebb0ab852.jpg
+t/home/troyd/.local/share/vifm/Trash/000_d85183058ad1c531c9908ca4aab6ff25.jpg
+	/home/troyd/music/d85183058ad1c531c9908ca4aab6ff25.jpg
+t/home/troyd/.local/share/vifm/Trash/000_dodo - owner.opus
+	/home/troyd/music/dodo - owner.opus
+t/home/troyd/.local/share/vifm/Trash/000_e11d8c2386e1125bff40d3561e9f95de.jpg
+	/home/troyd/music/e11d8c2386e1125bff40d3561e9f95de.jpg
+t/home/troyd/.local/share/vifm/Trash/000_erica - ぎゅ.opus
+	/home/troyd/music/erica - ぎゅ.opus
+t/home/troyd/.local/share/vifm/Trash/000_f62de250b1056ebc5c43ffaa68de8151.jpg
+	/home/troyd/music/f62de250b1056ebc5c43ffaa68de8151.jpg
+t/home/troyd/.local/share/vifm/Trash/000_ffc2818b6154fb295b63b240e2750dda.jpg
+	/home/troyd/music/ffc2818b6154fb295b63b240e2750dda.jpg
+t/home/troyd/.local/share/vifm/Trash/000_fhána - Find Me.opus
+	/home/troyd/music/fhána - Find Me.opus
+t/home/troyd/.local/share/vifm/Trash/000_fhána _ 青空のラプソディ - MUSIC VIDEO-maKok2RItxM.opus
+	/home/troyd/music/fhána _ 青空のラプソディ - MUSIC VIDEO-maKok2RItxM.opus
+t/home/troyd/.local/share/vifm/Trash/000_flumpool - Rinne.opus
+	/home/troyd/music/flumpool - Rinne.opus
+t/home/troyd/.local/share/vifm/Trash/000_frederic - Shinsense.opus
+	/home/troyd/music/frederic - Shinsense.opus
+t/home/troyd/.local/share/vifm/Trash/000_fripSide - white forces.opus
+	/home/troyd/music/fripSide - white forces.opus
+t/home/troyd/.local/share/vifm/Trash/000_generalqrts.opus
+	/home/troyd/music/generalqrts.opus
+t/home/troyd/.local/share/vifm/Trash/000_gigaP - .opus
+	/home/troyd/music/gigaP - .opus
+t/home/troyd/.local/share/vifm/Trash/000_gnash - i hate u i love u (feat olivia o'brien).opus
+	/home/troyd/music/gnash - i hate u i love u (feat olivia o'brien).opus
+t/home/troyd/.local/share/vifm/Trash/000_gumi - Catch You Catch Me.opus
+	/home/troyd/music/gumi - Catch You Catch Me.opus
+t/home/troyd/.local/share/vifm/Trash/000_gumi - picnic.opus
+	/home/troyd/music/gumi - picnic.opus
+t/home/troyd/.local/share/vifm/Trash/000_gumi - super duper love love days.opus
+	/home/troyd/music/gumi - super duper love love days.opus
+t/home/troyd/.local/share/vifm/Trash/000_gumi - ヒトリジメ.opus
+	/home/troyd/music/gumi - ヒトリジメ.opus
+t/home/troyd/.local/share/vifm/Trash/000_index.dat
+	/home/troyd/music/index.dat
+t/home/troyd/.local/share/vifm/Trash/000_jesus (wonderful Opportunity) - Bokura No Saishuu Teiri.opus
+	/home/troyd/music/jesus (wonderful Opportunity) - Bokura No Saishuu Teiri.opus
+t/home/troyd/.local/share/vifm/Trash/000_jesus (wonderful Opportunity) - Rimokon.opus
+	/home/troyd/music/jesus (wonderful Opportunity) - Rimokon.opus
+t/home/troyd/.local/share/vifm/Trash/000_jesus (wonderful Opportunity) - Shinde Shimau To Wa Nakakenai.opus
+	/home/troyd/music/jesus (wonderful Opportunity) - Shinde Shimau To Wa Nakakenai.opus
+t/home/troyd/.local/share/vifm/Trash/000_kolme - Remind me.opus
+	/home/troyd/music/kolme - Remind me.opus
+t/home/troyd/.local/share/vifm/Trash/000_kradness - Wave.opus
+	/home/troyd/music/kradness - Wave.opus
+t/home/troyd/.local/share/vifm/Trash/000_logout.opus
+	/home/troyd/music/logout.opus
+t/home/troyd/.local/share/vifm/Trash/000_luz - Koshi-Tantan.opus
+	/home/troyd/music/luz - Koshi-Tantan.opus
+t/home/troyd/.local/share/vifm/Trash/000_majiko - Himitsu Kichi.opus
+	/home/troyd/music/majiko - Himitsu Kichi.opus
+t/home/troyd/.local/share/vifm/Trash/000_majiko - Irony.opus
+	/home/troyd/music/majiko - Irony.opus
+t/home/troyd/.local/share/vifm/Trash/000_majiko - Kokoronashi.opus
+	/home/troyd/music/majiko - Kokoronashi.opus
+t/home/troyd/.local/share/vifm/Trash/000_metadata
+	/home/troyd/music/metadata
+t/home/troyd/.local/share/vifm/Trash/000_miwa - ティーンエイジドリーム.opus
+	/home/troyd/music/miwa - ティーンエイジドリーム.opus
+t/home/troyd/.local/share/vifm/Trash/000_moimoi - Kyou Mo Harebare.opus
+	/home/troyd/music/moimoi - Kyou Mo Harebare.opus
+t/home/troyd/.local/share/vifm/Trash/000_mow2 - Nananana Mowmow.opus
+	/home/troyd/music/mow2 - Nananana Mowmow.opus
+t/home/troyd/.local/share/vifm/Trash/000_nayuta - Kirameki Rainbow Snow.opus
+	/home/troyd/music/nayuta - Kirameki Rainbow Snow.opus
+t/home/troyd/.local/share/vifm/Trash/000_sajou no hana - 閃光.opus
+	/home/troyd/music/sajou no hana - 閃光.opus
+t/home/troyd/.local/share/vifm/Trash/000_saunklaut - Mbah Surip - Tak gendong.opus
+	/home/troyd/music/saunklaut - Mbah Surip - Tak gendong.opus
+t/home/troyd/.local/share/vifm/Trash/000_solfa - a piece of memories.ogg
+	/home/troyd/music/solfa - a piece of memories.ogg
+t/home/troyd/.local/share/vifm/Trash/000_solfa - affection.opus
+	/home/troyd/music/solfa - affection.opus
+t/home/troyd/.local/share/vifm/Trash/000_solfa - deep breath.ogg
+	/home/troyd/music/solfa - deep breath.ogg
+t/home/troyd/.local/share/vifm/Trash/000_solfa - melty love.ogg
+	/home/troyd/music/solfa - melty love.ogg
+t/home/troyd/.local/share/vifm/Trash/000_solfa - shooting star.ogg
+	/home/troyd/music/solfa - shooting star.ogg
+t/home/troyd/.local/share/vifm/Trash/000_solfa - stardust water front.ogg
+	/home/troyd/music/solfa - stardust water front.ogg
+t/home/troyd/.local/share/vifm/Trash/000_solfa - umi to sora no story.ogg
+	/home/troyd/music/solfa - umi to sora no story.ogg
+t/home/troyd/.local/share/vifm/Trash/000_stripmp3
+	/home/troyd/music/stripmp3
+t/home/troyd/.local/share/vifm/Trash/000_wacci - 幸せ.ogg
+	/home/troyd/music/wacci - 幸せ.ogg
+t/home/troyd/.local/share/vifm/Trash/000_yukkedoluce - Ringo Uri No Utakata Shoujo.ogg
+	/home/troyd/music/yukkedoluce - Ringo Uri No Utakata Shoujo.ogg
+t/home/troyd/.local/share/vifm/Trash/000_「English Dub」Noragami OP 'Goya wa Machiawase' FULL VER.【Sam Luff】- Studio Yuraki-i_oWacutvhw.opus
+	/home/troyd/music/「English Dub」Noragami OP 'Goya wa Machiawase' FULL VER.【Sam Luff】- Studio Yuraki-i_oWacutvhw.opus
+t/home/troyd/.local/share/vifm/Trash/000_【1 Hour】Best Acoustic Japanese Songs 2019 - Make You Relax and For Sleep-DXHgBUMnlvY.opus
+	/home/troyd/music/【1 Hour】Best Acoustic Japanese Songs 2019 - Make You Relax and For Sleep-DXHgBUMnlvY.opus
+t/home/troyd/.local/share/vifm/Trash/000_【MV】どうか幸せにならないで feat. 春茶 _ コバソロ-vMb6i05YGIY.opus
+	/home/troyd/music/【MV】どうか幸せにならないで feat. 春茶 _ コバソロ-vMb6i05YGIY.opus
+t/home/troyd/.local/share/vifm/Trash/000_【MV】ラブレター feat. 春茶 _ コバソロ-YHjU4n6gWOE.opus
+	/home/troyd/music/【MV】ラブレター feat. 春茶 _ コバソロ-YHjU4n6gWOE.opus
+t/home/troyd/.local/share/vifm/Trash/000_【ユキトキ】Yukitoki【Lyrics _ Kan_Rom】-QvFzfj-3Qvo.opus
+	/home/troyd/music/【ユキトキ】Yukitoki【Lyrics _ Kan_Rom】-QvFzfj-3Qvo.opus
+t/home/troyd/.local/share/vifm/Trash/000_【和訳付】その日がやって来た時 _ 当那一天来临 【中国軍歌】-VbmjkLBybvk.opus
+	/home/troyd/music/【和訳付】その日がやって来た時 _ 当那一天来临 【中国軍歌】-VbmjkLBybvk.opus
+t/home/troyd/.local/share/vifm/Trash/000_【女性が歌う】100万回の「I love you」_ Rake (Covered by コバソロ & 有華)-BxrzkEYbmsI.opus
+	/home/troyd/music/【女性が歌う】100万回の「I love you」_ Rake (Covered by コバソロ & 有華)-BxrzkEYbmsI.opus
+t/home/troyd/.local/share/vifm/Trash/000_【東方ボーカル】 「Desert Years」 【ShibayanRecords】 【Subbed】-Nq-YGrZpdsg.opus
+	/home/troyd/music/【東方ボーカル】 「Desert Years」 【ShibayanRecords】 【Subbed】-Nq-YGrZpdsg.opus
+t/home/troyd/.local/share/vifm/Trash/000_【東方ボーカル】 「Fall In The Dark」 【ShibayanRecords】【Subbed】-JwWMpspzcg8.opus
+	/home/troyd/music/【東方ボーカル】 「Fall In The Dark」 【ShibayanRecords】【Subbed】-JwWMpspzcg8.opus
+t/home/troyd/.local/share/vifm/Trash/000_しちごさん。× ABSOLUTE CASTAWAY - Lost nostalgia (Album - Cross bouquet)-ocT6tTWKMII.opus
+	/home/troyd/music/しちごさん。× ABSOLUTE CASTAWAY - Lost nostalgia (Album - Cross bouquet)-ocT6tTWKMII.opus
+t/home/troyd/.local/share/vifm/Trash/000_すきなうた - yui × 鎖那-cRIBCezbUhA.opus
+	/home/troyd/music/すきなうた - yui × 鎖那-cRIBCezbUhA.opus
+t/home/troyd/.local/share/vifm/Trash/000_とあ feat. 初音ミク - ツギハギスタッカート (Game Version) (Cover).ogg
+	/home/troyd/music/とあ feat. 初音ミク - ツギハギスタッカート (Game Version) (Cover).ogg
+t/home/troyd/.local/share/vifm/Trash/000_を歌ってみた＊LIQU@-シュガーソングとビターステップ.opus
+	/home/troyd/music/を歌ってみた＊LIQU@-シュガーソングとビターステップ.opus
+t/home/troyd/.local/share/vifm/Trash/000_アバンティーズ - Red Line.ogg
+	/home/troyd/music/アバンティーズ - Red Line.ogg
+t/home/troyd/.local/share/vifm/Trash/000_オメガトライブ - Midnight Down Town.ogg
+	/home/troyd/music/オメガトライブ - Midnight Down Town.ogg
+t/home/troyd/.local/share/vifm/Trash/000_カチューシャ - Katyusha (Alternate Japanese Version)-Ga-gyW61QWg.opus
+	/home/troyd/music/カチューシャ - Katyusha (Alternate Japanese Version)-Ga-gyW61QWg.opus
+t/home/troyd/.local/share/vifm/Trash/000_ガルパンジャズロック!!-svvNEBMuW0c.opus
+	/home/troyd/music/ガルパンジャズロック!!-svvNEBMuW0c.opus
+t/home/troyd/.local/share/vifm/Trash/000_ザライチャスブラザーズ - アンチェインド メロディ.ogg
+	/home/troyd/music/ザライチャスブラザーズ - アンチェインド メロディ.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ツユ - くらべられっ子 MV-olWvy0PiLfA.opus
+	/home/troyd/music/ツユ - くらべられっ子 MV-olWvy0PiLfA.opus
+t/home/troyd/.local/share/vifm/Trash/000_ツユ - ロックな君とはお別れだ MV-1cGQotpn8r4
+	/home/troyd/music/ツユ - ロックな君とはお別れだ MV-1cGQotpn8r4
+t/home/troyd/.local/share/vifm/Trash/000_ツユ - ロックな君とはお別れだ MV-1cGQotpn8r4.opus
+	/home/troyd/music/ツユ - ロックな君とはお別れだ MV-1cGQotpn8r4.opus
+t/home/troyd/.local/share/vifm/Trash/000_マーメイドシスターズ(Voクリヤマユウリ) - Galactic mermaid.ogg
+	/home/troyd/music/マーメイドシスターズ(Voクリヤマユウリ) - Galactic mermaid.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ヨルシカ - 夕凪某花惑い.ogg
+	/home/troyd/music/ヨルシカ - 夕凪某花惑い.ogg
+t/home/troyd/.local/share/vifm/Trash/000_ルージュの伝言 (Cover)-10GHP0Yp9NU.opus
+	/home/troyd/music/ルージュの伝言 (Cover)-10GHP0Yp9NU.opus
+t/home/troyd/.local/share/vifm/Trash/000_君さえいなけりゃ feat. 春茶 _ コバソロ.opus
+	/home/troyd/music/君さえいなけりゃ feat. 春茶 _ コバソロ.opus
+t/home/troyd/.local/share/vifm/Trash/000_和田たけあき(くらげp) - わたしのアール (Cover).opus
+	/home/troyd/music/和田たけあき(くらげp) - わたしのアール (Cover).opus
+t/home/troyd/.local/share/vifm/Trash/000_大道寺知世(岩男潤子) - やさしさの種子.ogg
+	/home/troyd/music/大道寺知世(岩男潤子) - やさしさの種子.ogg
+t/home/troyd/.local/share/vifm/Trash/000_大道寺知世(岩男潤子) - 夜の歌.ogg
+	/home/troyd/music/大道寺知世(岩男潤子) - 夜の歌.ogg
+t/home/troyd/.local/share/vifm/Trash/000_大道寺知世(岩男潤子) - 私だけのムービースター.ogg
+	/home/troyd/music/大道寺知世(岩男潤子) - 私だけのムービースター.ogg
+t/home/troyd/.local/share/vifm/Trash/000_安田みずほ - Stay Alive (Reゼロから始める異世界生活ED).ogg
+	/home/troyd/music/安田みずほ - Stay Alive (Reゼロから始める異世界生活ED).ogg
+t/home/troyd/.local/share/vifm/Trash/000_小夜子 - Sayoko - Bahasa Indonesia.ogg
+	/home/troyd/music/小夜子 - Sayoko - Bahasa Indonesia.ogg
+t/home/troyd/.local/share/vifm/Trash/000_月城雪兎(緒方恵美) - 自転車に乗って.ogg
+	/home/troyd/music/月城雪兎(緒方恵美) - 自転車に乗って.ogg
+t/home/troyd/.local/share/vifm/Trash/000_木之本桃矢(関智一) - 君がいた景色.ogg
+	/home/troyd/music/木之本桃矢(関智一) - 君がいた景色.ogg
+t/home/troyd/.local/share/vifm/Trash/000_木之本桜(丹下桜) - Catch You Catch Me (さくらバージョン).ogg
+	/home/troyd/music/木之本桜(丹下桜) - Catch You Catch Me (さくらバージョン).ogg
+t/home/troyd/.local/share/vifm/Trash/000_木之本桜(丹下桜) - GET YOUR LOVE.ogg
+	/home/troyd/music/木之本桜(丹下桜) - GET YOUR LOVE.ogg
+t/home/troyd/.local/share/vifm/Trash/000_木之本桜(丹下桜) - あなたといれば.ogg
+	/home/troyd/music/木之本桜(丹下桜) - あなたといれば.ogg
+t/home/troyd/.local/share/vifm/Trash/000_木之本桜(丹下桜) - しあわせの魔法.ogg
+	/home/troyd/music/木之本桜(丹下桜) - しあわせの魔法.ogg
+t/home/troyd/.local/share/vifm/Trash/000_木之本桜(丹下桜) - ずっとずっとずっと.ogg
+	/home/troyd/music/木之本桜(丹下桜) - ずっとずっとずっと.ogg
+t/home/troyd/.local/share/vifm/Trash/000_木之本桜(丹下桜) - プリズム.ogg
+	/home/troyd/music/木之本桜(丹下桜) - プリズム.ogg
+t/home/troyd/.local/share/vifm/Trash/000_李小狼(くまいもとこ) - 気になるアイツ.ogg
+	/home/troyd/music/李小狼(くまいもとこ) - 気になるアイツ.ogg
+t/home/troyd/.local/share/vifm/Trash/000_東方Vocal - Recurring Dream _ Frozen Starfall feat. Selphius-X8AbzdyEw7Y.opus
+	/home/troyd/music/東方Vocal - Recurring Dream _ Frozen Starfall feat. Selphius-X8AbzdyEw7Y.opus
+t/home/troyd/.local/share/vifm/Trash/000_植田真梨恵「ふれたら消えてしまう」PV
+	/home/troyd/music/植田真梨恵「ふれたら消えてしまう」PV
+t/home/troyd/.local/share/vifm/Trash/000_植田真梨恵「ふれたら消えてしまう」PV.opus
+	/home/troyd/music/植田真梨恵「ふれたら消えてしまう」PV.opus
+t/home/troyd/.local/share/vifm/Trash/000_涼宮ハルヒの憂鬱-Lost my music-Full.opus
+	/home/troyd/music/涼宮ハルヒの憂鬱-Lost my music-Full.opus
+t/home/troyd/.local/share/vifm/Trash/000_現役JKが「エイリアンエイリアン 」スラップしてベース弾いてみた_ふぁみ。 [alien alien Bass cover]-Q_UqztwYAOU.opus
+	/home/troyd/music/現役JKが「エイリアンエイリアン 」スラップしてベース弾いてみた_ふぁみ。 [alien alien Bass cover]-Q_UqztwYAOU.opus
+t/home/troyd/.local/share/vifm/Trash/000_空音 - space shuttle.ogg
+	/home/troyd/music/空音 - space shuttle.ogg
+t/home/troyd/.local/share/vifm/Trash/000_美波「ホロネス」MV-HIRiduzNLzQ.opus
+	/home/troyd/music/美波「ホロネス」MV-HIRiduzNLzQ.opus
+t/home/troyd/.local/share/vifm/Trash/000_花たん - ロミオとシンデレラ.ogg
+	/home/troyd/music/花たん - ロミオとシンデレラ.ogg
+t/home/troyd/.local/share/vifm/Trash/000_藤井 風 - 何なんw.ogg
+	/home/troyd/music/藤井 風 - 何なんw.ogg
+t/home/troyd/.local/share/vifm/Trash/000_観月歌帆(篠原恵美) - 蒼い記憶.ogg
+	/home/troyd/music/観月歌帆(篠原恵美) - 蒼い記憶.ogg
+t/home/troyd/.local/share/vifm/Trash/000_赤き誓い - スマイルスキルスキスキル - TV-size ver.ogg
+	/home/troyd/music/赤き誓い - スマイルスキルスキスキル - TV-size ver.ogg
+t/home/troyd/.local/share/vifm/Trash/000_輝夜ーさま - Love Dramatic .opus
+	/home/troyd/music/輝夜ーさま - Love Dramatic .opus
+t/home/troyd/.local/share/vifm/Trash/000_여성 보컬 시티팝 MIX Vol.3 _ Female City Pop MIX Vol.3 _ 女性ボーカルシティポップ MIX Vol.3-OnNaNOvK4JM
+	/home/troyd/music/여성 보컬 시티팝 MIX Vol.3 _ Female City Pop MIX Vol.3 _ 女性ボーカルシティポップ MIX Vol.3-OnNaNOvK4JM
+t/home/troyd/.local/share/vifm/Trash/000_여성 보컬 시티팝 MIX Vol.3 _ Female City Pop MIX Vol.3 _ 女性ボーカルシティポップ MIX Vol.3-OnNaNOvK4JM.opus
+	/home/troyd/music/여성 보컬 시티팝 MIX Vol.3 _ Female City Pop MIX Vol.3 _ 女性ボーカルシティポップ MIX Vol.3-OnNaNOvK4JM.opus
+t/home/troyd/.local/share/vifm/Trash/000_Anime
+	/home/troyd/music/anime/Anime
+t/home/troyd/.local/share/vifm/Trash/000_輝夜ーさま -  Love Dramatic .mp3
+	/home/troyd/music/anime/輝夜ーさま -  Love Dramatic .mp3
+t/home/troyd/.local/share/vifm/Trash/000_Zen Zen Zense - Male.mp3
+	/home/troyd/music/anime/Zen Zen Zense - Male.mp3
+t/home/troyd/.local/share/vifm/Trash/000_Toyasaki Aki & Hisaka Youko & Satou Satomi & Kotobuki Minako - Cagayake! Girls.mp3
+	/home/troyd/music/anime/Toyasaki Aki & Hisaka Youko & Satou Satomi & Kotobuki Minako - Cagayake! Girls.mp3
+t/home/troyd/.local/share/vifm/Trash/000_The Day (Op).mp3
+	/home/troyd/music/anime/The Day (Op).mp3
+t/home/troyd/.local/share/vifm/Trash/000_Rain - (Open09).mp3
+	/home/troyd/music/anime/Rain - (Open09).mp3
+t/home/troyd/.local/share/vifm/Trash/000_My R.mp3
+	/home/troyd/music/anime/My R.mp3
+t/home/troyd/.local/share/vifm/Trash/000_Katyusha.mp3
+	/home/troyd/music/anime/Katyusha.mp3
+t/home/troyd/.local/share/vifm/Trash/000_Jump Up Super Star! .mp3
+	/home/troyd/music/anime/Jump Up Super Star! .mp3
+t/home/troyd/.local/share/vifm/Trash/000_Golden Time Lover - (Open07).mp3
+	/home/troyd/music/anime/Golden Time Lover - (Open07).mp3
+t/home/troyd/.local/share/vifm/Trash/000_Crossing Field - (Op Single).mp3
+	/home/troyd/music/anime/Crossing Field - (Op Single).mp3
+t/home/troyd/.local/share/vifm/Trash/000_Black Clover - Gamushara .mp3
+	/home/troyd/music/anime/Black Clover - Gamushara .mp3
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - Hanabiratachi No March 「16th Single」(Eng Sub).mp3
+	/home/troyd/music/anime/Aimer - Hanabiratachi No March 「16th Single」(Eng Sub).mp3
+t/home/troyd/.local/share/vifm/Trash/000_Aimer - Hanabiratachi No March 「16th Single」(Eng Sub).mp3
+	/home/troyd/documents/books/programming/c/Aimer - Hanabiratachi No March 「16th Single」(Eng Sub).mp3
+t/home/troyd/.local/share/vifm/Trash/000_pointers-and-arrays-in-c-jensen-1.4.pdf
+	/home/troyd/documents/books/programming/pointers-and-arrays-in-c-jensen-1.4.pdf
+t/home/troyd/.local/share/vifm/Trash/000_lubuntu-19.10-desktop-amd64.iso
+	/home/troyd/documents/0formats/0iso/lubuntu-19.10-desktop-amd64.iso
+t/home/troyd/.local/share/vifm/Trash/000_00
+	/home/troyd/music/00
+t/home/troyd/.local/share/vifm/Trash/000_0b
+	/home/troyd/music/0b
+t/home/troyd/.local/share/vifm/Trash/000_2a
+	/home/troyd/music/2a
+t/home/troyd/.local/share/vifm/Trash/000_3b
+	/home/troyd/music/3b
+t/home/troyd/.local/share/vifm/Trash/000_4a
+	/home/troyd/music/4a
+t/home/troyd/.local/share/vifm/Trash/000_05
+	/home/troyd/music/05
+t/home/troyd/.local/share/vifm/Trash/000_5b
+	/home/troyd/music/5b
+t/home/troyd/.local/share/vifm/Trash/000_7e
+	/home/troyd/music/7e
+t/home/troyd/.local/share/vifm/Trash/000_8a
+	/home/troyd/music/8a
+t/home/troyd/.local/share/vifm/Trash/000_8b
+	/home/troyd/music/8b
+t/home/troyd/.local/share/vifm/Trash/000_18
+	/home/troyd/music/18
+t/home/troyd/.local/share/vifm/Trash/000_30
+	/home/troyd/music/30
+t/home/troyd/.local/share/vifm/Trash/000_35
+	/home/troyd/music/35
+t/home/troyd/.local/share/vifm/Trash/000_51
+	/home/troyd/music/51
+t/home/troyd/.local/share/vifm/Trash/000_68
+	/home/troyd/music/68
+t/home/troyd/.local/share/vifm/Trash/000_95
+	/home/troyd/music/95
+t/home/troyd/.local/share/vifm/Trash/000_a3
+	/home/troyd/music/a3
+t/home/troyd/.local/share/vifm/Trash/000_ae
+	/home/troyd/music/ae
+t/home/troyd/.local/share/vifm/Trash/000_b2
+	/home/troyd/music/b2
+t/home/troyd/.local/share/vifm/Trash/000_b5
+	/home/troyd/music/b5
+t/home/troyd/.local/share/vifm/Trash/000_cf
+	/home/troyd/music/cf
+t/home/troyd/.local/share/vifm/Trash/000_eb
+	/home/troyd/music/eb
+t/home/troyd/.local/share/vifm/Trash/000_f8
+	/home/troyd/music/f8
+t/home/troyd/.local/share/vifm/Trash/000_f9
+	/home/troyd/music/f9
+t/home/troyd/.local/share/vifm/Trash/000_8c
+	/home/troyd/music/8c
+t/home/troyd/.local/share/vifm/Trash/000_d7
+	/home/troyd/music/d7
+t/home/troyd/.local/share/vifm/Trash/000_f6
+	/home/troyd/music/f6
+t/home/troyd/.local/share/vifm/Trash/000_56
+	/home/troyd/music/56
+t/home/troyd/.local/share/vifm/Trash/000_cd
+	/home/troyd/music/cd
+t/home/troyd/.local/share/vifm/Trash/000_1b
+	/home/troyd/music/1b
+t/home/troyd/.local/share/vifm/Trash/000_9b
+	/home/troyd/music/9b
+t/home/troyd/.local/share/vifm/Trash/000_38
+	/home/troyd/music/38
+t/home/troyd/.local/share/vifm/Trash/000_6a
+	/home/troyd/music/6a
+t/home/troyd/.local/share/vifm/Trash/000_af
+	/home/troyd/music/af
+t/home/troyd/.local/share/vifm/Trash/000_bf
+	/home/troyd/music/bf
+t/home/troyd/.local/share/vifm/Trash/000_9f
+	/home/troyd/music/9f
+t/home/troyd/.local/share/vifm/Trash/000_bc
+	/home/troyd/music/bc
+t/home/troyd/.local/share/vifm/Trash/000_e6
+	/home/troyd/music/e6
+t/home/troyd/.local/share/vifm/Trash/000_7b
+	/home/troyd/music/7b
+t/home/troyd/.local/share/vifm/Trash/000_e1
+	/home/troyd/music/e1
+t/home/troyd/.local/share/vifm/Trash/000_21
+	/home/troyd/music/21
+t/home/troyd/.local/share/vifm/Trash/000_3a
+	/home/troyd/music/3a
+t/home/troyd/.local/share/vifm/Trash/000_0e
+	/home/troyd/music/0e
+t/home/troyd/.local/share/vifm/Trash/000_4d
+	/home/troyd/music/4d
+t/home/troyd/.local/share/vifm/Trash/000_5c
+	/home/troyd/music/5c
+t/home/troyd/.local/share/vifm/Trash/000_8d
+	/home/troyd/music/8d
+t/home/troyd/.local/share/vifm/Trash/000_09
+	/home/troyd/music/09
+t/home/troyd/.local/share/vifm/Trash/000_9d
+	/home/troyd/music/9d
+t/home/troyd/.local/share/vifm/Trash/000_9e
+	/home/troyd/music/9e
+t/home/troyd/.local/share/vifm/Trash/000_19
+	/home/troyd/music/19
+t/home/troyd/.local/share/vifm/Trash/000_24
+	/home/troyd/music/24
+t/home/troyd/.local/share/vifm/Trash/000_26
+	/home/troyd/music/26
+t/home/troyd/.local/share/vifm/Trash/000_28
+	/home/troyd/music/28
+t/home/troyd/.local/share/vifm/Trash/000_33
+	/home/troyd/music/33
+t/home/troyd/.local/share/vifm/Trash/000_37
+	/home/troyd/music/37
+t/home/troyd/.local/share/vifm/Trash/000_55
+	/home/troyd/music/55
+t/home/troyd/.local/share/vifm/Trash/000_63
+	/home/troyd/music/63
+t/home/troyd/.local/share/vifm/Trash/000_75
+	/home/troyd/music/75
+t/home/troyd/.local/share/vifm/Trash/000_84
+	/home/troyd/music/84
+t/home/troyd/.local/share/vifm/Trash/000_ab
+	/home/troyd/music/ab
+t/home/troyd/.local/share/vifm/Trash/000_b1
+	/home/troyd/music/b1
+t/home/troyd/.local/share/vifm/Trash/000_bb
+	/home/troyd/music/bb
+t/home/troyd/.local/share/vifm/Trash/000_be
+	/home/troyd/music/be
+t/home/troyd/.local/share/vifm/Trash/000_c1
+	/home/troyd/music/c1
+t/home/troyd/.local/share/vifm/Trash/000_c5
+	/home/troyd/music/c5
+t/home/troyd/.local/share/vifm/Trash/000_c8
+	/home/troyd/music/c8
+t/home/troyd/.local/share/vifm/Trash/000_cc
+	/home/troyd/music/cc
+t/home/troyd/.local/share/vifm/Trash/000_d1
+	/home/troyd/music/d1
+t/home/troyd/.local/share/vifm/Trash/000_dc
+	/home/troyd/music/dc
+t/home/troyd/.local/share/vifm/Trash/000_ec
+	/home/troyd/music/ec
+t/home/troyd/.local/share/vifm/Trash/000_f3
+	/home/troyd/music/f3
+t/home/troyd/.local/share/vifm/Trash/000_fe
+	/home/troyd/music/fe
+t/home/troyd/.local/share/vifm/Trash/000_I Secretly Love U _ Piano & Cello _ Snail's House_Ujico.wv
+	/home/troyd/music/jpop_n_shit/slow/I Secretly Love U _ Piano & Cello _ Snail's House_Ujico.wv
+t/home/troyd/.local/share/vifm/Trash/000_0c
+	/home/troyd/music/0c
+t/home/troyd/.local/share/vifm/Trash/000_03
+	/home/troyd/music/03
+t/home/troyd/.local/share/vifm/Trash/000_4c
+	/home/troyd/music/4c
+t/home/troyd/.local/share/vifm/Trash/000_20
+	/home/troyd/music/20
+t/home/troyd/.local/share/vifm/Trash/000_23
+	/home/troyd/music/23
+t/home/troyd/.local/share/vifm/Trash/000_27
+	/home/troyd/music/27
+t/home/troyd/.local/share/vifm/Trash/000_49
+	/home/troyd/music/49
+t/home/troyd/.local/share/vifm/Trash/000_50
+	/home/troyd/music/50
+t/home/troyd/.local/share/vifm/Trash/000_60
+	/home/troyd/music/60
+t/home/troyd/.local/share/vifm/Trash/000_66
+	/home/troyd/music/66
+t/home/troyd/.local/share/vifm/Trash/000_70
+	/home/troyd/music/70
+t/home/troyd/.local/share/vifm/Trash/000_77
+	/home/troyd/music/77
+t/home/troyd/.local/share/vifm/Trash/000_aa
+	/home/troyd/music/aa
+t/home/troyd/.local/share/vifm/Trash/000_cb
+	/home/troyd/music/cb
+t/home/troyd/.local/share/vifm/Trash/000_d0
+	/home/troyd/music/d0
+t/home/troyd/.local/share/vifm/Trash/000_e3
+	/home/troyd/music/e3
+t/home/troyd/.local/share/vifm/Trash/000_e5
+	/home/troyd/music/e5
+t/home/troyd/.local/share/vifm/Trash/000_a9
+	/home/troyd/music/a9
+t/home/troyd/.local/share/vifm/Trash/000_b9
+	/home/troyd/music/b9
+t/home/troyd/.local/share/vifm/Trash/000_1a
+	/home/troyd/music/1a
+t/home/troyd/.local/share/vifm/Trash/000_44
+	/home/troyd/music/44
+t/home/troyd/.local/share/vifm/Trash/000_e8
+	/home/troyd/music/e8
+t/home/troyd/.local/share/vifm/Trash/000_36
+	/home/troyd/music/36
+t/home/troyd/.local/share/vifm/Trash/000_67
+	/home/troyd/music/67
+t/home/troyd/.local/share/vifm/Trash/000_ea
+	/home/troyd/music/ea
+t/home/troyd/.local/share/vifm/Trash/000_f4
+	/home/troyd/music/f4
+t/home/troyd/.local/share/vifm/Trash/000_87
+	/home/troyd/music/87
+t/home/troyd/.local/share/vifm/Trash/000_f7
+	/home/troyd/music/f7
+t/home/troyd/.local/share/vifm/Trash/000_fd
+	/home/troyd/music/fd
+t/home/troyd/.local/share/vifm/Trash/000_d2
+	/home/troyd/music/d2
+t/home/troyd/.local/share/vifm/Trash/000_02
+	/home/troyd/music/02
+t/home/troyd/.local/share/vifm/Trash/000_df
+	/home/troyd/music/df
+t/home/troyd/.local/share/vifm/Trash/000_da
+	/home/troyd/music/da
+t/home/troyd/.local/share/vifm/Trash/000_46
+	/home/troyd/music/46
+t/home/troyd/.local/share/vifm/Trash/000_2d
+	/home/troyd/music/2d
+t/home/troyd/.local/share/vifm/Trash/000_ef
+	/home/troyd/music/ef
+t/home/troyd/.local/share/vifm/Trash/000_7a
+	/home/troyd/music/7a
+t/home/troyd/.local/share/vifm/Trash/000_11
+	/home/troyd/music/11
+t/home/troyd/.local/share/vifm/Trash/000_13
+	/home/troyd/music/13
+t/home/troyd/.local/share/vifm/Trash/000_40
+	/home/troyd/music/40
+t/home/troyd/.local/share/vifm/Trash/000_69
+	/home/troyd/music/69
+t/home/troyd/.local/share/vifm/Trash/000_71
+	/home/troyd/music/71
+t/home/troyd/.local/share/vifm/Trash/000_76
+	/home/troyd/music/76
+t/home/troyd/.local/share/vifm/Trash/000_80
+	/home/troyd/music/80
+t/home/troyd/.local/share/vifm/Trash/000_90
+	/home/troyd/music/90
+t/home/troyd/.local/share/vifm/Trash/000_93
+	/home/troyd/music/93
+t/home/troyd/.local/share/vifm/Trash/000_99
+	/home/troyd/music/99
+t/home/troyd/.local/share/vifm/Trash/000_a4
+	/home/troyd/music/a4
+t/home/troyd/.local/share/vifm/Trash/000_d4
+	/home/troyd/music/d4
+t/home/troyd/.local/share/vifm/Trash/000_f5
+	/home/troyd/music/f5
+t/home/troyd/.local/share/vifm/Trash/000_fa
+	/home/troyd/music/fa
+t/home/troyd/.local/share/vifm/Trash/000_fc
+	/home/troyd/music/fc
+t/home/troyd/.local/share/vifm/Trash/000_ff
+	/home/troyd/music/ff
+t/home/troyd/.local/share/vifm/Trash/000_libreoffice_find_java.txt
+	/home/troyd/libreoffice_find_java.txt
+t/home/troyd/.local/share/vifm/Trash/000_VRoidStudio_dxgi.log
+	/home/troyd/VRoidStudio_dxgi.log
+t/home/troyd/.local/share/vifm/Trash/000_openssl.txt
+	/home/troyd/openssl.txt
+t/home/troyd/.local/share/vifm/Trash/000_uWintab.log
+	/home/troyd/uWintab.log
+t/home/troyd/.local/share/vifm/Trash/000_VRoidStudio.dxvk-cache
+	/home/troyd/VRoidStudio.dxvk-cache
+t/home/troyd/.local/share/vifm/Trash/000_VRoidStudio_d3d11.log
+	/home/troyd/VRoidStudio_d3d11.log
+t/home/troyd/.local/share/vifm/Trash/000_sent
+	/home/troyd/sent
+t/home/troyd/.local/share/vifm/Trash/000_vscmp.local
+	/home/troyd/vscmp.local
+t/home/troyd/.local/share/vifm/Trash/000_MX-19.1_x64.iso.torrent
+	/home/troyd/MX-19.1_x64.iso.torrent
+t/home/troyd/.local/share/vifm/Trash/000_version-check.sh
+	/home/troyd/version-check.sh
+t/home/troyd/.local/share/vifm/Trash/000_Scratch 2.dxvk-cache
+	/home/troyd/Scratch 2.dxvk-cache
+t/home/troyd/.local/share/vifm/Trash/000_Scratch 2_d3d9.log
+	/home/troyd/Scratch 2_d3d9.log
+t/home/troyd/.local/share/vifm/Trash/000_3d
+	/home/troyd/music/3d
+t/home/troyd/.local/share/vifm/Trash/000_7c
+	/home/troyd/music/7c
+t/home/troyd/.local/share/vifm/Trash/000_58
+	/home/troyd/music/58
+t/home/troyd/.local/share/vifm/Trash/000_65
+	/home/troyd/music/65
+t/home/troyd/.local/share/vifm/Trash/000_74
+	/home/troyd/music/74
+t/home/troyd/.local/share/vifm/Trash/000_96
+	/home/troyd/music/96
+t/home/troyd/.local/share/vifm/Trash/000_97
+	/home/troyd/music/97
+t/home/troyd/.local/share/vifm/Trash/000_b0
+	/home/troyd/music/b0
+t/home/troyd/.local/share/vifm/Trash/000_ba
+	/home/troyd/music/ba
+t/home/troyd/.local/share/vifm/Trash/000_c9
+	/home/troyd/music/c9
+t/home/troyd/.local/share/vifm/Trash/000_e4
+	/home/troyd/music/e4
+t/home/troyd/.local/share/vifm/Trash/000_e0
+	/home/troyd/music/e0
+t/home/troyd/.local/share/vifm/Trash/000_a1
+	/home/troyd/music/a1
+t/home/troyd/.local/share/vifm/Trash/000_d3
+	/home/troyd/music/d3
+t/home/troyd/.local/share/vifm/Trash/000_db
+	/home/troyd/music/db
+t/home/troyd/.local/share/vifm/Trash/000_14
+	/home/troyd/music/14
+t/home/troyd/.local/share/vifm/Trash/000_32
+	/home/troyd/music/32
+t/home/troyd/.local/share/vifm/Trash/000_c7
+	/home/troyd/music/c7
+t/home/troyd/.local/share/vifm/Trash/000_1d
+	/home/troyd/music/1d
+t/home/troyd/.local/share/vifm/Trash/000_81
+	/home/troyd/music/81
+t/home/troyd/.local/share/vifm/Trash/000_a8
+	/home/troyd/music/a8
+t/home/troyd/.local/share/vifm/Trash/000_c6
+	/home/troyd/music/c6
+t/home/troyd/.local/share/vifm/Trash/000_22
+	/home/troyd/music/22
+t/home/troyd/.local/share/vifm/Trash/000_list.txt
+	/home/troyd/documents/0formats/c/1st_prog/list.txt
+t/.vifm-Trash-0/000_artwiz
+	/usr/share/fonts/bitmap/artwiz
+t/.vifm-Trash-0/000_bitocra
+	/usr/share/fonts/bitmap/bitocra
+t/.vifm-Trash-0/000_boxxy
+	/usr/share/fonts/bitmap/boxxy
+t/.vifm-Trash-0/000_cherry
+	/usr/share/fonts/bitmap/cherry
+t/.vifm-Trash-0/000_clearlyu
+	/usr/share/fonts/bitmap/clearlyu
+t/.vifm-Trash-0/000_creep
+	/usr/share/fonts/bitmap/creep
+t/.vifm-Trash-0/000_ctrld-font
+	/usr/share/fonts/bitmap/ctrld-font
+t/.vifm-Trash-0/000_dweep
+	/usr/share/fonts/bitmap/dweep
+t/.vifm-Trash-0/000_dylex
+	/usr/share/fonts/bitmap/dylex
+t/.vifm-Trash-0/000_envypn-font
+	/usr/share/fonts/bitmap/envypn-font
+t/.vifm-Trash-0/000_erusfont
+	/usr/share/fonts/bitmap/erusfont
+t/.vifm-Trash-0/000_gilesorr
+	/usr/share/fonts/bitmap/gilesorr
+t/.vifm-Trash-0/000_gohufont
+	/usr/share/fonts/bitmap/gohufont
+t/.vifm-Trash-0/000_gomme
+	/usr/share/fonts/bitmap/gomme
+t/.vifm-Trash-0/000_haxor
+	/usr/share/fonts/bitmap/haxor
+t/.vifm-Trash-0/000_jmk-x11-fonts-3.0
+	/usr/share/fonts/bitmap/jmk-x11-fonts-3.0
+t/.vifm-Trash-0/000_kakwa
+	/usr/share/fonts/bitmap/kakwa
+t/.vifm-Trash-0/000_knxt
+	/usr/share/fonts/bitmap/knxt
+t/.vifm-Trash-0/000_kourier
+	/usr/share/fonts/bitmap/kourier
+t/.vifm-Trash-0/000_leggie
+	/usr/share/fonts/bitmap/leggie
+t/.vifm-Trash-0/000_lode
+	/usr/share/fonts/bitmap/lode
+t/.vifm-Trash-0/000_lokaltog-fonts
+	/usr/share/fonts/bitmap/lokaltog-fonts
+t/.vifm-Trash-0/000_montecarlo
+	/usr/share/fonts/bitmap/montecarlo
+t/.vifm-Trash-0/000_mplus
+	/usr/share/fonts/bitmap/mplus
+t/.vifm-Trash-0/000_ohsnap-1.8.0
+	/usr/share/fonts/bitmap/ohsnap-1.8.0
+t/.vifm-Trash-0/000_opti
+	/usr/share/fonts/bitmap/opti
+t/.vifm-Trash-0/000_orp-font
+	/usr/share/fonts/bitmap/orp-font
+t/.vifm-Trash-0/000_phallus
+	/usr/share/fonts/bitmap/phallus
+t/.vifm-Trash-0/000_pixelcarnage
+	/usr/share/fonts/bitmap/pixelcarnage
+t/.vifm-Trash-0/000_profont-x11
+	/usr/share/fonts/bitmap/profont-x11
+t/.vifm-Trash-0/000_proggy
+	/usr/share/fonts/bitmap/proggy
+t/.vifm-Trash-0/000_progsole
+	/usr/share/fonts/bitmap/progsole
+t/.vifm-Trash-0/000_raize
+	/usr/share/fonts/bitmap/raize
+t/.vifm-Trash-0/000_scientifica
+	/usr/share/fonts/bitmap/scientifica
+t/.vifm-Trash-0/000_speedy
+	/usr/share/fonts/bitmap/speedy
+t/.vifm-Trash-0/000_spleen
+	/usr/share/fonts/bitmap/spleen
+t/.vifm-Trash-0/000_sq
+	/usr/share/fonts/bitmap/sq
+t/.vifm-Trash-0/000_stlarch
+	/usr/share/fonts/bitmap/stlarch
+t/.vifm-Trash-0/000_tamsyn-font-1.11
+	/usr/share/fonts/bitmap/tamsyn-font-1.11
+t/.vifm-Trash-0/000_tamsynmod-1.7
+	/usr/share/fonts/bitmap/tamsynmod-1.7
+t/.vifm-Trash-0/000_tamzen-font
+	/usr/share/fonts/bitmap/tamzen-font
+t/.vifm-Trash-0/000_termsyn-1.8.7
+	/usr/share/fonts/bitmap/termsyn-1.8.7
+t/.vifm-Trash-0/000_tewi-font
+	/usr/share/fonts/bitmap/tewi-font
+t/.vifm-Trash-0/000_tobi
+	/usr/share/fonts/bitmap/tobi
+t/.vifm-Trash-0/000_trisk
+	/usr/share/fonts/bitmap/trisk
+t/.vifm-Trash-0/000_unscii
+	/usr/share/fonts/bitmap/unscii
+t/.vifm-Trash-0/000_xbmicons
+	/usr/share/fonts/bitmap/xbmicons
+t/.vifm-Trash-0/000_zevv-peep
+	/usr/share/fonts/bitmap/zevv-peep
+t/.vifm-Trash-0/000_uw-ttyp0-1.2
+	/usr/share/fonts/bitmap/uw-ttyp0-1.2
+t/.vifm-Trash-0/000_Dina_i400-8.bdf
+	/usr/share/fonts/Dina_i400-8.bdf
+t/.vifm-Trash-0/000_Dina_i400-9.bdf
+	/usr/share/fonts/Dina_i400-9.bdf
+t/.vifm-Trash-0/000_Dina_i400-10.bdf
+	/usr/share/fonts/Dina_i400-10.bdf
+t/.vifm-Trash-0/000_Dina_i700-8.bdf
+	/usr/share/fonts/Dina_i700-8.bdf
+t/.vifm-Trash-0/000_Dina_i700-9.bdf
+	/usr/share/fonts/Dina_i700-9.bdf
+t/.vifm-Trash-0/000_Dina_i700-10.bdf
+	/usr/share/fonts/Dina_i700-10.bdf
+t/.vifm-Trash-0/000_Dina_r400-6.bdf
+	/usr/share/fonts/Dina_r400-6.bdf
+t/.vifm-Trash-0/000_Dina_r400-8.bdf
+	/usr/share/fonts/Dina_r400-8.bdf
+t/.vifm-Trash-0/000_Dina_r400-9.bdf
+	/usr/share/fonts/Dina_r400-9.bdf
+t/.vifm-Trash-0/000_Dina_r400-10.bdf
+	/usr/share/fonts/Dina_r400-10.bdf
+t/.vifm-Trash-0/000_Dina_r700-8.bdf
+	/usr/share/fonts/Dina_r700-8.bdf
+t/.vifm-Trash-0/000_Dina_r700-9.bdf
+	/usr/share/fonts/Dina_r700-9.bdf
+t/.vifm-Trash-0/000_Dina_r700-10.bdf
+	/usr/share/fonts/Dina_r700-10.bdf
+t/home/troyd/.local/share/vifm/Trash/000_scripts
+	/home/troyd/.config/vifm/scripts
+t/home/troyd/.local/share/vifm/Trash/000_Mail
+	/home/troyd/Mail
+t/home/troyd/.local/share/vifm/Trash/000_Noto_Serif_TC.zip
+	/home/troyd/downloads/Noto_Serif_TC.zip
+t/home/troyd/.local/share/vifm/Trash/000_NotoSerifTC-Black.otf
+	/home/troyd/downloads/NotoSerifTC-Black.otf
+t/home/troyd/.local/share/vifm/Trash/000_NotoSerifTC-Bold.otf
+	/home/troyd/downloads/NotoSerifTC-Bold.otf
+t/home/troyd/.local/share/vifm/Trash/000_NotoSerifTC-ExtraLight.otf
+	/home/troyd/downloads/NotoSerifTC-ExtraLight.otf
+t/home/troyd/.local/share/vifm/Trash/000_NotoSerifTC-Light.otf
+	/home/troyd/downloads/NotoSerifTC-Light.otf
+t/home/troyd/.local/share/vifm/Trash/000_NotoSerifTC-Medium.otf
+	/home/troyd/downloads/NotoSerifTC-Medium.otf
+t/home/troyd/.local/share/vifm/Trash/000_NotoSerifTC-Regular.otf
+	/home/troyd/downloads/NotoSerifTC-Regular.otf
+t/home/troyd/.local/share/vifm/Trash/000_NotoSerifTC-SemiBold.otf
+	/home/troyd/downloads/NotoSerifTC-SemiBold.otf
+t/home/troyd/.local/share/vifm/Trash/000_1880920788_Music_no_Sekai.zip
+	/home/troyd/desktop/1880920788_Music_no_Sekai.zip
+t/home/troyd/.local/share/vifm/Trash/000_1880920788.mod
+	/home/troyd/desktop/1880920788.mod
+t/home/troyd/.local/share/vifm/Trash/000_gfx
+	/home/troyd/.local/share/Paradox Interactive/Hearts of Iron IV/mod/animemusic/gfx
+t/home/troyd/.local/share/vifm/Trash/000_interface
+	/home/troyd/.local/share/Paradox Interactive/Hearts of Iron IV/mod/animemusic/interface
+t/home/troyd/.local/share/vifm/Trash/000_localisation
+	/home/troyd/.local/share/Paradox Interactive/Hearts of Iron IV/mod/animemusic/localisation
+t/home/troyd/.local/share/vifm/Trash/000_music
+	/home/troyd/.local/share/Paradox Interactive/Hearts of Iron IV/mod/animemusic/music
+t/home/troyd/.local/share/vifm/Trash/000_descriptor.mod
+	/home/troyd/.local/share/Paradox Interactive/Hearts of Iron IV/mod/animemusic/descriptor.mod
+t/home/troyd/.local/share/vifm/Trash/000_thumbnail.png
+	/home/troyd/.local/share/Paradox Interactive/Hearts of Iron IV/mod/animemusic/thumbnail.png
+t/home/troyd/.local/share/vifm/Trash/000_1880920786
+	/home/troyd/desktop/1880920786
+t/home/troyd/.local/share/vifm/Trash/000_Battlefield 2
+	/home/troyd/documents/Battlefield 2
+t/home/troyd/.local/share/vifm/Trash/000_url
+	/home/troyd/.emacs.d/url
+t/home/troyd/.local/share/vifm/Trash/000_lisp
+	/home/troyd/.emacs.d/lisp
+t/home/troyd/.local/share/vifm/Trash/000_emms
+	/home/troyd/.emacs.d/emms
+t/home/troyd/.local/share/vifm/Trash/000_lsp-mode-20200321.1659
+	/home/troyd/.emacs.d/elpa/lsp-mode-20200321.1659
+t/home/troyd/.local/share/vifm/Trash/000_lsp-treemacs-20200220.534
+	/home/troyd/.emacs.d/elpa/lsp-treemacs-20200220.534
+t/home/troyd/.local/share/vifm/Trash/000_a2
+	/home/troyd/music/a2
+t/home/troyd/.local/share/vifm/Trash/000_ee
+	/home/troyd/music/ee
+t/home/troyd/.local/share/vifm/Trash/000_e2
+	/home/troyd/music/e2
+t/home/troyd/.local/share/vifm/Trash/000_fb
+	/home/troyd/music/fb
+t/home/troyd/.local/share/vifm/Trash/000_0d
+	/home/troyd/music/0d
+t/home/troyd/.local/share/vifm/Trash/000_0f
+	/home/troyd/music/0f
+t/home/troyd/.local/share/vifm/Trash/000_7f
+	/home/troyd/music/7f
+t/home/troyd/.local/share/vifm/Trash/000_41
+	/home/troyd/music/41
+t/home/troyd/.local/share/vifm/Trash/000_92
+	/home/troyd/music/92
+t/home/troyd/.local/share/vifm/Trash/000_ce
+	/home/troyd/music/ce
+t/home/troyd/.local/share/vifm/Trash/000_1f
+	/home/troyd/music/1f
+t/home/troyd/.local/share/vifm/Trash/000_5a
+	/home/troyd/music/5a
+t/home/troyd/.local/share/vifm/Trash/000_10
+	/home/troyd/music/10
+t/home/troyd/.local/share/vifm/Trash/000_a6
+	/home/troyd/music/a6
+t/home/troyd/.local/share/vifm/Trash/000_d6
+	/home/troyd/music/d6
+t/home/troyd/.local/share/vifm/Trash/000_c4
+	/home/troyd/music/c4
+t/home/troyd/.local/share/vifm/Trash/000_8e
+	/home/troyd/music/8e
+t/home/troyd/.local/share/vifm/Trash/000_ad
+	/home/troyd/music/ad
+t/home/troyd/.local/share/vifm/Trash/000_b6
+	/home/troyd/music/b6
+t/home/troyd/.local/share/vifm/Trash/000_b8
+	/home/troyd/music/b8
+t/home/troyd/.local/share/vifm/Trash/000_4f
+	/home/troyd/music/4f
+t/home/troyd/.local/share/vifm/Trash/000_59
+	/home/troyd/music/59
+t/.vifm-Trash-0/000_dwm.desktop
+	/usr/share/xsessions/dwm.desktop
+t/home/troyd/.local/share/vifm/Trash/000_assets
+	/home/troyd/Applications/assets
+t/home/troyd/.local/share/vifm/Trash/000_lib
+	/home/troyd/Applications/lib
+t/home/troyd/.local/share/vifm/Trash/000_org
+	/home/troyd/Applications/org
+t/home/troyd/.local/share/vifm/Trash/000_res
+	/home/troyd/Applications/res
+t/home/troyd/.local/share/vifm/Trash/000_META-INF
+	/home/troyd/Applications/META-INF
+t/home/troyd/.local/share/vifm/Trash/000_resources.arsc
+	/home/troyd/Applications/resources.arsc
+t/home/troyd/.local/share/vifm/Trash/000_AndroidManifest.xml
+	/home/troyd/Applications/AndroidManifest.xml
+t/home/troyd/.local/share/vifm/Trash/000_classes.dex
+	/home/troyd/Applications/classes.dex
+t/home/troyd/.local/share/vifm/Trash/000_keep.txt
+	/home/troyd/Applications/keep.txt
+t/home/troyd/.local/share/vifm/Trash/000_3e
+	/home/troyd/music/3e
+t/home/troyd/.local/share/vifm/Trash/000_5d
+	/home/troyd/music/5d
+t/home/troyd/.local/share/vifm/Trash/000_04
+	/home/troyd/music/04
+t/home/troyd/.local/share/vifm/Trash/000_7d
+	/home/troyd/music/7d
+t/home/troyd/.local/share/vifm/Trash/000_15
+	/home/troyd/music/15
+t/home/troyd/.local/share/vifm/Trash/000_57
+	/home/troyd/music/57
+t/home/troyd/.local/share/vifm/Trash/000_c0
+	/home/troyd/music/c0
+t/home/troyd/.local/share/vifm/Trash/000_c2
+	/home/troyd/music/c2
+t/home/troyd/.local/share/vifm/Trash/000_01
+	/home/troyd/music/01
+t/home/troyd/.local/share/vifm/Trash/000_de
+	/home/troyd/music/de
+t/home/troyd/.local/share/vifm/Trash/000_jazz
+	/home/troyd/music/jazz
+t/home/troyd/.local/share/vifm/Trash/000_2b
+	/home/troyd/music/2b
+t/home/troyd/.local/share/vifm/Trash/000_6c
+	/home/troyd/music/6c
+t/home/troyd/.local/share/vifm/Trash/000_9a
+	/home/troyd/music/9a
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0

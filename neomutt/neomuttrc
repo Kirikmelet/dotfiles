@@ -1,0 +1,24 @@
+set editor='nvim'
+set my_name="Troy Dwijanto"
+source "gpg -dq $HOME/.key/email.asc |"
+
+
+set my_user=troy.dwijanto2@gmail.com
+set realname='Troy Dwijanyo'
+set from = troy.dwijanto2@gmail.com
+set use_from = yes
+set smtp_url=smtps://troy.dwijanto2@gmail.com@smtp.gmail.com:465/
+set ssl_force_tls=yes
+
+set imap_user=troy.dwijanto2@gmail.com
+set folder=imaps://imap.gmail.com/
+set spoolfile=+INBOX
+
+set header_cache = ~/.cache/mutt
+set message_cachedir = "~/.cache/mutt"
+set postponed = +[Gmail]/Drafts
+unset imap_passive
+set imap_keepalive = 300
+set mail_check = 120
+
+

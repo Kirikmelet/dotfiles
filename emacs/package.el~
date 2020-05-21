@@ -1,0 +1,13 @@
+(use-package
+ :fetcher github
+ :repo "jwiegley/use-package"
+ :files (:defaults (:exclude "bind-key.el"
+			     "bind-chord.el"
+			     "use-package-chords.el"
+			                                     "use-package-ensure-system-package.el")))
+
+(evil :repo "emacs-evil/evil"
+      :fetcher github
+      :files (:defaults
+	      "doc/build/texinfo/evil.texi"
+	                    (:exclude "evil-test-helpers.el")))
