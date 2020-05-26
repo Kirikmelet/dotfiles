@@ -44,14 +44,6 @@ There are two things you can do about this warning:
 (use-package evil)
 
 
-(use-package eaf
-  :load-path "~/.emacs.d/git_pkg/emacs-application-framework" ; Set to "/usr/share/emacs/site-lisp/eaf" if installed from AUR
-  :custom
-  (eaf-find-alternate-file-in-dired t)
-  :config
-  (eaf-bind-key scroll_up "k" eaf-pdf-viewer-keybinding)
-  (eaf-bind-key scroll_down "j" eaf-pdf-viewer-keybinding)
-  (eaf-bind-key take_photo "p" eaf-camera-keybinding))
 
 (setq-default indent-tabs-mode t)
 (setq-default tab-width 4) ; Assuming you want your tabs to be four spaces wide

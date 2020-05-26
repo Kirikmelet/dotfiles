@@ -5,14 +5,14 @@ DATE(){
 }
 
 BAT(){
-	BAT=$(acpi | awk '{printf "%s ", $4}'| sed 's/\,//g' | awk '{sum = $1 + $2 } {sum = sum / 2} END {printf "%s%", sum}')
+	BAT=$(acpi | awk '{printf "%s ", $4}'| sed 's/\,//g')
 	echo "$BAT"
 
 
 }
 
 NET(){
-	SSID=$(nmcli -t -f NAME connection show --active)
+	SSID=$( connmanctl services | grep "*AR" | awk '{print $2}')
 	SPEED=$( grep "^\s*w" /proc/net/wireless | awk '{ print int($3 * 100 / 70) "%" }')
 	echo "$SSID $SPEED"
 

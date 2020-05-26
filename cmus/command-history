@@ -1,5 +1,7 @@
-a ~/Music
 q
+live-filter q
+Q
+a ~/Music
 bind -f common q quit
 quit
 bind -f common q shell screen -d cmus

@@ -15,11 +15,11 @@ super + Return
 
 #{{{ program launcher
 super + F1
-	dmenu_men
+	dmenu_run
 super + shift + F1
-	rofi -show run
+	main_menu
 super + F2
-	firefox-beta-bin
+	firefox
 super + F3
 	st -e  nnn
 super + F4

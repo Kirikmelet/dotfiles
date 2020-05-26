@@ -59,7 +59,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec st
-bindsym $mod+F2 exec firefox-beta
+bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec st -e nnn
 bindsym $mod+F4 exec st -e htop
 bindsym $mod+F5 exec st -e cmus

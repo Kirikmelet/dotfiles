@@ -1,4 +1,6 @@
 #!/bin/bash
 
+
+dunst &
 nitrogen --restore &
-exec "./bar.sh"
+exec "./bar.sh" &
