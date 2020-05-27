@@ -1,6 +1,6 @@
 set editor='nvim'
 set my_name="Troy Dwijanto"
-source "gpg -dq $HOME/.key/email.asc |"
+source "gpg -dq $HOME/.key/emails/troy.dwijanto2.txt.gpg |"
 
 
 set my_user=troy.dwijanto2@gmail.com

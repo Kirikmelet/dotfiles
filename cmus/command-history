@@ -1,7 +1,8 @@
 q
-live-filter q
 Q
+add ~/Music/
 a ~/Music
+live-filter q
 bind -f common q quit
 quit
 bind -f common q shell screen -d cmus

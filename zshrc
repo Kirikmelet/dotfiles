@@ -1,43 +1,23 @@
+PS1="Chotto Matte! B-Baka!!! :< "
 # If you come from bash you might have to change your $PATH.
+# 
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-
-#{{{XSecureLock
-export XSECURELOCK_SHOW_DATETIME=1
-export XSECURELOCK_SWITCH_USER_COMMAND="dm-tool switch-to-greeter"
-export XSECURELOCK_PASSWORD_PROMPT=time_hex 
-export XSECURELOCK_AUTH_SOUNDS=1
-export XSECURELOCK_FONT=Terminus
-export XSECURELOCK_AUTH_SOUNDS=1
-export XSECURELOCK_PAM_SERVICE=kde
-#}}}
-
-#
-
-#{{{NNN
-
-export NNN_OPTS="gox"
-export NNN_BMS="w:~/.wine/drive_c/;h:~/;D:~/Documents;d:~/desktop/;V:~/Videos/;M:~/Music/"
-export NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip)$"
-export NNN_TRASH=0
-export NNN_COLORS="4444"
-export NNN_PLUG="i:imgview $nnn;"
-export NNN_OPS_PROG=1
-#}}}
-
-
+# Path to your oh-my-zsh installation.
+export ZSH="/home/troyd/.oh-my-zsh"
 #{{{Oh My ZSH
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="garyblessington"
+#ZSH_THEME="garyblessington"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -91,12 +71,37 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git  zsh-completions zsh-autosuggestions zsh-z sudo  zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 #}}}
 
- User configuration
+#{{{User configuration
 
  # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -105,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 
  # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
+   export EDITOR='nvim'
    else
      export EDITOR='nvim'
      fi
@@ -139,4 +144,62 @@ source $ZSH/oh-my-zsh.sh
      alias rnvim="nvim -m"
      alias nvimdiff="nvim -d"
      alias readbat="bat -p"
+     alias dsearch="w3m 'https://duckduckgo.com/?q=$1'"
      #}}}
+#{{{NNN
+
+export NNN_OPTS="goxa"
+export NNN_BMS="h:~/;D:~/Documents;d:~/Desktop/;V:~/Videos/;M:~/Music/;l:~/Downloads"
+export NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip|zst|zstd)$"
+export NNN_TRASH=0
+export NNN_COLORS="4444"
+export NNN_PLUG="i:imgview;o:launch;C:mp3conv;P:picker;v:pdfread;b:nbak;l:oldbigfile;f:organize"
+export NNN_OPS_PROG=1
+#}}}
+
+#{{{Fuck
+eval $(thefuck --alias)
+#}}}
+
+
+#{{{zinit
+
+### Added by Zinit's installer
+if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
+    print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
+    command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
+    command git clone https://github.com/zdharma/zinit "$HOME/.zinit/bin" && \
+        print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" || \
+        print -P "%F{160}▓▒░ The clone has failed.%f%b"
+fi
+
+source "$HOME/.zinit/bin/zinit.zsh"
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zinit-zsh/z-a-as-monitor \
+    zinit-zsh/z-a-patch-dl \
+    zinit-zsh/z-a-bin-gem-node
+
+
+zinit wait"!" lucid light-mode for \
+	OMZT::garyblessington \
+	OMZP::git \
+
+zinit light zsh-users/zsh-autosuggestions \
+	
+
+zinit wait lucid light-mode for \
+	atinit"zicompinit; zicdreplay"  \
+        	zdharma/fast-syntax-highlighting \
+      		OMZP::colored-man-pages \
+	blockf atpull"zinit creinstall -q" \
+		zinit light zsh-users/zsh-completions \
+	
+
+### End of Zinit's installer chunk
+#}}}
+

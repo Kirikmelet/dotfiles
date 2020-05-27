@@ -45,6 +45,8 @@ set foldlevel=2
 	 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 	 Plug 'azadkuh/vim-cmus'
 	 Plug 'greyblake/vim-preview'
+	 Plug 'gko/vim-coloresque'
+
 	 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
          Plug 'tpope/vim-surround'   
 	 Plug 'airblade/vim-gitgutter'

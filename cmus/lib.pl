@@ -215,12 +215,14 @@
 /home/troyd/Music/yt_pl/hololive/鈍感彼氏_白上フブキ【カバーソング】.opus
 /home/troyd/Music/yt_pl/hololive/【オリジナルMV】「クノイチでも恋がしたい」歌ってみた【神楽めあ× 湊あくあ】.opus
 /home/troyd/Music/yt_pl/hololive/【ロボ子さん×樋口楓】PLATONIC GIRL 【歌ってみた】.opus
+/home/troyd/Music/yt/jp/ヨルシカ - 言って。(Music Video).opus
 /home/troyd/Music/yt_pl/hololive/お願いマッスル _ by 湊あくあ×犬山たまき【歌ってみた】.opus
 /home/troyd/Music/yt_pl/hololive/ガヴリールドロップキック _ by 犬山たまき×白上フブキ×湊あくあ×神楽めあ【歌ってみた】.opus
 /home/troyd/Music/yt_pl/hololive/【Do you love】Sweet Devil 歌ってみた AZKi【sweet devil】.opus
 /home/troyd/Music/yt_pl/hololive/「かいしんのいちげき！」歌ってみた  ver.百鬼あやめ.opus
 /home/troyd/Music/yt_pl/hololive/┗_∵_┓ 月曜日の憂鬱 _ ロボ子さん【歌ってみた】.opus
 /home/troyd/Music/yt_pl/hololive/【歌ってみた】おジャ魔女カーニバル!! _ MAHO堂【ときのそら × Kotone(天神子兎音)coverコラボ】.opus
+/home/troyd/Music/yt/citypop/mixes/japanese citypop when feeling the summer's warmth.opus
 /home/troyd/Music/yt_pl/hololive/【ロボ子さん×樋口楓】Happy Halloween 【歌ってみた】.opus
 /home/troyd/Music/yt_pl/hololive/【歌ってみた】ロボ子、あっかんべーだ　歌ってみた。【オリジナルPV 】.opus
 /home/troyd/Music/yt_pl/hololive/檄!帝国華撃団 by燦鳥ノム・富士葵・ときのそら【歌ってみた】.opus
