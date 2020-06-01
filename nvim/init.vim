@@ -46,7 +46,6 @@ set foldlevel=2
 	 Plug 'azadkuh/vim-cmus'
 	 Plug 'greyblake/vim-preview'
 	 Plug 'gko/vim-coloresque'
-
 	 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
          Plug 'tpope/vim-surround'   
 	 Plug 'airblade/vim-gitgutter'
@@ -92,8 +91,7 @@ command! HShell split<bar>term
 tnoremap <Esc>e <C-\><C-n>
 "}}}
 "{{{coc-nvim Plugins
-
- let g:coc_global_extensions = ['coc-tslint-plugin',  'coc-vimtex', 'coc-word', 'coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-prettier', 'coc-python']
+ let g:coc_global_extensions = ['coc-tslint-plugin',  'coc-vimtex', 'coc-word',  'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-python']
  "}}}
 "{{{coc-explorer
 "nnoremap <A-d> :CocCommand explorer<CR>

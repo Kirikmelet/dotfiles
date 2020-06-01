@@ -67,16 +67,19 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = {"dmenu_men", NULL};
+static const char *chillmen[] = {"/home/troyd/.local/bin/main_menu", NULL};
+static const char *dmenucmd[] = {"dmenu_run", NULL};
 static const char *termcmd[]  = { "st", NULL };
-static const char *browser[] = {"firefox-beta-bin", NULL};
+static const char *termcmdtab[]  = { "tabbed", "-c", "st", "-w", NULL };
+static const char *browser[] = {"firefox", NULL};
 static const char *filemanager[] = {"st", "-e", "nnn", NULL};
 static const char *systemmanager[] = {"st", "-e", "htop", NULL};
-static const char *musicplayer[] = {"st", "-e", "cmus", NULL};
-static const char *nmtui[] = {"st", "-e", "nmtui", NULL};
-static const char *audioup[] = {"pamixer", "-i", "15", NULL};
-static const char *audiodown[] = {"pamixer", "-d", "15", NULL};
-static const char *audiooff[] = {"pamixer", "-t", NULL};
+static const char *musicplayer[] = {"st", "-e", "ncmpcpp", NULL};
+static const char *nmtui[] = {"st", "-e", "connmanctl", NULL};
+static const char *audioup[] = {"amixer", "sset", "Master", "15%+", NULL};
+static const char *audiodown[] = {"amixer", "sset", "Master", "15%-", NULL};
+static const char *audiooff[] = {"amixer", "sset", "Master", "toggle", NULL};
+static const char *lockscreen[] = {"/home/troyd/.local/bin/locker.sh", NULL};
 static const char *screenup[] = {"light", "-A", "15", NULL};
 static const char *screendown[] = {"light", "-U", "15", NULL};
 
@@ -85,16 +88,19 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_F1,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,             XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmdtab } },
 	{ MODKEY, XK_F2, spawn, {.v = browser} },
 	{ MODKEY, XK_F3, spawn, {.v = filemanager} },
 	{ MODKEY, XK_F4, spawn, {.v = systemmanager} },
 	{ MODKEY, XK_F5, spawn, {.v = musicplayer} },
 	{ MODKEY, XK_F6, spawn, {.v = nmtui} },
+	{ MODKEY, XK_F10, spawn, {.v = lockscreen} },
 	{ 0, XF86XK_AudioMute, spawn, {.v = audiooff} },
 	{ 0, XF86XK_AudioRaiseVolume, spawn, {.v = audioup} },
 	{ 0, XF86XK_AudioLowerVolume, spawn, {.v = audiodown} },
 	{ 0, XF86XK_MonBrightnessUp, spawn, {.v = screenup} },
 	{ 0, XF86XK_MonBrightnessDown, spawn, {.v = screendown} },
+	{ MODKEY, XK_Escape, spawn, {.v = chillmen} },
 
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
