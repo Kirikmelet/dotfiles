@@ -2,4 +2,6 @@
 
 dunst &
 nitrogen --restore &
+picom &
 exec "./bar.sh" &
+

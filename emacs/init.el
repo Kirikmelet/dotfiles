@@ -24,10 +24,19 @@ There are two things you can do about this warning:
 	(require 'use-package)
   )
 
-
+(use-package mingus)
 (use-package flycheck)
 (use-package lsp-mode :ensure t)
 
+(use-package mpdel
+  :config
+  (setq libmpdel-port 23955)
+  (setq libmpdel-music-directory "~/Music"))
+(use-package libmpdel
+  :config
+  (setq libmpdel-port 23955))
+(mpdel-mode)
+(mpdel-browser-mode)
 
 ;; Optional packages
 
@@ -55,8 +64,6 @@ There are two things you can do about this warning:
 	(setq dashboard-banner-logo-title "Welcome to fucking EMACS!")
 	(setq dashboard-startup-banner "/home/troyd/Pictures/character_art/hello_world.png")
 	(setq dashboard-set-navigator t)
-	(setq dashboard-set-heading-icons t)
-	(setq dashboard-set-file-icons t)
 	(setq dashboard-init-info "A decent OS with a shitty editor")
 	(setq dashboard-footer-messages '("The Motherland Calls Us!"))
 	(setq dashboard-items '((recents . 5)
@@ -72,7 +79,7 @@ There are two things you can do about this warning:
   (emms-all)
   (require 'emms-setup)
   (setq emms-player-list (list emms-player-mpv)
-	emms-add-directory-tree "~/music"
+	emms-add-directory-tree "~/Music"
 	emms-source-file-directory-tree-function 'emms-source-file-directory-tree-find
 	emms-browser-covers 'emms-browser-cache-thumbnail)
   (add-to-list 'emms-player-mpv-parameters "--no-audio-display")
@@ -141,10 +148,13 @@ There are two things you can do about this warning:
    (quote
     ("939ea070fb0141cd035608b2baabc4bd50d8ecc86af8528df9d41f4d83664c6a" "aded61687237d1dff6325edb492bde536f40b048eab7246c61d5c6643c696b7f" "4cf9ed30ea575fb0ca3cff6ef34b1b87192965245776afa9e9e20c17d115f3fb" "11e57648ab04915568e558b77541d0e94e69d09c9c54c06075938b6abc0189d8" default)))
  '(eaf-find-alternate-file-in-dired t t)
+ '(mingus-mpd-config-file "~/.config/mpd/mpd.conf")
+ '(mingus-mpd-port 23955)
+ '(mingus-mpd-root "/home/troyd/Music")
  '(nil nil t)
  '(package-selected-packages
    (quote
-    (gruvbox-theme lsp-dart pylint flycheck-pycheckers lsp-python-ms w3m highlight-indentation highlight-escape-sequences highlight mpv all-the-icons-gnus all-the-icons-dired all-the-icons terminal-toggle ## dashboard molokai-theme dired-sidebar which-key evil-surround use-package soundklaus lsp-ui evil emms-state emms-soundcloud emms-player-mpv-jp-radios emms-mode-line-cycle dired-icon company-lsp company-c-headers ccls)))
+    (mingus ivy ivy-mpdel gruvbox-theme lsp-dart pylint flycheck-pycheckers lsp-python-ms w3m highlight-indentation highlight-escape-sequences highlight mpv all-the-icons-gnus all-the-icons-dired all-the-icons terminal-toggle ## dashboard molokai-theme dired-sidebar which-key evil-surround use-package soundklaus lsp-ui evil emms-state emms-soundcloud emms-player-mpv-jp-radios emms-mode-line-cycle dired-icon company-lsp company-c-headers ccls)))
  '(pdf-view-midnight-colors (quote ("#fdf4c1" . "#282828"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
