@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 sw_volume: 100
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
 state: pause
 current: 0
 time: 80.215000
+=======
+sw_volume: 95
+audio_device_state:1:My ALSA Device
+audio_device_state:0:My Pulse Output
+audio_device_state:1:my_fifo
+state: stop
+current: 1
+>>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
 random: 0
 repeat: 1
 single: 1
@@ -12,6 +21,7 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+<<<<<<< HEAD
 0:yt/jp/Kaga Misaki Kai 「加賀岬改」フル FULL.opus
 1:yt/citypop/さいとうまりな - crazy for you - Lyric.opus
 2:yt/citypop/mixes/warm nights in tokyo [ city pop_ シティポップ ].opus
@@ -25,4 +35,9 @@ playlist_begin
 10:yt_pl/citypop/EPO - 真夏の青写真 (1982) [Japanese AOR_Soul].opus
 11:yt_pl/citypop/CINDY Love life (1986) Track 4 - Skin Deep.opus
 12:yt_pl/citypop/Himiko Kikuchi - Don't be stupid (full album) [Jazz fusion][Japan, 1980].opus
+=======
+0:yt_pl/hololive/『バレンタイン・キッス』を金髪4人で歌ってみた♡.opus
+1:yt_pl/hololive/【1周年記念】ユキトキ 歌ってみた 【オリジナルMV_4K】さくらみこ cover..opus
+2:yt/jp/夜明けの歌 ／M2U x ダズビー.opus
+>>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
 playlist_end

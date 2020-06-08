@@ -65,7 +65,10 @@ window#waybar.chromium {
     border-bottom: 3px solid #ebdbb2;
 }
 
+<<<<<<< HEAD
 #custom-alsaaudio,
+=======
+>>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
 #clock,
 #battery,
 #cpu,
@@ -84,11 +87,14 @@ window#waybar.chromium {
     color: #ebdbb2;
 }
 
+<<<<<<< HEAD
 #custom-alsaaudio {
     background-color: #64727D;
     color: #ebdbb2;
 }
 
+=======
+>>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
 #clock {
     background-color: #928374;
 }
@@ -206,4 +212,7 @@ label:focus {
 #mpd.paused {
     background-color: #98971a;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
