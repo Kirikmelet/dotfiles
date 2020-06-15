@@ -3,5 +3,7 @@
 dunst &
 nitrogen --restore &
 picom &
-exec "./bar.sh" &
+fcitx &
+pkill bar.sh
+exec "./bar.sh" 
 

@@ -1,11 +1,7 @@
 # Default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
-<<<<<<< HEAD
-
-=======
 #
->>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
 # Read `man 5 sway` for a complete reference.
 
 ### Variables
@@ -35,11 +31,8 @@ bindsym XF86MonBrightnessDown exec light -U 15
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-<<<<<<< HEAD
 exec swaybg -i ~/Documents/projects/artix_wallpaper/output/main_wall.png -m fill
-=======
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
->>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
+#output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Example configuration:
 #
@@ -61,6 +54,7 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 
+output eDP1 pos 0 0 res 1366x768
 ### Input configuration
 #
 # Example configuration:
@@ -84,10 +78,7 @@ default_border pixel
 
     #Standard Config
     bindsym $mod+F1 exec $menu
-<<<<<<< HEAD
     bindsym $mod+Escape exec main_menu
-=======
->>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
     bindsym $mod+F2 exec apulse firefox-wayland
     bindsym $mod+F3 exec $term -e nnn
     bindsym $mod+F4 exec $term -e htop

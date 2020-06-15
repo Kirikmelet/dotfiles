@@ -18,6 +18,13 @@ NET(){
 
 }
 
+
+MPC(){
+    MPC=$(mpc | awk 'NR==1')
+    echo "$MPC"
+
+}
+
 VOLUME(){
     #VOL=$(amixer get Master | awk -F "[][]" '{printf $2}')
     VOL=$(pamixer --get-volume)
@@ -27,7 +34,7 @@ VOLUME(){
 }
 
 while true; do
-	xsetroot -name "|[NET: $(NET)][VOL: $(VOLUME)][DATE: $(DATE)][BAT: $(BAT)]"
+    xsetroot -name "|[NET: $(NET)][VOL: $(VOLUME)][DATE: $(DATE)][BAT: $(BAT)]"
 	#echo -e "[ $(NET)][蓼$(VOLUME)][ $(DATE)][ﮣ $(BAT)]"
 	sleep 1
 done
