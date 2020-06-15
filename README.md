@@ -1,3 +1,3 @@
-# My General config
+# My General configs
 
 it is licensed under WTFPL
