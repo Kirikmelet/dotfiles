@@ -2,6 +2,7 @@
 # wm independent hotkeys
 #
 
+
 #{{{ media keys
 XF86MonBrightness{Down,Up}
     light {-U 15,-A 15}
@@ -10,8 +11,13 @@ XF86Audio{Mute,LowerVolume,RaiseVolume}
 #}}}
 # terminal emulator
 
+super + Esc
+	pkill sxhkd && sxhkd && notify-send "HOTKEYS" "RESTARTED"
+
 super + Return
 	st
+super + shift + Return
+	tabbed st -w
 
 #{{{ program launcher
 super + F1
@@ -25,9 +31,9 @@ super + F3
 super + F4
 	st -c 'htop' -e htop
 super + F5
-	st -c 'cmus' -e cmus 
+	st -c 'music' -e ncmpcpp 
 super + F6
-	st -c 'netctl' -e nmtui || iwctl
+	st -c 'netctl' -e connmanctl 
 super + ctrl + F6
 	st -e sudo create_ap wlp3s0 wlp3s0 CaoNiMa jancokpisang
 super + F7

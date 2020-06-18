@@ -1,8 +1,10 @@
 #! /bin/sh
 
 #{{{Init Exec
+pkill sxhkd
 sxhkd &
 dunst &
+fcitx &
 exec ~/.config/polybar/launch_bs.sh &
 picom &
 mpd &

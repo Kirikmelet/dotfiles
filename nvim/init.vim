@@ -65,6 +65,8 @@ set foldlevel=2
 	 Plug 'rbgrouleff/bclose.vim'
 	 Plug 'lucidstack/ctrlp-mpc.vim'
          Plug 'junegunn/fzf'   
+	 Plug 'shmargum/vim-sass-colors'
+	 Plug 'ap/vim-css-color'
 	 Plug 'fenetikm/falcon'
 	 Plug 'w0rp/ale'
          Plug 'yggdroot/indentline'   

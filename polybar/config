@@ -27,41 +27,116 @@ primary = #fe8019
 secondary = #d65d0e
 alert = #cc241d
 
+[bar/tray]
+width = 10%
+height = 4.5%
+offset-x = 41.5%
+offset-y = 0.35%
+radius = 2
+fixed-center=true
+background = #33282828
+foreground = ${colors.foreground}
+font-0 = Fira Code Medium:size=10
+font-1 = DroidSansMono Nerd Font:pixesize=36;1
+font-2 = Noto Sans CJK JP:size=10
+
+modules-center = nothing
+
+tray-position = center
+tray-padding = 2
+tray-background = #99282828
+wm-restack = bspwm
+
+[bar/info]
+width = 35%
+height = 4.5%
+offset-x = 62.55%:
+offset-y = 0.35%
+radius = 2
+fixed-center=true
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 0
+line-color = #ebdbb2
+
+border-size = 0 
+;0< makes it float
+;border-color = #ebdbb2
+ 
+
+padding = 0
+;padding-left = 1
+;padding-right = 1
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = Fira Code Medium:size=10
+font-1 = DroidSansMono Nerd Font:pixesize=36;1
+font-2 = Noto Sans CJK JP:size=10
+
+modules-center = wlan eth alsa battery1 date 
+;modules-center = 
+;modules-right = wlan eth alsa battery1 date 
+
+;tray-position = left
+;tray-padding = 1
+;tray-background = #99333333
+
+;wm-restack = bspwm
+wm-restack = bspwm
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+bottom = false
+
 [bar/bspwm]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 100%
-height = 24
-offset-x = 0%
-offset-y = 0%
-radius = 0.0
+width = 26%
+height = 4.5%
+offset-x = 2.5%
+offset-y = 0.35%
+radius = 0
 fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
 line-size = 0
-line-color = #f00
+line-color = #ebdbb2
 
 border-size = 0 
 ;0< makes it float
-border-color = 
+;border-color = #ebdbb2
+ 
 
-padding-left = 1
-padding-right = 1
+padding = 0
+;padding-left = 1
+;padding-right = 1
 
-module-margin-left = 1
-module-margin-right = 1
+module-margin-left = 2
+module-margin-right = 3
 
 font-0 = Fira Code Medium:size=10
-font-1 = DroidSansMono Nerd Font:size=10
+font-1 = DroidSansMono Nerd Font:pixesize=36;1
+font-2 = Noto Sans CJK JP:size=10
 
-modules-left = bspwm keyboard
-modules-center = 
-modules-right = wlan eth bluetoothctl alsa bat date 
+modules-center = bspwm 
+;modules-center = 
+;modules-right = wlan eth alsa battery1 date 
 
-tray-position = right
-tray-padding = 2
-tray-background = #99333333
+;tray-position = right
+;tray-padding = 2
+;tray-background = #99333333
 
 ;wm-restack = bspwm
 wm-restack = bspwm
@@ -96,8 +171,9 @@ line-color = #99333333
 border-size = 4 #0< makes it float
 border-color = 
 
-padding-left = 1
-padding-right = 1
+;padding-left = 
+;padding-right = 1
+padding = 0
 
 module-margin-left = 1
 module-margin-right = 1
@@ -164,21 +240,36 @@ label-unmounted-foreground = ${colors.foreground}
 [module/bspwm]
 type = internal/bspwm
 
-label-focused = %name%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
-label-focused-padding = 2
 
-label-occupied = %name%
-label-occupied-padding = 2
+ws-icon-0 = 1;%{F#fb4934}%{F-}
+ws-icon-1 = 2;%{F#d3869b}%{F-}
+ws-icon-2 = 3;%{F#b8bb26}%{F-}
+ws-icon-3 = 4;%{F#83a598}%{F-}
+ws-icon-4 = 5;%{F#8ec07c}%{F-}
+ws-icon-5 = 6;%{F#fe8019}%{F-}
+ws-icon-6 = 7;%{F#fabd2f}%{F-}
+ws-icon-7 = 8;%{F#a89984}%{F-}
+ws-icon-8 = 9;%{F#98971a}%{F-}
+ws-icon-9 = 10;%{F#458588}%{F-}
+ws-icon-default = 3;%{F#fbf1c7}%{F-}
+format = "<label-state>"
 
-label-urgent = %name%!
-label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-focused = "[%icon% ]"
+;label-focused-background = ${colors.background-alt}
+;label-focused-underline= ${colors.primary}
+label-focused-padding = 0
 
-label-empty = %name%
-label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
+
+label-occupied = " %icon%  "
+label-occupied-padding = 0
+
+label-urgent = " %icon%  "
+;label-urgent-background = ${colors.alert}
+label-urgent-padding = 0
+
+label-empty = " %icon%  "
+;label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 0
 
 ; Separator in between workspaces
 ; label-separator = |
@@ -275,12 +366,12 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlan0
+interface = wlp3s0
 interval = 3.0
 
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
-label-connected = %local_ip% %essid%
+format-connected = "<ramp-signal> <label-connected>"
+format-connected-underline = #584945
+label-connected = "%{F#83a598}%local_ip% %essid%%{F-}"
 
 format-disconnected = "睊 NO WIFI"
 ;label-connected = "%{A1:cmst &:}%essid%%{A}"
@@ -293,7 +384,7 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground}
+ramp-signal-foreground = #458588
 
 click-left = "st -e nmtui"
 
@@ -323,11 +414,11 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
+format-prefix = %{F#d65d0e}%{F-}
 format-prefix-foreground = ${colors.foreground}
-format-underline = #0a6cf5
+format-underline = #bdae93
 
-label = %date% %time%
+label = %{F#fe8019}%date%%{F-} %{F#fabd2f}%time%%{F-}
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -358,22 +449,23 @@ bar-volume-empty-foreground = ${colors.foreground}
 type = internal/alsa
 
 format-volume = <label-volume>
-label-volume = "奄 %percentage%%"
+label-volume = "%{F#b16286}奄%{F-} %{F#d3869b}%percentage%%%{F-}"
+label-muted = "%{F#cc241d}奄%{F-} %{F#fb4934}%percentage%%%{F-}"
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = "奄 "
+;format-muted-prefix = "%{F#cc241d}ﱝ %{F-}"
 format-muted-foreground = ${colors.foreground}
    
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
+bar-volume-foreground-0 = #b8bb26
+bar-volume-foreground-1 = #b8bb26
+bar-volume-foreground-2 = #b8bb26
+bar-volume-foreground-3 = #b8bb26
+bar-volume-foreground-4 = #b8bb26
+bar-volume-foreground-5 = #fe8019
+bar-volume-foreground-6 = #fb4934
+bar-volume-gradient = true
 bar-volume-indicator = █
 bar-volume-indicator-font = 2
 bar-volume-fill = █
@@ -389,7 +481,7 @@ adapter = AC
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = #fabd2f
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
@@ -415,25 +507,29 @@ battery = BAT1
 adapter = AC
 full-at = 98
 
+label-charging = "%{F#b8bb26}%percentage%%%{F-}"
+label-discharging = "%{F#8ec07c}%percentage%%%{F-}"
+label-full = "%{F#b8bb26}%percentage%%%{F-}"
+
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = #3c3836
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = ""
+format-full-prefix = "%{F#98971a}%{F-}"
 format-full-prefix-foreground = ${colors.foreground}
 format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground}
+ramp-capacity-foreground = #689d6a
 
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
-nimation-charging-foreground = ${colors.foreground}
+animation-charging-foreground = #98971a
 animation-charging-framerate = 750
 
 [module/temperature]
@@ -537,7 +633,13 @@ click-right = st -e xkill
 type = custom/script
 exec = ~/.config/polybar/bat.sh
 tail = true
-format-prefix = " "
+format-prefix = "%{F#98971a} %{F-}"
+
+[module/nothing]
+type = custom/script
+exec = ~/.config/polybar/nothing.sh
+tail = true
+
 
 [global/wm]
 margin-top = 0

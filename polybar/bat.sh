@@ -57,7 +57,7 @@ battery_print() {
             icon=""
         fi
 
-        echo "$icon $battery_percent %"
+        echo "$battery_percent%"
     fi
 }
 
