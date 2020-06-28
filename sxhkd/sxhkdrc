@@ -7,11 +7,11 @@
 XF86MonBrightness{Down,Up}
     light {-U 15,-A 15}
 XF86Audio{Mute,LowerVolume,RaiseVolume}
-    pamixer {-t,-d 5,-i 5}
+    amixer sset Master {toggle, 5%-, 5%+}
 #}}}
 # terminal emulator
 
-super + Esc
+super + shift + r
 	pkill sxhkd && sxhkd && notify-send "HOTKEYS" "RESTARTED"
 
 super + Return
@@ -22,7 +22,7 @@ super + shift + Return
 #{{{ program launcher
 super + F1
 	dmenu_run
-super + shift + F1
+super + Esc
 	main_menu
 super + F2
 	firefox
@@ -34,14 +34,14 @@ super + F5
 	st -c 'music' -e ncmpcpp 
 super + F6
 	st -c 'netctl' -e connmanctl 
-super + ctrl + F6
-	st -e sudo create_ap wlp3s0 wlp3s0 CaoNiMa jancokpisang
 super + F7
-	st -e pacui || aptitude
+	st -e pacui
 super + F8
-	st -e neomutt 
+	st -e calcurse 
+super + F9
+	st -e neomutt
 super + F10
-	betterlockscreen -l dimblur
+	i3lock -e -f -c 000000
 super + F11
 	spotify
 #}}}

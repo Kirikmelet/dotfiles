@@ -61,11 +61,11 @@ There are two things you can do about this warning:
 	:ensure t
 	:config
 	(dashboard-setup-startup-hook)
-	(setq dashboard-banner-logo-title "Welcome to fucking EMACS!")
-	(setq dashboard-startup-banner "/home/troyd/Pictures/character_art/hello_world.png")
+	(setq dashboard-banner-logo-title "Welcome to GNU EMACS Comrade")
+	(setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/linux_comrade_fixed.png")
 	(setq dashboard-set-navigator t)
-	(setq dashboard-init-info "A decent OS with a shitty editor")
-	(setq dashboard-footer-messages '("The Motherland Calls Us!"))
+	(setq dashboard-init-info "Nothing to lose but your OS")
+	(setq dashboard-footer-messages '("Comrade Tux Calls Us!"))
 	(setq dashboard-items '((recents . 5)
 				))
 )

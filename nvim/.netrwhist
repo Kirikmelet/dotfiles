@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/troyd/.fvwm'
 let g:netrw_dirhist_2='/home/troyd/.config/polybar'
 let g:netrw_dirhist_3='/home/troyd/.config/sxhkd'
+let g:netrw_dirhist_4='/var/lib/connman/wifi_5ce0c59fe994_466f78686f6c65_managed_psk'
+let g:netrw_dirhist_5='/var/lib/connman/wifi_5ce0c59fe994_666f7862617365_managed_psk'
+let g:netrw_dirhist_6='/var/lib/connman/wifi_5ce0c59fe994_666f78686f6c65_managed_psk'
+let g:netrw_dirhist_7='/var/lib/connman/wifi_5ce0c59fe994_666f7862617365_managed_psk'
+let g:netrw_dirhist_8='/home/troyd/.config/awesome'

@@ -76,20 +76,20 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+ export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+ export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='nvim'
+ fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+ export ARCHFLAGS="-arch x86_64 -O2 -march=native -j4"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -156,6 +156,9 @@ export NNN_COLORS="4444"
 export NNN_PLUG="i:imgview;o:launch;C:mp3conv;P:picker;v:pdfread;b:nbak;l:oldbigfile;f:organize"
 export NNN_OPS_PROG=1
 #}}}
+
+#{{{BAT
+export BAT_THEME="base16"
 
 #{{{Fuck
 eval $(thefuck --alias)
