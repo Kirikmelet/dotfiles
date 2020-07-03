@@ -20,23 +20,18 @@ There are two things you can do about this warning:
 
 (package-initialize)
 
+
 (eval-when-compile
 	(require 'use-package)
   )
 
 (use-package mingus)
 (use-package flycheck)
-(use-package lsp-mode :ensure t)
-
-(use-package mpdel
-  :config
-  (setq libmpdel-port 23955)
-  (setq libmpdel-music-directory "~/Music"))
-(use-package libmpdel
-  :config
-  (setq libmpdel-port 23955))
+(use-package lsp-mode :ensure )
+(use-package mpdel :ensure)
+(require 'mpdel)
 (mpdel-mode)
-(mpdel-browser-mode)
+
 
 ;; Optional packages
 
@@ -74,41 +69,15 @@ There are two things you can do about this warning:
 (tool-bar-mode -1)
 
 
-(use-package emms
-  :config
-  (emms-all)
-  (require 'emms-setup)
-  (setq emms-player-list (list emms-player-mpv)
-	emms-add-directory-tree "~/Music"
-	emms-source-file-directory-tree-function 'emms-source-file-directory-tree-find
-	emms-browser-covers 'emms-browser-cache-thumbnail)
-  (add-to-list 'emms-player-mpv-parameters "--no-audio-display")
-  (add-to-list 'emms-info-functions 'emms-info-cueinfo)
-  (if (executable-find "emms-print-metadata")
-    (progn
-      (require 'emms-info-libtag)
-      (add-to-list 'emms-info-functions 'emms-info-libtag)
-      (delete 'emms-info-ogginfo emms-info-functions)
-      (delete 'emms-info-mp3info emms-info-functions))
-  (add-to-list 'emms-info-functions 'emms-info-ogginfo)
-  (add-to-list 'emms-info-functions 'emms-info-mp3info))
-  (setq emms-info-functions '(emms-info-libtag)) ;;; make sure libtag is the only thing delivering metadata
-  (require 'emms-mode-line)
-  (emms-mode-line 1)
-  (require 'emms-playing-time)
-  (emms-playing-time 1))
-;;; Emms
 
 ;;; TODO: See if mpd is faster at building the db. Not so important.
 ;;; TODO: Change face from purple to white?
 ;;; TODO: emms-all causes some "require"d files to be loaded twice if called after, say, emms-browser was loaded.
-(emms-all)
-(emms-history-load)
 
+;; Theme
 
 (setq-default tab-width 10)
 (setq x-select-enable-clipboard t)
-(setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
 (use-package dired)
 (use-package evil-surround)
 ;; (use-package dap-LANGUAGE) to load the dap adapter for your language
@@ -131,34 +100,30 @@ There are two things you can do about this warning:
 
 (progn
   (define-prefix-command 'app_key)
-  (define-key app_key (kbd "m") 'emms)
   (define-key app_key (kbd "d") 'dired-sidebar-toggle-sidebar)
+  (define-key app_key (kbd"m") 'mpdel-browser-open)
 )
 
 (global-set-key (kbd "C-a") app_key)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector
-   ["#3c3836" "#fb4933" "#b8bb26" "#fabd2f" "#83a598" "#d3869b" "#8ec07c" "#ebdbb2"])
- '(custom-enabled-themes (quote (molokai)))
- '(custom-safe-themes
-   (quote
-    ("939ea070fb0141cd035608b2baabc4bd50d8ecc86af8528df9d41f4d83664c6a" "aded61687237d1dff6325edb492bde536f40b048eab7246c61d5c6643c696b7f" "4cf9ed30ea575fb0ca3cff6ef34b1b87192965245776afa9e9e20c17d115f3fb" "11e57648ab04915568e558b77541d0e94e69d09c9c54c06075938b6abc0189d8" default)))
- '(eaf-find-alternate-file-in-dired t t)
- '(mingus-mpd-config-file "~/.config/mpd/mpd.conf")
- '(mingus-mpd-port 23955)
- '(mingus-mpd-root "/home/troyd/Music")
- '(nil nil t)
- '(package-selected-packages
-   (quote
-    (mingus ivy ivy-mpdel gruvbox-theme lsp-dart pylint flycheck-pycheckers lsp-python-ms w3m highlight-indentation highlight-escape-sequences highlight mpv all-the-icons-gnus all-the-icons-dired all-the-icons terminal-toggle ## dashboard molokai-theme dired-sidebar which-key evil-surround use-package soundklaus lsp-ui evil emms-state emms-soundcloud emms-player-mpv-jp-radios emms-mode-line-cycle dired-icon company-lsp company-c-headers ccls)))
- '(pdf-view-midnight-colors (quote ("#fdf4c1" . "#282828"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:inherit nil :stipple nil :background "#282828" :foreground "#fdf4c1" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "ADBO" :family "Fira Code ")))))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (gruvbox-dark-medium)))
+ '(custom-safe-themes
+   (quote
+    ("aded61687237d1dff6325edb492bde536f40b048eab7246c61d5c6643c696b7f" default)))
+ '(font-use-system-font t)
+ '(libmpdel-port 23955)
+ '(mingus-mpd-port 23955)
+ '(package-selected-packages
+   (quote
+    (origami ivy-mpdel ## mpdel which-key w3m use-package terminal-toggle request pylint navigel mpv mingus memoize lsp-ui lsp-python-ms lsp-dart libmpdel highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers evil-surround dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls)))
+ '(set-default-font (quote (Fira Code))))

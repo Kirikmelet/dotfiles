@@ -35,4 +35,10 @@
 
 
 
+
+						    
 (lsp-dart :repo "emacs-lsp/lsp-dart" :fetcher github )
+
+
+(gruvbox-theme :fetcher github :repo "greduan/emacs-theme-gruvbox")
+(libmpdel :fetcher github :repo "mpdel/libmpdel")

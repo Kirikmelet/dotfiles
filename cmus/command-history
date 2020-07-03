@@ -1,7 +1,12 @@
+pl-create 80's Remix
+pl-create Hololive
+h
+pl-create Citypop
 q
+a ~/Music
+wq
 Q
 add ~/Music/
-a ~/Music
 live-filter q
 bind -f common q quit
 quit

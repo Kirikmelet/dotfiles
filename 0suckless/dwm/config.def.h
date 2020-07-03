@@ -2,13 +2,13 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 1;        /* gap pixel between windows */
-static const unsigned int snap      = 32;       /* snap pixel */
+static const unsigned int borderpx  = 0;        /* border pixel of windows */
+static const unsigned int gappx     = 0;        /* gap pixel between windows */
+static const unsigned int snap      = 0;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Fira Code:size=10" };
-static const char dmenufont[]       = "Fira Code:size=10";
+static const char *fonts[]          = { "Dina:size=10" };
+static const char dmenufont[]       = "Dina:size=10";
 static const char col_gray1[]       = "#282828";
 static const char col_gray2[]       = "#3c3836";
 static const char col_gray3[]       = "#ebdbb2";
@@ -25,7 +25,7 @@ static char* const autostart[][4] = { /* please replace 2 with maximum number of
     { "st", NULL },
     {"dunst", NULL},
     {"picom", NULL},
-    {"nitrogen", "--restore", NULL},
+    {"xsetroot", "-solid", "'#282828'", NULL},
     {"exec", "/home/troyd/.config/dwm/bar.sh", NULL},
 };
 
@@ -43,9 +43,9 @@ static const Rule rules[] = {
 };
 
 /* layout(s) */
-static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
+static const float mfact     = 0.5; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
-static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
+static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
@@ -74,11 +74,10 @@ static const char *termcmdtab[]  = { "tabbed", "-c", "st", "-w", NULL };
 static const char *browser[] = {"firefox", NULL};
 static const char *filemanager[] = {"st", "-e", "nnn", NULL};
 static const char *systemmanager[] = {"st", "-e", "htop", NULL};
-static const char *musicplayer[] = {"st", "-e", "ncmpcpp", NULL};
+static const char *musicplayer[] = {"st", "-e", "cmus", NULL};
 static const char *pkgmanager[] = {"st", "-e", "pacui", NULL};
-static const char *calender[] = {"st", "-e", "pacui", NULL};
-static const char *spotify[] = {"spotify-adblock", NULL};
-static const char *nmtui[] = {"st", "-e", "connmanctl", NULL};
+static const char *calender[] = {"st", "-e", "calcurse", NULL};
+static const char *nmtui[] = {"st", "-e", "iwctl", NULL};
 static const char *audioup[] = {"amixer", "sset", "Master", "5%+", NULL};
 static const char *audiodown[] = {"amixer", "sset", "Master", "5%-", NULL};
 static const char *audiooff[] = {"amixer", "sset", "Master", "toggle", NULL};
@@ -99,7 +98,6 @@ static Key keys[] = {
 	{ MODKEY, XK_F6, spawn, {.v = nmtui} },
 	{ MODKEY, XK_F7, spawn, {.v = pkgmanager}},
 	{ MODKEY, XK_F8, spawn, {.v = calender} },
-	{ MODKEY, XK_F11, spawn, {.v = spotify}},
 	{ MODKEY, XK_F10, spawn, {.v = lockscreen} },
 	{ 0, XF86XK_AudioMute, spawn, {.v = audiooff} },
 	{ 0, XF86XK_AudioRaiseVolume, spawn, {.v = audioup} },

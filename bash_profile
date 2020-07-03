@@ -10,6 +10,15 @@ if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
 fi
 
 export PATH=$PATH:~/.local/bin
+export LANG=en_US.UTF-8
+
+export EDITOR=/usr/bin/nvim
+export QT_QPA_PLATFORMTHEME="qt5ct"
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
 #{{{Base ZSH 
 # User configuration
@@ -47,6 +56,6 @@ export BAT_THEME="base16"
 #}}}
 
 #{{{Fuck
-eval $(thefuck --alias)
+#eval $(thefuck --alias)
 #}}}
 

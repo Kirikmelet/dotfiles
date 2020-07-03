@@ -6,27 +6,37 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "mpdel" "mpdel.el" (0 0 0 0))
-;;; Generated autoloads from mpdel.el
+;;;### (autoloads "actual autoloads are elsewhere" "mpdel" "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "mpdel" '("mpdel-")))
 
 ;;;***
 
-;;;### (autoloads nil "mpdel-browser" "mpdel-browser.el" (0 0 0 0))
-;;; Generated autoloads from mpdel-browser.el
+;;;### (autoloads nil "mpdel-browser" "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-browser.el"
+;;;;;;  "cafa1d5e01326c84fcd252cc12c6247e")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-browser.el
 
 (autoload 'mpdel-browser-open "mpdel-browser" "\
 Open the top level MPDel browser buffer.
 
 \(fn)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "mpdel-browser"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-browser.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-browser.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "mpdel-browser" '("mpdel-browser-")))
 
 ;;;***
+
+;;;***
 
-;;;### (autoloads nil "mpdel-core" "mpdel-core.el" (0 0 0 0))
-;;; Generated autoloads from mpdel-core.el
+;;;### (autoloads nil "mpdel-core" "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-core.el"
+;;;;;;  "2722213865ab237d076ff8d6bdc66a9b")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-core.el
 
 (autoload 'mpdel-core-open-artists "mpdel-core" "\
 Display all artists in the MPD database.
@@ -88,14 +98,20 @@ If AMOUNT is nil, `mpdel-core-volume-step' is used instead.
 Called interactively, AMOUNT can be passed as a prefix argument.
 
 \(fn &optional AMOUNT)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "mpdel-core" "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-core.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-core.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "mpdel-core" '("mpdel-core-")))
 
 ;;;***
+
+;;;***
 
-;;;### (autoloads nil "mpdel-playlist" "mpdel-playlist.el" (0 0 0
-;;;;;;  0))
-;;; Generated autoloads from mpdel-playlist.el
+;;;### (autoloads nil "mpdel-playlist" "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-playlist.el"
+;;;;;;  "f0a09e23f483c7d17a9ec69619f42437")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-playlist.el
 
 (autoload 'mpdel-playlist-open "mpdel-playlist" "\
 Display the current playlist.
@@ -106,13 +122,21 @@ Display the current playlist.
 Ask for a stored playlist and open it.
 
 \(fn)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "mpdel-playlist"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-playlist.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-playlist.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "mpdel-playlist" '("mpdel-playlist-")))
 
 ;;;***
+
+;;;***
 
-;;;### (autoloads nil "mpdel-song" "mpdel-song.el" (0 0 0 0))
-;;; Generated autoloads from mpdel-song.el
+;;;### (autoloads nil "mpdel-song" "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-song.el"
+;;;;;;  "b28607b0e3c44d18b3c20883377fbf20")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-song.el
 
 (autoload 'mpdel-song-open "mpdel-song" "\
 Open a buffer to display information about SONG.
@@ -123,19 +147,35 @@ latest song.  Additionally, the buffer lets the user control
 playback.
 
 \(fn &optional SONG)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "mpdel-song" "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-song.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-song.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "mpdel-song" '("mpdel-song-")))
 
 ;;;***
+
+;;;***
 
-;;;### (autoloads nil "mpdel-tablist" "mpdel-tablist.el" (0 0 0 0))
-;;; Generated autoloads from mpdel-tablist.el
+;;;### (autoloads "actual autoloads are elsewhere" "mpdel-tablist"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-tablist.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-tablist.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "mpdel-tablist" '("mpdel-tablist-")))
 
 ;;;***
 
-;;;### (autoloads nil nil ("mpdel-pkg.el") (0 0 0 0))
+;;;### (autoloads nil nil ("../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-autoloads.el"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-browser.el"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-core.el"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-pkg.el"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-playlist.el"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-song.el"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel-tablist.el"
+;;;;;;  "../../../../.emacs.d/elpa/mpdel-20200221.1316/mpdel.el")
+;;;;;;  (0 0 0 0))
 
 ;;;***
 

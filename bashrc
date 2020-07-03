@@ -1,9 +1,7 @@
 PS1="\W $ "
 
   #{{{ Aliases
-
-     # alias zshconfig="mate ~/.zshrc"
-     # alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias zshconfig="mate ~/.zshrc" alias ohmyzsh="mate ~/.oh-my-zsh"
      alias ll="ls -l"
      alias todo="todo.sh"
      alias gc="git commit"
@@ -13,6 +11,7 @@ PS1="\W $ "
      alias gI="git init"
      alias gP="git pull"
      alias gst="git status"
+     alias gcl="git clone"
      alias p="cat"
      alias cls="clear"
      alias rb=ruby
@@ -22,5 +21,8 @@ PS1="\W $ "
      alias rnvim="nvim -m"
      alias nvimdiff="nvim -d"
      alias readbat="bat -p"
-     alias dsearch="w3m 'https://duckduckgo.com/?q=$1'"
+     alias dsearch="links 'https://duckduckgo.com/?q=$1'"
+     alias ytdlmusic="youtube-dl -x --audio-format opus $1"
      #}}}
+
+set -o vi

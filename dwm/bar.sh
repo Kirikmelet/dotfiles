@@ -12,7 +12,7 @@ BAT(){
 }
 
 NET(){
-	SSID=$( connmanctl services | grep "*A" | awk '{print $2}')
+	SSID=$(iw dev wlp3s0 link | awk 'FNR == 2 {print $2}')
 	SPEED=$( grep "^\s*w" /proc/net/wireless | awk '{ print int($3 * 100 / 70) "%" }')
 	echo "$SSID"
 
@@ -26,15 +26,15 @@ MPC(){
 }
 
 VOLUME(){
-    #VOL=$(amixer get Master | awk -F "[][]" '{printf $2}')
-    VOL=$(pamixer --get-volume)
-    echo "$VOL%"
+    VOL=$(amixer get Master | awk 'FNR == 5 {printf $4}' | tr -d "[]")
+    #VOL=$(pamixer --get-volume)
+    echo "$VOL"
 
 
 }
 
 while true; do
     xsetroot -name "|[NET: $(NET)][VOL: $(VOLUME)][DATE: $(DATE)][BAT: $(BAT)]"
-	#echo -e "[ $(NET)][蓼$(VOLUME)][ $(DATE)][ﮣ $(BAT)]"
+    echo -e "|[NET: $(NET)][VOL: $(VOLUME)][DATE: $(DATE)][BAT: $(BAT)]"
 	sleep 1
 done
