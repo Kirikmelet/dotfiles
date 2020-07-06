@@ -6,7 +6,7 @@
 PATH=$PATH:$HOME/.local/bin
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-    exec $HOME/.local/bin/bashlog.sh
+   echo "Welcome Back" 
 fi
 
 export PATH=$PATH:~/.local/bin

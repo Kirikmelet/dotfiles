@@ -5,7 +5,7 @@ DATE(){
 }
 
 BAT(){
-	BAT=$(acpi | awk '{printf "%s ", $4}'| sed 's/\,//g' | sed 's/\ //')
+	BAT=$(cat /sys/class/power_supply/BAT1/capacity)
 	echo "$BAT"
 
 
@@ -19,11 +19,6 @@ NET(){
 }
 
 
-MPC(){
-    MPC=$(mpc | awk 'NR==1')
-    echo "$MPC"
-
-}
 
 VOLUME(){
     VOL=$(amixer get Master | awk 'FNR == 5 {printf $4}' | tr -d "[]")
@@ -35,6 +30,5 @@ VOLUME(){
 
 while true; do
     xsetroot -name "|[NET: $(NET)][VOL: $(VOLUME)][DATE: $(DATE)][BAT: $(BAT)]"
-    echo -e "|[NET: $(NET)][VOL: $(VOLUME)][DATE: $(DATE)][BAT: $(BAT)]"
 	sleep 1
 done
