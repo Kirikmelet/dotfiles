@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/troyd/Documents/github/notamusicplayer/testdir'
+let g:netrw_dirhist_5='/home/troyd/.config/gzdoom'
+let g:netrw_dirhist_4='/home/troyd/.config'
+let g:netrw_dirhist_3='/home/troyd/.config/nvim'
+let g:netrw_dirhist_2='/home/troyd/Documents/github/notamusicplayer'
 let g:netrw_dirhist_1='/home/troyd/Desktop/krpano/vtour'

@@ -3,14 +3,19 @@ audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
 state: play
 current: 0
-time: 4.107000
+time: 0.419000
 random: 1
 repeat: 1
-single: 0
+single: 1
 consume: 0
-crossfade: 0
+crossfade: 15
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:yt/jp/【佐藤麗華】God knows... 歌ってみた【涼宮ハルヒの憂鬱_ENOZ】.opus
+0:yt/remix/80s/Dua Lipa - New Rules [Initial Talk 80s Rules Remix] @initialtalk.wav
+1:yt/remix/80s/Green Day - Boulevard of Broken Dreams [80s Version].opus
+2:yt/remix/80s/Dua Lipa - New Rules [Initial Talk 80s Rules Remix] @initialtalk.opus
+3:yt/remix/80s/80s Remix - Linkin Park - Numb.opus
+4:yt/remix/80s/80s Remix - Tronicbox 'Somebody That I Used To Know' Gotye.opus
+5:yt/remix/80s/My Chemical Romance - Helena [80s Version].opus
 playlist_end
