@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/troyd/.config/inkscape'
 let g:netrw_dirhist_6='/home/troyd/Documents/github/notamusicplayer/testdir'
 let g:netrw_dirhist_5='/home/troyd/.config/gzdoom'
 let g:netrw_dirhist_4='/home/troyd/.config'

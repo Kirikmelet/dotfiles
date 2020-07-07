@@ -35,6 +35,15 @@ set synmaxcol   =200       " Only highlight the first 200 columns.
 
 "}}}
 
+
+"{{{Auto pair closing
+" Jiangmiao's plugin didn't work to well
+inoremap ( ()<Esc>hli
+inoremap [ []<Esc>hli
+inoremap { {}<Esc>hli
+"}}}
+
+
 "{{{vimwiki
 let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
 
@@ -70,7 +79,6 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('itchyny/lightline.vim')
   call dein#add('shinchu/lightline-gruvbox.vim')
   call dein#add('sheerun/vim-polyglot')
-  call dein#add('jiangmiao/auto-pairs', {'on_i': 1})
   call dein#add('vimwiki/vimwiki', {'on_cmd': 'VimwikiIndex'})
   call dein#add('dense-analysis/ale', {'on_ft': ['c','cpp','cc']})
   call dein#add('Shougo/deoplete.nvim',
@@ -118,6 +126,7 @@ augroup END
 
 let g:lightline = {'colorscheme':'gruvbox'}
 set noshowmode
+
 "}}}
 
 "{{{Colorscheme

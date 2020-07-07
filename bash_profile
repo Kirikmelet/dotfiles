@@ -11,7 +11,7 @@ fi
 
 export PATH=$PATH:~/.local/bin
 export LANG=en_US.UTF-8
-
+export MPD_PORT=23955
 export EDITOR=/usr/bin/nvim
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export QT_AUTO_SCREEN_SCALE_FACTOR=0
