@@ -88,6 +88,7 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
   call dein#add('Shougo/denite.nvim')
   call dein#add('morhetz/gruvbox')
+  call dein#add('tpope/vim-fugitive')
   call dein#add('godlygeek/tabular')
   call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp']})
   call dein#add('itchyny/lightline.vim')
@@ -232,12 +233,14 @@ let s:menus.project = {
 let s:menus.project.file_candidates = [
             \ ['360pano', '~/Desktop/360pano/vtour'],
             \ ['nmp', '~/Documents/github/notamusicplayer'],
+            \ ['GIAS', '~/Desktop/GIIAS_04'],
             \]
 let s:menus.git_commands = {
             \'description': 'Does git'
             \}
 let s:menus.git_commands.command_candidates = [
-            \ ['Add all files in directory', '!git add *'],
+            \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
+            \ ['Git Commit', 'Gcommit'],
             \]
 call denite#custom#var('menu', 'menus', s:menus)
 "}}}
