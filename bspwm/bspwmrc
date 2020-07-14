@@ -1,7 +1,6 @@
 #! /bin/sh
 
 #{{{Init Exec
-pulseaudio --start 
 pkill sxhkd
 sxhkd &
 dunst &

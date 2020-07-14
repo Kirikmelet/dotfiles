@@ -56,6 +56,7 @@ int allowwindowops = 0;
 static double minlatency = 8;
 static double maxlatency = 33;
 
+
 /*
  * Synchronized-Update timeout in ms
  * https://gitlab.com/gnachman/iterm2/-/wikis/synchronized-updates-spec
@@ -180,8 +181,10 @@ static MouseShortcut mshortcuts[] = {
 	{ XK_ANY_MOD,           Button5, kscrolldown,    {.i = 1},      0, /* !alt */ -1 },
 	{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},      1 },
 	{ ShiftMask,            Button4, ttysend,        {.s = "\033[5;2~"} },
+        /*
 	{ Button4,              ShiftMask,      kscrollup,      {.i =  mousescrollincrement} },
 	{ Button5,              ShiftMask,      kscrolldown,    {.i =  mousescrollincrement} },
+        */
 	{ XK_ANY_MOD,           Button4, ttysend,        {.s = "\031"} },
 	{ ShiftMask,            Button5, ttysend,        {.s = "\033[6;2~"} },
 	{ XK_ANY_MOD,           Button5, ttysend,        {.s = "\005"} },

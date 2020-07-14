@@ -4,13 +4,18 @@ set nocompatible
 
 filetype plugin indent on  " Load plugins according to detected filetype.
 syntax on                  " Enable syntax highlighting.
-set number
 
 "set autoindent             " Indent according to previous line.
 set expandtab              " Use spaces instead of tabs.
-set softtabstop =8        " Tab key indents by 4 spaces.
-set shiftwidth  =8        " >> indents by 4 spaces.
+set softtabstop =4        " Tab key indents by 4 spaces.
+set mouse=a
+set shiftwidth  =4        " >> indents by 4 spaces.
+set ruler
 set shiftround             " >> indents to next multiple of 'shiftwidth'.
+set smarttab
+set smartindent
+set autoindent
+set updatetime=300
 
 set backspace   =indent,eol,start  " Make backspace work as you would expect.
 set hidden                 " Switch between buffers without having to save first.
@@ -32,9 +37,16 @@ set cursorline             " Find the current line quickly.
 set wrapscan               " Searches wrap around end-of-file.
 set report      =0         " Always report changed lines.
 set synmaxcol   =200       " Only highlight the first 200 columns.
+set inccommand=split
 
 "}}}
 
+"{{{Highlighting
+augroup LuaHighlight
+  autocmd!
+  autocmd TextYankPost * silent! lua require'vim.highlight'.on_yank()
+augroup END
+"}}}
 
 "{{{Auto pair closing
 " Jiangmiao's plugin didn't work to well
@@ -42,7 +54,6 @@ inoremap ( ()<Esc>hli
 inoremap [ []<Esc>hli
 inoremap { {}<Esc>hli
 "}}}
-
 
 "{{{vimwiki
 let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
@@ -74,21 +85,22 @@ if dein#load_state('/home/troyd/.cache/dein')
   " Let dein manage dein
   " Required:
   call dein#add('/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
+  call dein#add('Shougo/denite.nvim')
   call dein#add('morhetz/gruvbox')
   call dein#add('godlygeek/tabular')
+  call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp']})
   call dein#add('itchyny/lightline.vim')
   call dein#add('shinchu/lightline-gruvbox.vim')
+  call dein#add('ap/vim-css-color')
   call dein#add('sheerun/vim-polyglot')
   call dein#add('vimwiki/vimwiki', {'on_cmd': 'VimwikiIndex'})
-  call dein#add('dense-analysis/ale', {'on_ft': ['c','cpp','cc']})
-  call dein#add('Shougo/deoplete.nvim',
-      \{'on_i': 1})
+  call dein#add('neovim/nvim-lsp')
+  "call dein#add('nvim-lua/diagnostic-nvim')
+  "call dein#add('nvim-lua/completion-nvim')
   call dein#add('Shougo/defx.nvim')
-  call dein#add('Shougo/denite.nvim')
-  call dein#add('automizu/LanguageClient-neovim', {'on_ft': ['c','cpp','cc','javascript','html','css']})
-
   " Add or remove your plugins here like this:
-  "call dein#add('Shougo/neosnippet.vim')
+ "call dein#add('Shougo/neosnippet.vim')
   "call dein#add('Shougo/neosnippet-snippets')
 
   " Required:
@@ -120,7 +132,7 @@ autocmd FileType c syn keyword ctype uint ubyte ulong uint64_t uint32_t uint16_t
 autocmd FileType c syn keyword cOperator likely unlikely
 augroup END
 "}}}
-"
+
 "{{{Lightline
 "Move above colorscheme else won't work
 
@@ -131,7 +143,7 @@ set noshowmode
 
 "{{{Colorscheme
 colorscheme gruvbox
-set termguicolors
+"set termguicolors
 let g:gruvbox_italic = 1
 "}}}
 
@@ -144,23 +156,10 @@ nmap tc :tabclose
 let g:deoplete#enable_at_startup = 1
 "}}}
 
-"{{{ALE
-let g:ale_completion_enabled = 0
-"}}}
+"{{{nvim-lsp
+lua require'nvim_lsp'.clangd.setup{}
+lua require'nvim_lsp'.pyls.setup{}
 
-"{{{LanguageClient-neovim
-let g:LanguageClient_serverCommands = {
-    \ 'rust': ['~/.cargo/bin/rustup', 'run', 'stable', 'rls'],
-    \ 'javascript': ['/usr/local/bin/javascript-typescript-stdio'],
-    \ 'javascript.jsx': ['tcp://127.0.0.1:2089'],
-    \ 'c': ['clangd', '-background-index'],
-    \ 'python': ['/usr/local/bin/pyls'],
-    \ 'ruby': ['~/.rbenv/shims/solargraph', 'stdio'],
-    \ }
-
-nnoremap <silent> <leader>lcd :call LanguageClient#textDocument_hover()<CR>
-nnoremap <silent> <leader>ldd :call LanguageClient#textDocument_definition()<CR>
-nnoremap <silent> <leader>ldr :call LanguageClient#textDocument_rename()<CR>
 "}}}
 
 "{{{Defx
@@ -176,16 +175,18 @@ autocmd FileType defx call s:defxset()
 function! s:defxset() abort
 	nnoremap <silent><buffer><expr><CR> defx#do_action('drop')
 	nnoremap <silent><buffer><expr>c defx#do_action('copy')
+	nnoremap <silent><buffer><expr>b defx#do_action('cd', ['..'])
 	nnoremap <silent><buffer><expr>x defx#do_action('remove')
 	nnoremap <silent><buffer><expr>m defx#do_action('move')
 	nnoremap <silent><buffer><expr>e defx#do_action('open')
 	nnoremap <silent><buffer><expr>i defx#do_action('open', 'vsplit')
 	nnoremap <silent><buffer><expr>s defx#do_action('open', 'split')
+	nnoremap <silent><buffer><expr>t defx#do_action('open', 'tabnew')
 endfunction
 "}}}
 
 "{{{Denite
-" Define mappings
+"Define mappings
 let s:denite_options = {'default' : {
 \ 'split': 'floating',
 \ 'start_filter': 1,
@@ -206,6 +207,7 @@ call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git
 nmap <leader>db :Denite buffer<CR>
 nmap <leader>df :Denite file/rec<CR>
 nmap <leader>dp :DeniteProjectDir file<CR>
+nmap <leader>m :Denite menu<CR>
 
 autocmd FileType denite call s:denite_my_settings()
 function! s:denite_my_settings() abort
@@ -222,5 +224,22 @@ function! s:denite_my_settings() abort
   nnoremap <silent><buffer><expr> <Space>
   \ denite#do_map('toggle_select').'j'
 endfunction
+
+let s:menus = {}
+let s:menus.project = {
+            \ 'description': 'Project Menu'
+            \}
+let s:menus.project.file_candidates = [
+            \ ['360pano', '~/Desktop/360pano/vtour'],
+            \ ['nmp', '~/Documents/github/notamusicplayer'],
+            \]
+let s:menus.git_commands = {
+            \'description': 'Does git'
+            \}
+let s:menus.git_commands.command_candidates = [
+            \ ['Add all files in directory', '!git add *'],
+            \]
+call denite#custom#var('menu', 'menus', s:menus)
 "}}}
+
 

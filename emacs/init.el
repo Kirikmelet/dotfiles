@@ -18,14 +18,27 @@ There are two things you can do about this warning:
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 
-(package-initialize)
 
+(package-initialize)
+(scroll-bar-mode -1)
 
 (eval-when-compile
 	(require 'use-package)
   )
+(use-package evil)
+(add-hook 'prog-mode-hook
+	(if (fboundp 'display-line-numbers-mode)
+            (fboundp 'evil-mode)
+	    #'display-line-numbers-mode
+	  #'linum-mode))
+(use-package doom-modeline
 
+:ensure t
 
+:defer t
+
+:hook (after-init . doom-modeline-init))
+(use-package all-the-icons :ensure t)
 (use-package sublimity)
 (require 'sublimity-scroll)
 (sublimity-mode 1)
@@ -41,12 +54,15 @@ There are two things you can do about this warning:
 (use-package lsp-treemacs :ensure t :commands lsp-treemacs-errors-list)
 (use-package dap-mode :ensure t)
 (setq lsp-keymap-prefix "A-l") 
-(use-package mpdel :ensure)
-(require 'mpdel)
-(mpdel-mode 1)
 (lsp-treemacs-sync-mode 1)
 (origami-mode 1)
-
+(use-package treemacs-projectile)
+(use-package projectile
+  :config
+  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+  (setq projectile-project-search-path '("~/Desktop/360pano/" "~/Documents/projects/" "~/Documents/github/")))
+(projectile-mode)
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
 (setq enable-recursive-minibuffers t)
@@ -82,7 +98,6 @@ There are two things you can do about this warning:
   (package-refresh-contents)
   (package-install 'use-package))
 
-(use-package evil)
 
 
 
@@ -94,14 +109,19 @@ There are two things you can do about this warning:
 	:config
 	(dashboard-setup-startup-hook)
 	(setq dashboard-banner-logo-title "Welcome to GNU EMACS Comrade")
-	(setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/linux_comrade_fixed.png")
+	(setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
 	(setq dashboard-set-navigator t)
 	(setq dashboard-init-info "Nothing to lose but your OS")
 	(setq dashboard-footer-messages '("Comrade Tux Calls Us!"))
+	(setq dashboard-center-content t)
+	(setq dashboard-det-navigator t)
+	(setq dashboard-set-heading-icons t)
+	(setq dashboard-set-file-icons t)
 	(setq dashboard-items '((recents . 5)
 				))
+	     (setq dashboard-set-init-info t) 
 )
-(evil-mode 1)
+;(evil-mode 1)
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 
@@ -116,7 +136,7 @@ There are two things you can do about this warning:
 (setq-default tab-width 10)
 (setq x-select-enable-clipboard t)
 (use-package dired)
-(use-package evil-surround)
+;(use-package evil-surround)
 ;; (use-package dap-LANGUAGE) to load the dap adapter for your language
 
 ;; optional if you want which-key integration
@@ -138,16 +158,15 @@ There are two things you can do about this warning:
 (progn
   (define-prefix-command 'app_key)
   (define-key app_key (kbd "d") 'dired-sidebar-toggle-sidebar)
-  (define-key app_key (kbd"m") 'mpdel-browser-open)
 )
 
-(global-set-key (kbd "C-a") app_key)
+(global-set-key (kbd "C-e") app_key)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#282828" :foreground "#fdf4c1" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "ADBO" :family "Fira Code ")))))
+ '(default ((t (:inherit nil :stipple nil :background "#282828" :foreground "#fdf4c1" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant italic :weight normal :height 98 :width normal :foundry "urw" :family "Fira Code")))))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -160,7 +179,8 @@ There are two things you can do about this warning:
  '(font-use-system-font t)
  '(libmpdel-port 23955)
  '(mingus-mpd-port 23955)
+ '(nil nil t)
  '(package-selected-packages
    (quote
-    (sublimity lsp-latex lsp-ivy ivy-xref clang-format origami ivy-mpdel ## mpdel which-key w3m use-package terminal-toggle request pylint navigel mpv mingus memoize lsp-ui lsp-python-ms lsp-dart libmpdel highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers evil-surround dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls)))
+    (treemacs-projectile emms doom-modeline evil all-the-icons-ivy image-dired+ mozc-im pdf-tools mozc evil-magit magit sublimity lsp-latex lsp-ivy ivy-xref clang-format origami ## which-key w3m use-package terminal-toggle request pylint navigel mpv mingus memoize lsp-ui lsp-python-ms lsp-dart highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls)))
  '(set-default-font (quote (Fira Code))))

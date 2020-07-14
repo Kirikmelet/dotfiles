@@ -169,7 +169,7 @@ label-unmounted-foreground = ${colors.foreground}
 type = internal/bspwm
 
 
-ws-icon-0 = 1;%{F#fb4934}%{F-}
+ws-icon-0 = 1;%{F#fb4934}%{F-}
 ws-icon-1 = 2;%{F#d3869b}%{F-}
 ws-icon-2 = 3;%{F#b8bb26}%{F-}
 ws-icon-3 = 4;%{F#83a598}%{F-}
@@ -294,7 +294,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlan0
+interface = wlp3s0
 interval = 3.0
 
 format-connected = "<ramp-signal> <label-connected>"

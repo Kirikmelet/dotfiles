@@ -33,7 +33,7 @@ super + F4
 super + F5
 	st -c 'music' -e ncmpcpp 
 super + F6
-	st -c 'netctl' -e connmanctl 
+	st -c 'netctl' -e nmtui 
 super + F7
 	st -e pacui
 super + F8

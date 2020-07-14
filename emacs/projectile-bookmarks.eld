@@ -1,0 +1,1 @@
+("~/Desktop/360pano/vtour/" "~/.config/" "~/Documents/github/weebgtk/" "~/Documents/github/notamusicplayer/" "~/Documents/github/arch_install/")

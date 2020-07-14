@@ -62,3 +62,6 @@
          :fetcher github
 :files ("counsel.el"))
 (sublimity :fetcher github :repo "zk-phi/sublimity")
+(projectile :repo "bbatsov/projectile"
+            :fetcher github
+            :files ("projectile.el"))

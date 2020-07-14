@@ -6,7 +6,7 @@
 PATH=$PATH:$HOME/.local/bin
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-   echo "Welcome Back" 
+   echo "startx to start Windows 95" 
 fi
 
 export PATH=$PATH:~/.local/bin

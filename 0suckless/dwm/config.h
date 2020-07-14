@@ -4,29 +4,22 @@
 /* appearance */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int gappx     = 0;        /* gap pixel between windows */
-static const unsigned int snap      = 0;       /* snap pixel */
+static const unsigned int snap      = 32;       /* snap pixel */
+static const int vertpad            = 0;       /* vertical padding of bar */
+static const int sidepad            = 0;       /* horizontal padding of bar */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Dina:size=10" };
 static const char dmenufont[]       = "Dina:size=10";
 static const char col_gray1[]       = "#282828";
-static const char col_gray2[]       = "#3c3836";
-static const char col_gray3[]       = "#ebdbb2";
-static const char col_gray4[]       = "#d5c4a1";
-static const char col_cyan[]        = "#282828";
+static const char col_gray2[]       = "#32302f";
+static const char col_gray3[]       = "#ebddb2";
+static const char col_gray4[]       = "#ebddb2";
+static const char col_cyan[]        = "#32302f";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-};
-
-
-static char* const autostart[][4] = { /* please replace 2 with maximum number of arguments from autostart array */
-    { "st", NULL },
-    {"dunst", NULL},
-    {"picom", NULL},
-    {"xsetroot", "-solid", "'#282828'", NULL},
-    {"exec", "/home/troyd/.config/dwm/bar.sh", NULL},
 };
 
 /* tagging */
@@ -39,18 +32,18 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	//{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
-static const float mfact     = 0.5; /* factor of master area size [0.05..0.95] */
+static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
-static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
+static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
+static const int attachdirection = 2;    /* 0 default, 1 above, 2 aside, 3 below, 4 bottom, 5 top */
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "T!",      tile },    /* first entry is default */
-	{ "F!",      NULL },    /* no layout function means floating behavior */
+	{ "!T",      tile },    /* first entry is default */
+	{ "!F",      NULL },    /* no layout function means floating behavior */
 	{ "[M]",      monocle },
 };
 
@@ -67,43 +60,33 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *chillmen[] = {"/home/troyd/.local/bin/main_menu", NULL};
-static const char *dmenucmd[] = {"dmenu_run", NULL};
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *termcmdtab[]  = { "tabbed", "-c", "st", "-w", NULL };
 static const char *browser[] = {"firefox", NULL};
 static const char *filemanager[] = {"st", "-e", "nnn", NULL};
-static const char *systemmanager[] = {"st", "-e", "htop", NULL};
+static const char *sysview[] = {"st", "-e", "htop", NULL};
 static const char *musicplayer[] = {"st", "-e", "ncmpcpp", NULL};
-static const char *calender[] = {"st", "-e", "calcurse", NULL};
-static const char *nmtui[] = {"st", "-e", "iwctl", NULL};
-static const char *audioup[] = {"amixer", "sset", "Master", "5%+", NULL};
-static const char *audiodown[] = {"amixer", "sset", "Master", "5%-", NULL};
-static const char *audiooff[] = {"amixer", "sset", "Master", "toggle", NULL};
-static const char *lockscreen[] = {"/home/troyd/.local/bin/locker.sh", NULL};
-static const char *screenup[] = {"light", "-A", "15", NULL};
-static const char *screendown[] = {"light", "-U", "15", NULL};
-
+static const char *nmtui[] = {"st", "-e", "nmtui", NULL};
+static const char *volup[] = {"alsamixer", "sset", "Master", "5%+", NULL};
+static const char *voldown[] = {"alsamixer", "sset", "Master", "5%-", NULL};
+static const char *voltog[] = {"alsamixer", "sset", "Master", "toggle", NULL};
+static const char *briup[] = {"light", "-A", "5", NULL};
+static const char *bridown[] = {"light", "-U", "5", NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_F1,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,             XK_Return, spawn,          {.v = termcmd } },
-	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmdtab } },
-	{ MODKEY, XK_F2, spawn, {.v = browser} },
-	{ MODKEY, XK_F3, spawn, {.v = filemanager} },
-	{ MODKEY, XK_F4, spawn, {.v = systemmanager} },
-	{ MODKEY, XK_F5, spawn, {.v = musicplayer} },
-	{ MODKEY, XK_F6, spawn, {.v = nmtui} },
-	{ MODKEY, XK_F7, spawn, {.v = calender} },
-	{ MODKEY, XK_F10, spawn, {.v = lockscreen} },
-	{ 0, XF86XK_AudioMute, spawn, {.v = audiooff} },
-	{ 0, XF86XK_AudioRaiseVolume, spawn, {.v = audioup} },
-	{ 0, XF86XK_AudioLowerVolume, spawn, {.v = audiodown} },
-	{ 0, XF86XK_MonBrightnessUp, spawn, {.v = screenup} },
-	{ 0, XF86XK_MonBrightnessDown, spawn, {.v = screendown} },
-	{ MODKEY, XK_Escape, spawn, {.v = chillmen} },
-
+        { MODKEY, XK_F2, spawn, {.v = browser }},
+        { MODKEY, XK_F3, spawn, {.v= filemanager}},
+        { MODKEY, XK_F4, spawn, {.v= sysview}},
+        { MODKEY, XK_F5, spawn, {.v= musicplayer}},
+        { MODKEY, XK_F6, spawn, {.v= nmtui}},
+        { NULL, XF86XK_AudioRaiseVolume, spawn, {.v= volup}},
+        { NULL, XF86XK_AudioLowerVolume, spawn, {.v= voldown}},
+        { NULL, XF86XK_AudioMute, spawn, {.v= voltog}},
+        { NULL, XF86XK_MonBrightnessUp, spawn, {.v= briup}},
+        { NULL, XF86XK_MonBrightnessDown, spawn, {.v= bridown}},
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
@@ -111,7 +94,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
-	{ MODKEY,                       XK_z, zoom,           {0} },
+	{ MODKEY|ShiftMask,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,             XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
