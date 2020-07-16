@@ -1,0 +1,22 @@
+s
+nvim
+ls
+vi
+ls
+ed
+ncmpcpp 
+clear
+ls
+cd ..
+ls
+./tour_testingserver.sh 
+cd ..
+ls
+./tour_testingserver.sh 
+exit
+cd ..
+ls
+./tour_testingserver.sh 
+cd ..
+ls
+./tour_testingserver.sh 

@@ -1,1 +1,1 @@
-("~/Desktop/360pano/vtour/" "~/.config/" "~/Documents/github/weebgtk/" "~/Documents/github/notamusicplayer/" "~/Documents/github/arch_install/")
+("~/Desktop/popup_sample/" "~/Documents/github/weebgtk/" "~/Documents/github/notamusicplayer/" "~/Documents/github/arch_install/" "~/Desktop/360pano/GIAS/" "~/Desktop/360pano/.git/" "~/.config/")

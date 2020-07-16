@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "lsp-python-ms" "20200223.2136" "The lsp-mode client for Microsoft python-language-server" '((emacs "25.1") (cl-lib "0.6.1") (lsp-mode "6.0")) :commit "2a6e7449d4d02f81469f4fe03e7b9f8e13bf860d" :keywords '("languages" "tools") :authors '(("Charl Botha")) :maintainer '("Andrew Christianson, Vincent Zhang") :url "https://github.com/andrew-christianson/lsp-python-ms")

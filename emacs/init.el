@@ -1,3 +1,4 @@
+
 (require 'package)
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
                     (not (gnutls-available-p))))
@@ -45,6 +46,21 @@ There are two things you can do about this warning:
 (setq sublimity-scroll-weight 10
       sublimity-scroll-drift-length 5)
 
+
+;(use-package ivy-emms)
+;(use-package emms
+;  :ensure t
+;  :config
+;  (emms-all)
+;  (emms-history-load)
+;  (emms-default-players);
+;  (setq emms-player-mpv-debug t)
+;  (setq emms-source-file-default-directory "~/Music/")
+				;  )
+(use-package ivy-mpdel)
+(use-package mpdel)
+(mpdel-mode)
+(use-package magit)
 (use-package mingus)
 (use-package flycheck)
 (use-package counsel :ensure t)
@@ -105,21 +121,33 @@ There are two things you can do about this warning:
 (setq-default tab-width 4) ; Assuming you want your tabs to be four spaces wide
 (defvaralias 'c-basic-offset 'tab-width)
 (use-package dashboard
-	:ensure t
-	:config
-	(dashboard-setup-startup-hook)
-	(setq dashboard-banner-logo-title "Welcome to GNU EMACS Comrade")
-	(setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
-	(setq dashboard-set-navigator t)
-	(setq dashboard-init-info "Nothing to lose but your OS")
-	(setq dashboard-footer-messages '("Comrade Tux Calls Us!"))
-	(setq dashboard-center-content t)
-	(setq dashboard-det-navigator t)
-	(setq dashboard-set-heading-icons t)
-	(setq dashboard-set-file-icons t)
-	(setq dashboard-items '((recents . 5)
-				))
-	     (setq dashboard-set-init-info t) 
+  :ensure t
+  :defer nil
+  :config
+  (dashboard-setup-startup-hook)
+  (setq dashboard-banner-logo-title "Welcome to GNU EMACS Comrade")
+  (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
+  (setq dashboard-set-navigator t)
+  (setq dashboard-init-info "Nothing to lose but your OS")
+  (setq dashboard-footer-messages '("Comrade Tux Calls Us!"))
+  (setq dashboard-center-content t)
+  (setq dashboard-set-heading-icons t)
+  (setq dashboard-set-file-icons t)
+  (setq dashboard-items '((recents . 5)
+		      ))
+  (setq dashboard-set-init-info t)
+  (setq dashboard-navigator-buttons
+        `(;;Line 1
+	((,nil
+	  "Github"
+	  "Open your github"
+	  (lambda (&rest _) (browse-url "https://github.com/Kirikmelet"))
+	  'default)
+	 (nil
+	  "PT. AVK"
+	  "Open corporate website"
+	  (lambda (&rest _) (browse-url "https://avk.co.id"))
+	  'default))))
 )
 ;(evil-mode 1)
 (menu-bar-mode -1)
@@ -141,7 +169,9 @@ There are two things you can do about this warning:
 
 ;; optional if you want which-key integration
 (use-package which-key
-  :config
+  :ensure t
+  :diminish which-key-mode
+  :init
   (which-key-mode))
 
 
@@ -158,9 +188,11 @@ There are two things you can do about this warning:
 (progn
   (define-prefix-command 'app_key)
   (define-key app_key (kbd "d") 'dired-sidebar-toggle-sidebar)
+  (define-key app_key (kbd "m") 'mpdel-browser-open)
+  (define-key app_key (kbd "s") 'eshell)
 )
 
-(global-set-key (kbd "C-e") app_key)
+(global-set-key (kbd "M-`") app_key)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -176,11 +208,24 @@ There are two things you can do about this warning:
  '(custom-safe-themes
    (quote
     ("aded61687237d1dff6325edb492bde536f40b048eab7246c61d5c6643c696b7f" default)))
+ '(emms-player-mpv
+   (quote
+    (*player*
+     (start . emms-player-mpv-start)
+     (stop . emms-player-mpv-stop)
+     (playablep . emms-player-mpv-playable-p)
+     (regex . "\\.\\([Oo][Gg][Gg]\\|[Mm][Pp]3\\|[Ww][Aa][Vv]\\|[Mm][Pp][Gg]\\|[Mm][Pp][Ee][Gg]\\|[Ww][Mm][Vv]\\|[Ww][Mm][Aa]\\|[Mm][Oo][Vv]\\|[Aa][Vv][Ii]\\|[Dd][Ii][Vv][Xx]\\|[Oo][Gg][Mm]\\|[Oo][Gg][Vv]\\|[Aa][Ss][Ff]\\|[Mm][Kk][Vv]\\|[Rr][Mm]\\|[Rr][Mm][Vv][Bb]\\|[Mm][Pp]4\\|[Ff][Ll][Aa][Cc]\\|[Vv][Oo][Bb]\\|[Mm]4[Aa]\\|[Aa][Pp][Ee]\\|[Ff][Ll][Vv]\\|[Ww][Ee][Bb][Mm]\\|[Aa][Ii][Ff]\\)\\'")
+     (pause . emms-player-mpv-pause)
+     (resume . emms-player-mpv-resume)
+     (seek . emms-player-mpv-seek)
+     (seek-to . emms-player-mpv-seek-to))))
+ '(emms-player-mpv-parameters
+   (quote
+    ("--quiet" "--really-quiet" "--no-audio-display" "--input-ipc-server=/home/troyd/.emacs.d/emms/mpv-ipc.sock" "--idle" "--no-video")))
  '(font-use-system-font t)
  '(libmpdel-port 23955)
  '(mingus-mpd-port 23955)
- '(nil nil t)
  '(package-selected-packages
    (quote
-    (treemacs-projectile emms doom-modeline evil all-the-icons-ivy image-dired+ mozc-im pdf-tools mozc evil-magit magit sublimity lsp-latex lsp-ivy ivy-xref clang-format origami ## which-key w3m use-package terminal-toggle request pylint navigel mpv mingus memoize lsp-ui lsp-python-ms lsp-dart highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls)))
+    (autopair language-id format-all eshell-toggle ivy-mpdel mpdel ivy-emms emms-state treemacs-projectile emms doom-modeline evil all-the-icons-ivy image-dired+ mozc-im pdf-tools mozc evil-magit magit sublimity lsp-latex lsp-ivy ivy-xref clang-format origami ## which-key w3m use-package terminal-toggle request pylint navigel mpv mingus memoize lsp-ui lsp-python-ms lsp-dart highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls language-id)))
  '(set-default-font (quote (Fira Code))))

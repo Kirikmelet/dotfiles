@@ -1,18 +1,18 @@
 (use-package
- :fetcher github
- :repo "jwiegley/use-package"
- :files (:defaults (:exclude "bind-key.el"
-			     "bind-chord.el"
-			     "use-package-chords.el"
-				 "use-package-ensure-system-package.el")))
+  :fetcher github
+  :repo "jwiegley/use-package"
+  :files (:defaults (:exclude "bind-key.el"
+			"bind-chord.el"
+			"use-package-chords.el"
+			"use-package-ensure-system-package.el")))
 
 (evil :repo "emacs-evil/evil"
       :fetcher github
       :files (:defaults
-	      "doc/build/texinfo/evil.texi"
-	                    (:exclude "evil-test-helpers.el")))
+	    "doc/build/texinfo/evil.texi"
+	    (:exclude "evil-test-helpers.el")))
 
-(bongo :repo "dbrock/bongo" :fetcher github 
+(bongo :repo "dbrock/bongo" :fetcher github
        :files ("*.el" "*.texi" "images" "*.rb"))
 
 (powerline :fetcher github
@@ -30,13 +30,13 @@
 (quelpa-use-package :fetcher github :repo "quelpa/quelpa-use-package")
 
 (use-package-ensure-system-package :repo "jwiegley/use-package"
-								   :fetcher github
-								   :files ("use-package-ensure-system-package.el"))
+			     :fetcher github
+			     :files ("use-package-ensure-system-package.el"))
 
 
 
 
-						    
+
 (lsp-dart :repo "emacs-lsp/lsp-dart" :fetcher github )
 
 
@@ -53,15 +53,18 @@
      :fetcher github
      :files (:defaults
              (:exclude "swiper.el" "counsel.el" "ivy-hydra.el" "ivy-avy.el")
-"doc/ivy-help.org"))
+	   "doc/ivy-help.org"))
 (lsp-ivy :repo "emacs-lsp/lsp-ivy" :fetcher github)
 
 (dap-mode :repo "emacs-lsp/dap-mode" :fetcher github :files (:defaults "icons"))
 
 (counsel :repo "abo-abo/swiper"
          :fetcher github
-:files ("counsel.el"))
+         :files ("counsel.el"))
 (sublimity :fetcher github :repo "zk-phi/sublimity")
 (projectile :repo "bbatsov/projectile"
             :fetcher github
             :files ("projectile.el"))
+(language-id :fetcher github :repo "lassik/emacs-language-id")
+
+(format-all :fetcher github :repo "lassik/emacs-format-all-the-code")

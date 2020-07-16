@@ -1,4 +1,4 @@
-"{{{Preconfig configuration
+"{{{config configuration
 let mapleader = "\<Space>"
 set nocompatible
 
@@ -6,6 +6,8 @@ filetype plugin indent on  " Load plugins according to detected filetype.
 syntax on                  " Enable syntax highlighting.
 
 "set autoindent             " Indent according to previous line.
+set nonumber
+set laststatus=0
 set expandtab              " Use spaces instead of tabs.
 set softtabstop =4        " Tab key indents by 4 spaces.
 set mouse=a
@@ -22,7 +24,7 @@ set hidden                 " Switch between buffers without having to save first
 set laststatus  =2         " Always show statusline.
 set display     =lastline  " Show as much as possible of the last line.
 
-set showmode               " Show current mode in command-line.
+set noshowmode               " Show current mode in command-line.
 set showcmd                " Show already typed keys when more are expected.
 
 set incsearch              " Highlight while searching with / or ?.
@@ -71,9 +73,6 @@ augroup END
 
 "{{{Dein
 "dein Scripts-----------------------------
-if &compatible
-  set nocompatible               " Be iMproved
-endif
 
 " Required:
 set runtimepath+=/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim
@@ -87,22 +86,20 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim')
   call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
   call dein#add('Shougo/denite.nvim')
+  call dein#add('shinchu/lightline-gruvbox.vim')
   call dein#add('morhetz/gruvbox')
+  call dein#add('sbdchd/neoformat')
   call dein#add('tpope/vim-fugitive')
   call dein#add('godlygeek/tabular')
   call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp']})
-  call dein#add('itchyny/lightline.vim')
-  call dein#add('shinchu/lightline-gruvbox.vim')
   call dein#add('ap/vim-css-color')
+  call dein#add('itchyny/lightline.vim')
   call dein#add('sheerun/vim-polyglot')
   call dein#add('vimwiki/vimwiki', {'on_cmd': 'VimwikiIndex'})
   call dein#add('neovim/nvim-lsp')
   "call dein#add('nvim-lua/diagnostic-nvim')
   "call dein#add('nvim-lua/completion-nvim')
   call dein#add('Shougo/defx.nvim')
-  " Add or remove your plugins here like this:
- "call dein#add('Shougo/neosnippet.vim')
-  "call dein#add('Shougo/neosnippet-snippets')
 
   " Required:
   call dein#end()
@@ -122,30 +119,16 @@ endif
 
 "}}}
 
-"{{{C Language coding
-"Follows Linux kernel guidelines 
-augroup clang
-autocmd!
-autocmd FileType c set noexpandtab tabstop=8 shiftwidth=8 textwidth=78 smarttab backspace=eol,start,indent
-autocmd FileType c filetype plugin indent on
-autocmd FileType c syntax on
-autocmd FileType c syn keyword ctype uint ubyte ulong uint64_t uint32_t uint16_t uint8_t boolean_t int64_t int32_t int16_t int8_t u_int64_t u_int32_t u_int16_t u_int8_t
-autocmd FileType c syn keyword cOperator likely unlikely
-augroup END
-"}}}
-
-"{{{Lightline
-"Move above colorscheme else won't work
-
-let g:lightline = {'colorscheme':'gruvbox'}
-set noshowmode
-
-"}}}
-
 "{{{Colorscheme
 colorscheme gruvbox
 "set termguicolors
 let g:gruvbox_italic = 1
+"}}}
+
+"{{{Lightline
+let g:lightline = {}
+let g:lightline.colorscheme = 'gruvbox'
+
 "}}}
 
 "{{{Tabs
@@ -160,7 +143,7 @@ let g:deoplete#enable_at_startup = 1
 "{{{nvim-lsp
 lua require'nvim_lsp'.clangd.setup{}
 lua require'nvim_lsp'.pyls.setup{}
-
+lua require'nvim_lsp'.html.setup{}
 "}}}
 
 "{{{Defx
@@ -231,7 +214,7 @@ let s:menus.project = {
             \ 'description': 'Project Menu'
             \}
 let s:menus.project.file_candidates = [
-            \ ['360pano', '~/Desktop/360pano/vtour'],
+            \ ['360pano', '~/Desktop/360pano/GIAS/vtour'],
             \ ['nmp', '~/Documents/github/notamusicplayer'],
             \ ['GIAS', '~/Desktop/GIIAS_04'],
             \]
@@ -239,10 +222,11 @@ let s:menus.git_commands = {
             \'description': 'Does git'
             \}
 let s:menus.git_commands.command_candidates = [
+            \ ['View current status', 'G'],
             \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
             \ ['Git Commit', 'Gcommit'],
+            \ ['Git Push', 'Gpush'],
             \]
 call denite#custom#var('menu', 'menus', s:menus)
 "}}}
-
 
