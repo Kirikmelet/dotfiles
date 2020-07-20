@@ -127,6 +127,7 @@ There are two things you can do about this warning:
   (dashboard-setup-startup-hook)
   (setq dashboard-banner-logo-title "Welcome to GNU EMACS Comrade")
   (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
+  ;(setq dashboard-startup-banner 3)
   (setq dashboard-set-navigator t)
   (setq dashboard-init-info "Nothing to lose but your OS")
   (setq dashboard-footer-messages '("Comrade Tux Calls Us!"))

@@ -20,3 +20,7 @@ ls
 cd ..
 ls
 ./tour_testingserver.sh 
+ls
+cd ..
+ls
+./tour_testingserver.sh

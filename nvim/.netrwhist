@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/troyd/Applications'
+let g:netrw_dirhist_7='/home/troyd/Desktop/popup_sample/renpy_school/game'
 let g:netrw_dirhist_6='/home/troyd/Documents/github/notamusicplayer'
 let g:netrw_dirhist_5='/home/troyd/Downloads'
 let g:netrw_dirhist_4='/home/troyd/Desktop/GIIAS_04'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_2='/home/troyd/Desktop/360pano/GIAS/vtour/avkbox'
 let g:netrw_dirhist_1='/home/troyd/Documents/github/notamusicplayer/.clangd/index'
 let g:netrw_dirhist_0='/home/troyd/Desktop/GIIAS_04'
 let g:netrw_dirhist_9='/home/troyd/Desktop/360pano/vtour'
-let g:netrw_dirhist_8='/home/troyd/Desktop/GIIAS_04/tour'
-let g:netrw_dirhist_7='/home/troyd/Desktop/GIIAS_04'

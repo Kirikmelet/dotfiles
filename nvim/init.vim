@@ -85,7 +85,7 @@ if dein#load_state('/home/troyd/.cache/dein')
   " Required:
   call dein#add('/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim')
   call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
-  call dein#add('Shougo/denite.nvim')
+  "call dein#add('Shougo/denite.nvim')
   call dein#add('shinchu/lightline-gruvbox.vim')
   call dein#add('morhetz/gruvbox')
   call dein#add('sbdchd/neoformat')
@@ -144,6 +144,7 @@ let g:deoplete#enable_at_startup = 1
 lua require'nvim_lsp'.clangd.setup{}
 lua require'nvim_lsp'.pyls.setup{}
 lua require'nvim_lsp'.html.setup{}
+lua require'nvim_lsp'.flow.setup{}
 "}}}
 
 "{{{Defx
@@ -170,63 +171,63 @@ endfunction
 "}}}
 
 "{{{Denite
-"Define mappings
-let s:denite_options = {'default' : {
-\ 'split': 'floating',
-\ 'start_filter': 1,
-\ 'auto_resize': 1,
-\ 'source_names': 'short',
-\ 'prompt': '% ',
-\ 'highlight_matched_char': 'QuickFixLine',
-\ 'highlight_matched_range': 'Visual',
-\ 'highlight_window_background': 'Visual',
-\ 'highlight_filter_background': 'DiffAdd',
-\ 'winrow': 1,
-\ 'vertical_preview': 1,
-\ 'toggle': 1,
-\ }}
-
-call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
-
-nmap <leader>db :Denite buffer<CR>
-nmap <leader>df :Denite file/rec<CR>
-nmap <leader>dp :DeniteProjectDir file<CR>
-nmap <leader>m :Denite menu<CR>
-
-autocmd FileType denite call s:denite_my_settings()
-function! s:denite_my_settings() abort
-  nnoremap <silent><buffer><expr> <CR>
-  \ denite#do_map('do_action')
-  nnoremap <silent><buffer><expr> d
-  \ denite#do_map('do_action', 'delete')
-  nnoremap <silent><buffer><expr> p
-  \ denite#do_map('do_action', 'preview')
-  nnoremap <silent><buffer><expr> q
-  \ denite#do_map('quit')
-  nnoremap <silent><buffer><expr> f
-  \ denite#do_map('open_filter_buffer')
-  nnoremap <silent><buffer><expr> <Space>
-  \ denite#do_map('toggle_select').'j'
-endfunction
-
-let s:menus = {}
-let s:menus.project = {
-            \ 'description': 'Project Menu'
-            \}
-let s:menus.project.file_candidates = [
-            \ ['360pano', '~/Desktop/360pano/GIAS/vtour'],
-            \ ['nmp', '~/Documents/github/notamusicplayer'],
-            \ ['GIAS', '~/Desktop/GIIAS_04'],
-            \]
-let s:menus.git_commands = {
-            \'description': 'Does git'
-            \}
-let s:menus.git_commands.command_candidates = [
-            \ ['View current status', 'G'],
-            \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
-            \ ['Git Commit', 'Gcommit'],
-            \ ['Git Push', 'Gpush'],
-            \]
-call denite#custom#var('menu', 'menus', s:menus)
+""Define mappings
+"let s:denite_options = {'default' : {
+"\ 'split': 'floating',
+"\ 'start_filter': 1,
+"\ 'auto_resize': 1,
+"\ 'source_names': 'short',
+"\ 'prompt': '% ',
+"\ 'highlight_matched_char': 'QuickFixLine',
+"\ 'highlight_matched_range': 'Visual',
+"\ 'highlight_window_background': 'Visual',
+"\ 'highlight_filter_background': 'DiffAdd',
+"\ 'winrow': 1,
+"\ 'vertical_preview': 1,
+"\ 'toggle': 1,
+"\ }}
+"
+"call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
+"
+"nmap <leader>db :Denite buffer<CR>
+"nmap <leader>df :Denite file/rec<CR>
+"nmap <leader>dp :DeniteProjectDir file<CR>
+"nmap <leader>m :Denite menu<CR>
+"
+"autocmd FileType denite call s:denite_my_settings()
+"function! s:denite_my_settings() abort
+"  nnoremap <silent><buffer><expr> <CR>
+"  \ denite#do_map('do_action')
+"  nnoremap <silent><buffer><expr> d
+"  \ denite#do_map('do_action', 'delete')
+"  nnoremap <silent><buffer><expr> p
+"  \ denite#do_map('do_action', 'preview')
+"  nnoremap <silent><buffer><expr> q
+"  \ denite#do_map('quit')
+"  nnoremap <silent><buffer><expr> f
+"  \ denite#do_map('open_filter_buffer')
+"  nnoremap <silent><buffer><expr> <Space>
+"  \ denite#do_map('toggle_select').'j'
+"endfunction
+"
+"let s:menus = {}
+"let s:menus.project = {
+"            \ 'description': 'Project Menu'
+"            \}
+"let s:menus.project.file_candidates = [
+"            \ ['360pano', '~/Desktop/360pano/GIAS/vtour'],
+"            \ ['nmp', '~/Documents/github/notamusicplayer'],
+"            \ ['GIAS', '~/Desktop/GIIAS_04'],
+"            \]
+"let s:menus.git_commands = {
+"            \'description': 'Does git'
+"            \}
+"let s:menus.git_commands.command_candidates = [
+"            \ ['View current status', 'G'],
+"            \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
+"            \ ['Git Commit', 'Gcommit'],
+"            \ ['Git Push', 'Gpush'],
+"            \]
+"call denite#custom#var('menu', 'menus', s:menus)
 "}}}
 
