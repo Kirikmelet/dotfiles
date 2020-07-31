@@ -152,6 +152,19 @@ lua require'nvim_lsp'.clangd.setup{}
 lua require'nvim_lsp'.pyls.setup{}
 lua require'nvim_lsp'.html.setup{}
 lua require'nvim_lsp'.flow.setup{}
+
+" Config
+
+  nnoremap <silent> <leader>lge    <cmd>lua vim.lsp.buf.declaration()<CR>
+  nnoremap <silent> <leader>lgd <cmd>lua vim.lsp.buf.definition()<CR>
+  nnoremap <silent> <leader>lh     <cmd>lua vim.lsp.buf.hover()<CR>
+  nnoremap <silent> <leader>lgD    <cmd>lua vim.lsp.buf.implementation()<CR>
+  nnoremap <silent> <leader>ls <cmd>lua vim.lsp.buf.signature_help()<CR>
+  nnoremap <silent> <leader>ltd   <cmd>lua vim.lsp.buf.type_definition()<CR>
+  nnoremap <silent> <leader>lgr    <cmd>lua vim.lsp.buf.references()<CR>
+  nnoremap <silent> <leader>lff    <cmd>lua vim.lsp.buf.document_symbol()<CR>
+  nnoremap <silent> <leader>lgW    <cmd>lua vim.lsp.buf.workspace_symbol()<CR>
+
 "}}}
 
 "{{{Defx
@@ -279,8 +292,9 @@ nnoremap <leader>wi :VimwikiIndex<CR>
 "}}}
 
 "{{{File hotkeys
+nnoremap <silent> <leader>fs :Denite grep<CR>
 nnoremap <silent> <leader>ff :Neoformat<CR>
-nnoremap <silent> <leader>fsw :Suwrite<CR>
+nnoremap <silent> <leader>fm :make<CR>
 "}}}
 
 "{{{Buffer hotkeys
