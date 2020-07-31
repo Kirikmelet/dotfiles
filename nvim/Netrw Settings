@@ -1,0 +1,43 @@
+
++ ---------------------------------------------
++  NetrwSettings:  by Charles E. Campbell
++ Press <F1> with cursor atop any line for help
++ ---------------------------------------------
+
++ Netrw Protocol Commands
+let g:netrw_dav_cmd           = curl
+let g:netrw_fetch_cmd         = 
+let g:netrw_ftp_cmd           = ftp
+let g:netrw_http_cmd          = curl
+let g:netrw_rcp_cmd           = rcp
+let g:netrw_rsync_cmd         = rsync
+let g:netrw_scp_cmd           = scp -q
+let g:netrw_sftp_cmd          = sftp
+let g:netrw_ssh_cmd           = ssh
+
++Netrw Transfer Control
+let g:netrw_cygwin            = 0
+let g:netrw_ftp               = 0
+let g:netrw_ftpmode           = binary
+let g:netrw_ignorenetrc       = 0
+let g:netrw_sshport           = -p
+let g:netrw_silent            = 1
+let g:netrw_use_nt_rcp        = 0
+let g:netrw_win95ftp          = 1
+
++ Netrw Messages
+let g:netrw_use_errorwindow    = 1
+
++ Netrw Browser Control
+let g:netrw_altfile   = 0
+let g:netrw_alto              = 1
+let g:netrw_altv              = 0
+let g:netrw_banner            = 0
+" let g:netrw_bannerbackslash   = (not defined)
+let g:netrw_browse_split      = 1
+" let g:netrw_browsex_viewer   = (not defined)
+let g:netrw_compress          = gzip
+" let g:Netrw_corehandler      = (not defined)
+let g:netrw_ctags             = ctags
+let g:netrw_cursor            = 2
+let g:netrw_decompress        = {'.xz': 'unxz', '.tar': 'tar -xf', '.gz': 'gunzip', '.bz2': 'bunzip2', '.zip': 'unzip'}

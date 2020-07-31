@@ -295,9 +295,9 @@ mpd_crossfade_time = 15
 ##
 ## Note: Possible display modes: classic, columns.
 ##
-#playlist_display_mode = columns
+playlist_display_mode = classic
 #
-#browser_display_mode = classic
+browser_display_mode = columns
 #
 #search_engine_display_mode = classic
 #
@@ -329,7 +329,7 @@ mpd_crossfade_time = 15
 #
 ## Available values: classic, alternative.
 ##
-#user_interface = classic
+user_interface = alternative
 #
 #data_fetching_delay = yes
 #
@@ -362,7 +362,7 @@ mpd_crossfade_time = 15
 #
 #lyrics_fetchers = lyricwiki, azlyrics, genius, sing365, lyricsmania, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, zeneszoveg, internet
 #
-#follow_now_playing_lyrics = no
+follow_now_playing_lyrics = yes
 #
 #fetch_lyrics_for_current_song_in_background = no
 #
@@ -422,9 +422,9 @@ mpd_crossfade_time = 15
 #
 #ask_before_clearing_playlists = yes
 #
-#clock_display_seconds = no
+clock_display_seconds = yes
 #
-#display_volume_level = yes
+display_volume_level = yes
 #
 display_bitrate = yes
 #
@@ -461,7 +461,7 @@ display_bitrate = yes
 #
 #media_library_sort_by_mtime = no
 #
-#enable_window_title = yes
+enable_window_title = yes
 #
 ##
 ## Note: You can choose default search mode for search engine. Available modes
@@ -479,11 +479,11 @@ display_bitrate = yes
 #
 #search_engine_default_search_mode = 1
 #
-#external_editor = nano
+external_editor = nvim
 #
 ## Note: set to yes if external editor is a console application.
 ##
-#use_console_editor = yes
+use_console_editor = yes
 #
 ##### colors definitions #####
 ##

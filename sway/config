@@ -83,8 +83,8 @@ default_border pixel
     bindsym $mod+F3 exec $term -e nnn
     bindsym $mod+F4 exec $term -e htop
     bindsym $mod+F5 exec $term -e ncmpcpp
-    bindsym $mod+F6 exec $term -e iwctl
-    bindsym $mod+F7 exec $term -e pacui
+    bindsym $mod+F6 exec $term -e nmtui
+    bindsym $mod+F7 exec $term -e aptitude
     bindsym $mod+F8 exec $term -e calcurse
     bindsym $mod+F10 exec swaylock -l -c "#000000" --text-color "#FFFFFF"
     
@@ -233,7 +233,8 @@ bar {
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while swaybar.sh; do sleep 1; done
+    #status_command while swaybar.sh; do sleep 1; done
+    status_command waybar 
     #
 
     colors {

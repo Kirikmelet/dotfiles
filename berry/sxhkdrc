@@ -1,0 +1,90 @@
+#
+# wm independent hotkeys
+#
+
+# Audio
+XF86MonBrightness{Down,Up}
+    #light {-U 15,-A 15}
+    xbacklight {-inc 15, -dec 15} #For Linux Mint
+super + o
+    xbacklight -dec 15
+super + p
+    xbacklight -inc 15dec 
+XF86Audio{Mute,LowerVolume,RaiseVolume}
+    amixer sset Master {toggle, 5%-, 5%+}
+
+# terminal emulator
+super + Return
+        st
+
+super + F1
+	dmenu_run
+super + Esc
+	main_menu
+super + F2
+	firefox
+super + F3
+	st -e  nnn
+super + F4
+	st -c 'htop' -e htop
+super + F5
+	xfce4-terminal  -e ncmpcpp  #st crashes in Linux Mint
+super + F6
+	st -c 'netctl' -e nmtui 
+super + F7
+	st -e paui
+super + F8
+	st -e calcurse 
+super + F9
+	st -e neomutt
+super + F10
+	i3lock -e -f -c 000000
+super + F11
+	spotify
+
+# make sxhkd reload its configuration files:
+super + shift + r
+	pkill -USR1 -x sxhkd
+
+#
+# berry hotkeys
+#
+
+super + {h, j, k, l}
+    berryc window_move {-50 0, 0 50, 0 -50, 50 0}
+
+super + shift +  {h, j, k, l}
+    berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
+
+super + {1-9}
+    berryc switch_workspace {0-9}
+
+super + shift + {1-9}
+    berryc send_to_workspace {0-9}
+
+super + m
+    berryc window_monocle
+
+super + f
+    berryc fullscreen
+
+super +  p
+    berryc snap_right
+
+super + o 
+    berryc snap_left
+
+super + n
+    berryc toggle_decorations
+
+super + Tab
+    berryc cycle_focus
+
+super + q
+    berryc window_close
+
+super + c
+    berryc window_center
+
+~button1
+    berryc pointer_focus

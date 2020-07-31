@@ -43,6 +43,10 @@ set inccommand=split
 
 "}}}
 
+"{{{Sudo write
+command! Suwrite :w !sudo tee %  <CR>
+"}}}
+
 "{{{Highlighting
 augroup LuaHighlight
   autocmd!
@@ -55,11 +59,6 @@ augroup END
 inoremap ( ()<Esc>hli
 inoremap [ []<Esc>hli
 inoremap { {}<Esc>hli
-"}}}
-
-"{{{vimwiki
-let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
-
 "}}}
 
 "{{{Folding
@@ -84,22 +83,25 @@ if dein#load_state('/home/troyd/.cache/dein')
   " Let dein manage dein
   " Required:
   call dein#add('/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim')
+  " Shougo's plugins
   call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
-  "call dein#add('Shougo/denite.nvim')
+  call dein#add('Shougo/denite.nvim')
+  call dein#add('Shougo/defx.nvim')
+  call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
   call dein#add('shinchu/lightline-gruvbox.vim')
   call dein#add('morhetz/gruvbox')
   call dein#add('sbdchd/neoformat')
+  call dein#add('junegunn/goyo.vim', {'on_cmd': 'Goyo'})
   call dein#add('tpope/vim-fugitive')
-  call dein#add('godlygeek/tabular')
-  call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp']})
   call dein#add('ap/vim-css-color')
   call dein#add('itchyny/lightline.vim')
   call dein#add('sheerun/vim-polyglot')
   call dein#add('vimwiki/vimwiki', {'on_cmd': 'VimwikiIndex'})
+  " LSP
+
   call dein#add('neovim/nvim-lsp')
   "call dein#add('nvim-lua/diagnostic-nvim')
   "call dein#add('nvim-lua/completion-nvim')
-  call dein#add('Shougo/defx.nvim')
 
   " Required:
   call dein#end()
@@ -131,9 +133,14 @@ let g:lightline.colorscheme = 'gruvbox'
 
 "}}}
 
+"{{{Splits
+nmap <leader>sv :vsplit<CR>
+nmap <leader>sh :split<CR>
+"}}}
+
 "{{{Tabs
-nmap tn :tabnew<CR>
-nmap tc :tabclose
+nmap <leader>tn :tabnew<CR>
+nmap <leader>tc :tabclose
 "}}}
 
 "{{{Deoplete.nvim
@@ -149,15 +156,37 @@ lua require'nvim_lsp'.flow.setup{}
 
 "{{{Defx
 call defx#custom#option('_', {
-      \ 'winwidth': 30,
       \ 'split': 'vertical',
-      \ 'show_ignored_files': 0,
+      \ 'winwidth': 30,
+      \ 'show_ignored_files': 1,
       \ 'buffer_name': 'defxplorer',
       \ 'toggle': 1,
+      \ 'resume': 1,
+      \ 'direction': 'topleft',
+      \ 'ignored_files':
+      \ '.git,.clangd',
+      \ 'root_marker': '',
       \ })
+call defx#custom#column('git', {
+            \ 'indicators': {
+            \ 'Modified' : 'g!m',
+            \ 'Staged' : 'g!s',
+            \ 'Untracked': '',
+            \ 'Renamed': 'g!r',
+            \ 'Ignored' :'g!i',
+            \ 'Deleted' : 'g!d',
+            \ 'Unknown' : 'g!u'}
+            \})
 nmap <A-d> :Defx<CR>
+
+augroup checkdefx
+    autocmd!
+    autocmd WinEnter * if &filetype == 'defx' && winnr('$') == 1 | bdel | endif
+    autocmd TabLeave * if &filetype == 'defx' | wincmd w | endif
+augroup END
 autocmd FileType defx call s:defxset()
 function! s:defxset() abort
+        setlocal signcolumn=no expandtab
 	nnoremap <silent><buffer><expr><CR> defx#do_action('drop')
 	nnoremap <silent><buffer><expr>c defx#do_action('copy')
 	nnoremap <silent><buffer><expr>b defx#do_action('cd', ['..'])
@@ -165,69 +194,98 @@ function! s:defxset() abort
 	nnoremap <silent><buffer><expr>m defx#do_action('move')
 	nnoremap <silent><buffer><expr>e defx#do_action('open')
 	nnoremap <silent><buffer><expr>i defx#do_action('open', 'vsplit')
-	nnoremap <silent><buffer><expr>s defx#do_action('open', 'split')
+	nnoremap <silent><buffer><expr>v defx#do_action('open', 'split')
 	nnoremap <silent><buffer><expr>t defx#do_action('open', 'tabnew')
+        nnoremap <silent><buffer><expr>q defx#do_action('quit')
+        nnoremap <silent><buffer><expr>s defx#do_action('save_session')
+        nnoremap <silent><buffer><expr>r defx#do_action('rename')
+        nnoremap <silent><buffer><expr>p defx#do_action('paste')
+        nnoremap <silent><buffer><expr>E defx#do_action('execute_system')
+        nnoremap <silent><buffer><expr>y defx#do_action('yank_path')
+        nnoremap <silent><buffer><expr>nf defx#do_action('new_file')
+        nnoremap <silent><buffer><expr>nd defx#do_action('new_directory')
+        nnoremap <silent><buffer><expr>nF defx#do_action('new_multiple_files')
 endfunction
 "}}}
 
 "{{{Denite
-""Define mappings
-"let s:denite_options = {'default' : {
-"\ 'split': 'floating',
-"\ 'start_filter': 1,
-"\ 'auto_resize': 1,
-"\ 'source_names': 'short',
-"\ 'prompt': '% ',
-"\ 'highlight_matched_char': 'QuickFixLine',
-"\ 'highlight_matched_range': 'Visual',
-"\ 'highlight_window_background': 'Visual',
-"\ 'highlight_filter_background': 'DiffAdd',
-"\ 'winrow': 1,
-"\ 'vertical_preview': 1,
-"\ 'toggle': 1,
-"\ }}
-"
-"call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
-"
-"nmap <leader>db :Denite buffer<CR>
-"nmap <leader>df :Denite file/rec<CR>
-"nmap <leader>dp :DeniteProjectDir file<CR>
-"nmap <leader>m :Denite menu<CR>
-"
-"autocmd FileType denite call s:denite_my_settings()
-"function! s:denite_my_settings() abort
-"  nnoremap <silent><buffer><expr> <CR>
-"  \ denite#do_map('do_action')
-"  nnoremap <silent><buffer><expr> d
-"  \ denite#do_map('do_action', 'delete')
-"  nnoremap <silent><buffer><expr> p
-"  \ denite#do_map('do_action', 'preview')
-"  nnoremap <silent><buffer><expr> q
-"  \ denite#do_map('quit')
-"  nnoremap <silent><buffer><expr> f
-"  \ denite#do_map('open_filter_buffer')
-"  nnoremap <silent><buffer><expr> <Space>
-"  \ denite#do_map('toggle_select').'j'
-"endfunction
-"
-"let s:menus = {}
-"let s:menus.project = {
-"            \ 'description': 'Project Menu'
-"            \}
-"let s:menus.project.file_candidates = [
-"            \ ['360pano', '~/Desktop/360pano/GIAS/vtour'],
-"            \ ['nmp', '~/Documents/github/notamusicplayer'],
-"            \ ['GIAS', '~/Desktop/GIIAS_04'],
-"            \]
-"let s:menus.git_commands = {
-"            \'description': 'Does git'
-"            \}
-"let s:menus.git_commands.command_candidates = [
-"            \ ['View current status', 'G'],
-"            \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
-"            \ ['Git Commit', 'Gcommit'],
-"            \ ['Git Push', 'Gpush'],
-"            \]
-"call denite#custom#var('menu', 'menus', s:menus)
+"Define mappings
+call denite#custom#option('_', {
+\ 'split': 'floating',
+\ 'start_filter': v:true,
+\ 'smartcase': v:true,
+\ 'source_names': 'short',
+\ 'filter_split_direction': 'floating',
+\ 'highlight_filter_background': 'NormalFloat',
+\ 'prompt': '>$ ',
+\ 'floating_preview': v:true,
+\ 'statusline': v:false,
+\ })
+
+
+call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
+
+nmap <leader>df :Denite file/rec<CR>
+nmap <leader>dp :DeniteProjectDir file<CR>
+nmap <leader>m :Denite menu<CR>
+
+autocmd FileType denite call s:denite_my_settings()
+function! s:denite_my_settings() abort
+  nnoremap <silent><buffer><expr> <CR>
+  \ denite#do_map('do_action')
+  nnoremap <silent><buffer><expr> d
+  \ denite#do_map('do_action', 'delete')
+  nnoremap <silent><buffer><expr> p
+  \ denite#do_map('do_action', 'preview')
+  nnoremap <silent><buffer><expr> q
+  \ denite#do_map('quit')
+  nnoremap <silent><buffer><expr> /
+  \ denite#do_map('open_filter_buffer')
+  nnoremap <silent><buffer><expr> <Space>
+  \ denite#do_map('toggle_select').'j'
+  nnoremap <silent><buffer><expr> i
+    \ denite#do_map('do_action', 'vsplit')
+  nnoremap <silent><buffer><expr> v
+    \ denite#do_map('do_action', 'split')
+  nnoremap <silent><buffer><expr> t
+    \ denite#do_map('do_action', 'tabopen')
+  nnoremap <silent><buffer><expr> s
+    \ denite#do_map('do_action', 'preview')
+endfunction
+
+let s:menus = {}
+let s:menus.project = {
+            \ 'description': 'Project Menu'
+            \}
+let s:menus.project.file_candidates = [
+            \ ['nmp', '~/Documents/github/notamusicplayer'],
+            \ ['GIAS', '~/Desktop/GIIAS_04'],
+            \]
+let s:menus.git_commands = {
+            \'description': 'Does git'
+            \}
+let s:menus.git_commands.command_candidates = [
+            \ ['View current status', 'G'],
+            \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
+            \ ['Git Commit', 'Gcommit'],
+            \ ['Git Push', 'Gpush'],
+            \]
+call denite#custom#var('menu', 'menus', s:menus)
 "}}}
 
+"{{{Vimwiki
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+nnoremap <leader>wi :VimwikiIndex<CR>
+"}}}
+
+"{{{File hotkeys
+nnoremap <silent> <leader>ff :Neoformat<CR>
+nnoremap <silent> <leader>fsw :Suwrite<CR>
+"}}}
+
+"{{{Buffer hotkeys
+nnoremap <silent> <leader>b :Denite file/rec<CR>
+nnoremap <silent> <leader>bd :Defx<CR>
+nnoremap <silent> <leader>bb :Denite buffer<CR>
+nnoremap <silent> <leader>bg :Goyo<CR>
+"}}}

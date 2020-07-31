@@ -5,7 +5,12 @@
 
 #{{{ media keys
 XF86MonBrightness{Down,Up}
-    light {-U 15,-A 15}
+    #light {-U 15,-A 15}
+    xbacklight {-inc 15, -dec 15} #For Linux Mint
+super + o
+    xbacklight -dec 15
+super + p
+    xbacklight -inc 15dec 
 XF86Audio{Mute,LowerVolume,RaiseVolume}
     amixer sset Master {toggle, 5%-, 5%+}
 #}}}
@@ -31,11 +36,11 @@ super + F3
 super + F4
 	st -c 'htop' -e htop
 super + F5
-	st -c 'music' -e ncmpcpp 
+	xfce4-terminal  -e ncmpcpp  #st crashes in Linux Mint
 super + F6
 	st -c 'netctl' -e nmtui 
 super + F7
-	st -e pacui
+	st -e aptitude
 super + F8
 	st -e calcurse 
 super + F9

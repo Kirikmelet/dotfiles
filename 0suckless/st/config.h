@@ -7,8 +7,10 @@
  */
 static char *font = "Dina:size=10:antialias=true:autohint=true";
 static char *font2[] = {
-	" Noto Color Emoji:antialias=true:autohint=true",
-	"DroidSansMono Nerd Font:style=Book:autohint=true:antialias=true"};
+	"Noto Color Emoji:antialias=true:autohint=true",
+	"DroidSansMono Nerd Font:style=Book:autohint=true:antialias=true",
+	"Inconsolata:style=Medium:authint=true:antialias=true",
+	"Sumbola:style=Regular:autohint=true:antialias=true"};
 static int borderpx = 2;
 
 /*

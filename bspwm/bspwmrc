@@ -2,7 +2,7 @@
 
 #{{{Init Exec
 pkill sxhkd
-sxhkd &
+sxhkd -t ~/.config/sxhkd/sxhkdrc-bspwm &
 dunst &
 fcitx &
 pulseaudio --start &

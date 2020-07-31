@@ -1,7 +1,9 @@
 sw_volume: 0
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
-state: stop
+state: play
+current: 35
+time: 226.883000
 random: 1
 repeat: 1
 single: 0
@@ -10,4 +12,53 @@ crossfade: 15
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:yt_pl/funkwave/AIRGLOW - Memory Bank.opus
+1:yt_pl/funkwave/Babes - Beats.opus
+2:yt_pl/funkwave/Beckett - Crush.opus
+3:yt_pl/funkwave/Beverly Girl - Mind Games.opus
+4:yt_pl/funkwave/Beverly Girl - Talk About the Weather.opus
+5:yt_pl/funkwave/DOOMROAR - Retro Youth.opus
+6:yt_pl/funkwave/FEARCITY - Fastlife.opus
+7:yt_pl/funkwave/FEARCITY - Gone Too Soon.opus
+8:yt_pl/funkwave/FEARCITY - Marked For Sex.opus
+9:yt_pl/funkwave/FEARCITY - Rude Girls.opus
+10:yt_pl/funkwave/FEARCITY - Sexy Sciotti.opus
+11:yt_pl/funkwave/FEARCITY - This Girl In My Prayers.opus
+12:yt_pl/funkwave/Flávio La Barre - French Romance.opus
+13:yt_pl/funkwave/Highway Superstar - Easy Ride.opus
+14:yt_pl/funkwave/Highway Superstar - The Road to Alpha Centauri.opus
+15:yt_pl/funkwave/Immortal Girlfriend  - Daybreak.opus
+16:yt_pl/funkwave/Jay Diggs - Open Your Heart.opus
+17:yt_pl/funkwave/Jay Diggs - Ready (feat. JJ Mist).opus
+18:yt_pl/funkwave/Jordan F - Space Romance.opus
+19:yt_pl/funkwave/Klockhaus - Chrome.opus
+20:yt_pl/funkwave/Klockhaus - TinPlate Ant.opus
+21:yt_pl/funkwave/Kotovsky - More Lovewaves.opus
+22:yt_pl/funkwave/Maya - DLight.opus
+23:yt_pl/funkwave/Midnight Club - No One Understands.opus
+24:yt_pl/funkwave/Neon Vandal - ShadowDancer.opus
+25:yt_pl/funkwave/PowercuT - Evening Swim.opus
+26:yt_pl/funkwave/Raydar - Neon Graffiti.opus
+27:yt_pl/funkwave/SaiR - Counterweight.opus
+28:yt_pl/funkwave/SaiR - Remember When.opus
+29:yt_pl/funkwave/Shiro Schwarz - Electrify.opus
+30:yt_pl/funkwave/Stallions - West Coast Ride.opus
+31:yt_pl/funkwave/Starlight - Memories.opus
+32:yt_pl/funkwave/TELEMACHUS - City Nights.opus
+33:yt_pl/funkwave/the Undead Audio - Steps and Strides.opus
+34:yt_pl/funkwave/Timecop1983 - Indigo Tears.opus
+35:yt_pl/funkwave/Tropical Heat - Sunset Pass.opus
+36:yt_pl/funkwave/Vince Riviera - A Deeper Blue.opus
+37:yt_pl/funkwave/XCVII - Desire For Sex.opus
+38:yt_pl/funkwave/XCVII - Evening Pleasure.opus
+39:yt_pl/funkwave/XCVII - Whatuwant.opus
+40:yt_pl/funkwave/YXO - Vogue.opus
+41:yt_pl/funkwave/Zyodara - Ebony Lover.opus
+42:yt_pl/funkwave/Zyodara - Funk All Night Long (feat. Yasmina).opus
+43:yt_pl/funkwave/Zyodara - Funkinwitya.opus
+44:yt_pl/funkwave/Zyodara - Honey Dip.opus
+45:yt_pl/funkwave/Zyodara - Izshefeelinme.opus
+46:yt_pl/funkwave/Zyodara - Magnifique.opus
+47:yt_pl/funkwave/Zyodara - Polysix Groove.opus
+48:yt_pl/funkwave/Zyodara - Treat Ya Right.opus
 playlist_end

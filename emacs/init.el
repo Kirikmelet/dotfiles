@@ -77,7 +77,7 @@ There are two things you can do about this warning:
   :config
   (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
   (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
-  (setq projectile-project-search-path '("~/Desktop/360pano/" "~/Documents/projects/" "~/Documents/github/")))
+  (setq projectile-project-search-path '("~/Documents/projects/" "~/Documents/github/")))
 (projectile-mode)
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)

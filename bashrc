@@ -21,10 +21,15 @@
      alias nvimdiff="nvim -d"
      alias readbat="bat -p"
      alias dsearch="links 'https://duckduckgo.com/?q=$1'"
-     alias ytdlmusic="youtube-dl -x --audio-format opus $1"
-     #}}}
+     alias ytm="youtube-dl -x --audio-format opus $1"
+#}}}
 
+filesizes(){
+    for i in $(ls); do du -sh $i; done
+}
 set -o vi
+
+#{{{NPM
 ###-begin-npm-completion-###
 #
 # npm command completion script
@@ -94,7 +99,7 @@ fi
 # Modified by Soldier of Fortran
 #
 # Add to you ~/.bashrc file with: 'source ~/.themes/95/bashrc'
-
+#}}}
 function msdos_pwd
 {
     local dir="`pwd`"

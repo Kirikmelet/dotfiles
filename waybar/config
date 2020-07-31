@@ -143,14 +143,11 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-<<<<<<< HEAD
     },
     "custom/alsaaudio": {
 	"format": "VOL: {}",
 	"interval": 1,
 	"exec": "$HOME/.config/waybar/alsa.sh 2> /dev/null",
 	"on-click": "st -e alsamixer"
-=======
->>>>>>> f0dee4aaf9335793dd56fdbc7d9ca14ce687b19f
     }
 }
