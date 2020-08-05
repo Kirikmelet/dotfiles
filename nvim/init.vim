@@ -225,7 +225,7 @@ endfunction
 "Define mappings
 call denite#custom#option('_', {
 \ 'split': 'floating',
-\ 'start_filter': v:true,
+\ 'start_filter': v:false,
 \ 'smartcase': v:true,
 \ 'source_names': 'short',
 \ 'filter_split_direction': 'floating',
@@ -236,6 +236,14 @@ call denite#custom#option('_', {
 \ })
 
 
+call denite#custom#var('grep', {
+			\ 'command': ['rg'],
+		\ 'default_opts': ['-i', '--vimgrep', '--no-heading'],
+		\ 'recursive_opts': [],
+		\ 'pattern_opt': ['--regexp'],
+		\ 'separator': ['--'],
+		\ 'final_opts': [],
+		\ })
 call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
 
 nmap <leader>df :Denite file/rec<CR>

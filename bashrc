@@ -25,7 +25,7 @@
 #}}}
 
 filesizes(){
-    for i in $(ls); do du -sh $i; done
+    for i in $(ls); do du -sh "$i"; done
 }
 set -o vi
 

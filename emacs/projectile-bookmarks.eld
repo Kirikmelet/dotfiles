@@ -1,1 +1,1 @@
-("~/Documents/github/weebgtk/" "~/Documents/github/notamusicplayer/" "~/Documents/github/arch_install/" "~/.config/" "~/Desktop/360_tours/popup_sample/")
+("~/.config/" "~/Documents/github/weebgtk/" "~/Documents/github/notamusicplayer/" "~/Documents/github/arch_install/" "~/Desktop/360_tours/popup_sample/")

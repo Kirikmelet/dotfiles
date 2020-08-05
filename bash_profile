@@ -52,7 +52,7 @@ export NNN_OPS_PROG=1
 #}}}
 
 #{{{BAT
-export BAT_THEME="base16"
+#export BAT_THEME="base16"
 #}}}
 
 #{{{Fuck

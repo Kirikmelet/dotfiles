@@ -36,7 +36,7 @@ super + F3
 super + F4
 	st -c 'htop' -e htop
 super + F5
-	xfce4-terminal  -e ncmpcpp  #st crashes in Linux Mint
+	st -c 'music' -e ncmpcpp  #st crashes in Linux Mint
 super + F6
 	st -c 'netctl' -e nmtui 
 super + F7

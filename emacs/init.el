@@ -26,7 +26,6 @@ There are two things you can do about this warning:
 (eval-when-compile
 	(require 'use-package)
   )
-(use-package evil)
 (add-hook 'prog-mode-hook
 	(if (fboundp 'display-line-numbers-mode)
             (fboundp 'evil-mode)

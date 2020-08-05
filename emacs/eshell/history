@@ -24,3 +24,5 @@ ls
 cd ..
 ls
 ./tour_testingserver.sh
+exit
+exit

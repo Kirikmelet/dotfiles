@@ -1,3 +1,5 @@
 * Default
 ** notamusicplayer
  - path :: ~/Documents/github/notamusicplayer
+** Desktop
+ - path :: ~/Desktop
