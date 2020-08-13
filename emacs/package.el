@@ -26,7 +26,6 @@
 (ccls :repo "MaskRay/emacs-ccls" :fetcher github)
 
 (lsp-mode :repo "emacs-lsp/lsp-mode" :fetcher github)
-
 (quelpa-use-package :fetcher github :repo "quelpa/quelpa-use-package")
 
 (use-package-ensure-system-package :repo "jwiegley/use-package"
@@ -68,3 +67,4 @@
 (language-id :fetcher github :repo "lassik/emacs-language-id")
 
 (format-all :fetcher github :repo "lassik/emacs-format-all-the-code")
+(lsp-jedi :repo "fredcamps/lsp-jedi" :fetcher github )

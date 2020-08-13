@@ -6,7 +6,7 @@
 Your version of Emacs does not support SSL connections,
 which is unsafe because it allows man-in-the-middle attacks.
 There are two things you can do about this warning:
-1. Install an Emacs version that does support SSL and be safe.
+nn1. Install an Emacs version that does support SSL and be safe.
 2. Remove this warning from your init file so you won't see it again."))
   (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
   ;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
@@ -18,36 +18,69 @@ There are two things you can do about this warning:
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 
+;; Italics
+
 (package-initialize)
 (scroll-bar-mode -1)
-(add-hook 'prog-mode-hook
-	(if (fboundp 'display-line-numbers-mode)
-	    #'display-line-numbers-mode
-	  #'linum-mode))
 
 (eval-when-compile
 	(require 'use-package)
   )
+(add-hook 'prog-mode-hook
+	(if (fboundp 'display-line-numbers-mode)
+            (fboundp 'evil-mode)
+	    #'display-line-numbers-mode
+	  #'linum-mode))
+(use-package doom-modeline
+
+:ensure t
+
+:defer t
+
+
+:hook (after-init . doom-modeline-init))
 
 (use-package all-the-icons :ensure t)
 (use-package sublimity)
-(require 'sublimity-scroll)
-(sublimity-mode 1)
-(setq sublimity-scroll-weight 10
-      sublimity-scroll-drift-length 5)
+(use-package sublimity-scroll
+  :config
+  (sublimity-mode 1)
+  (setq sublimity-scroll-weight 10
+	sublimity-scroll-drift-length 5)
+)
 
-(use-package mingus)
-(use-package flycheck)
+;(use-package ivy-emms)
+;(use-package emms
+;  :ensure t
+;  :config
+;  (emms-all)
+;  (emms-history-load)
+;  (emms-default-players);
+;  (setq emms-player-mpv-debug t)
+;  (setq emms-source-file-default-directory "~/Music/")
+				;  )
+(use-package ivy-mpdel)
+(use-package magit)
+(use-package flycheck :ensure t)
 (use-package counsel :ensure t)
-(use-package lsp-mode :ensure t )
+(use-package lsp-mode
+  :ensure t
+  :config
+  (setq lsp-python-executable-cmd "python3")
+  )
 (use-package lsp-ui :ensure t :commands lsp-ui-mode)
 (use-package lsp-ivy :ensure t :commands lsp-ivy-workspace-symbol)
 (use-package lsp-treemacs :ensure t :commands lsp-treemacs-errors-list)
 (use-package dap-mode :ensure t)
 (setq lsp-keymap-prefix "A-l") 
 (lsp-treemacs-sync-mode 1)
-(origami-mode 1)
-
+(use-package treemacs-projectile)
+(use-package projectile
+  :config
+  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+  (setq projectile-project-search-path '("~/Documents/projects/" "~/Documents/github/")))
+(projectile-mode)
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
 (setq enable-recursive-minibuffers t)
@@ -76,14 +109,10 @@ There are two things you can do about this warning:
 
  
 (setq load-prefer-newer t)
-(use-package pylint
-	:defer t)
 
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
   (package-install 'use-package))
-
-;(use-package evil)
 
 
 
@@ -91,21 +120,34 @@ There are two things you can do about this warning:
 (setq-default tab-width 4) ; Assuming you want your tabs to be four spaces wide
 (defvaralias 'c-basic-offset 'tab-width)
 (use-package dashboard
-	:ensure t
-	:config
-	(dashboard-setup-startup-hook)
-	(setq dashboard-banner-logo-title "Welcome to GNU EMACS Comrade")
-	(setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
-	(setq dashboard-set-navigator t)
-	(setq dashboard-init-info "Nothing to lose but your OS")
-	(setq dashboard-footer-messages '("Comrade Tux Calls Us!"))
-	(setq dashboard-center-content t)
-	(setq dashboard-det-navigator t)
-	(setq dashboard-set-heading-icons t)
-	(setq dashboard-set-file-icons t)
-	(setq dashboard-items '((recents . 5)
-				))
-	     (setq dashboard-set-init-info t) 
+  :ensure t
+  :defer nil
+  :config
+  (dashboard-setup-startup-hook)
+  (setq dashboard-banner-logo-title "Welcome to GNU EMACS Comrade")
+  (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
+  ;(setq dashboard-startup-banner 3)
+  (setq dashboard-set-navigator t)
+  (setq dashboard-init-info "Nothing to lose but your OS")
+  (setq dashboard-footer-messages '("Comrade Tux Calls Us!"))
+  (setq dashboard-center-content t)
+  (setq dashboard-set-heading-icons t)
+  (setq dashboard-set-file-icons t)
+  (setq dashboard-items '((recents . 5)
+		      ))
+  (setq dashboard-set-init-info t)
+  (setq dashboard-navigator-buttons
+        `(;;Line 1
+	((,nil
+	  "Github"
+	  "Open your github"
+	  (lambda (&rest _) (browse-url "https://github.com/Kirikmelet"))
+	  'default)
+	 (nil
+	  "PT. AVK"
+	  "Open corporate website"
+	  (lambda (&rest _) (browse-url "https://avk.co.id"))
+	  'default))))
 )
 ;(evil-mode 1)
 (menu-bar-mode -1)
@@ -127,7 +169,9 @@ There are two things you can do about this warning:
 
 ;; optional if you want which-key integration
 (use-package which-key
-  :config
+  :ensure t
+  :diminish which-key-mode
+  :init
   (which-key-mode))
 
 
@@ -144,15 +188,11 @@ There are two things you can do about this warning:
 (progn
   (define-prefix-command 'app_key)
   (define-key app_key (kbd "d") 'dired-sidebar-toggle-sidebar)
+  (define-key app_key (kbd "m") 'mpdel-browser-open)
+  (define-key app_key (kbd "s") 'eshell)
 )
 
-(global-set-key (kbd "C-a") app_key)
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#282828" :foreground "#fdf4c1" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant italic :weight normal :height 98 :width normal :foundry "urw" :family "Fira Code")))))
+(global-set-key (kbd "M-`") app_key)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -162,11 +202,30 @@ There are two things you can do about this warning:
  '(custom-safe-themes
    (quote
     ("aded61687237d1dff6325edb492bde536f40b048eab7246c61d5c6643c696b7f" default)))
+ '(emms-player-mpv
+   (quote
+    (*player*
+     (start . emms-player-mpv-start)
+     (stop . emms-player-mpv-stop)
+     (playablep . emms-player-mpv-playable-p)
+     (regex . "\\.\\([Oo][Gg][Gg]\\|[Mm][Pp]3\\|[Ww][Aa][Vv]\\|[Mm][Pp][Gg]\\|[Mm][Pp][Ee][Gg]\\|[Ww][Mm][Vv]\\|[Ww][Mm][Aa]\\|[Mm][Oo][Vv]\\|[Aa][Vv][Ii]\\|[Dd][Ii][Vv][Xx]\\|[Oo][Gg][Mm]\\|[Oo][Gg][Vv]\\|[Aa][Ss][Ff]\\|[Mm][Kk][Vv]\\|[Rr][Mm]\\|[Rr][Mm][Vv][Bb]\\|[Mm][Pp]4\\|[Ff][Ll][Aa][Cc]\\|[Vv][Oo][Bb]\\|[Mm]4[Aa]\\|[Aa][Pp][Ee]\\|[Ff][Ll][Vv]\\|[Ww][Ee][Bb][Mm]\\|[Aa][Ii][Ff]\\)\\'")
+     (pause . emms-player-mpv-pause)
+     (resume . emms-player-mpv-resume)
+     (seek . emms-player-mpv-seek)
+     (seek-to . emms-player-mpv-seek-to))))
+ '(emms-player-mpv-parameters
+   (quote
+    ("--quiet" "--really-quiet" "--no-audio-display" "--input-ipc-server=/home/troyd/.emacs.d/emms/mpv-ipc.sock" "--idle" "--no-video")))
  '(font-use-system-font t)
  '(libmpdel-port 23955)
  '(mingus-mpd-port 23955)
- '(nil nil t)
  '(package-selected-packages
    (quote
-    (all-the-icons-ivy image-dired+ mozc-im pdf-tools mozc evil-magit magit sublimity lsp-latex lsp-ivy ivy-xref clang-format origami ## which-key w3m use-package terminal-toggle request pylint navigel mpv mingus memoize lsp-ui lsp-python-ms lsp-dart highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers evil-surround dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls)))
+    (company-box autopair language-id format-all eshell-toggle ivy-mpdel mpdel ivy-emms emms-state treemacs-projectile emms doom-modeline evil all-the-icons-ivy image-dired+ mozc-im pdf-tools mozc evil-magit magit sublimity lsp-latex lsp-ivy ivy-xref clang-format origami ## which-key w3m use-package terminal-toggle request navigel mpv mingus memoize lsp-ui lsp-dart highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls language-id)))
  '(set-default-font (quote (Fira Code))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

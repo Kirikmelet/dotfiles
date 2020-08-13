@@ -26,3 +26,5 @@ ls
 ./tour_testingserver.sh
 exit
 exit
+ls
+./tour_testingserver.sh 

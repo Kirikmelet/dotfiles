@@ -1,4 +1,3 @@
-
 (require 'package)
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
                     (not (gnutls-available-p))))
@@ -7,7 +6,7 @@
 Your version of Emacs does not support SSL connections,
 which is unsafe because it allows man-in-the-middle attacks.
 There are two things you can do about this warning:
-1. Install an Emacs version that does support SSL and be safe.
+nn1. Install an Emacs version that does support SSL and be safe.
 2. Remove this warning from your init file so you won't see it again."))
   (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
   ;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
@@ -19,6 +18,7 @@ There are two things you can do about this warning:
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 
+;; Italics
 
 (package-initialize)
 (scroll-bar-mode -1)
@@ -37,14 +37,17 @@ There are two things you can do about this warning:
 
 :defer t
 
+
 :hook (after-init . doom-modeline-init))
+
 (use-package all-the-icons :ensure t)
 (use-package sublimity)
-(require 'sublimity-scroll)
-(sublimity-mode 1)
-(setq sublimity-scroll-weight 10
-      sublimity-scroll-drift-length 5)
-
+(use-package sublimity-scroll
+  :config
+  (sublimity-mode 1)
+  (setq sublimity-scroll-weight 10
+	sublimity-scroll-drift-length 5)
+)
 
 ;(use-package ivy-emms)
 ;(use-package emms
@@ -56,21 +59,33 @@ There are two things you can do about this warning:
 ;  (setq emms-player-mpv-debug t)
 ;  (setq emms-source-file-default-directory "~/Music/")
 				;  )
-(use-package ivy-mpdel)
-(use-package mpdel)
-(mpdel-mode)
 (use-package magit)
-(use-package mingus)
-(use-package flycheck)
+(use-package flycheck :ensure t
+  :init
+  (global-flycheck-mode))
 (use-package counsel :ensure t)
-(use-package lsp-mode :ensure t )
+(use-package lsp-mode
+  :ensure t
+  :hook (
+         (js-mode . lsp)
+         (lsp-mode . lsp-enable-which-key-integration))
+  :commands lsp
+  :config
+  (setq lsp-python-executable-cmd "python3")
+  (require 'lsp-jedi)
+  )
+(use-package company-lsp
+             :ensure t)
+(add-hook 'after-init-hook 'global-company-mode)
 (use-package lsp-ui :ensure t :commands lsp-ui-mode)
 (use-package lsp-ivy :ensure t :commands lsp-ivy-workspace-symbol)
 (use-package lsp-treemacs :ensure t :commands lsp-treemacs-errors-list)
-(use-package dap-mode :ensure t)
+(use-package dap-mode :ensure t
+             :config
+             (dap-mode 1)
+             (dap-ui-mode 1))
 (setq lsp-keymap-prefix "A-l") 
 (lsp-treemacs-sync-mode 1)
-(origami-mode 1)
 (use-package treemacs-projectile)
 (use-package projectile
   :config
@@ -96,7 +111,8 @@ There are two things you can do about this warning:
 (global-set-key (kbd "<f2> u") 'counsel-unicode-char)
 (global-set-key (kbd "C-c g") 'counsel-git)
 (global-set-key (kbd "C-c j") 'counsel-git-grep)
-(global-set-key (kbd "C-c k") 'counsel-ag)
+(global-set-key (kbd "C-c k") 'counsel-rg)
+(global-set-key (kbd "C-c s") 'deadgrep)
 (global-set-key (kbd "C-x l") 'counsel-locate)
 (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
 (define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)
@@ -106,13 +122,10 @@ There are two things you can do about this warning:
 
  
 (setq load-prefer-newer t)
-(use-package pylint
-	:defer t)
 
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
   (package-install 'use-package))
-
 
 
 
@@ -155,13 +168,7 @@ There are two things you can do about this warning:
 
 
 
-;;; TODO: See if mpd is faster at building the db. Not so important.
-;;; TODO: Change face from purple to white?
-;;; TODO: emms-all causes some "require"d files to be loaded twice if called after, say, emms-browser was loaded.
 
-;; Theme
-
-(setq-default tab-width 10)
 (setq x-select-enable-clipboard t)
 (use-package dired)
 ;(use-package evil-surround)
@@ -180,11 +187,6 @@ There are two things you can do about this warning:
   :commands (dired-sidebar-toggle-sidebar))
 
 
-(use-package ccls
-  :hook ((c-mode c++-mode objc-mode cuda-mode) .
-         (lambda () (require 'ccls) (lsp))))
-(setq ccls-executable "/usr/bin/ccls")
-
 (progn
   (define-prefix-command 'app_key)
   (define-key app_key (kbd "d") 'dired-sidebar-toggle-sidebar)
@@ -192,13 +194,7 @@ There are two things you can do about this warning:
   (define-key app_key (kbd "s") 'eshell)
 )
 
-(global-set-key (kbd "M-`") app_key)
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#282828" :foreground "#fdf4c1" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant italic :weight normal :height 98 :width normal :foundry "urw" :family "Fira Code")))))
+(global-set-key (kbd "M-'") app_key)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -224,8 +220,16 @@ There are two things you can do about this warning:
     ("--quiet" "--really-quiet" "--no-audio-display" "--input-ipc-server=/home/troyd/.emacs.d/emms/mpv-ipc.sock" "--idle" "--no-video")))
  '(font-use-system-font t)
  '(libmpdel-port 23955)
+ '(lsp-pyls-plugins-jedi-completion-fuzzy t)
+ '(lsp-pyls-plugins-pylint-enabled t)
  '(mingus-mpd-port 23955)
  '(package-selected-packages
    (quote
-    (autopair language-id format-all eshell-toggle ivy-mpdel mpdel ivy-emms emms-state treemacs-projectile emms doom-modeline evil all-the-icons-ivy image-dired+ mozc-im pdf-tools mozc evil-magit magit sublimity lsp-latex lsp-ivy ivy-xref clang-format origami ## which-key w3m use-package terminal-toggle request pylint navigel mpv mingus memoize lsp-ui lsp-python-ms lsp-dart highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls language-id)))
+    (lsp-jedi deadgrep autopair language-id format-all eshell-toggle ivy-mpdel mpdel ivy-emms emms-state treemacs-projectile emms doom-modeline evil all-the-icons-ivy image-dired+ mozc-im pdf-tools mozc evil-magit magit sublimity lsp-latex lsp-ivy ivy-xref clang-format origami ## which-key w3m use-package terminal-toggle request navigel mpv mingus memoize lsp-ui lsp-dart highlight-indentation highlight-escape-sequences highlight gruvbox-theme flycheck-pycheckers dired-sidebar dired-icon dashboard company-lsp company-c-headers ccls language-id)))
  '(set-default-font (quote (Fira Code))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

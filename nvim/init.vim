@@ -41,6 +41,8 @@ set report      =0         " Always report changed lines.
 set synmaxcol   =200       " Only highlight the first 200 columns.
 set inccommand=split
 
+set omnifunc=v:lua.vim.lsp.omnifunc
+
 "}}}
 
 "{{{Sudo write
@@ -85,13 +87,13 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim')
   " Shougo's plugins
   call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
+  call dein#add('deoplete-plugins/deoplete-jedi', {'on_ft': 'python'})
   call dein#add('Shougo/denite.nvim')
   call dein#add('Shougo/defx.nvim')
   call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
   call dein#add('shinchu/lightline-gruvbox.vim')
   call dein#add('morhetz/gruvbox')
   call dein#add('sbdchd/neoformat')
-  call dein#add('junegunn/goyo.vim', {'on_cmd': 'Goyo'})
   call dein#add('tpope/vim-fugitive')
   call dein#add('ap/vim-css-color')
   call dein#add('itchyny/lightline.vim')
@@ -149,9 +151,8 @@ let g:deoplete#enable_at_startup = 1
 
 "{{{nvim-lsp
 lua require'nvim_lsp'.clangd.setup{}
-lua require'nvim_lsp'.pyls.setup{}
 lua require'nvim_lsp'.html.setup{}
-lua require'nvim_lsp'.flow.setup{}
+lua require'nvim_lsp'.pyls.setup{}
 
 " Config
 
@@ -224,11 +225,12 @@ endfunction
 "{{{Denite
 "Define mappings
 call denite#custom#option('_', {
-\ 'split': 'floating',
+\ 'split': 'horizontal',
+\ 'winheight': 5,
 \ 'start_filter': v:false,
 \ 'smartcase': v:true,
 \ 'source_names': 'short',
-\ 'filter_split_direction': 'floating',
+\ 'filter_split_direction': 'horizontal',
 \ 'highlight_filter_background': 'NormalFloat',
 \ 'prompt': '>$ ',
 \ 'floating_preview': v:true,
@@ -306,8 +308,12 @@ nnoremap <silent> <leader>fm :make<CR>
 "}}}
 
 "{{{Buffer hotkeys
-nnoremap <silent> <leader>b :Denite file/rec<CR>
+nnoremap <silent> <leader>bf :Denite file/rec<CR>
 nnoremap <silent> <leader>bd :Defx<CR>
 nnoremap <silent> <leader>bb :Denite buffer<CR>
-nnoremap <silent> <leader>bg :Goyo<CR>
+nnoremap <silent> <leader>bso zo
+nnoremap <silent> <leader>bsc zc
+nnoremap <silent> <leader>bst za
+nnoremap <silent> <leader>bsC zM
+nnoremap <silent> <leader>bsO zR
 "}}}
