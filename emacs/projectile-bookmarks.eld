@@ -1,1 +1,0 @@
-("~/.config/" "~/Documents/github/weebgtk/" "~/Documents/github/notamusicplayer/" "~/Documents/github/arch_install/" "~/Desktop/360_tours/popup_sample/")
