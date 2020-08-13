@@ -1,0 +1,39 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/USER/" . "Applications/")
+ ("/home/" . "USER/")
+ ("/home/troyd/.emacs.d/" . "config/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/troyd/.emacs.d/config/"
+ "/home/troyd/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "better-defaults.el"
+ "package-configfile.el"
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/troyd/.emacs.d/config/" (24373 6277 264276 48000) "package-configfile.el" "./" "better-defaults.el" "../")
+
+ ("/home/troyd/.emacs.d/" (24373 6287 724249 21000) "auto-save-list/" "custom.el" "config/" "ido.last" "./" "places" "backups/" "package.el" "network-security.data" "../" "init.el~" "init.el" "elpa/")
+
+ ("/home/USER/Applications/" (24340 9365 206450 56000) "./" ".trash/" "../")
+
+ ("/home/USER/" (24373 5840 243043 343000) ".Xresources" ".fvwm/" ".gftp/" ".gnupg/" ".xinputrc" ".kpcli-history" "Music/" ".uim.d/" ".cmake/" ".AndroidStudio4.0/" ".htaccess" ".zshrc.pre-oh-my-zsh-2020-05-19_07-31-28" ".sudo_as_admin_successful" ".Xdefaults" ".presage/" ".skk-uim-jisyo" ".moc/" "Videos/" ".sgisession" ".nvimlog" ".xsessionrc" ".texlive/" ".krpanolicense" ".photoshopCCV19/" ".openarena/" ".log/" ".zprofile" ".cargo/" "Templates/" ".histfile" ".fehbg" "vimwiki/" ".alsaequal.bin" ".zsh_history" "./" ".bash_profile" ".npm/" ".tmux.conf" ".emacs.d/" ".qt/" "node_modules/" ".mplayer/" ".Xclients" ".rnd" ".python_history" "package-lock.json" ".xprofile" ".tmux/" ".wine/" ".pylintrc" ".steam/" ".dbus/" "Documents/" ".fonts.conf" ".var/" ".lesshst" ".surf/" ".android/" ".vscode-oss/" ".bashrc" ".zcompdump-artix-5.8" ".mcop/" ".gtkrc-2.0-kde-kde4" ".key/" ".ssh/" ".ICEauthority" ".claws-mail/" ".gtkrc-2.0" "Applications/" ".java/" "Games/" ".clang-format" ".cache/" "test.js~" ".chestrc" ".pam_environment" ".yarn/" ".zcompdump" ".dir_colors" ".audacity-data/" ".viminfo" ".rustup/" "Pictures/" ".xinitrc" ".waterfox/" ".zinit/" ".hplip/" ".steampid" ".aptitude/" ".pulse/" "Downloads/" ".paradoxlauncher/" ".wget-hsts" ".mwmrc" ".thumbnails/" ".themes/" ".gtkrc-2.0-kde4" ".jackdrc" ".dmrc" ".config/" ".mozc/" ".trinity/" ".local/" ".zcompdump-TPX-250-PGSL-5.8" ".asoundrc" ".zcompdump-manjaro-5.8" ".zshrc.pre-oh-my-zsh" ".gconf/" ".xsession-errors" ".zshrc.pre-oh-my-zsh-2020-05-19_07-33-02" ".pulse-cookie" ".lyxauth" ".profile" ".mozilla/" ".moonchild productions/" ".links2/" ".face" ".Xauthority" ".lmmsrc.xml" ".wprofile" ".fonts/" ".skk-uim-jisyo.lock" ".FBReader/" ".thunderbird/" ".skk-jisyo.lock" ".xonotic/" ".clangd/" ".console" ".xsession-errors.old" ".zhistory" ".gitconfig" ".maxxdesktop/" "Public/" ".tderc" ".renpy/" "../" ".z" ".q3a/" ".bash_logout" ".pki/" ".icons/" ".dart/" ".dartServer/" "test.js" ".lyrics/" ".gnome/" ".flutter_tool_state" ".steampath" ".pub-cache/" ".cinnamon/" "veryhelpful.png" ".console-2020-07-09_19:54:59" ".linuxmint/" ".elinks/" ".ncmpcpp/" ".psdata.txt" ".links/" "Desktop/" ".calcurse/" ".pylint.d/" ".spectrwm.conf" ".w3m/" ".yarnrc" ".sh_history" ".bash_history")
+
+ ("/home/" (24214 60287 0 0) "tmp/" "./" "lost+found/" "troyd/" "USER/" ".directory" "../")
+
+ ("/home/troyd/" (24373 5840 243043 343000) ".Xresources" ".fvwm/" ".gftp/" ".gnupg/" ".xinputrc" ".kpcli-history" "Music/" ".uim.d/" ".cmake/" ".AndroidStudio4.0/" ".htaccess" ".zshrc.pre-oh-my-zsh-2020-05-19_07-31-28" ".sudo_as_admin_successful" ".Xdefaults" ".presage/" ".skk-uim-jisyo" ".moc/" "Videos/" ".sgisession" ".nvimlog" ".xsessionrc" ".texlive/" ".krpanolicense" ".photoshopCCV19/" ".openarena/" ".log/" ".zprofile" ".cargo/" "Templates/" ".histfile" ".fehbg" "vimwiki/" ".alsaequal.bin" ".zsh_history" "./" ".bash_profile" ".npm/" ".tmux.conf" ".emacs.d/" ".qt/" "node_modules/" ".mplayer/" ".Xclients" ".rnd" ".python_history" "package-lock.json" ".xprofile" ".tmux/" ".wine/" ".pylintrc" ".steam/" ".dbus/" "Documents/" ".fonts.conf" ".var/" ".lesshst" ".surf/" ".android/" ".vscode-oss/" ".bashrc" ".zcompdump-artix-5.8" ".mcop/" ".gtkrc-2.0-kde-kde4" ".key/" ".ssh/" ".ICEauthority" ".claws-mail/" ".gtkrc-2.0" "Applications/" ".java/" "Games/" ".clang-format" ".cache/" "test.js~" ".chestrc" ".pam_environment" ".yarn/" ".zcompdump" ".dir_colors" ".audacity-data/" ".viminfo" ".rustup/" "Pictures/" ".xinitrc" ".waterfox/" ".zinit/" ".hplip/" ".steampid" ".aptitude/" ".pulse/" "Downloads/" ".paradoxlauncher/" ".wget-hsts" ".mwmrc" ".thumbnails/" ".themes/" ".gtkrc-2.0-kde4" ".jackdrc" ".dmrc" ".config/" ".mozc/" ".trinity/" ".local/" ".zcompdump-TPX-250-PGSL-5.8" ".asoundrc" ".zcompdump-manjaro-5.8" ".zshrc.pre-oh-my-zsh" ".gconf/" ".xsession-errors" ".zshrc.pre-oh-my-zsh-2020-05-19_07-33-02" ".pulse-cookie" ".lyxauth" ".profile" ".mozilla/" ".moonchild productions/" ".links2/" ".face" ".Xauthority" ".lmmsrc.xml" ".wprofile" ".fonts/" ".skk-uim-jisyo.lock" ".FBReader/" ".thunderbird/" ".skk-jisyo.lock" ".xonotic/" ".clangd/" ".console" ".xsession-errors.old" ".zhistory" ".gitconfig" ".maxxdesktop/" "Public/" ".tderc" ".renpy/" "../" ".z" ".q3a/" ".bash_logout" ".pki/" ".icons/" ".dart/" ".dartServer/" "test.js" ".lyrics/" ".gnome/" ".flutter_tool_state" ".steampath" ".pub-cache/" ".cinnamon/" "veryhelpful.png" ".console-2020-07-09_19:54:59" ".linuxmint/" ".elinks/" ".ncmpcpp/" ".psdata.txt" ".links/" "Desktop/" ".calcurse/" ".pylint.d/" ".spectrwm.conf" ".w3m/" ".yarnrc" ".sh_history" ".bash_history")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
