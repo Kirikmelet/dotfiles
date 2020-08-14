@@ -1,5 +1,9 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/troyd/.emacs.d/recentf" . 717)
+(("/home/troyd/.emacs.d/recentf" . 1014)
+ ("/home/troyd/.emacs.d/emms/history" . 674)
+ ("/home/troyd/.config/emacs/elpa/emms-20200716.1815/emms-playlist-mode.el" . 8226)
+ ("/home/troyd/Desktop/360_tours/test1/vtour/tour.xml" . 4334)
+ ("/home/troyd/Documents/github/notamusicplayer/mainrun.c" . 3054)
  ("/home/troyd/.emacs.d/config/package-configfile.el" . 3739)
  ("/home/troyd/.emacs.d/"
   (dired-filename . "/home/troyd/.emacs.d/config"))
@@ -8,7 +12,6 @@
  ("/home/troyd/.emacs.d/elpa/gruvbox-theme-20200807.855/gruvbox-theme-autoloads.el" . 2839)
  ("/home/troyd/.emacs.d/elpa/autothemer-20180920.923/autothemer-autoloads.el" . 1118)
  ("/home/troyd/.config/emacs/elpa/company-20200810.2209/company.el" . 67966)
- ("/home/troyd/Documents/github/notamusicplayer/mainrun.c" . 3054)
  ("/home/troyd/.emacs.d/config/better-defaults.el" . 2427)
  ("/home/troyd/.emacs.d/package.el" . 85)
  ("/home/troyd/.emacs.d/init.el" . 294)

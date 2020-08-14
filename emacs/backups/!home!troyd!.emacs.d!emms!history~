@@ -1,0 +1,9 @@
+;;; emms history -*- mode: emacs-lisp; coding: utf-8; -*-
+(
+;; active playlist
+" *EMMS Playlist*"
+;; playlists: ((BUFFER_NAME SELECT_POSITION TRACKS) ...)
+((" *EMMS Playlist*" 97 ((*track* (type . playlist) (name . "/home/troyd/Music/yt/citypop/(자막_ENG SUB) Meiko Nakahara - Dance in the Memories.opus")) (*track* (type . file) (name . "/home/troyd/Music/yt/jp_covers/【Rainych】 SAY SO - Doja Cat _ Japanese Version (cover).ogg") (info-mtime 24374 38278 592318 615000) (last-played 24374 38704 359184 20000) (play-count . 6) (info-playing-time . 258) (info-playing-time-min . 4) (info-playing-time-sec . 18)))))
+;; play method
+((emms-repeat-track) (emms-repeat-playlist))
+)

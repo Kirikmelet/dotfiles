@@ -1,1 +1,1 @@
-("~/.config/" "~/Documents/github/notamusicplayer/")
+("~/.config/" "~/Desktop/360_tours/test1/vtour/" "~/Documents/github/notamusicplayer/")

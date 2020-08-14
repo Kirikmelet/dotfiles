@@ -18,5 +18,8 @@
 ;; https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el
 (require 'better-defaults)
 
+;; Loads custom config
+(require 'custom-fileconfig)
+
 ;; For emacs daemon
 (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))

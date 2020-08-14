@@ -25,6 +25,9 @@
 (dolist (pkg '(
                ;; Inset package here;
 
+               ;;Music ?
+               emms
+
                ;; Theme
                gruvbox-theme
                dashboard
@@ -107,6 +110,7 @@
  
 ;; Magit config
 (use-package magit
+             :hook ((after-init-hook . magit-mode))
              :ensure t
              )
 
@@ -115,8 +119,9 @@
 ;; LSP config
 (use-package lsp-mode
              :hook (
-                    (python-mode . lsp)
-                    (js-mode . lsp)
+                    (python-mode . lsp-deferred)
+                    (c-mode . lsp-deferred)
+                    (js-mode . lsp-deferred)
                     (lsp-mode . lsp-enable-which-key-integration))
              :commands (lsp lsp-deferred)
              )
@@ -141,7 +146,7 @@
 
 (use-package projectile
   :init
-  (projectile-mode +1)
+  (projectile-mode 1)
   :bind (
          :map projectile-mode-map
               ("s-p" . projectile-command-map)
@@ -154,7 +159,8 @@
   (dashboard-setup-startup-hook)
   (setq dashboard-banner-logo-title "Welcome to EMACS comrade!")
   (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
-  (setq dashboard-init-info "Nothing to lose but your OS!")
+  ;;(setq dashboard-init-info "Nothing to lose but your OS!")
+  (setq dashboard-init-time t)
   (setq dashboard-footer-messages '("Comrade Tux Calls Us"
                                     "Long Live the Eternal Revolution!"
                                     "Power to the workers!"))
@@ -184,5 +190,27 @@
                           
   
   )
+    (use-package emms
+                 :defer t
+                 :commands emms
+                 :config
+                 (emms-all)
+                 (emms-history-load)
+                 (emms-default-players)
+                 (setq
+                   emms-player-list (list emms-player-mpv)
+                   emms-source-file-default-directory (expand-file-name "~/Music")
+                   emms-source-file-directory-tree-function 'emms-source-file-directory-tree-find
+                   emms-browser-covers 'emms-browser-cache-thumbnail
+                   )
+                 (add-to-list 'emms-player-mpv-parameters "--no-audio-display")
+                 (add-to-list 'emms-player-mpv-parameters "--no-video")
+                 (add-to-list 'emms-info-functions 'emms-info-cueinfo)
+                 ;; Doesn't fucking play opus
+                 ;; mpv-ipc error
+                 )
+
+
+
 ;; End file
 (provide 'package-configfile)
