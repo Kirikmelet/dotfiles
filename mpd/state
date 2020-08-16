@@ -3,7 +3,7 @@ audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
 state: pause
 current: 0
-time: 13.234000
+time: 221.842000
 random: 1
 repeat: 1
 single: 0
@@ -12,5 +12,5 @@ crossfade: 15
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:yt_pl/citypop/「亜蘭知子」Relax.opus
+0:yt/jp/水樹奈々「METANOIA」MUSIC CLIP（Full Ver.）.opus
 playlist_end

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=683;y=750"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-alpha" type="empty"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="16"/>
+        <value type="int" value="3"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="14"/>
+        <value type="int" value="5"/>
+        <value type="int" value="2"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="9"/>
+        <value type="int" value="6"/>
+        <value type="int" value="4"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+      </property>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="mode" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="middle-click" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="items" type="empty"/>
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-4" type="string" value="power-manager-plugin">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="items" type="empty"/>
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="show-handle" type="empty"/>
+      <property name="middle-click" type="empty"/>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="qbittorrent"/>
+        <value type="string" value="liferea"/>
+        <value type="string" value="deadbeef"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="ckb-next"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="beebeep"/>
+        <value type="string" value="gnome-ring"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="gigolo"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="teams"/>
+        <value type="string" value="orage"/>
+        <value type="string" value="tray.py"/>
+        <value type="string" value="mintupdate.py"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="gmpc"/>
+      </property>
+      <property name="size-max" type="uint" value="20"/>
+    </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+      <property name="items" type="array">
+        <value type="string" value="15941279361.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="empty"/>
+      <property name="items" type="array">
+        <value type="string" value="15941279432.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-9" type="string" value="pager"/>
+    <property name="plugin-10" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="false"/>
+      <property name="mpris-players" type="string" value="audacious;chrome.instance10181;chrome.instance6620;chromium.instance10354;chromium.instance13496;chromium.instance14567;chromium.instance1557;chromium.instance16337;chromium.instance1658;chromium.instance1670;chromium.instance1687;chromium.instance18158;chromium.instance1858;chromium.instance19151;chromium.instance2018;chromium.instance22188;chromium.instance2220;chromium.instance2394;chromium.instance2571;chromium.instance2579;chromium.instance2658;chromium.instance26886;chromium.instance2721;chromium.instance2768;chromium.instance2782;chromium.instance27868;chromium.instance2827;chromium.instance28463;chromium.instance3058;chromium.instance3287;chromium.instance3288;chromium.instance3439;chromium.instance34781;chromium.instance35387;chromium.instance3718;chromium.instance37810;chromium.instance40910;chromium.instance4285;chromium.instance4404;chromium.instance45426;chromium.instance4789;chromium.instance4931;chromium.instance5147;chromium.instance55388;chromium.instance55614;chromium.instance58890;chromium.instance6707;chromium.instance7484;chromium.instance77057;chromium.instance7887;chromium.instance79299;chromium.instance8785;chromium.instance8866;chromium.instance9937;Lollypop;noson.Bedroom;spotify;vlc"/>
+      <property name="show-notifications" type="bool" value="false"/>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="digital-format" type="empty"/>
+    </property>
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15968853522.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="showdesktop"/>
+    <property name="plugin-17" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-18" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+  </property>
+</channel>

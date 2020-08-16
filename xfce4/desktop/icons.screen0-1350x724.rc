@@ -1,0 +1,15 @@
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[/home/troyd/Desktop/krpano]
+row=5
+col=0
+
+[/home/troyd/Desktop/iso]
+row=0
+col=1
+
+[/home/troyd/Desktop/void-packages]
+row=1
+col=1
+
