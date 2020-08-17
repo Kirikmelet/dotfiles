@@ -1,8 +1,0 @@
-;; bindings-config.el
-
-
-(global-set-key (kbd "s-o d") 'dired)
-(global-set-key (kbd "s-o m") 'emms-smart-browse)
-
-
-(provide 'bindings-config.el)
