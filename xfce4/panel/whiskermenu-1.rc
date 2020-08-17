@@ -1,5 +1,5 @@
 favorites=firefox.desktop,org.gnome.Calculator.desktop,xed.desktop,mintinstall.desktop,xfce4-taskmanager.desktop
-recent=palemoon.desktop,thunderbird.desktop,org.keepassxc.KeePassXC.desktop,brave-browser.desktop,emacs.desktop,emacs-term.desktop,deadbeef.desktop,libreoffice-startcenter.desktop,libreoffice-base.desktop,firefox.desktop
+recent=palemoon.desktop,emacs.desktop,beebeep.desktop,ncmpcpp.desktop,deadbeef.desktop,org.keepassxc.KeePassXC.desktop,menulibre.desktop,thunderbird.desktop,emacs-term.desktop,brave-browser.desktop
 button-icon=distributor-logo-linux-mint
 button-single-row=false
 show-button-title=false

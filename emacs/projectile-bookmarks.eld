@@ -1,1 +1,1 @@
-("~/.config/" "~/Desktop/360_tours/test1/vtour/" "~/Documents/github/notamusicplayer/")
+("~/org/" "~/.config/" "~/vimwiki/" "~/Desktop/360_tours/test1/vtour/" "~/Documents/github/notamusicplayer/")

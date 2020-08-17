@@ -86,11 +86,15 @@ if dein#load_state('/home/troyd/.cache/dein')
   " Required:
   call dein#add('/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim')
   " Shougo's plugins
-  call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
-  call dein#add('deoplete-plugins/deoplete-jedi', {'on_ft': 'python'})
+  "call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
+  "call dein#add('deoplete-plugins/deoplete-jedi', {'on_ft': 'python'}) " Because I couldn't get native LSP to work...
+
+  " For markdown
+  call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd', 'vimwiki'],
+					\ 'build': 'sh -c "cd app & npm install"' })
   call dein#add('Shougo/denite.nvim')
   call dein#add('Shougo/defx.nvim')
-  call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
+  "call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
   call dein#add('shinchu/lightline-gruvbox.vim')
   call dein#add('morhetz/gruvbox')
   call dein#add('sbdchd/neoformat')
@@ -99,11 +103,18 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('itchyny/lightline.vim')
   call dein#add('sheerun/vim-polyglot')
   call dein#add('vimwiki/vimwiki', {'on_cmd': 'VimwikiIndex'})
+    
+  " ORG-Mode
+  call dein#add('jceb/vim-orgmode')
+  call dein#add('tpope/vim-speeddating', {'on_ft': 'org'})
+  call dein#add('tpope/vim-repeat', {'on_ft': 'org'})
+  call dein#add('itchyny/calendar.vim', {'on_cmd': 'Calendar'})
+
   " LSP
 
   call dein#add('neovim/nvim-lsp')
-  "call dein#add('nvim-lua/diagnostic-nvim')
-  "call dein#add('nvim-lua/completion-nvim')
+  call dein#add('nvim-lua/diagnostic-nvim')
+  call dein#add('nvim-lua/completion-nvim')
 
   " Required:
   call dein#end()
@@ -145,14 +156,33 @@ nmap <leader>tn :tabnew<CR>
 nmap <leader>tc :tabclose
 "}}}
 
-"{{{Deoplete.nvim
-let g:deoplete#enable_at_startup = 1
+"{{{Completion-nvim / Diagnostic-nvim
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" Set completeopt to have a better completion experience
+set completeopt=menuone,noinsert,noselect
+
+" Avoid showing message extra message when using completion
+set shortmess+=c
+
+let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
+let g:diagnostic_enable_virtual_text = 1
 "}}}
 
 "{{{nvim-lsp
-lua require'nvim_lsp'.clangd.setup{}
-lua require'nvim_lsp'.html.setup{}
-lua require'nvim_lsp'.pyls.setup{}
+lua << EOF
+local on_attach_vim = function()
+  require'completion'.on_attach()
+  require'diagnostic'.on_attach()
+  require'nvim_lsp'.clangd.setup{on_attach=on_attach_vim}
+  require'nvim_lsp'.html.setup{on_attach=on_attach_vim}
+end
+EOF
+lua require'nvim_lsp'.clangd.setup{on_attach=require'completion'.on_attach}
+lua require'nvim_lsp'.html.setup{on_attach=require'completion'.on_attach}
+"lua require'nvim_lsp'.pyls.setup{}
 
 " Config
 
@@ -316,4 +346,10 @@ nnoremap <silent> <leader>bsc zc
 nnoremap <silent> <leader>bst za
 nnoremap <silent> <leader>bsC zM
 nnoremap <silent> <leader>bsO zR
+"}}}
+
+"{{{Application Hotkeys
+nnoremap <leader>aw :VimwikiIndex<CR>
+nnoremap <leader>ao :e ~/org/index.org<CR>
+nnoremap <leader>ac :Calendar<CR>
 "}}}

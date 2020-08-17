@@ -28,16 +28,18 @@
                ;;Music ?
                emms
 
+               ;; Org-mode
+               org
+               org-projectile
+
                ;; Theme
                gruvbox-theme
                dashboard
                all-the-icons
                all-the-icons-ivy
-               all-the-icons-ivy-rich
                all-the-icons-dired
 
                ;; Modes
-
                markdown-mode
                pdf-tools
 
@@ -48,7 +50,6 @@
 
                ;; Ivy
                ivy
-               ivy-rich
                ivy-dired-history
                swiper
 
@@ -77,6 +78,7 @@
              :ensure t
              :init
              (which-key-mode)
+             (setq which-key-use-C-h-commands nil) 
              )
 
 ;; ivy-mode config
@@ -161,14 +163,17 @@
              (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
              (setq dashboard-init-info "Nothing to lose but your OS!")
              ;;(setq dashboard-init-time t)
-             (setq dashboard-footer-messages '("Comrade Tux Calls Us"
+             (setq dashboard-footer-messages '("Comrade Tux Calls Us!"
                                                "Long Live the Permanent Revolution!"
-                                               "Power to the workers!"))
+                                               "Power to the workers!"
+                                               "There is worth in a union!"
+                                               ))
              (setq dashboard-center-content t)
              (setq dashboard-show-shortcuts t)
              (setq dashboard-items '(
                                      (recents . 5)
                                      (projects . 5)
+                                     (agenda . 5)
                                      ))
              (setq dashboard-set-heading-icons t)
              (setq dashboard-set-file-icons t)
@@ -227,7 +232,45 @@
              (evil-collection-setup-minibuffer t)
              )
 
-;; Terminal
+;; Markdown
+
+(use-package markdown-mode
+  :ensure t
+  :mode (("README\\.md\\'" . gfm-mode)
+         ("\\.md\\'" . markdown-mode)
+         ("\\.markdown\\'" . markdown-mode))
+  )
+
+;; Org-mode
+(use-package org
+  :ensure t
+  :bind (
+         ("s-o o a" . org-agenda)
+         ("s-o o c" . org-capture)
+         ("s-o o s" . org-store-link)
+         )
+  :config
+  (global-set-key (kbd "s-o C-f ") (lambda () (interactive) (dired "~/org/")))
+  (setq org-agenda-files (list "~/org/global_agenda/work.org"
+                               "~/org/global_agenda/projects.org"
+                               "~/org/global_agenda/school.org"))
+  (setq agenda-skip-scheduled-if-done t
+        org-directory "~/org"
+        org-bullets-bullet-list '("")
+        org-tags-column -80
+        org-todo-keywords '((sequence "TODO(t)" "CURRENT(c)" "HOLD(h)" "|" "FINISHED(f)" "CANCELLED(x)" "FAIL(F)"))
+        org-todo-keyword-faces
+        '(("TODO" :foreground "#b8bb26" :weight normal :underline t)
+          ("CURRENT" :foreground "#fabd2f" :weight normal :underline t)
+          ("HOLD" :foreground "#fe8019" :weight italic :underline t)
+          ("FINISHED" :foreground "#83a598" :weight normal :underline t)
+          ("CANCELLED" :foreground "#fb4934" :weight bold :underline t)
+          ("FAIL" :foreground "#cc241d" :weight bold :underline t)
+
+          )
+        org-log-done 'time
+        )
+        )
 
 ;; End file
 (provide 'package-configfile)

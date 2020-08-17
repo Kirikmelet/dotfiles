@@ -1,7 +1,24 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/troyd/.emacs.d/recentf" . 1492)
+(("/home/troyd/org/global_agenda/work.org" . 126)
+ ("/home/troyd/.emacs.d/recentf" . 1282)
+ ("/home/troyd/org/notes/lang/jp/character.org" . 3)
+ ("/home/troyd/.config/emacs/config/package-configfile.el" . 8323)
+ ("/home/troyd/org/global_agenda/"
+  (dired-filename . "/home/troyd/org/global_agenda/.."))
+ ("/home/troyd/org/"
+  (dired-filename . "/home/troyd/org/notes"))
+ ("/home/troyd/org/notes/index.org" . 120)
+ ("/home/troyd/org/notes/lang/jp/" . 176)
+ ("/home/troyd/org/notes/"
+  (dired-filename . "/home/troyd/org/notes/lang"))
+ ("/home/troyd/org/notes/lang/"
+  (dired-filename . "/home/troyd/org/notes/lang/jp"))
+ ("/home/troyd/test.md" . 33)
+ ("/home/troyd/vimwiki/index.md" . 214)
+ ("/home/troyd/.config/emacs/custom.el" . 335)
+ ("/home/troyd/.config/emacs/init.el" . 517)
+ ("/home/troyd/.config/emacs/config/bindings-config.el" . 112)
  ("/home/troyd/.emacs.d/emms/history" . 302266)
- ("/home/troyd/.config/emacs/config/package-configfile.el" . 5272)
  ("/home/troyd/.config/nvim/init.vim" . 1479)
  ("/home/troyd/.config/emacs/.cache/treemacs-persist" . 33)
  ("/home/troyd/Documents/books/politics/"
@@ -51,7 +68,6 @@
  ("/home/troyd/.emacs.d/elpa/ivy-dired-history-20170626.556/ivy-dired-history-autoloads.el" . 472)
  ("/home/troyd/.emacs.d/elpa/counsel-20200713.1351/counsel-autoloads.el" . 17552)
  ("/home/troyd/.emacs.d/elpa/swiper-20200503.1102/swiper-autoloads.el" . 1408)
- ("/home/troyd/.emacs.d/elpa/ivy-rich-20200601.104/ivy-rich-autoloads.el" . 910)
  ("/home/troyd/.emacs.d/elpa/ivy-20200624.1140/ivy-autoloads.el" . 5437)
  ("/home/troyd/.emacs.d/elpa/which-key-20200721.1927/which-key-autoloads.el" . 6045)
  ("/home/troyd/.emacs.d/elpa/use-package-20200721.2156/use-package-autoloads.el" . 8508)

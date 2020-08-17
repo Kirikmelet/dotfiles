@@ -10,6 +10,9 @@
 (add-to-list 'load-path config-dir)
 
 
+;; Autopair
+(electric-pair-mode)
+
 
 ;; Loads packages
 (require 'package-configfile)
@@ -20,6 +23,12 @@
 
 ;; Loads custom config
 (require 'custom-fileconfig)
+
+;; Loads custom bindings
+(require 'bindings-config)
+
+;; Loads Japanese Language config
+(require 'nihongo-config)
 
 ;; For emacs daemon
 (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
