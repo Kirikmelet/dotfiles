@@ -13,7 +13,7 @@
     <property name="volume" type="int" value="100"/>
   </property>
   <property name="folders" type="empty">
-    <property name="last-used-media" type="string" value="/home/troyd/Videos/movie/The Plot Against America Season 1 Complete 720p AMZN WEB-DL x264 [i_c]"/>
+    <property name="last-used-media" type="string" value="/tmp/Grabber"/>
   </property>
   <property name="playlist" type="empty">
     <property name="show-playlist" type="bool" value="true"/>

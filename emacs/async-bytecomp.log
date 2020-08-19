@@ -1,0 +1,8 @@
+
+In end of data:
+company-box-doc.el:155:1:Warning: the function ‘string-trim’ is not known to
+    be defined.
+
+In end of data:
+company-box.el:882:1:Warning: the function ‘icons-in-terminal’ is not known to
+    be defined.

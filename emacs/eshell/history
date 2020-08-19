@@ -22,3 +22,25 @@ ls
 chmod 755 tour_testingserver.sh 
 ./tour_testingserver.sh 
 exit
+cd Music/
+ls
+ytm https://www.youtube.com/watch?v=ry3Tupx4BL4
+youtube-dl -x --audio-format opus https://www.youtube.com/watch?v=ry3Tupx4BL4
+exit
+trans ja:en "平日から働きます"
+trans en:ja "I work during the weekdays"
+trans en:ja "I work on weekdays"
+trans ja:en "平日に仕事します"
+trans ja:en "映画を見てた"
+trans ja:en "I watched a movie"
+trans en:ja "I watched a movie"
+trans ja:en "映画を見てした"
+ls
+firefox date.html
+trans ja:en "いってれ"
+cd Music/youtube/jjazz/
+ls
+mpv --quiet --no-audio-display --really-quiet --no-vide o ◆\ Magia\ \(Jazz\ with\ Vocals\)\ _\ Madoka\ Magica.opus
+mpv --quiet --no-audio-display --really-quiet --no-video ◆\ Magia\ \(Jazz\ with\ Vocals\)\ _\ Madoka\ Magica.opus
+ncmpcpp 
+exit

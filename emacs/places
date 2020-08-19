@@ -1,24 +1,28 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/troyd/org/global_agenda/work.org" . 126)
- ("/home/troyd/.emacs.d/recentf" . 1282)
- ("/home/troyd/org/notes/lang/jp/character.org" . 3)
- ("/home/troyd/.config/emacs/config/package-configfile.el" . 8323)
- ("/home/troyd/org/global_agenda/"
-  (dired-filename . "/home/troyd/org/global_agenda/.."))
- ("/home/troyd/org/"
-  (dired-filename . "/home/troyd/org/notes"))
- ("/home/troyd/org/notes/index.org" . 120)
- ("/home/troyd/org/notes/lang/jp/" . 176)
- ("/home/troyd/org/notes/"
-  (dired-filename . "/home/troyd/org/notes/lang"))
- ("/home/troyd/org/notes/lang/"
-  (dired-filename . "/home/troyd/org/notes/lang/jp"))
- ("/home/troyd/test.md" . 33)
+(("/home/troyd/.config/emacs/config/package-configfile.el" . 7210)
+ ("/home/troyd/.emacs.d/recentf" . 1015)
+ ("/home/troyd/org/global_agenda/work.org" . 461)
+ ("/home/troyd/org/notes/lang/jp/"
+  (dired-filename . "/home/troyd/org/notes/lang/jp/character.org"))
+ ("/home/troyd/org/notes/lang/jp/socialphrases.org" . 2501)
+ ("/home/troyd/.emacs.d/emms/history" . 3775)
+ ("/home/troyd/org/notes/lang/jp/socialphrases.html" . 14844)
+ ("/home/troyd/org/notes/lang/jp/numbers.org" . 59)
+ ("/home/troyd/org/notes/lang/jp/formality.org" . 294)
+ ("/home/troyd/org/notes/lang/jp/numbercouter.org" . 193)
+ ("/home/troyd/org/notes/lang/jp/date.org" . 1628)
+ ("/home/troyd/org/notes/lang/jp/date.html" . 14709)
+ ("/home/troyd/org/notes/lang/jp/character.org" . 58)
+ ("/home/troyd/org/notes/lang/jp/adjective.org" . 226)
+ ("/home/troyd/Desktop/tdvplayer.js" . 50)
+ ("/home/troyd/.config/"
+  (dired-filename . "/home/troyd/.config/0suckless"))
+ ("/home/troyd/.emacs.d/elpa/format-all-20200804.1822/format-all-autoloads.el" . 3178)
+ ("/home/troyd/.emacs.d/elpa/language-id-20200726.1813/language-id-autoloads.el" . 428)
+ ("/home/troyd/.config/emacs/config/better-defaults.el" . 2674)
  ("/home/troyd/vimwiki/index.md" . 214)
- ("/home/troyd/.config/emacs/custom.el" . 335)
  ("/home/troyd/.config/emacs/init.el" . 517)
  ("/home/troyd/.config/emacs/config/bindings-config.el" . 112)
- ("/home/troyd/.emacs.d/emms/history" . 302266)
  ("/home/troyd/.config/nvim/init.vim" . 1479)
  ("/home/troyd/.config/emacs/.cache/treemacs-persist" . 33)
  ("/home/troyd/Documents/books/politics/"
@@ -31,7 +35,6 @@
   (dired-filename . "/home/troyd/Documents/books/manga/Honey Lemon Soda/vol_001-English.cbz"))
  ("/home/troyd/Documents/books/manga/Honey Lemon Soda/vol_001-English.cbz" . 156)
  ("/usr/share/emacs/26.3/etc/NEWS" . 52)
- ("/home/troyd/.emacs.d/elpa/company-20200813.2229/company-autoloads.el" . 11588)
  ("/home/troyd/.emacs.d/elpa/lsp-mode-20200814.1439/lsp-mode-autoloads.el" . 13282)
  ("/home/troyd/.emacs.d/elpa/magit-20200813.957/magit-autoloads.el" . 84496)
  ("/home/troyd/.emacs.d/elpa/markdown-mode-20200814.1232/markdown-mode-autoloads.el" . 1150)
@@ -40,7 +43,6 @@
  ("/home/troyd/Desktop/360_tours/test1/vtour/"
   (dired-filename . "/home/troyd/Desktop/360_tours/test1/vtour/pic1.png"))
  ("/home/troyd/Pictures/" . 25)
- ("/home/troyd/.config/emacs/elpa/emms-20200716.1815/emms-playlist-mode.el" . 8226)
  ("/home/troyd/Documents/github/notamusicplayer/mainrun.c" . 3054)
  ("/home/troyd/.emacs.d/"
   (dired-filename . "/home/troyd/.emacs.d/config"))

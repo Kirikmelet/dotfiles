@@ -26,7 +26,6 @@
                ;; Inset package here;
 
                ;;Music ?
-               emms
 
                ;; Org-mode
                org
@@ -60,8 +59,7 @@
                lsp-ivy
                company
                company-box
-               eldoc-eval
-               eldoc-overlay
+               format-all
 
                ;; Git / Projects
                magit
@@ -125,7 +123,7 @@
              :hook (
                     (python-mode . lsp-deferred)
                     (c-mode . lsp-deferred)
-                    (js-mode . lsp-deferred)
+                    ;;(js-mode . lsp-deferred) ; To slow
                     (lsp-mode . lsp-enable-which-key-integration))
              :commands (lsp lsp-deferred)
              )
@@ -154,6 +152,8 @@
                     ("s-p" . projectile-command-map)
                     ("C-c p" . projectile-command-map)
                     )
+             :config
+             (setq projectile-completion-system 'ivy) 
              )
 ;; Dashboard config
 (use-package dashboard
@@ -195,19 +195,37 @@
 
              )
 
-;; Music player
-(use-package emms
-             :commands emms
-             :config
-             (emms-all)
-             (emms-history-load)
-             (setq emms-player-list '(emms-player-mpd))
-             (setq emms-info-functions '(emms-info-mpd))
-             (setq emms-player-mpd-server-name "localhost")
-             (setq emms-player-mpd-server-port "23955")
-             (setq mpc-host "localhost:23955")
-             )
+;; Music player (DISABLED)
+;;(use-package emms
+;;             :commands emms
+;;             :config
+;;             (emms-all)
+;;             (emms-history-load)
+;;             ;;(setq emms-player-list '(emms-player-mpd))
+;;             ;;(setq emms-info-functions '(emms-info-mpd))
+;;             ;;(setq emms-player-mpd-server-name "localhost")
+;;             ;;(setq emms-player-mpd-server-port "23955")
+;;             ;;(setq mpc-host "localhost:23955")
+;;
+;;             ;; The only way for mpv to play opus & flac
+;;             (define-emms-simple-player mpvsimp
+;;               '(file)
+;;               (regexp-opt '(".opus" ".flac"))
+;;               "mpv" "--no-audio-display" "--no-video" "--quiet" "--really-quiet")
+;;
+;;             (add-to-list 'emms-player-list 'emms-player-mpvsimp)
+;;
+;;
+;;             (setq emms-source-file-default-directory (expand-file-name "~/Music")
+;;                   emms-source-file-directory-tree-function 'emms-source-file-directory-tree-find
+;;                   emms-browser-covers 'emms-browser-cache-thumbnail)
+;;             (add-to-list 'emms-info-functions 'emms-info-cueinfo)
+;;             )
 
+
+
+
+;; PDF-Reader
 (use-package pdf-tools
              :init
              (pdf-loader-install)
@@ -266,11 +284,11 @@
           ("FINISHED" :foreground "#83a598" :weight normal :underline t)
           ("CANCELLED" :foreground "#fb4934" :weight bold :underline t)
           ("FAIL" :foreground "#cc241d" :weight bold :underline t)
-
+          
           )
         org-log-done 'time
         )
-        )
+  )
 
 ;; End file
 (provide 'package-configfile)

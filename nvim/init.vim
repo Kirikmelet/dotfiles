@@ -103,7 +103,9 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('itchyny/lightline.vim')
   call dein#add('sheerun/vim-polyglot')
   call dein#add('vimwiki/vimwiki', {'on_cmd': 'VimwikiIndex'})
-    
+
+  " File Explorer
+  call dein#add('mcchrish/nnn.vim', {'on_cmd': 'NnnPicker'})
   " ORG-Mode
   call dein#add('jceb/vim-orgmode')
   call dein#add('tpope/vim-speeddating', {'on_ft': 'org'})
@@ -236,7 +238,6 @@ function! s:defxset() abort
 	nnoremap <silent><buffer><expr>b defx#do_action('cd', ['..'])
 	nnoremap <silent><buffer><expr>x defx#do_action('remove')
 	nnoremap <silent><buffer><expr>m defx#do_action('move')
-	nnoremap <silent><buffer><expr>e defx#do_action('open')
 	nnoremap <silent><buffer><expr>i defx#do_action('open', 'vsplit')
 	nnoremap <silent><buffer><expr>v defx#do_action('open', 'split')
 	nnoremap <silent><buffer><expr>t defx#do_action('open', 'tabnew')
@@ -352,4 +353,5 @@ nnoremap <silent> <leader>bsO zR
 nnoremap <leader>aw :VimwikiIndex<CR>
 nnoremap <leader>ao :e ~/org/index.org<CR>
 nnoremap <leader>ac :Calendar<CR>
+nnoremap <leader>ad :NnnPicker<CR>
 "}}}
