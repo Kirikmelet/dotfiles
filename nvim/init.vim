@@ -46,29 +46,29 @@ set omnifunc=v:lua.vim.lsp.omnifunc
 "}}}
 
 "{{{Vim apps
-" 0 - Enable
-" 1 - Disable
-let g:loaded_gzip = 1
-let g:loaded_tar = 1
-let g:loaded_tarPlugin = 1
-let g:loaded_zip = 1
-let g:loaded_zipPlugin = 1
+" 0 - Disable
+" 1 - Enable
+let g:loaded_gzip = 0
+let g:loaded_tar = 0
+let g:loaded_tarPlugin = 0
+let g:loaded_zip = 0
+let g:loaded_zipPlugin = 0
 
-let g:loaded_getscript = 1
-let g:loaded_getscriptPlugin = 1
-let g:loaded_vimball = 1
-let g:loaded_vimballPlugin = 1
+let g:loaded_getscript = 0
+let g:loaded_getscriptPlugin = 0
+let g:loaded_vimball = 0
+let g:loaded_vimballPlugin = 0
 
-let g:loaded_matchit = 1
-let g:loaded_matchparen = 1
-let g:loaded_2html_plugin = 1
-let g:loaded_logiPat = 1
-let g:loaded_rrhelper = 1
+let g:loaded_matchit = 0
+let g:loaded_matchparen = 0
+let g:loaded_2html_plugin = 0
+let g:loaded_logiPat = 0
+let g:loaded_rrhelper = 0
 
-let g:loaded_netrw = 1
-let g:loaded_netrwPlugin = 1
-let g:loaded_netrwSettings = 1
-let g:loaded_netrwFileHandlers = 1
+let g:loaded_netrw = 0
+let g:loaded_netrwPlugin = 0
+let g:loaded_netrwSettings = 0
+let g:loaded_netrwFileHandlers = 0
 "}}}
 
 "{{{Sudo write
@@ -111,16 +111,20 @@ if dein#load_state('/home/troyd/.cache/dein')
   " Let dein manage dein
   " Required:
   call dein#add('/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim')
+
   " Shougo Plugins:
   "call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
   "call dein#add('deoplete-plugins/deoplete-jedi', {'on_ft': 'python'}) " Because I couldn't get native LSP to work...
+  "call dein#add('Shougo/denite.nvim')
+  "call dein#add('Shougo/defx.nvim')
+  "call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
 
   " Markdown Preview:
   call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd', 'vimwiki'],
 					\ 'build': 'sh -c "cd app & npm install"' })
-  call dein#add('Shougo/denite.nvim')
-  "call dein#add('Shougo/defx.nvim')
-  "call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
+
+  " FUZZY SEARCH:
+  call dein#add('Yggdroot/LeaderF', { 'build': './install.sh', 'on_cmd': 'Leaderf' })
 
   " Gruvbox:
   call dein#add('shinchu/lightline-gruvbox.vim')
@@ -294,76 +298,87 @@ lua require'nvim_lsp'.pyls.setup{on_attach=require'completion'.on_attach}
 
 "{{{Denite
 "Define mappings
-call denite#custom#option('_', {
-\ 'split': 'horizontal',
-\ 'winheight': 5,
-\ 'start_filter': v:false,
-\ 'smartcase': v:true,
-\ 'source_names': 'short',
-\ 'filter_split_direction': 'horizontal',
-\ 'highlight_filter_background': 'NormalFloat',
-\ 'prompt': '>$ ',
-\ 'floating_preview': v:true,
-\ 'statusline': v:false,
-\ })
+"call denite#custom#option('_', {
+"\ 'split': 'horizontal',
+"\ 'winheight': 5,
+"\ 'start_filter': v:false,
+"\ 'smartcase': v:true,
+"\ 'source_names': 'short',
+"\ 'filter_split_direction': 'horizontal',
+"\ 'highlight_filter_background': 'NormalFloat',
+"\ 'prompt': '>$ ',
+"\ 'floating_preview': v:true,
+"\ 'statusline': v:false,
+"\ })
+"
+"
+"call denite#custom#var('grep', {
+"			\ 'command': ['rg'],
+"		\ 'default_opts': ['-i', '--vimgrep', '--no-heading'],
+"		\ 'recursive_opts': [],
+"		\ 'pattern_opt': ['--regexp'],
+"		\ 'separator': ['--'],
+"		\ 'final_opts': [],
+"		\ })
+"call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
+"
+"nmap <leader>df :Denite file/rec<CR>
+"nmap <leader>dp :DeniteProjectDir file<CR>
+"nmap <leader>m :Denite menu<CR>
+"
+"autocmd FileType denite call s:denite_my_settings()
+"function! s:denite_my_settings() abort
+"  nnoremap <silent><buffer><expr> <CR>
+"  \ denite#do_map('do_action')
+"  nnoremap <silent><buffer><expr> d
+"  \ denite#do_map('do_action', 'delete')
+"  nnoremap <silent><buffer><expr> p
+"  \ denite#do_map('do_action', 'preview')
+"  nnoremap <silent><buffer><expr> q
+"  \ denite#do_map('quit')
+"  nnoremap <silent><buffer><expr> /
+"  \ denite#do_map('open_filter_buffer')
+"  nnoremap <silent><buffer><expr> <Space>
+"  \ denite#do_map('toggle_select').'j'
+"  nnoremap <silent><buffer><expr> i
+"    \ denite#do_map('do_action', 'vsplit')
+"  nnoremap <silent><buffer><expr> v
+"    \ denite#do_map('do_action', 'split')
+"  nnoremap <silent><buffer><expr> t
+"    \ denite#do_map('do_action', 'tabopen')
+"  nnoremap <silent><buffer><expr> s
+"    \ denite#do_map('do_action', 'preview')
+"endfunction
+"
+"let s:menus = {}
+"let s:menus.project = {
+"            \ 'description': 'Project Menu'
+"            \}
+"let s:menus.project.file_candidates = [
+"            \ ['nmp', '~/Documents/github/notamusicplayer'],
+"            \ ['GIAS', '~/Desktop/GIIAS_04'],
+"            \]
+"let s:menus.git_commands = {
+"            \'description': 'Does git'
+"            \}
+"let s:menus.git_commands.command_candidates = [
+"            \ ['View current status', 'G'],
+"            \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
+"            \ ['Git Commit', 'Gcommit'],
+"            \ ['Git Push', 'Gpush'],
+"            \]
+"call denite#custom#var('menu', 'menus', s:menus)
+"}}}
 
+"{{{LeaderF
+let g:Lf_HideHelp = 1
+let g:Lf_UseCache = 0
+let g:Lf_UseVersionControlTool = 0
+let g:Lf_IgnoreCurrentBufferName = 1
 
-call denite#custom#var('grep', {
-			\ 'command': ['rg'],
-		\ 'default_opts': ['-i', '--vimgrep', '--no-heading'],
-		\ 'recursive_opts': [],
-		\ 'pattern_opt': ['--regexp'],
-		\ 'separator': ['--'],
-		\ 'final_opts': [],
-		\ })
-call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
+let g:Lf_DefaultMode = 'Regex'
 
-nmap <leader>df :Denite file/rec<CR>
-nmap <leader>dp :DeniteProjectDir file<CR>
-nmap <leader>m :Denite menu<CR>
-
-autocmd FileType denite call s:denite_my_settings()
-function! s:denite_my_settings() abort
-  nnoremap <silent><buffer><expr> <CR>
-  \ denite#do_map('do_action')
-  nnoremap <silent><buffer><expr> d
-  \ denite#do_map('do_action', 'delete')
-  nnoremap <silent><buffer><expr> p
-  \ denite#do_map('do_action', 'preview')
-  nnoremap <silent><buffer><expr> q
-  \ denite#do_map('quit')
-  nnoremap <silent><buffer><expr> /
-  \ denite#do_map('open_filter_buffer')
-  nnoremap <silent><buffer><expr> <Space>
-  \ denite#do_map('toggle_select').'j'
-  nnoremap <silent><buffer><expr> i
-    \ denite#do_map('do_action', 'vsplit')
-  nnoremap <silent><buffer><expr> v
-    \ denite#do_map('do_action', 'split')
-  nnoremap <silent><buffer><expr> t
-    \ denite#do_map('do_action', 'tabopen')
-  nnoremap <silent><buffer><expr> s
-    \ denite#do_map('do_action', 'preview')
-endfunction
-
-let s:menus = {}
-let s:menus.project = {
-            \ 'description': 'Project Menu'
-            \}
-let s:menus.project.file_candidates = [
-            \ ['nmp', '~/Documents/github/notamusicplayer'],
-            \ ['GIAS', '~/Desktop/GIIAS_04'],
-            \]
-let s:menus.git_commands = {
-            \'description': 'Does git'
-            \}
-let s:menus.git_commands.command_candidates = [
-            \ ['View current status', 'G'],
-            \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
-            \ ['Git Commit', 'Gcommit'],
-            \ ['Git Push', 'Gpush'],
-            \]
-call denite#custom#var('menu', 'menus', s:menus)
+let g:Lf_WindowHeight = 0.15
 "}}}
 
 "{{{Vimwiki
@@ -376,23 +391,27 @@ let g:org_agenda_files=['~/org/global_agenda/work.org', '~/org/global_agenda/sch
 "}}}
 
 "{{{File hotkeys
-nnoremap <silent> <leader>fs :Denite grep<CR>
+nnoremap  <leader>fs :Leaderf! rg --current-buffer -e 
 "nnoremap <silent> <leader>ff <cmd>lua vim.lsp.buf.formatting()<CR>
 nnoremap <silent> <leader>ff :Neoformat<CR>
 "nnoremap <silent> <leader>ff gggqG
 nnoremap <silent> <leader>fm :make<CR>
+nnoremap <silent> <leader>fts :Leaderf tag<CR>
+nnoremap <silent> <leader>ftg <cmd>!ctags %<CR>
 "}}}
 
 "{{{Buffer hotkeys
-nnoremap <silent> <leader>bf :Denite file/rec<CR>
+nnoremap <silent> <leader>bf :Leaderf file<CR>
 "nnoremap <silent> <leader>bd :Defx<CR>
 nnoremap <silent> <leader>bd :NnnPicker<CR>
-nnoremap <silent> <leader>bb :Denite buffer<CR>
+nnoremap <silent> <leader>bb :Leaderf buffer<CR>
 nnoremap <silent> <leader>bso zo
 nnoremap <silent> <leader>bsc zc
 nnoremap <silent> <leader>bst za
 nnoremap <silent> <leader>bsC zM
 nnoremap <silent> <leader>bsO zR
+nnoremap <silent> <leader>bps :mksession!<CR>
+nnoremap <silent> <leader>bpo :source Session.vim<CR>
 "}}}
 
 "{{{Application Hotkeys

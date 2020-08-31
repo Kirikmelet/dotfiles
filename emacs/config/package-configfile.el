@@ -31,6 +31,7 @@
                ;; Org-mode
                org
                org-projectile
+               htmlize
 
                ;; Theme
                gruvbox-theme
