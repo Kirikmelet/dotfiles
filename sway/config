@@ -4,6 +4,17 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+
+### GTK
+set $gnome-schema org.gnome.desktop.interface
+
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Mint-Yz-Darkest-MintFresh'
+    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+    gsettings set $gnome-schema cursor-theme 'Adwaita'
+}
+
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -18,7 +29,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | bemenu | xargs swaymsg exec --
+set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
 # Audio XF86SymKeys
 bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
@@ -31,7 +42,7 @@ bindsym XF86MonBrightnessDown exec light -U 15
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-exec swaybg -i ~/Documents/projects/artix_wallpaper/output/classic_wall_notux_grvbox.png -m fill
+exec swaybg -i  /home/troyd/Documents/projects/artix_wallpaper/output/classic_wall_notux_grvbox.png -m fill
 exec source ~/.wprofile
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
@@ -246,3 +257,15 @@ bar {
 exec --no-startup-id waybar
 
 include /etc/sway/config.d/*
+
+
+# Borders
+
+client.background n/a #282828 n/a n/a n/a
+client.focused #282828 #282828 #ebdbb2 #7c6f64
+client.focused_inactive #1d2021 #1d2021 #ebdbb2 #7c6f64
+client.unfocused #1d2021 #1d2021 #d5c4a1
+
+# Gaps
+gaps inner 5
+gaps outer 5

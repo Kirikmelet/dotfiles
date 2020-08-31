@@ -45,6 +45,32 @@ set omnifunc=v:lua.vim.lsp.omnifunc
 
 "}}}
 
+"{{{Vim apps
+" 0 - Enable
+" 1 - Disable
+let g:loaded_gzip = 1
+let g:loaded_tar = 1
+let g:loaded_tarPlugin = 1
+let g:loaded_zip = 1
+let g:loaded_zipPlugin = 1
+
+let g:loaded_getscript = 1
+let g:loaded_getscriptPlugin = 1
+let g:loaded_vimball = 1
+let g:loaded_vimballPlugin = 1
+
+let g:loaded_matchit = 1
+let g:loaded_matchparen = 1
+let g:loaded_2html_plugin = 1
+let g:loaded_logiPat = 1
+let g:loaded_rrhelper = 1
+
+let g:loaded_netrw = 1
+let g:loaded_netrwPlugin = 1
+let g:loaded_netrwSettings = 1
+let g:loaded_netrwFileHandlers = 1
+"}}}
+
 "{{{Sudo write
 command! Suwrite :w !sudo tee %  <CR>
 "}}}
@@ -85,35 +111,49 @@ if dein#load_state('/home/troyd/.cache/dein')
   " Let dein manage dein
   " Required:
   call dein#add('/home/troyd/.cache/dein/repos/github.com/Shougo/dein.vim')
-  " Shougo's plugins
+  " Shougo Plugins:
   "call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
   "call dein#add('deoplete-plugins/deoplete-jedi', {'on_ft': 'python'}) " Because I couldn't get native LSP to work...
 
-  " For markdown
+  " Markdown Preview:
   call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd', 'vimwiki'],
 					\ 'build': 'sh -c "cd app & npm install"' })
   call dein#add('Shougo/denite.nvim')
-  call dein#add('Shougo/defx.nvim')
+  "call dein#add('Shougo/defx.nvim')
   "call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
+
+  " Gruvbox:
   call dein#add('shinchu/lightline-gruvbox.vim')
   call dein#add('morhetz/gruvbox')
-  call dein#add('sbdchd/neoformat')
+
+  " Git:
   call dein#add('tpope/vim-fugitive')
-  call dein#add('ap/vim-css-color',)
+
+  " CSS Colors:
+  call dein#add('ap/vim-css-color')
+    
+  " Statusline:
   call dein#add('itchyny/lightline.vim')
+
+  " FTPlugin Plugin:
   call dein#add('sheerun/vim-polyglot')
+
+  " VimWiki:
   call dein#add('vimwiki/vimwiki', {'on_cmd': 'VimwikiIndex'})
 
-  " File Explorer
+  " File Formatting:
+  call dein#add('sbdchd/neoformat', {'on_cmd': 'Neoformat'})
+
+  " File Explorer:
   call dein#add('mcchrish/nnn.vim', {'on_cmd': 'NnnPicker'})
-  " ORG-Mode
+
+  " ORG MODE:
   call dein#add('jceb/vim-orgmode')
   call dein#add('tpope/vim-speeddating', {'on_ft': 'org'})
   call dein#add('tpope/vim-repeat', {'on_ft': 'org'})
   call dein#add('itchyny/calendar.vim', {'on_cmd': 'Calendar'})
 
-  " LSP
-
+  " Lsp:
   call dein#add('neovim/nvim-lsp')
   call dein#add('nvim-lua/diagnostic-nvim')
   call dein#add('nvim-lua/completion-nvim')
@@ -184,7 +224,7 @@ end
 EOF
 lua require'nvim_lsp'.clangd.setup{on_attach=require'completion'.on_attach}
 lua require'nvim_lsp'.html.setup{on_attach=require'completion'.on_attach}
-"lua require'nvim_lsp'.pyls.setup{}
+lua require'nvim_lsp'.pyls.setup{on_attach=require'completion'.on_attach}
 
 " Config
 
@@ -201,56 +241,55 @@ lua require'nvim_lsp'.html.setup{on_attach=require'completion'.on_attach}
 "}}}
 
 "{{{Defx
-call defx#custom#option('_', {
-      \ 'split': 'vertical',
-      \ 'winwidth': 30,
-      \ 'show_ignored_files': 1,
-      \ 'buffer_name': 'defxplorer',
-      \ 'toggle': 1,
-      \ 'resume': 1,
-      \ 'direction': 'topleft',
-      \ 'ignored_files':
-      \ '.git,.clangd',
-      \ 'root_marker': '',
-      \ })
-call defx#custom#column('git', {
-            \ 'indicators': {
-            \ 'Modified' : 'g!m',
-            \ 'Staged' : 'g!s',
-            \ 'Untracked': '',
-            \ 'Renamed': 'g!r',
-            \ 'Ignored' :'g!i',
-            \ 'Deleted' : 'g!d',
-            \ 'Unknown' : 'g!u'}
-            \})
-nmap <A-d> :Defx<CR>
-
-augroup checkdefx
-    autocmd!
-    autocmd WinEnter * if &filetype == 'defx' && winnr('$') == 1 | bdel | endif
-    autocmd TabLeave * if &filetype == 'defx' | wincmd w | endif
-augroup END
-autocmd FileType defx call s:defxset()
-function! s:defxset() abort
-        setlocal signcolumn=no expandtab
-	nnoremap <silent><buffer><expr><CR> defx#do_action('drop')
-	nnoremap <silent><buffer><expr>c defx#do_action('copy')
-	nnoremap <silent><buffer><expr>b defx#do_action('cd', ['..'])
-	nnoremap <silent><buffer><expr>x defx#do_action('remove')
-	nnoremap <silent><buffer><expr>m defx#do_action('move')
-	nnoremap <silent><buffer><expr>i defx#do_action('open', 'vsplit')
-	nnoremap <silent><buffer><expr>v defx#do_action('open', 'split')
-	nnoremap <silent><buffer><expr>t defx#do_action('open', 'tabnew')
-        nnoremap <silent><buffer><expr>q defx#do_action('quit')
-        nnoremap <silent><buffer><expr>s defx#do_action('save_session')
-        nnoremap <silent><buffer><expr>r defx#do_action('rename')
-        nnoremap <silent><buffer><expr>p defx#do_action('paste')
-        nnoremap <silent><buffer><expr>E defx#do_action('execute_system')
-        nnoremap <silent><buffer><expr>y defx#do_action('yank_path')
-        nnoremap <silent><buffer><expr>nf defx#do_action('new_file')
-        nnoremap <silent><buffer><expr>nd defx#do_action('new_directory')
-        nnoremap <silent><buffer><expr>nF defx#do_action('new_multiple_files')
-endfunction
+"call defx#custom#option('_', {
+"      \ 'split': 'vertical',
+"      \ 'winwidth': 30,
+"      \ 'show_ignored_files': 1,
+"      \ 'buffer_name': 'defxplorer',
+"      \ 'toggle': 1,
+"      \ 'resume': 1,
+"      \ 'direction': 'topleft',
+"      \ 'ignored_files':
+"      \ '.git,.clangd',
+"      \ 'root_marker': '',
+"      \ })
+"call defx#custom#column('git', {
+"            \ 'indicators': {
+"            \ 'Modified' : 'g!m',
+"            \ 'Staged' : 'g!s',
+"            \ 'Untracked': '',
+"            \ 'Renamed': 'g!r',
+"            \ 'Ignored' :'g!i',
+"            \ 'Deleted' : 'g!d',
+"            \ 'Unknown' : 'g!u'}
+"            \})
+"
+"augroup checkdefx
+"    autocmd!
+"    autocmd WinEnter * if &filetype == 'defx' && winnr('$') == 1 | bdel | endif
+"    autocmd TabLeave * if &filetype == 'defx' | wincmd w | endif
+"augroup END
+"autocmd FileType defx call s:defxset()
+"function! s:defxset() abort
+"        setlocal signcolumn=no expandtab
+"	nnoremap <silent><buffer><expr><CR> defx#do_action('drop')
+"	nnoremap <silent><buffer><expr>c defx#do_action('copy')
+"	nnoremap <silent><buffer><expr>b defx#do_action('cd', ['..'])
+"	nnoremap <silent><buffer><expr>x defx#do_action('remove')
+"	nnoremap <silent><buffer><expr>m defx#do_action('move')
+"	nnoremap <silent><buffer><expr>i defx#do_action('open', 'vsplit')
+"	nnoremap <silent><buffer><expr>v defx#do_action('open', 'split')
+"	nnoremap <silent><buffer><expr>t defx#do_action('open', 'tabnew')
+"        nnoremap <silent><buffer><expr>q defx#do_action('quit')
+"        nnoremap <silent><buffer><expr>s defx#do_action('save_session')
+"        nnoremap <silent><buffer><expr>r defx#do_action('rename')
+"        nnoremap <silent><buffer><expr>p defx#do_action('paste')
+"        nnoremap <silent><buffer><expr>E defx#do_action('execute_system')
+"        nnoremap <silent><buffer><expr>y defx#do_action('yank_path')
+"        nnoremap <silent><buffer><expr>nf defx#do_action('new_file')
+"        nnoremap <silent><buffer><expr>nd defx#do_action('new_directory')
+"        nnoremap <silent><buffer><expr>nF defx#do_action('new_multiple_files')
+"endfunction
 "}}}
 
 "{{{Denite
@@ -332,15 +371,22 @@ let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}
 nnoremap <leader>wi :VimwikiIndex<CR>
 "}}}
 
+"{{{ Org-mode
+let g:org_agenda_files=['~/org/global_agenda/work.org', '~/org/global_agenda/school.org', '~/org/global_agenda/projects.org']
+"}}}
+
 "{{{File hotkeys
 nnoremap <silent> <leader>fs :Denite grep<CR>
+"nnoremap <silent> <leader>ff <cmd>lua vim.lsp.buf.formatting()<CR>
 nnoremap <silent> <leader>ff :Neoformat<CR>
+"nnoremap <silent> <leader>ff gggqG
 nnoremap <silent> <leader>fm :make<CR>
 "}}}
 
 "{{{Buffer hotkeys
 nnoremap <silent> <leader>bf :Denite file/rec<CR>
-nnoremap <silent> <leader>bd :Defx<CR>
+"nnoremap <silent> <leader>bd :Defx<CR>
+nnoremap <silent> <leader>bd :NnnPicker<CR>
 nnoremap <silent> <leader>bb :Denite buffer<CR>
 nnoremap <silent> <leader>bso zo
 nnoremap <silent> <leader>bsc zc
@@ -351,7 +397,8 @@ nnoremap <silent> <leader>bsO zR
 
 "{{{Application Hotkeys
 nnoremap <leader>aw :VimwikiIndex<CR>
-nnoremap <leader>ao :e ~/org/index.org<CR>
+nnoremap <leader>ao :NnnPicker ~/org<CR>
 nnoremap <leader>ac :Calendar<CR>
 nnoremap <leader>ad :NnnPicker<CR>
 "}}}
+

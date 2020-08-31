@@ -44,3 +44,34 @@ mpv --quiet --no-audio-display --really-quiet --no-vide o ◆\ Magia\ \(Jazz\ wi
 mpv --quiet --no-audio-display --really-quiet --no-video ◆\ Magia\ \(Jazz\ with\ Vocals\)\ _\ Madoka\ Magica.opus
 ncmpcpp 
 exit
+ls
+./tour_testingserver.sh 
+https://avk.co.id/dev/autosim1/
+curl -O https://avk.co.id/dev/autosim1/
+curl -O https://avk.co.id/dev/autosim1/
+cd 360_tours/test1/
+ls
+cd vtour/
+ls
+./tour_testingserver.sh 
+./tour_testingserver.sh 
+trans en:ja "Japanese Pronouns"
+trans en:ja "Japanese Language Pronouns"
+ls
+exit
+ls
+ls
+./tour_testingserver.sh 
+./tour_testingserver.sh 
+ls
+curl -O https://krpano.com/viewsource.html?plugins/videoplayer/source/videoplayer_basic_source.js
+ls
+ls
+mv videoplayer_basic_source.js vidplayer.js
+./tour_testingserver.sh 
+./tour_testingserver.sh 
+./tour_testingserver.sh 
+ls
+curl -O https://krpano.com/plugins/videoplayer/source/videoplayer_basic_source.js
+ls
+exit

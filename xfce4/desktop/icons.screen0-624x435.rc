@@ -1,43 +1,27 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[/home/troyd/Desktop/360_tours]
+row=1
+col=0
+
 [/home/troyd/Desktop/krpano-1.20.7]
 row=0
 col=0
 
-[/home/troyd/Desktop/360pano]
-row=1
-col=0
-
-[/home/troyd/Desktop/Ajinomoto]
+[/home/troyd/Desktop/magazine]
 row=2
 col=0
 
-[/home/troyd/Desktop/Half Life.desktop]
-row=0
-col=2
-
-[/home/troyd/Desktop/Counter-Strike WaRzOnE.desktop]
+[/home/troyd/Desktop/photoshopCClinux]
 row=1
 col=1
 
-[/home/troyd/Desktop/HLDS.desktop]
-row=1
-col=2
-
-[/home/troyd/Desktop/CSS WaRzOnE.lnk]
-row=2
-col=1
-
-[/home/troyd/Desktop/GIIAS_04]
+[/home/troyd/Desktop/kyfm]
 row=3
 col=0
 
-[/home/troyd/Desktop/popup_sample]
+[/home/troyd/Desktop/index.html]
 row=0
-col=1
-
-[/home/troyd/Desktop/CSS WaRzOnE.desktop]
-row=3
 col=1
 

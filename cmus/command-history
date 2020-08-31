@@ -1,20 +1,2 @@
 q
-pl-create 80's Remix
-pl-create Hololive
-h
-pl-create Citypop
-a ~/Music
-wq
-Q
 add ~/Music/
-live-filter q
-bind -f common q quit
-quit
-bind -f common q shell screen -d cmus
-colorscheme gruvbox
-colorscheme gray-88
-colorscheme jellybeans
-colorscheme gruvbox_theme
-colorscheme gruvbox-alt
-1
-a ~/music

@@ -9,6 +9,7 @@
   <property name="do-fadeout" type="empty"/>
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
+      <value type="string" value="BeeBEEP"/>
       <value type="string" value="chromium"/>
       <value type="string" value="fcitx"/>
       <value type="string" value="Firefox"/>

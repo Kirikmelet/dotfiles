@@ -20,6 +20,9 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
+
+export PSREFIX="$HOME/.photoshopCCV19/prefix/"
+
 #{{{Base ZSH 
 # User configuration
 
@@ -47,7 +50,7 @@ export NNN_BMS="h:~/;D:~/Documents;d:~/Desktop/;V:~/Videos/;M:~/Music/;l:~/Downl
 export NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip|zst|zstd)$"
 export NNN_TRASH=0
 export NNN_COLORS="4444"
-export NNN_PLUG="i:imgview;o:launch;C:mp3conv;P:picker;v:pdfread;b:nbak;l:oldbigfile;f:organize"
+export NNN_PLUG="i:imgview;o:launch;C:mp3conv;P:picker;v:pdfread;b:nbak;l:oldbigfile;f:organize;g:gpge;G:gpgd"
 export NNN_OPS_PROG=1
 #}}}
 

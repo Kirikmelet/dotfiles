@@ -26,6 +26,7 @@
                ;; Inset package here;
 
                ;;Music ?
+               simple-mpc
 
                ;; Org-mode
                org
@@ -44,8 +45,8 @@
 
                ;; Handles keybind popup
                which-key
-               evil
-               evil-collection
+               ;;evil
+               ;;evil-collection
 
                ;; Ivy
                ivy
@@ -126,6 +127,9 @@
                     ;;(js-mode . lsp-deferred) ; To slow
                     (lsp-mode . lsp-enable-which-key-integration))
              :commands (lsp lsp-deferred)
+             :custom
+             (with-eval-after-load 'lsp-mode
+                                   setq lsp-modeline-diagnostics-scope :project)
              )
 (use-package lsp-ui
              :commands lsp-ui-mode)
@@ -133,6 +137,9 @@
              :commands lsp-ivy-workspace-symbol)
 (use-package company
              :hook (after-init-hook . global-company-mode)
+             :config
+             (setq company-minimum-prefix-length 1
+                   company-idle-delay 0.0) ;; default is 0.2
              )
 (use-package company-box
              :hook (company-mode . company-box-mode)
@@ -160,7 +167,8 @@
              :config
              (dashboard-setup-startup-hook)
              (setq dashboard-banner-logo-title "Welcome to EMACS comrade!")
-             (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
+             ;;(setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
+             (setq dashboard-startup-banner 'logo)
              (setq dashboard-init-info "Nothing to lose but your OS!")
              ;;(setq dashboard-init-time t)
              (setq dashboard-footer-messages '("Comrade Tux Calls Us!"
@@ -176,6 +184,7 @@
                                      (agenda . 5)
                                      ))
              (setq dashboard-set-heading-icons t)
+             (setq show-week-agenda-p t)
              (setq dashboard-set-file-icons t)
              (setq dashboard-set-navigator t)
              (setq dashboard-navigator-buttons
@@ -195,7 +204,10 @@
 
              )
 
-;; Music player (DISABLED)
+;; Music player
+(use-package simple-mpc
+  :bind(
+        ("s-o m" . simple-mpc)))
 ;;(use-package emms
 ;;             :commands emms
 ;;             :config
@@ -233,22 +245,22 @@
 
 ;; EVIL
 
-(use-package evil
-             :ensure t
-             :init
-             (setq evil-want-integration t)
-             (setq evil-want-keybinding nil)
-             :config
-             (evil-mode 1)
-             )
-(use-package evil-collection
-             :after evil
-             :ensure t
-             :config
-             (evil-collection-init)
-             :custom
-             (evil-collection-setup-minibuffer t)
-             )
+;;(use-package evil
+;;             :ensure t
+;;             :init
+;;             (setq evil-want-integration t)
+;;             (setq evil-want-keybinding nil)
+;;             :config
+;;             (evil-mode 1)
+;;             )
+;;(use-package evil-collection
+;;             :after evil
+;;             :ensure t
+;;             :config
+;;             (evil-collection-init)
+;;             :custom
+;;             (evil-collection-setup-minibuffer t)
+;;             )
 
 ;; Markdown
 
@@ -288,6 +300,13 @@
           )
         org-log-done 'time
         )
+  )
+
+;; Eshell
+
+(use-package eshell
+  :bind (
+         ("s-o e" . eshell))
   )
 
 ;; End file

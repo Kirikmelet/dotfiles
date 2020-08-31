@@ -26,12 +26,14 @@
      alias ytm="youtube-dl -x --audio-format opus $1"
 #}}}
 
+#{{{ Functions
 filesizes(){
     for i in $(ls); do du -sh "$i"; done
 }
 set -o vi
+#}}}
 
-#{{{NPM
+#{{{ NPM
 ###-begin-npm-completion-###
 #
 # npm command completion script
@@ -109,7 +111,7 @@ function msdos_pwd
     echo $dir | tr '/' '\\'
 }
 
-export PS1='`pwd`/> '
+export PS1='$(pwd)/> '
 
 #echo 
 #echo

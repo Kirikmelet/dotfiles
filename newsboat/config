@@ -28,4 +28,4 @@ bind-key H prev
 
 macro y set browser "mpv %u" ; open-in-browser ; set browser "w3m %u"
 macro r set browser "tuir %u" ; open-in-browser ; set browser "w3m %u"
-macro m set browser "epiphany %u" ; open-in-browser ; set browser "w3m %u"
+macro m set browser "palemoon %u" ; open-in-browser ; set browser "w3m %u"

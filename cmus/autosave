@@ -21,9 +21,13 @@ set color_statusline_fg=black
 set color_titleline_attr=default
 set color_titleline_bg=blue
 set color_titleline_fg=white
+set color_trackwin_album_attr=bold
+set color_trackwin_album_bg=default
+set color_trackwin_album_fg=default
 set color_win_attr=default
 set color_win_bg=default
 set color_win_cur=lightyellow
+set color_win_cur_attr=default
 set color_win_cur_sel_attr=default
 set color_win_cur_sel_bg=blue
 set color_win_cur_sel_fg=lightyellow
@@ -45,7 +49,7 @@ set confirm_run=true
 set continue=true
 set device=/dev/cdrom
 set display_artist_sort_name=false
-set dsp.alsa.device=default
+set dsp.alsa.device=
 set dsp.ao.buffer_size=16384
 set dsp.ao.device_interface=
 set dsp.ao.driver=
@@ -53,8 +57,6 @@ set dsp.ao.wav_counter=1
 set dsp.ao.wav_dir=/home/troyd
 set dsp.jack.resampling_quality=2
 set dsp.jack.server_name=
-set dsp.roar.role=
-set dsp.roar.server=
 set follow=false
 set format_current= %a - %l -%3n. %t%= %y 
 set format_playlist= %-21%a %3n. %t%= %y %d %{?X!=0?%3X ?    }
@@ -62,19 +64,33 @@ set format_playlist_va= %-21%A %3n. %t (%a)%= %y %d %{?X!=0?%3X ?    }
 set format_statusline= %{status} %{?show_playback_position?%{position} %{?duration?/ %{duration} }?%{?duration?%{duration} }}- %{total} %{?bpm>0?at %{bpm} BPM }%{?volume>=0?vol: %{?lvolume!=rvolume?%{lvolume},%{rvolume} ?%{volume} }}%{?stream?buf: %{buffer} }%{?show_current_bitrate & bitrate>=0? %{bitrate} kbps }%=%{?repeat_current?repeat current?%{?play_library?%{playlist_mode} from %{?play_sorted?sorted }library?playlist}} | %1{continue}%1{follow}%1{repeat}%1{shuffle} 
 set format_title=%a - %l - %t (%y)
 set format_trackwin=%3n. %t%= %y %d 
-set format_trackwin_album= %l 
+set format_trackwin_album= %l %= %{albumduration} 
 set format_trackwin_va=%3n. %t (%a)%= %y %d 
 set format_treewin=  %l
 set format_treewin_artist=%a
 set icecast_default_charset=ISO-8859-1
 set id3_default_charset=ISO-8859-1
+set input.aac.priority=50
 set input.cdio.cddb_url=freedb.freedb.org:8880
+set input.cdio.priority=50
+set input.cue.priority=50
+set input.ffmpeg.priority=30
+set input.flac.priority=50
+set input.mad.priority=55
+set input.modplug.priority=50
+set input.mpc.priority=50
+set input.opus.priority=50
+set input.vorbis.priority=50
+set input.wav.priority=50
+set input.wavpack.priority=50
+set lib_add_filter=
 set lib_sort=albumartist date album discnumber tracknumber title filename play_count
-set mixer.alsa.channel=PCM
-set mixer.alsa.device=default
+set mixer.alsa.channel=
+set mixer.alsa.device=
 set mixer.pulse.restore_volume=1
 set mouse=false
-set output_plugin=alsa
+set mpris=true
+set output_plugin=pulse
 set passwd=
 set pl_sort=
 set play_library=true
@@ -98,7 +114,9 @@ set skip_track_info=false
 set smart_artist_sort=true
 set softvol=false
 set softvol_state=0 0
+set start_view=tree
 set status_display_program=
+set time_show_leading_zero=true
 set wrap_search=true
 bind browser backspace browser-up
 bind browser i toggle show_hidden

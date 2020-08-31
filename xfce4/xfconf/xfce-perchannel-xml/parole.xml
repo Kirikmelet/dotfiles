@@ -7,13 +7,13 @@
   <property name="window" type="empty">
     <property name="maximized" type="bool" value="true"/>
     <property name="width" type="int" value="1366"/>
-    <property name="height" type="int" value="707"/>
+    <property name="height" type="int" value="715"/>
   </property>
   <property name="audio" type="empty">
     <property name="volume" type="int" value="100"/>
   </property>
   <property name="folders" type="empty">
-    <property name="last-used-media" type="string" value="/tmp/Grabber"/>
+    <property name="last-used-media" type="string" value="/home/troyd/Desktop"/>
   </property>
   <property name="playlist" type="empty">
     <property name="show-playlist" type="bool" value="true"/>

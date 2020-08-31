@@ -7,10 +7,6 @@
 XF86MonBrightness{Down,Up}
     #light {-U 15,-A 15}
     xbacklight {-inc 15, -dec 15} #For Linux Mint
-super + o
-    xbacklight -dec 15
-super + p
-    xbacklight -inc 15dec 
 XF86Audio{Mute,LowerVolume,RaiseVolume}
     amixer sset Master {toggle, 5%-, 5%+}
 #}}}
@@ -128,7 +124,7 @@ super + {grave,Tab}
 	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
-super + {o,i}
+super + {u,i}
 	bspc wm -h off; \
 	bspc node {older,newer} -f; \
 	bspc wm -h on

@@ -70,8 +70,8 @@ static const char *nmtui[] = {"st", "-e", "nmtui", NULL};
 static const char *volup[] = {"alsamixer", "sset", "Master", "5%+", NULL};
 static const char *voldown[] = {"alsamixer", "sset", "Master", "5%-", NULL};
 static const char *voltog[] = {"alsamixer", "sset", "Master", "toggle", NULL};
-static const char *briup[] = {"light", "-A", "5", NULL};
-static const char *bridown[] = {"light", "-U", "5", NULL};
+static const char *briup[] = {"xbacklight", "-inc", "5", NULL};
+static const char *bridown[] = {"xbacklight", "-dec", "5", NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
