@@ -46,29 +46,29 @@ set omnifunc=v:lua.vim.lsp.omnifunc
 "}}}
 
 "{{{Vim apps
-" 0 - Disable
+" 1 - Disable
 " 1 - Enable
-let g:loaded_gzip = 0
-let g:loaded_tar = 0
-let g:loaded_tarPlugin = 0
-let g:loaded_zip = 0
-let g:loaded_zipPlugin = 0
+let g:loaded_gzip = 1
+let g:loaded_tar = 1
+let g:loaded_tarPlugin = 1
+let g:loaded_zip = 1
+let g:loaded_zipPlugin = 1
 
-let g:loaded_getscript = 0
-let g:loaded_getscriptPlugin = 0
-let g:loaded_vimball = 0
-let g:loaded_vimballPlugin = 0
+let g:loaded_getscript = 1
+let g:loaded_getscriptPlugin = 1
+let g:loaded_vimball = 1
+let g:loaded_vimballPlugin = 1
 
-let g:loaded_matchit = 0
-let g:loaded_matchparen = 0
-let g:loaded_2html_plugin = 0
-let g:loaded_logiPat = 0
-let g:loaded_rrhelper = 0
+let g:loaded_matchit = 1
+let g:loaded_matchparen = 1
+let g:loaded_2html_plugin = 1
+let g:loaded_logiPat = 1
+let g:loaded_rrhelper = 1
 
-let g:loaded_netrw = 0
-let g:loaded_netrwPlugin = 0
-let g:loaded_netrwSettings = 0
-let g:loaded_netrwFileHandlers = 0
+let g:loaded_netrw = 1
+let g:loaded_netrwPlugin = 1
+let g:loaded_netrwSettings = 1
+let g:loaded_netrwFileHandlers = 1
 "}}}
 
 "{{{Sudo write
@@ -134,7 +134,7 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('tpope/vim-fugitive')
 
   " CSS Colors:
-  call dein#add('ap/vim-css-color')
+  call dein#add('ap/vim-css-color', {'on_ft' : ['sxhkdrc', 'javascript', 'css', 'html', 'conf']})
     
   " Statusline:
   call dein#add('itchyny/lightline.vim')
@@ -166,10 +166,6 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#end()
   call dein#save_state()
 endif
-
-" Required:
-filetype plugin indent on
-syntax enable
 
 " If you want to install not installed plugins on startup.
 if dein#check_install()
