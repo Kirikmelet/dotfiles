@@ -1,5 +1,5 @@
 favorites=firefox.desktop,org.gnome.Calculator.desktop,xed.desktop,mintinstall.desktop,xfce4-taskmanager.desktop
-recent=emacs.desktop,mcomix.desktop,xfce-settings-manager.desktop,palemoon.desktop,brave-browser.desktop,deadbeef.desktop,firefox.desktop,spotify.desktop,photoshop.desktop,pavucontrol.desktop
+recent=palemoon.desktop,emacs.desktop,mcomix.desktop,xfce-settings-manager.desktop,brave-browser.desktop,deadbeef.desktop,firefox.desktop,spotify.desktop,photoshop.desktop,pavucontrol.desktop
 button-icon=distributor-logo-linux-mint
 button-single-row=false
 show-button-title=false
