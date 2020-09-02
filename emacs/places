@@ -1,6 +1,16 @@
 ;;; -*- coding: utf-8 -*-
 (("/home/troyd/org/global_agenda/work.org" . 461)
- ("/home/troyd/.emacs.d/recentf" . 1259)
+ ("/home/troyd/.emacs.d/recentf" . 1258)
+ ("/home/troyd/Documents/github/notamusicplayer/doc/failflags.md" . 14)
+ ("/home/troyd/org/notes/lang/jp/navigation.org" . 54)
+ ("/home/troyd/org/notes/lang/jp/numbercouter.org" . 495)
+ ("/home/troyd/org/notes/program/standards.org" . 65)
+ ("/home/troyd/org/notes/program/standards.html" . 32774)
+ ("/home/troyd/.config/emacs/custom.el" . 246)
+ ("/home/troyd/org/notes/program/"
+  (dired-filename . "/home/troyd/org/notes/program/standards.org"))
+ ("/home/troyd/org/"
+  (dired-filename . "/home/troyd/org/.git"))
  ("/home/troyd/org/notes/lang/jp/adjective.org" . 226)
  ("/home/troyd/org/notes/lang/jp/socialphrases.org" . 2928)
  ("/home/troyd/org/notes/lang/jp/socialphrases.html" . 16233)
@@ -21,7 +31,6 @@
  ("/home/troyd/.emacs.d/emms/history" . 3775)
  ("/home/troyd/org/notes/lang/jp/numbers.org" . 59)
  ("/home/troyd/org/notes/lang/jp/formality.org" . 294)
- ("/home/troyd/org/notes/lang/jp/numbercouter.org" . 193)
  ("/home/troyd/org/notes/lang/jp/character.org" . 58)
  ("/home/troyd/.config/"
   (dired-filename . "/home/troyd/.config/0suckless"))

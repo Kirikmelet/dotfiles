@@ -115,8 +115,8 @@ if dein#load_state('/home/troyd/.cache/dein')
   " Shougo Plugins:
   "call dein#add('Shougo/deoplete.nvim', {'on_i': 1})
   "call dein#add('deoplete-plugins/deoplete-jedi', {'on_ft': 'python'}) " Because I couldn't get native LSP to work...
-  "call dein#add('Shougo/denite.nvim')
-  "call dein#add('Shougo/defx.nvim')
+  call dein#add('Shougo/denite.nvim')
+  call dein#add('Shougo/defx.nvim')
   "call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
 
   " Markdown Preview:
@@ -124,7 +124,7 @@ if dein#load_state('/home/troyd/.cache/dein')
 					\ 'build': 'sh -c "cd app & npm install"' })
 
   " FUZZY SEARCH:
-  call dein#add('Yggdroot/LeaderF', { 'build': './install.sh', 'on_cmd': 'Leaderf' })
+  " call dein#add('Yggdroot/LeaderF', { 'build': './install.sh', 'on_cmd': 'Leaderf' })
 
   " Gruvbox:
   call dein#add('shinchu/lightline-gruvbox.vim')
@@ -149,7 +149,7 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('sbdchd/neoformat', {'on_cmd': 'Neoformat'})
 
   " File Explorer:
-  call dein#add('mcchrish/nnn.vim', {'on_cmd': 'NnnPicker'})
+  "call dein#add('mcchrish/nnn.vim', {'on_cmd': 'NnnPicker'})
 
   " ORG MODE:
   call dein#add('jceb/vim-orgmode')
@@ -166,6 +166,9 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#end()
   call dein#save_state()
 endif
+
+filetype plugin indent on  " Load plugins according to detected filetype.
+syntax on                  " Enable syntax highlighting.
 
 " If you want to install not installed plugins on startup.
 if dein#check_install()
@@ -241,140 +244,153 @@ lua require'nvim_lsp'.pyls.setup{on_attach=require'completion'.on_attach}
 "}}}
 
 "{{{Defx
-"call defx#custom#option('_', {
-"      \ 'split': 'vertical',
-"      \ 'winwidth': 30,
-"      \ 'show_ignored_files': 1,
-"      \ 'buffer_name': 'defxplorer',
-"      \ 'toggle': 1,
-"      \ 'resume': 1,
-"      \ 'direction': 'topleft',
-"      \ 'ignored_files':
-"      \ '.git,.clangd',
-"      \ 'root_marker': '',
-"      \ })
-"call defx#custom#column('git', {
-"            \ 'indicators': {
-"            \ 'Modified' : 'g!m',
-"            \ 'Staged' : 'g!s',
-"            \ 'Untracked': '',
-"            \ 'Renamed': 'g!r',
-"            \ 'Ignored' :'g!i',
-"            \ 'Deleted' : 'g!d',
-"            \ 'Unknown' : 'g!u'}
-"            \})
-"
-"augroup checkdefx
-"    autocmd!
-"    autocmd WinEnter * if &filetype == 'defx' && winnr('$') == 1 | bdel | endif
-"    autocmd TabLeave * if &filetype == 'defx' | wincmd w | endif
-"augroup END
-"autocmd FileType defx call s:defxset()
-"function! s:defxset() abort
-"        setlocal signcolumn=no expandtab
-"	nnoremap <silent><buffer><expr><CR> defx#do_action('drop')
-"	nnoremap <silent><buffer><expr>c defx#do_action('copy')
-"	nnoremap <silent><buffer><expr>b defx#do_action('cd', ['..'])
-"	nnoremap <silent><buffer><expr>x defx#do_action('remove')
-"	nnoremap <silent><buffer><expr>m defx#do_action('move')
-"	nnoremap <silent><buffer><expr>i defx#do_action('open', 'vsplit')
-"	nnoremap <silent><buffer><expr>v defx#do_action('open', 'split')
-"	nnoremap <silent><buffer><expr>t defx#do_action('open', 'tabnew')
-"        nnoremap <silent><buffer><expr>q defx#do_action('quit')
-"        nnoremap <silent><buffer><expr>s defx#do_action('save_session')
-"        nnoremap <silent><buffer><expr>r defx#do_action('rename')
-"        nnoremap <silent><buffer><expr>p defx#do_action('paste')
-"        nnoremap <silent><buffer><expr>E defx#do_action('execute_system')
-"        nnoremap <silent><buffer><expr>y defx#do_action('yank_path')
-"        nnoremap <silent><buffer><expr>nf defx#do_action('new_file')
-"        nnoremap <silent><buffer><expr>nd defx#do_action('new_directory')
-"        nnoremap <silent><buffer><expr>nF defx#do_action('new_multiple_files')
-"endfunction
+call defx#custom#option('bar', {
+            \ 'split': 'vertical',
+            \ 'winwidth': 30,
+            \ 'show_ignored_files': 1,
+            \ 'buffer_name': 'defxbar',
+            \ 'toggle': 1,
+            \ 'resume': 1,
+            \ 'direction': 'topleft',
+            \ 'ignored_files':
+            \ '.git,.clangd',
+            \ 'root_marker': '',
+            \ })
+call defx#custom#option('defxplore', {
+            \ 'toggle': 1,
+            \ 'buffer_name': 'defxplore'
+            \})
+call defx#custom#column('git', {
+            \ 'indicators': {
+            \ 'Modified' : 'g!m',
+            \ 'Staged' : 'g!s',
+            \ 'Untracked': '',
+            \ 'Renamed': 'g!r',
+            \ 'Ignored' :'g!i',
+            \ 'Deleted' : 'g!d',
+            \ 'Unknown' : 'g!u'}
+            \})
+
+augroup checkdefx
+    autocmd!
+    autocmd WinEnter * if &filetype == 'defx' && winnr('$') == 1 | bdel | endif
+    autocmd TabLeave * if &filetype == 'defx' | wincmd w | endif
+    autocmd BufEnter * call defx#do_action('quit')
+augroup END
+autocmd FileType defx call s:defxset()
+function! s:defxset() abort
+        setlocal signcolumn=no expandtab
+	nnoremap <silent><buffer><expr><CR> defx#do_action('drop')
+	nnoremap <silent><buffer><expr>c defx#do_action('copy')
+	nnoremap <silent><buffer><expr>b defx#do_action('cd', ['..'])
+	nnoremap <silent><buffer><expr>x defx#do_action('remove')
+	nnoremap <silent><buffer><expr>m defx#do_action('move')
+	nnoremap <silent><buffer><expr>i defx#do_action('open', 'vsplit')
+	nnoremap <silent><buffer><expr>v defx#do_action('open', 'split')
+	nnoremap <silent><buffer><expr>t defx#do_action('open', 'tabnew')
+	nnoremap <silent><buffer><expr>t defx#do_action('open')
+        nnoremap <silent><buffer><expr>q defx#do_action('quit')
+        nnoremap <silent><buffer><expr>s defx#do_action('save_session')
+        nnoremap <silent><buffer><expr>r defx#do_action('rename')
+        nnoremap <silent><buffer><expr>p defx#do_action('paste')
+        nnoremap <silent><buffer><expr>E defx#do_action('execute_system')
+        nnoremap <silent><buffer><expr>y defx#do_action('yank_path')
+        nnoremap <silent><buffer><expr>nf defx#do_action('new_file')
+        nnoremap <silent><buffer><expr>nd defx#do_action('new_directory')
+        nnoremap <silent><buffer><expr>nF defx#do_action('new_multiple_files')
+endfunction
 "}}}
 
 "{{{Denite
 "Define mappings
-"call denite#custom#option('_', {
-"\ 'split': 'horizontal',
-"\ 'winheight': 5,
-"\ 'start_filter': v:false,
-"\ 'smartcase': v:true,
-"\ 'source_names': 'short',
-"\ 'filter_split_direction': 'horizontal',
-"\ 'highlight_filter_background': 'NormalFloat',
-"\ 'prompt': '>$ ',
-"\ 'floating_preview': v:true,
-"\ 'statusline': v:false,
-"\ })
-"
-"
-"call denite#custom#var('grep', {
-"			\ 'command': ['rg'],
-"		\ 'default_opts': ['-i', '--vimgrep', '--no-heading'],
-"		\ 'recursive_opts': [],
-"		\ 'pattern_opt': ['--regexp'],
-"		\ 'separator': ['--'],
-"		\ 'final_opts': [],
-"		\ })
-"call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
-"
-"nmap <leader>df :Denite file/rec<CR>
-"nmap <leader>dp :DeniteProjectDir file<CR>
-"nmap <leader>m :Denite menu<CR>
-"
-"autocmd FileType denite call s:denite_my_settings()
-"function! s:denite_my_settings() abort
-"  nnoremap <silent><buffer><expr> <CR>
-"  \ denite#do_map('do_action')
-"  nnoremap <silent><buffer><expr> d
-"  \ denite#do_map('do_action', 'delete')
-"  nnoremap <silent><buffer><expr> p
-"  \ denite#do_map('do_action', 'preview')
-"  nnoremap <silent><buffer><expr> q
-"  \ denite#do_map('quit')
-"  nnoremap <silent><buffer><expr> /
-"  \ denite#do_map('open_filter_buffer')
-"  nnoremap <silent><buffer><expr> <Space>
-"  \ denite#do_map('toggle_select').'j'
-"  nnoremap <silent><buffer><expr> i
-"    \ denite#do_map('do_action', 'vsplit')
-"  nnoremap <silent><buffer><expr> v
-"    \ denite#do_map('do_action', 'split')
-"  nnoremap <silent><buffer><expr> t
-"    \ denite#do_map('do_action', 'tabopen')
-"  nnoremap <silent><buffer><expr> s
-"    \ denite#do_map('do_action', 'preview')
-"endfunction
-"
-"let s:menus = {}
-"let s:menus.project = {
-"            \ 'description': 'Project Menu'
-"            \}
-"let s:menus.project.file_candidates = [
-"            \ ['nmp', '~/Documents/github/notamusicplayer'],
-"            \ ['GIAS', '~/Desktop/GIIAS_04'],
-"            \]
-"let s:menus.git_commands = {
-"            \'description': 'Does git'
-"            \}
-"let s:menus.git_commands.command_candidates = [
-"            \ ['View current status', 'G'],
-"            \ ['Add all files in directory (RECURSIVE!)', 'Git add .'],
-"            \ ['Git Commit', 'Gcommit'],
-"            \ ['Git Push', 'Gpush'],
-"            \]
-"call denite#custom#var('menu', 'menus', s:menus)
+call denite#custom#option('_', {
+            \ 'split': 'horizontal',
+            \ 'winheight': 5,
+            \ 'start_filter': v:false,
+            \ 'smartcase': v:true,
+            \ 'source_names': 'short',
+            \ 'filter_split_direction': 'horizontal',
+            \ 'highlight_filter_background': 'NormalFloat',
+            \ 'prompt': '>$ ',
+            \ 'floating_preview': v:true,
+            \ 'statusline': v:false,
+            \ })
+
+
+call denite#custom#var('grep', {
+            \ 'command': ['rg'],
+            \ 'default_opts': ['-i', '--vimgrep', '--no-heading'],
+            \ 'recursive_opts': [],
+            \ 'pattern_opt': ['--regexp'],
+            \ 'separator': ['--'],
+            \ 'final_opts': [],
+            \ })
+call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
+
+augroup denitefunc
+    autocmd!
+    autocmd BufEnter * call denite#do_map('quit')
+augroup END
+
+autocmd FileType denite call s:denite_my_settings()
+function! s:denite_my_settings() abort
+    nnoremap <silent><buffer><expr> <CR>
+                \ denite#do_map('do_action')
+    nnoremap <silent><buffer><expr> d
+                \ denite#do_map('do_action', 'delete')
+    nnoremap <silent><buffer><expr> p
+                \ denite#do_map('do_action', 'preview')
+    nnoremap <silent><buffer><expr> q
+                \ denite#do_map('quit')
+    nnoremap <silent><buffer><expr> /
+                \ denite#do_map('open_filter_buffer')
+    nnoremap <silent><buffer><expr> <Space>
+                \ denite#do_map('toggle_select').'j'
+    nnoremap <silent><buffer><expr> i
+                \ denite#do_map('do_action', 'vsplit')
+    nnoremap <silent><buffer><expr> v
+                \ denite#do_map('do_action', 'split')
+    nnoremap <silent><buffer><expr> t
+                \ denite#do_map('do_action', 'tabopen')
+    nnoremap <silent><buffer><expr> s
+                \ denite#do_map('do_action', 'preview')
+endfunction
+
+let s:menus = {}
+
+let s:menus.config = {
+            \ 'description': 'Neovim Config'
+            \ }
+let s:menus.config.file_candidates = [
+            \ ['Nvim init' , '~/.config/nvim/init.vim']
+            \]
+
+let s:menus.config.command_candidates = [
+            \ ['Source config', 'source ~/.config/nvim/init.vim']
+            \ ]
+
+let s:menus.git = {
+            \ 'description' : 'Does git'
+            \ }
+let s:menus.git.command_candidates = [
+            \ ['View current status', 'G'],
+            \ ['Add all files in (current) directory (RECURSIVE!)', 'Git add .'],
+            \ ['Git cd to root directory', 'Gcd'],
+            \ ['Git Commit', 'Gcommit'],
+            \ ['Git Push', 'Gpush'],
+            \]
+call denite#custom#var('menu', 'menus', s:menus)
 "}}}
 
 "{{{LeaderF
-let g:Lf_HideHelp = 1
-let g:Lf_UseCache = 0
-let g:Lf_UseVersionControlTool = 0
-let g:Lf_IgnoreCurrentBufferName = 1
-
-let g:Lf_DefaultMode = 'Regex'
-
-let g:Lf_WindowHeight = 0.15
+"let g:Lf_HideHelp = 1
+"let g:Lf_UseCache = 0
+"let g:Lf_UseVersionControlTool = 0
+"let g:Lf_IgnoreCurrentBufferName = 1
+"
+"let g:Lf_DefaultMode = 'Regex'
+"
+"let g:Lf_WindowHeight = 0.15
 "}}}
 
 "{{{Vimwiki
@@ -387,20 +403,21 @@ let g:org_agenda_files=['~/org/global_agenda/work.org', '~/org/global_agenda/sch
 "}}}
 
 "{{{File hotkeys
-nnoremap  <leader>fs :Leaderf! rg --current-buffer -e 
+"nnoremap  <leader>fs :Leaderf! rg --current-buffer -e 
+nnoremap <silent> <leader>fs :Denite grep<CR>
 "nnoremap <silent> <leader>ff <cmd>lua vim.lsp.buf.formatting()<CR>
 nnoremap <silent> <leader>ff :Neoformat<CR>
 "nnoremap <silent> <leader>ff gggqG
 nnoremap <silent> <leader>fm :make<CR>
-nnoremap <silent> <leader>fts :Leaderf tag<CR>
+nnoremap <silent> <leader>fts :Denite tag<CR>
 nnoremap <silent> <leader>ftg <cmd>!ctags %<CR>
 "}}}
 
 "{{{Buffer hotkeys
-nnoremap <silent> <leader>bf :Leaderf file<CR>
+nnoremap <silent> <leader>bf :Denite file/rec<CR>
 "nnoremap <silent> <leader>bd :Defx<CR>
-nnoremap <silent> <leader>bd :NnnPicker<CR>
-nnoremap <silent> <leader>bb :Leaderf buffer<CR>
+nnoremap <silent> <leader>bd :Defx -buffer-name=bar<CR>
+nnoremap <silent> <leader>bb :Denite buffer<CR>
 nnoremap <silent> <leader>bso zo
 nnoremap <silent> <leader>bsc zc
 nnoremap <silent> <leader>bst za
@@ -412,8 +429,8 @@ nnoremap <silent> <leader>bpo :source Session.vim<CR>
 
 "{{{Application Hotkeys
 nnoremap <leader>aw :VimwikiIndex<CR>
-nnoremap <leader>ao :NnnPicker ~/org<CR>
+nnoremap <leader>ao :Defx -buffer-name=defxplore ~/org<CR>
 nnoremap <leader>ac :Calendar<CR>
-nnoremap <leader>ad :NnnPicker<CR>
+nnoremap <leader>ad :Defx -buffer-name=defxplore<CR>
 "}}}
 

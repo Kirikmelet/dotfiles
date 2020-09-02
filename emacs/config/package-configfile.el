@@ -208,7 +208,7 @@
 ;; Music player
 (use-package simple-mpc
   :bind(
-        ("s-o m" . simple-mpc)))
+        ("C-x C-a m" . simple-mpc)))
 ;;(use-package emms
 ;;             :commands emms
 ;;             :config
@@ -276,12 +276,12 @@
 (use-package org
   :ensure t
   :bind (
-         ("s-o o a" . org-agenda)
-         ("s-o o c" . org-capture)
-         ("s-o o s" . org-store-link)
+         ("C-x C-a o a" . org-agenda)
+         ("C-x C-a o c" . org-capture)
+         ("C-x C-a o s" . org-store-link)
          )
   :config
-  (global-set-key (kbd "s-o C-f ") (lambda () (interactive) (dired "~/org/")))
+  (global-set-key (kbd "C-x C-a C-f ") (lambda () (interactive) (dired "~/org/")))
   (setq org-agenda-files (list "~/org/global_agenda/work.org"
                                "~/org/global_agenda/projects.org"
                                "~/org/global_agenda/school.org"))
@@ -307,7 +307,7 @@
 
 (use-package eshell
   :bind (
-         ("s-o e" . eshell))
+         ("C-x C-a e" . eshell))
   )
 
 ;; End file
