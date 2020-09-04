@@ -38,7 +38,7 @@ super + F6
 super + F7
 	st -e aptitude
 super + F8
-	st -e calcurse 
+	st -e emacs -nw 
 super + F9
 	st -e neomutt
 super + F10

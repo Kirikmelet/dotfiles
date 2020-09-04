@@ -30,5 +30,11 @@
 ;; Loads Japanese Language config
 (require 'nihongo-config)
 
+;; Javascript config
+(require 'javascript-ftconf)
+
+;; Clang config
+(require 'c-ftconf)
+
 ;; For emacs daemon
 (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))

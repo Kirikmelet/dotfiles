@@ -1,31 +1,41 @@
 ;;; -*- coding: utf-8 -*-
 (("/home/troyd/org/global_agenda/work.org" . 461)
- ("/home/troyd/.emacs.d/recentf" . 1258)
+ ("/home/troyd/.config/emacs/config/javascript-ftconf.el" . 80)
+ ("/home/troyd/.config/emacs/init.el" . 727)
+ ("/home/troyd/.emacs.d/recentf" . 1254)
+ ("/home/troyd/.config/emacs/custom.el" . 246)
+ ("/home/troyd/.config/emacs/config/c-ftconf.el" . 32)
+ ("/home/troyd/org/notes/lang/jp/relations.org" . 174)
+ ("/home/troyd/org/notes/lang/jp/location.org" . 54)
+ ("/home/troyd/org/notes/lang/jp/education.org" . 690)
+ ("/home/troyd/org/notes/lang/jp/date.org" . 1788)
+ ("/home/troyd/org/notes/lang/jp/actions.org" . 181)
+ ("/home/troyd/org/notes/lang/jp/family.org" . 2612)
+ ("/home/troyd/org/notes/lang/jp/regions.org" . 353)
+ ("/home/troyd/org/notes/lang/jp/"
+  (dired-filename . "/home/troyd/org/notes/lang/jp/.."))
+ ("/home/troyd/org/notes/lang/"
+  (dired-filename . "/home/troyd/org/notes/lang/.."))
+ ("/home/troyd/org/notes/"
+  (dired-filename . "/home/troyd/org/notes/program"))
+ ("/home/troyd/org/notes/program/"
+  (dired-filename . "/home/troyd/org/notes/program/standards.org"))
  ("/home/troyd/Documents/github/notamusicplayer/doc/failflags.md" . 14)
  ("/home/troyd/org/notes/lang/jp/navigation.org" . 54)
  ("/home/troyd/org/notes/lang/jp/numbercouter.org" . 495)
  ("/home/troyd/org/notes/program/standards.org" . 65)
- ("/home/troyd/org/notes/program/standards.html" . 32774)
- ("/home/troyd/.config/emacs/custom.el" . 246)
- ("/home/troyd/org/notes/program/"
-  (dired-filename . "/home/troyd/org/notes/program/standards.org"))
  ("/home/troyd/org/"
   (dired-filename . "/home/troyd/org/.git"))
  ("/home/troyd/org/notes/lang/jp/adjective.org" . 226)
  ("/home/troyd/org/notes/lang/jp/socialphrases.org" . 2928)
- ("/home/troyd/org/notes/lang/jp/socialphrases.html" . 16233)
  ("/home/troyd/Desktop/360_tours/test_vidhotspot/vtour/tour.xml" . 3538)
  ("/home/troyd/Desktop/360_tours/test_vidhotspot/"
   (dired-filename . "/home/troyd/Desktop/360_tours/test_vidhotspot/vtour"))
  ("/home/troyd/Desktop/360_tours/test_vidhotspot/vtour/"
   (dired-filename . "/home/troyd/Desktop/360_tours/test_vidhotspot/vtour/tour.xml"))
  ("/home/troyd/Desktop/index.html" . 590)
- ("/home/troyd/org/notes/lang/jp/family.org" . 3014)
  ("/home/troyd/org/global_agenda/work.html" . 17)
  ("/home/troyd/org/notes/lang/jp/pronouns.org" . 190)
- ("/home/troyd/org/notes/lang/jp/date.org" . 1628)
- ("/home/troyd/org/notes/lang/jp/"
-  (dired-filename . "/home/troyd/org/notes/lang/jp/date.org"))
  ("/home/troyd/.config/emacs/config/package-configfile.el" . 4901)
  ("/home/troyd/Desktop/360_tours/test1/vtour/tour.xml" . 4457)
  ("/home/troyd/.emacs.d/emms/history" . 3775)
@@ -38,7 +48,6 @@
  ("/home/troyd/.emacs.d/elpa/language-id-20200726.1813/language-id-autoloads.el" . 428)
  ("/home/troyd/.config/emacs/config/better-defaults.el" . 2674)
  ("/home/troyd/vimwiki/index.md" . 214)
- ("/home/troyd/.config/emacs/init.el" . 517)
  ("/home/troyd/.config/emacs/config/bindings-config.el" . 112)
  ("/home/troyd/.config/nvim/init.vim" . 1479)
  ("/home/troyd/.config/emacs/.cache/treemacs-persist" . 33)

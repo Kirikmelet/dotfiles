@@ -30,7 +30,7 @@ set showcmd                " Show already typed keys when more are expected.
 set incsearch              " Highlight while searching with / or ?.
 set hlsearch               " Keep matches highlighted.
 
-set ttyfast                " Faster redrawing.
+set redrawtime=9999                " Faster redrawing.
 set lazyredraw             " Only redraw when necessary.
 
 set splitbelow             " Open new windows below the current window.
@@ -47,7 +47,7 @@ set omnifunc=v:lua.vim.lsp.omnifunc
 
 "{{{Vim apps
 " 1 - Disable
-" 1 - Enable
+" 0 - Enable
 let g:loaded_gzip = 1
 let g:loaded_tar = 1
 let g:loaded_tarPlugin = 1
@@ -188,17 +188,6 @@ let g:gruvbox_italic = 1
 "{{{Lightline
 let g:lightline = {}
 let g:lightline.colorscheme = 'gruvbox'
-
-"}}}
-
-"{{{Splits
-nmap <leader>sv :vsplit<CR>
-nmap <leader>sh :split<CR>
-"}}}
-
-"{{{Tabs
-nmap <leader>tn :tabnew<CR>
-nmap <leader>tc :tabclose
 "}}}
 
 "{{{Completion-nvim / Diagnostic-nvim
@@ -309,7 +298,6 @@ call denite#custom#option('_', {
             \ 'start_filter': v:false,
             \ 'smartcase': v:true,
             \ 'source_names': 'short',
-            \ 'filter_split_direction': 'horizontal',
             \ 'highlight_filter_background': 'NormalFloat',
             \ 'prompt': '>$ ',
             \ 'floating_preview': v:true,
@@ -327,10 +315,10 @@ call denite#custom#var('grep', {
             \ })
 call denite#custom#var('file/rec', 'command', ['rg', '--files', '--glob', '!.git', '--glob', '!.clangd'])
 
-augroup denitefunc
-    autocmd!
-    autocmd BufEnter * call denite#do_map('quit')
-augroup END
+"augroup denitefunc
+"    autocmd!
+"    autocmd BufEnter * call denite#do_map('quit')
+"augroup END
 
 autocmd FileType denite call s:denite_my_settings()
 function! s:denite_my_settings() abort
@@ -400,6 +388,16 @@ nnoremap <leader>wi :VimwikiIndex<CR>
 
 "{{{ Org-mode
 let g:org_agenda_files=['~/org/global_agenda/work.org', '~/org/global_agenda/school.org', '~/org/global_agenda/projects.org']
+"}}}
+
+"{{{Splits
+nmap <leader>sv :vsplit<CR>
+nmap <leader>sh :split<CR>
+"}}}
+
+"{{{Tabs
+nmap <leader>tn :tabnew<CR>
+nmap <leader>tc :tabclose
 "}}}
 
 "{{{File hotkeys
