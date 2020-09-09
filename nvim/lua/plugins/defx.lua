@@ -10,7 +10,23 @@ local function bufbind(buf, mode, key, cmd, opts)
 	api.nvim_buf_set_keymap(buf, mode, key, cmd, opts)
 end
 
+vim.fn['defx#custom#column']('icon', {
+		directory_icon = 'Dir';
+		opened_icon = 'Opn';
+		root_icon = 'R'
+	})
 
+vim.fn['defx#custom#column']('git', {
+		indicators = {
+			Modified = 'Gm!';
+			Staged = 'GS!';
+			Untracked = ' ';
+			Renamed = 'GR!';
+			Ignored = 'GI!';
+			Deleted = 'GD!';
+			Unknown = 'G??'
+		}
+	})
 vim.fn['defx#custom#option']('bar',
 		{
 			split = 'vertical';
@@ -25,21 +41,9 @@ vim.fn['defx#custom#option']('bar',
 		})
 	vim.fn['defx#custom#option']('defxplore',
 		{
-			columns = 'icons:git:filename:type';
+			columns = 'indent:icon:filename:size:type:git';
 			toggle = 1;
 			buffer_name = 'defxplore';
-		})
-vim.fn['defx#custom#column']('git',
-		{
-			indicators = {
-				Modified = 'g!m';
-				Staged = 'g!s';
-				Untracked = '';
-				Renamed = 'g!r';
-				Ignored = 'g!i';
-				Deleted = 'g!d';
-				Unknown = 'g!u';
-			};
 		})
 
 function M._on_ft_defx_bind()
@@ -49,8 +53,8 @@ function M._on_ft_defx_bind()
 
         bufbind(buf, 'n', '<CR>', 'defx#do_action("drop")',nil)
         bufbind(buf, 'n', 'c', 'defx#do_action("copy")',nil)
-        bufbind(buf, 'n', 'b', 'defx#do_action("cd", [".."])',nil)
-        bufbind(buf, 'n', 'x', 'defx#do_action("remove")',nil)
+        bufbind(buf, 'n', 'u', 'defx#do_action("cd", [".."])',nil)
+        bufbind(buf, 'n', 'd', 'defx#do_action("remove")',nil)
         bufbind(buf, 'n', 'm', 'defx#do_action("move")',nil)
         bufbind(buf, 'n', 'i', 'defx#do_action("open", "vsplit")',nil)
         bufbind(buf, 'n', 'v', 'defx#do_action("open", "split")',nil)

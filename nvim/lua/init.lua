@@ -79,6 +79,13 @@ api.nvim_set_var('loaded_netrwSettings',1)
 api.nvim_set_var('loaded_netrwFileHandlers',1)
 --}}}
 
+--{{{Disable providers
+api.nvim_set_var('loaded_python_provider',0)
+api.nvim_set_var('loaded_node_provider',0)
+api.nvim_set_var('loaded_perl_provider',0)
+api.nvim_set_var('loaded_ruby_provider',0)
+--}}}
+
 
 require('plugins/statusline')
 require('plugins/neoformat')

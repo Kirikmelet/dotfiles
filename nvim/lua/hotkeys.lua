@@ -25,8 +25,17 @@ binder('n', '<leader>bso', '<cmd>source Session.vim<CR>')
 --}}}
 
 --{{{Application hotkeys
-binder('n', '<leader>aw', '<cmd>VimwikiIndex<CR>')
+binder('n', '<leader>aw', '<cmd>Defx -buffer-name=defxplore ~/vimwiki<CR>')
 binder('n', '<leader>am', '<cmd>Denite menu<CR>')
 binder('n', '<leader>ao', '<cmd>Defx -buffer-name=defxplore ~/org<CR>')
 binder('n', '<leader>ad', '<cmd>Defx -buffer-name=defxplore<CR>')
 --}}}
+
+--{{{Git hotkeys
+binder('n', '<leader>gc', '<cmd>Git commit<CR>', nil)
+binder('n', '<leader>gg', '<cmd>G<CR>',nil)
+binder('n', '<leader>gps', '<cmd>Git push<CR>',nil)
+binder('n', '<leader>gpl', '<cmd>Git pull<CR>',nil)
+binder('n', '<leader>gf', '<cmd>Git fetch<CR>',nil)
+--{{{
+

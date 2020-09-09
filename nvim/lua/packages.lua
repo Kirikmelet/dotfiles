@@ -36,18 +36,13 @@ return require('packer').startup(function()
 	-- Markdown:
 	use {'iamcco/markdown-preview.nvim';
 		opt = true;
-		ft = {'markdown', 'pandoc.markdown', 'rmd', 'vimwiki'};
+		ft = {'markdown', 'pandoc.markdown', 'rmd'};
 		run = 'sh -c "cd app & npm install"';
 	}
 
-	-- Statusline:
-	use {'itchyny/lightline.vim'}
 
 	-- Gruvbox:
-	use {
-		'shinchu/lightline-gruvbox.vim';
-		'morhetz/gruvbox'
-	}
+	use {'morhetz/gruvbox'}
 
 	-- Git:
 	use {'tpope/vim-fugitive'}
@@ -69,24 +64,7 @@ return require('packer').startup(function()
 	}
 
 	-- ORG-Mode
-	use {'jceb/vim-orgmode';
-		requires = {
-			{'tpope/vim-speeddating';
-				opt = true;
-				ft = 'org';
-			},
-			{'tpope/vim-repeat';
-				opt = true;
-				ft = 'org';
-			},
-			{'itchyny/calendar.vim';
-				opt = true;
-				cmd = 'Calender'
-			};
-			opt = true;
-			ft = 'org'
-		}
-	}
+	use {'jceb/vim-orgmode'}
 
 	-- LSP:
 

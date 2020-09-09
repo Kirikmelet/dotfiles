@@ -19,12 +19,10 @@ if dein#load_state('/home/troyd/.cache/dein')
   "call dein#add('Shougo/deoplete-lsp', {'on_ft': ['c', 'cpp', 'javascript', 'html', 'rust']})
 
   " Markdown Preview:
-  call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd', 'vimwiki'],
+  call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd'],
 					\ 'build': 'sh -c "cd app & npm install"' })
 
-  " FUZZY SEARCH:
-  " call dein#add('Yggdroot/LeaderF', { 'build': './install.sh', 'on_cmd': 'Leaderf' })
-
+ 
   " Gruvbox:
   call dein#add('morhetz/gruvbox')
 
@@ -33,13 +31,9 @@ if dein#load_state('/home/troyd/.cache/dein')
 
   " CSS Colors:
     
-  " Statusline:
 
   " FTPlugin Plugin:
   call dein#add('sheerun/vim-polyglot')
-
-  " VimWiki:
-  call dein#add('vimwiki/vimwiki', {'on_cmd': 'VimwikiIndex'})
 
   " File Formatting:
   call dein#add('sbdchd/neoformat', {'on_cmd': 'Neoformat'})
@@ -69,4 +63,3 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
-

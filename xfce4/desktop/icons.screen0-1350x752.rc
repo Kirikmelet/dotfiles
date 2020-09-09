@@ -1,21 +1,9 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/troyd/Desktop/tig-main.js]
-row=5
-col=0
-
 [/home/troyd/Desktop/360_tours]
 row=1
 col=0
-
-[/home/troyd/Desktop/magazine]
-row=2
-col=0
-
-[/home/troyd/Desktop/tigmedia.html]
-row=0
-col=1
 
 [/home/troyd/Desktop/krpano-1.20.7]
 row=0
@@ -25,7 +13,19 @@ col=0
 row=3
 col=0
 
+[/home/troyd/Desktop/tigmedia.html]
+row=0
+col=1
+
+[/home/troyd/Desktop/tig-main.js]
+row=5
+col=0
+
 [/home/troyd/Desktop/index.html]
 row=4
+col=0
+
+[/home/troyd/Desktop/dgbp6zg7ukl51.jpg]
+row=2
 col=0
 

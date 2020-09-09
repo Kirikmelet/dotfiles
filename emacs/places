@@ -1,8 +1,8 @@
 ;;; -*- coding: utf-8 -*-
 (("/home/troyd/org/global_agenda/work.org" . 461)
+ ("/home/troyd/.emacs.d/recentf" . 1203)
  ("/home/troyd/.config/emacs/config/javascript-ftconf.el" . 80)
  ("/home/troyd/.config/emacs/init.el" . 727)
- ("/home/troyd/.emacs.d/recentf" . 1254)
  ("/home/troyd/.config/emacs/custom.el" . 246)
  ("/home/troyd/.config/emacs/config/c-ftconf.el" . 32)
  ("/home/troyd/org/notes/lang/jp/relations.org" . 174)
@@ -28,11 +28,6 @@
   (dired-filename . "/home/troyd/org/.git"))
  ("/home/troyd/org/notes/lang/jp/adjective.org" . 226)
  ("/home/troyd/org/notes/lang/jp/socialphrases.org" . 2928)
- ("/home/troyd/Desktop/360_tours/test_vidhotspot/vtour/tour.xml" . 3538)
- ("/home/troyd/Desktop/360_tours/test_vidhotspot/"
-  (dired-filename . "/home/troyd/Desktop/360_tours/test_vidhotspot/vtour"))
- ("/home/troyd/Desktop/360_tours/test_vidhotspot/vtour/"
-  (dired-filename . "/home/troyd/Desktop/360_tours/test_vidhotspot/vtour/tour.xml"))
  ("/home/troyd/Desktop/index.html" . 590)
  ("/home/troyd/org/global_agenda/work.html" . 17)
  ("/home/troyd/org/notes/lang/jp/pronouns.org" . 190)

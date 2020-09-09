@@ -168,8 +168,8 @@
              :config
              (dashboard-setup-startup-hook)
              (setq dashboard-banner-logo-title "Welcome to EMACS comrade!")
-             ;;(setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
-             (setq dashboard-startup-banner 'logo)
+             (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
+             ;;(setq dashboard-startup-banner 'logo)
              (setq dashboard-init-info "Nothing to lose but your OS!")
              ;;(setq dashboard-init-time t)
              (setq dashboard-footer-messages '("Comrade Tux Calls Us!"
