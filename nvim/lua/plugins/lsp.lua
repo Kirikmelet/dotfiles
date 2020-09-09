@@ -1,5 +1,10 @@
 local vim = vim
 local api = vim.api
+
+--local runpath = api.nvim_get_option('runtimepath')..', /home/troyd/.local/share/nvim/site/pack/packer/start/nvim-lspconfig'
+--api.nvim_set_option('runtimepath',runpath)
+
+
 local lspuse = require'nvim_lsp'
 local binder = require('../func/binder')
 

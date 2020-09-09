@@ -1,11 +1,17 @@
 local vim = vim
 local api = vim.api
 
+-- Load plugins
+--require('dein')
+--require('packages') -- Is not as easy to config as dein (Denite config not working, manual setting of runtimepath for lsp)
+-- Is also not as fast as dein (9 ms diff)
+
 -- GUI Settings (gnvim)
 api.nvim_set_option('guifont', 'Fira Code:h14')
 
 -- Colorscheme
 vim.cmd('colorscheme gruvbox')
+api.nvim_set_option('termguicolors',false)
 api.nvim_set_var('gruvbox_italic',1)
 
 -- Set Leader
@@ -23,7 +29,7 @@ api.nvim_set_option('shiftround',true)
 api.nvim_set_option('smartindent',true)
 api.nvim_set_option('autoindent',true)
 api.nvim_set_option('hidden',true)
-api.nvim_set_option('showmode',false)
+api.nvim_set_option('showmode',true)
 api.nvim_set_option('showcmd',true)
 api.nvim_set_option('incsearch',true)
 api.nvim_set_option('hlsearch',true)
@@ -41,7 +47,7 @@ api.nvim_set_option('report',0)
 api.nvim_set_option('synmaxcol',200)
 api.nvim_set_option('completeopt','menuone,noinsert,noselect')
 api.nvim_set_option('inccommand','split')
-vim.cmd('set foldmethod=marker') -- Function does not exist
+vim.wo.foldmethod = 'marker'
 
 vim.cmd('filetype plugin indent on')
 vim.cmd('syntax enable')
@@ -74,8 +80,10 @@ api.nvim_set_var('loaded_netrwFileHandlers',1)
 --}}}
 
 
-require('plugins/lightline')
+require('plugins/statusline')
 require('plugins/neoformat')
+-- CSS Colors
+--require('plugins/colorizer')
 -- Shougo Plugins:
 require('plugins/denite')
 require('plugins/defx')

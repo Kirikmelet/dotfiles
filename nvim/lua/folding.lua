@@ -3,7 +3,6 @@ local api = vim.api
 local aug = require('func/augrouper')
 
 
---{{{autocmds
 local autocmds = {
 	remember_folds = {
 		{'BufWinLeave', '*', 'mkview'};
@@ -30,6 +29,5 @@ local autocmds = {
 }
 
 aug.nvim_autgrouper(autocmds)
---}}}
 
 

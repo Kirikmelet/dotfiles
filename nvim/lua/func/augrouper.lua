@@ -15,5 +15,4 @@ end
 
 return {
 	nvim_autgrouper = nvim_autgrouper,
-	functionuse = functionuse
 }

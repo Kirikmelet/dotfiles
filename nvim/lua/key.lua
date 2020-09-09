@@ -22,3 +22,5 @@ binder('n', '<leader>tc', '<cmd>tabclose', {silent = false, noremap = false})
 api.nvim_set_keymap('i', '<Tab>', [[pumvisible() ? "\<C-n>" : "\<Tab>"]], {expr = true, noremap = true})
 api.nvim_set_keymap('i', '<S-Tab>', [[pumvisible() ? "\<C-p>" : "\<S-Tab>"]], {expr = true, noremap = true})
 
+-- Terminal
+binder('t', '<Esc>', '<C-\\><C-n>',nil)

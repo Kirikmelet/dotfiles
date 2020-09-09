@@ -26,7 +26,7 @@ binder('n', '<leader>bso', '<cmd>source Session.vim<CR>')
 
 --{{{Application hotkeys
 binder('n', '<leader>aw', '<cmd>VimwikiIndex<CR>')
+binder('n', '<leader>am', '<cmd>Denite menu<CR>')
 binder('n', '<leader>ao', '<cmd>Defx -buffer-name=defxplore ~/org<CR>')
-binder('n', '<leader>ac', '<cmd>Calender<CR>')
 binder('n', '<leader>ad', '<cmd>Defx -buffer-name=defxplore<CR>')
 --}}}
