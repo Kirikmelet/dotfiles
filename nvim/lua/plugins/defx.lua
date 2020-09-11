@@ -10,6 +10,7 @@ local function bufbind(buf, mode, key, cmd, opts)
 	api.nvim_buf_set_keymap(buf, mode, key, cmd, opts)
 end
 
+
 vim.fn['defx#custom#column']('icon', {
 		directory_icon = 'Dir';
 		opened_icon = 'Opn';

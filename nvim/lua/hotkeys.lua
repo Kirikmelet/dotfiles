@@ -34,8 +34,10 @@ binder('n', '<leader>ad', '<cmd>Defx -buffer-name=defxplore<CR>')
 --{{{Git hotkeys
 binder('n', '<leader>gc', '<cmd>Git commit<CR>', nil)
 binder('n', '<leader>gg', '<cmd>G<CR>',nil)
-binder('n', '<leader>gps', '<cmd>Git push<CR>',nil)
+binder('n', '<leader>gps', '<cmd>split | term git push<CR>',nil)
 binder('n', '<leader>gpl', '<cmd>Git pull<CR>',nil)
 binder('n', '<leader>gf', '<cmd>Git fetch<CR>',nil)
 --{{{
 
+-- Debug
+binder('n', '<leader>pl', '<cmd>lua require"git".load()<CR>',nil)

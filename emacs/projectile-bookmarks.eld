@@ -1,1 +1,1 @@
-("~/Documents/projects/vuevidtest/" "~/org/" "~/.config/" "~/Documents/github/notamusicplayer/" "~/Desktop/360_tours/test1/vtour/" "~/vimwiki/")
+("~/org/" "~/.config/" "~/Documents/projects/vuevidtest/" "~/Documents/github/notamusicplayer/" "~/Desktop/360_tours/test1/vtour/" "~/vimwiki/")

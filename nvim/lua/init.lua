@@ -91,12 +91,13 @@ require('plugins/statusline')
 require('plugins/neoformat')
 -- CSS Colors
 --require('plugins/colorizer')
--- Shougo Plugins:
+--Shougo Plugins
 require('plugins/denite')
 require('plugins/defx')
 -- LSP
 require('plugins/lsp')
 require('plugins/completion')
+require('plugins/treesitter')
 -- Org-mode & Vimwiki
 require('plugins/orgmode')
 require('plugins/vimwiki')

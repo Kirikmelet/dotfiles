@@ -1,18 +1,24 @@
+(setq gc-cons-threshold 100000000)
 ;; Error checking
 (setq debug-on-error t)
+
+;;Garbage man
 
 ;; Paths to load
 (defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
 (defconst config-dir (concat emacs-dir "/config"))
+(defconst func-dir (concat emacs-dir "/functions"))
 
 
 ;; Loads config files
 (add-to-list 'load-path config-dir)
+(add-to-list 'load-path func-dir)
 
 
 ;; Autopair
 (electric-pair-mode)
 
+(require 'basicfunc)
 
 ;; Loads packages
 (require 'package-configfile)

@@ -22,6 +22,7 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd'],
 					\ 'build': 'sh -c "cd app & npm install"' })
 
+  call dein#add('Kirikmelet/gitfug.lua')
  
   " Gruvbox:
   call dein#add('morhetz/gruvbox')
@@ -48,7 +49,10 @@ if dein#load_state('/home/troyd/.cache/dein')
   call dein#add('neovim/nvim-lsp')
   call dein#add('nvim-lua/diagnostic-nvim')
   call dein#add('nvim-lua/completion-nvim')
+  call dein#add('nvim-treesitter/nvim-treesitter')
 
+  " REPL:
+  call dein#add('hkupty/iron.nvim')
 
 
   " Required:

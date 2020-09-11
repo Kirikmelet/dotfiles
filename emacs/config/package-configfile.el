@@ -46,8 +46,8 @@
 
                ;; Handles keybind popup
                which-key
-               ;;evil
-               ;;evil-collection
+               evil
+               evil-collection
 
                ;; Ivy
                ivy
@@ -76,6 +76,7 @@
 ;; which-key config
 (use-package which-key
              :ensure t
+             :defer t
              :init
              (which-key-mode)
              (setq which-key-use-C-h-commands nil) 
@@ -84,6 +85,7 @@
 ;; ivy-mode config
 (use-package ivy
              :ensure t
+             :defer 3
              :init
              (ivy-mode 1)
              :config
@@ -116,12 +118,14 @@
 (use-package magit
              :hook ((after-init-hook . magit-mode))
              :ensure t
+             :defer 3
              )
 
 ;; Python-mode config
 
 ;; LSP config
 (use-package lsp-mode
+             :defer 2
              :hook (
                     (python-mode . lsp-deferred)
                     (c-mode . lsp-deferred)
@@ -133,26 +137,32 @@
                                    setq lsp-modeline-diagnostics-scope :project)
              )
 (use-package lsp-ui
+             :defer 2
              :commands lsp-ui-mode)
 (use-package lsp-ivy
+             :defer 2
              :commands lsp-ivy-workspace-symbol)
 (use-package company
+             :defer 2
              :hook (after-init-hook . global-company-mode)
              :config
              (setq company-minimum-prefix-length 1
                    company-idle-delay 0.0) ;; default is 0.2
              )
 (use-package company-box
+             :defer 2
              :hook (company-mode . company-box-mode)
              )
 
 ;; Theme
 (use-package gruvbox-theme
+             :defer t
              :init
              (load-theme 'gruvbox-dark-medium t)
              )
 
 (use-package projectile
+             :defer 3
              :init
              (projectile-mode 1)
              :bind (
@@ -170,8 +180,8 @@
              (setq dashboard-banner-logo-title "Welcome to EMACS comrade!")
              (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
              ;;(setq dashboard-startup-banner 'logo)
-             (setq dashboard-init-info "Nothing to lose but your OS!")
-             ;;(setq dashboard-init-time t)
+             ;;(setq dashboard-init-info "Nothing to lose but your OS!")
+             (setq dashboard-init-time t)
              (setq dashboard-footer-messages '("Comrade Tux Calls Us!"
                                                "Long Live the Permanent Revolution!"
                                                "Power to the workers!"
@@ -207,6 +217,7 @@
 
 ;; Music player
 (use-package simple-mpc
+             :defer 4
   :bind(
         ("C-x C-a m" . simple-mpc)))
 ;;(use-package emms
@@ -240,33 +251,37 @@
 
 ;; PDF-Reader
 (use-package pdf-tools
+             :defer 3
              :init
              (pdf-loader-install)
              )
 
 ;; EVIL
 
-;;(use-package evil
-;;             :ensure t
-;;             :init
-;;             (setq evil-want-integration t)
-;;             (setq evil-want-keybinding nil)
-;;             :config
-;;             (evil-mode 1)
-;;             )
-;;(use-package evil-collection
-;;             :after evil
-;;             :ensure t
-;;             :config
-;;             (evil-collection-init)
-;;             :custom
-;;             (evil-collection-setup-minibuffer t)
-;;             )
+(use-package evil
+             :ensure t
+             :defer 1
+             :init
+             (setq evil-want-integration t)
+             (setq evil-want-keybinding nil)
+             :config
+             (evil-mode 1)
+             )
+(use-package evil-collection
+             :after evil
+             :ensure t
+             :defer 1
+             :config
+             (evil-collection-init)
+             :custom
+             (evil-collection-setup-minibuffer t)
+             )
 
 ;; Markdown
 
 (use-package markdown-mode
   :ensure t
+  :defer 5
   :mode (("README\\.md\\'" . gfm-mode)
          ("\\.md\\'" . markdown-mode)
          ("\\.markdown\\'" . markdown-mode))
@@ -275,6 +290,7 @@
 ;; Org-mode
 (use-package org
   :ensure t
+  :defer 2
   :bind (
          ("C-x C-a o a" . org-agenda)
          ("C-x C-a o c" . org-capture)
@@ -306,6 +322,7 @@
 ;; Eshell
 
 (use-package eshell
+  :defer 3
   :bind (
          ("C-x C-a e" . eshell))
   )

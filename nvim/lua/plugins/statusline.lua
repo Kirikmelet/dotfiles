@@ -5,8 +5,8 @@ local api = vim.api
 
 local statusline = {
 	'%#PmenuSel#';
-	'%{toupper(mode())}%m';
-	'%r%h%w%q%#LineNr#';
+	'0x%B%m';
+	'%r%h%w%q%<%#LineNr#';
 	'%<%F%=%#StatusLineNC#';
 	'%y';
 	'%<%{&fileencoding?&fileencoding:&encoding}|%{&fileformat}';

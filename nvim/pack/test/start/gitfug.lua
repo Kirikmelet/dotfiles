@@ -1,0 +1,1 @@
+/home/troyd/.cache/dein/repos/github.com/Kirikmelet/gitfug.lua/

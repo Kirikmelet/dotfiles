@@ -10,6 +10,7 @@ local function bufbind(buf, mode, key, cmd, opts)
 	api.nvim_buf_set_keymap(buf, mode, key, cmd, opts)
 end
 
+
 vim.fn['denite#custom#option']('_',
 		{
 			split = 'horizontal';

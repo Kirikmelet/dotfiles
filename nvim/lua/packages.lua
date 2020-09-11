@@ -30,16 +30,19 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function()
 
+	use('~/.config/nvim/pack/test/start/gitfug.lua')
+
 	-- Don't Delete!
 	use {'wbthomason/packer.nvim', opt = true}
 
 	-- Markdown:
-	use {'iamcco/markdown-preview.nvim';
-		opt = true;
-		ft = {'markdown', 'pandoc.markdown', 'rmd'};
-		run = 'sh -c "cd app & npm install"';
-	}
+--	use {'iamcco/markdown-preview.nvim';
+--		opt = true;
+--		ft = {'markdown', 'pandoc.markdown', 'rmd'};
+--		run = 'sh -c "cd app & npm install"';
+--	}
 
+	-- Fuzzy
 
 	-- Gruvbox:
 	use {'morhetz/gruvbox'}
@@ -74,6 +77,4 @@ return require('packer').startup(function()
 		'nvim-lua/completion-nvim';
 	}
 
-	-- Shougo plugins
-	use {'Shougo/defx.nvim', 'Shougo/denite.nvim'}
 end)

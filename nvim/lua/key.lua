@@ -23,4 +23,4 @@ api.nvim_set_keymap('i', '<Tab>', [[pumvisible() ? "\<C-n>" : "\<Tab>"]], {expr 
 api.nvim_set_keymap('i', '<S-Tab>', [[pumvisible() ? "\<C-p>" : "\<S-Tab>"]], {expr = true, noremap = true})
 
 -- Terminal
-binder('t', '<Esc>', '<C-\\><C-n>',nil)
+binder('t', '<C-x><C-c>', '<C-\\><C-n>',nil)
