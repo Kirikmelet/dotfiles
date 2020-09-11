@@ -1,8 +1,5 @@
 (setq gc-cons-threshold (* 50 1000 1000))
-;; Error checking
-(setq debug-on-error t)
 
-;;Garbage man
 
 ;; Paths to load
 (defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
@@ -14,23 +11,18 @@
 (add-to-list 'load-path config-dir)
 (add-to-list 'load-path func-dir)
 
-
-;; Autopair
-(electric-pair-mode)
-
 (require 'basicfunc)
 
 ;; Loads packages
 (require 'package-configfile)
 
-(setq gc-cons-threshold (* 10 1000 1000))
 
 ;; better-defaults by Phil Hagelberg 
 ;; https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el
 (require 'better-defaults)
 
 ;; Fonts
-(require 'looks)
+;;(require 'looks)
 
 ;; Loads custom config
 (require 'custom-fileconfig)
@@ -49,3 +41,4 @@
 
 ;; For emacs daemon
 ;;(setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
+(setq gc-cons-threshold (* 10 1000 1000))

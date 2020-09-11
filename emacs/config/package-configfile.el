@@ -24,6 +24,7 @@
 ;; Checks if package is installed
 (dolist (pkg '(
                ;; Inset package here;
+               esup
 
                ;;Music ?
                simple-mpc
@@ -42,6 +43,10 @@
 
                ;; Modes
                markdown-mode
+               lua-mode
+               vimrc-mode
+
+               ;; Tools
                pdf-tools
 
                ;; Handles keybind popup
@@ -75,14 +80,69 @@
     (package-install pkg))  
   )
 
+
+(use-package esup
+  :ensure t
+  :pin melpa
+  :commands (esup))
+
+;; Dashboard config NOTE: SHOULD BE ABSOLUTE TOP!
+(use-package dashboard
+             :config
+             (dashboard-setup-startup-hook)
+             (setq dashboard-banner-logo-title "Welcome to EMACS comrade!")
+             (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
+             ;;(setq dashboard-startup-banner 'logo)
+             ;;(setq dashboard-init-info "Nothing to lose but your OS!")
+             (setq dashboard-init-time t)
+             (setq dashboard-footer-messages '("Comrade Tux Calls Us!"
+                                               "Long Live the Permanent Revolution!"
+                                               "Power to the workers!"
+                                               "There is worth in a union!"
+                                               ))
+             (setq dashboard-center-content t)
+             (setq dashboard-show-shortcuts t)
+             (setq dashboard-items '(
+                                     (recents . 5)
+                                     (projects . 5)
+                                     (agenda . 5)
+                                     ))
+             (setq dashboard-set-heading-icons t)
+             (setq show-week-agenda-p t)
+             (setq dashboard-set-file-icons t)
+             (setq dashboard-set-navigator t)
+             (setq dashboard-navigator-buttons
+                   `(;; Line 1
+                     ((,nil
+                        "GitHub"
+                        "Go to my GitHub"
+                        (lambda (&rest _) (browse-url "https://github.com/Kirikmelet"))
+                        'default)
+                      (nil
+                        "PT. AVK"
+                        "Open corporate website"
+                        (lambda (&rest _) (browse-url "https://avk.co.id"))
+                        'default))))
+
+
+
+             )
+
+
 ;; which-key config
 (use-package which-key
              :ensure t
-             :defer t
+             :defer 3
              :init
              (which-key-mode)
              (setq which-key-use-C-h-commands nil) 
              )
+
+;; Electric-Pair mode
+(use-package electric-pair
+             :defer 5
+             :init
+             (electric-pair-mode))
 
 ;; ivy-mode config
 (use-package ivy
@@ -159,7 +219,7 @@
 
 ;; Theme
 (use-package gruvbox-theme
-             :defer t
+             :defer 1
              :init
              (load-theme 'gruvbox-dark-medium t)
              )
@@ -178,47 +238,7 @@
              :config
              (setq projectile-completion-system 'ivy) 
              )
-;; Dashboard config
-(use-package dashboard
-             :config
-             (dashboard-setup-startup-hook)
-             (setq dashboard-banner-logo-title "Welcome to EMACS comrade!")
-             (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
-             ;;(setq dashboard-startup-banner 'logo)
-             ;;(setq dashboard-init-info "Nothing to lose but your OS!")
-             (setq dashboard-init-time t)
-             (setq dashboard-footer-messages '("Comrade Tux Calls Us!"
-                                               "Long Live the Permanent Revolution!"
-                                               "Power to the workers!"
-                                               "There is worth in a union!"
-                                               ))
-             (setq dashboard-center-content t)
-             (setq dashboard-show-shortcuts t)
-             (setq dashboard-items '(
-                                     (recents . 5)
-                                     (projects . 5)
-                                     (agenda . 5)
-                                     ))
-             (setq dashboard-set-heading-icons t)
-             (setq show-week-agenda-p t)
-             (setq dashboard-set-file-icons t)
-             (setq dashboard-set-navigator t)
-             (setq dashboard-navigator-buttons
-                   `(;; Line 1
-                     ((,nil
-                        "GitHub"
-                        "Go to my GitHub"
-                        (lambda (&rest _) (browse-url "https://github.com/Kirikmelet"))
-                        'default)
-                      (nil
-                        "PT. AVK"
-                        "Open corporate website"
-                        (lambda (&rest _) (browse-url "https://avk.co.id"))
-                        'default))))
 
-
-
-             )
 
 ;; Music player
 (use-package simple-mpc
@@ -282,7 +302,7 @@
 ;;             (evil-collection-setup-minibuffer t)
 ;;             )
 
-;; Markdown
+;; Modes
 
 (use-package markdown-mode
   :ensure t
@@ -291,6 +311,19 @@
          ("\\.md\\'" . markdown-mode)
          ("\\.markdown\\'" . markdown-mode))
   )
+
+(use-package lua-mode
+  :ensure t
+  :defer 5
+  :mode ("\\.lua\\'")
+  )
+
+(use-package vimrc-mode
+  :ensure t
+  :defer 5
+  :mode ("\\.vim\\'")
+  )
+
 
 ;; Org-mode
 (use-package org
