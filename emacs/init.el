@@ -1,4 +1,4 @@
-(setq gc-cons-threshold 100000000)
+(setq gc-cons-threshold (* 50 1000 1000))
 ;; Error checking
 (setq debug-on-error t)
 
@@ -23,9 +23,14 @@
 ;; Loads packages
 (require 'package-configfile)
 
+(setq gc-cons-threshold (* 10 1000 1000))
+
 ;; better-defaults by Phil Hagelberg 
 ;; https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el
 (require 'better-defaults)
+
+;; Fonts
+(require 'looks)
 
 ;; Loads custom config
 (require 'custom-fileconfig)
@@ -43,4 +48,4 @@
 (require 'c-ftconf)
 
 ;; For emacs daemon
-(setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
+;;(setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))

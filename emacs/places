@@ -1,13 +1,13 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/troyd/org/global_agenda/work.org" . 461)
- ("/home/troyd/.emacs.d/recentf" . 1703)
+(("/home/troyd/.config/emacs/README.org" . 462)
+ ("/home/troyd/org/global_agenda/work.org" . 461)
+ ("/home/troyd/.emacs.d/recentf" . 1495)
+ ("/home/troyd/.config/emacs/init.el" . 535)
  ("/home/troyd/.config/nvim/plugin/packer_compiled.vim" . 3239)
  ("/home/troyd/.config/emacs/config/package-configfile.el" . 9598)
  ("/home/troyd/.emacs.d/functions/"
   (dired-filename . "/home/troyd/.emacs.d/functions/basicfunc.el"))
- ("/home/troyd/.config/emacs/init.el" . 383)
  ("/home/troyd/.emacs.d/functions/basicfunc.el" . 189)
- ("/home/troyd/.emacs.d/elpa/evil-collection-20200908.813/evil-collection-autoloads.el" . 3267)
  ("/home/troyd/.emacs.d/elpa/all-the-icons-20200823.1605/all-the-icons-autoloads.el" . 2243)
  ("/home/troyd/.emacs.d/elpa/company-20200831.2016/company-autoloads.el" . 12088)
  ("/home/troyd/.emacs.d/elpa/company-box-20200910.629/company-box-autoloads.el" . 1113)
@@ -21,7 +21,6 @@
  ("/home/troyd/.emacs.d/elpa/markdown-mode-20200909.2355/markdown-mode-autoloads.el" . 1150)
  ("/home/troyd/.emacs.d/elpa/projectile-20200909.650/projectile-autoloads.el" . 21306)
  ("/home/troyd/.emacs.d/elpa/which-key-20200908.2301/which-key-autoloads.el" . 7113)
- ("/home/troyd/.emacs.d/elpa/evil-20200816.737/evil-autoloads.el" . 3775)
  ("/home/troyd/"
   (dired-filename . "/home/troyd/.AndroidStudio4.0"))
  ("/home/troyd/.config/emacs/config/javascript-ftconf.el" . 80)

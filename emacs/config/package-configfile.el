@@ -46,8 +46,8 @@
 
                ;; Handles keybind popup
                which-key
-               evil
-               evil-collection
+               ;;evil
+               ;;evil-collection
 
                ;; Ivy
                ivy
@@ -67,7 +67,9 @@
                magit
                projectile
 
-
+               ;; Undo-Tree
+               undo-tree
+               
                ))
   (unless (package-installed-p pkg)
     (package-install pkg))  
@@ -154,6 +156,7 @@
              :hook (company-mode . company-box-mode)
              )
 
+
 ;; Theme
 (use-package gruvbox-theme
              :defer t
@@ -161,6 +164,8 @@
              (load-theme 'gruvbox-dark-medium t)
              )
 
+
+;; Projects
 (use-package projectile
              :defer 3
              :init
@@ -258,24 +263,24 @@
 
 ;; EVIL
 
-(use-package evil
-             :ensure t
-             :defer 1
-             :init
-             (setq evil-want-integration t)
-             (setq evil-want-keybinding nil)
-             :config
-             (evil-mode 1)
-             )
-(use-package evil-collection
-             :after evil
-             :ensure t
-             :defer 1
-             :config
-             (evil-collection-init)
-             :custom
-             (evil-collection-setup-minibuffer t)
-             )
+;;(use-package evil
+;;             :ensure t
+;;             :defer 1
+;;             :init
+;;             (setq evil-want-integration t)
+;;             (setq evil-want-keybinding nil)
+;;             :config
+;;             (evil-mode 1)
+;;             )
+;;(use-package evil-collection
+;;             :after evil
+;;             :ensure t
+;;             :defer 1
+;;             :config
+;;             (evil-collection-init)
+;;             :custom
+;;             (evil-collection-setup-minibuffer t)
+;;             )
 
 ;; Markdown
 
@@ -326,6 +331,11 @@
   :bind (
          ("C-x C-a e" . eshell))
   )
+
+(use-package undo-tree
+  :defer 4
+  :init
+  (global-undo-tree-mode))
 
 ;; End file
 (provide 'package-configfile)

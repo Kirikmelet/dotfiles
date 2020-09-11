@@ -1,0 +1,14 @@
+#+TITLE: My Emacs config 
+
+- Init time : 0.8 seconds (0.4 if daemon)
+
+- What's in it
+
+It has Lsp-Mode installed, and all the configs are split into different files,
+which are then called by 'init.el'
+
+Better-Defaults.el by Technomancy is included ([[https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el][Source]])
+
+I also use Gruvbox as the theme, and Fira Code as the font.
+
+And has all the thing you would expect from any Emacs config
