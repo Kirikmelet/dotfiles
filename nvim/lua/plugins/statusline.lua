@@ -14,4 +14,4 @@ local statusline = {
 	'%l.%c - %<L:%L ';
 }
 statusline = table.concat(vim.tbl_flatten(statusline), ' ')
-api.nvim_set_option('statusline', statusline)
+vim.o.statusline = statusline

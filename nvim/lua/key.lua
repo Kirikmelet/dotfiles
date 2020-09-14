@@ -1,20 +1,28 @@
-vim = vim
-api = vim.api
+local vim = vim
+local api = vim.api
 local binder = require('func/binder')
 
 -- Autopair
-binder('i', '(', '()<Esc>hli',nil)
-binder('i', '[', '[]<Esc>hli',nil)
-binder('i', '{', '{}<Esc>hli',nil)
-
+local autopair = {
+      {'i', '(', '()<Esc>hli',nil,nil};
+      {'i', '[', '[]<Esc>hli',nil,nil};
+      {'i', '{', '{}<Esc>hli',nil,nil};
+}
+binder(autopair)
 
 -- Splits
-binder('n', '<leader>sv', '<cmd>vsplit<CR>', {silent = false, noremap = false})
-binder('n', '<leader>sh', '<cmd>split<CR>', {silent = false, noremap = false})
+local splits = {
+      {'n', '<leader>sv', '<cmd>vsplit<CR>', {silent = false, noremap = false},nil};
+      {'n', '<leader>sh', '<cmd>split<CR>', {silent = false, noremap = false},nil};
+}
+binder(splits)
 
 -- Tabs
-binder('n', '<leader>tn', '<cmd>tabnew<CR>', {silent = false, noremap = false})
-binder('n', '<leader>tc', '<cmd>tabclose', {silent = false, noremap = false})
+local tabs = {
+      {'n', '<leader>tn', '<cmd>tabnew<CR>', {silent = false, noremap = false},nil};
+      {'n', '<leader>tc', '<cmd>tabclose', {silent = false, noremap = false},nil};
+}
+binder(tabs)
 
 -- Completion-nvim /Diagnostic-nvimm
 --binder('i', '<Tab>', [[pumvisible() ? "\<C-n>" : "\<Tab>"]])
@@ -23,4 +31,7 @@ api.nvim_set_keymap('i', '<Tab>', [[pumvisible() ? "\<C-n>" : "\<Tab>"]], {expr 
 api.nvim_set_keymap('i', '<S-Tab>', [[pumvisible() ? "\<C-p>" : "\<S-Tab>"]], {expr = true, noremap = true})
 
 -- Terminal
-binder('t', '<C-x><C-c>', '<C-\\><C-n>',nil)
+local termkeys = {
+      {'t', '<C-x><C-c>', '<C-\\><C-n>',nil,nil};
+}
+binder(termkeys)

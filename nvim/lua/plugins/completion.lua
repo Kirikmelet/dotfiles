@@ -6,5 +6,5 @@ local api = vim.api
 vim.g.completion_matching_strategy_list = {'exact','substring','fuzzy'}
 vim.g.diagnostic_enable_virtual_text = 1
 
-local shortopt = api.nvim_get_option('shortmess')
-api.nvim_set_option('shortmess',shortopt..'c')
+local shortopt = vim.o.shortmess
+vim.o.shortmess = shortopt..'c'

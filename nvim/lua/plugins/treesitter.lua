@@ -2,7 +2,7 @@ local vim = vim
 local api = vim.api
 
 require'nvim-treesitter.configs'.setup {
-	ensure_installed = 'all';
+	ensure_installed = {'c', 'python', 'html', 'javascript', 'bash', 'cpp', 'rust'};
 	highlight = {
 		enable = true,
 		disable = {},
@@ -29,6 +29,7 @@ require'nvim-treesitter.configs'.setup {
 			enable = true,
 			goto_definition = 'gnd',
 			list_definitions = 'gnD'
-		}
+		},
+      highlight_scope = { enable = true},
 	},
 }

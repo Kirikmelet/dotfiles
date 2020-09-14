@@ -35,7 +35,11 @@ vim.fn['denite#custom#var']('grep',
 	}
 	)
 
-
+vim.fn['denite#custom#var'](
+   'file/rec',
+   'command',
+   {'rg', '--files', '--glob', '!.git', '--glob', '!.clangd'}
+   )
 
 
 local menfconf = {

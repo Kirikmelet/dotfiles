@@ -22,9 +22,12 @@ local autocmds = {
 	};
 	checkdefx = {
 		{'WinEnter', '*', 'if &filetype == "defx" && winnr("$") == 1| bdel | endif'};
-		{'TabLeave', '*', 'if &filetype == "defx" | wndcmd w | wndif'};
+		{'TabLeave', '*', 'if &filetype == "defx" | wndcmd w | endif'};
 		{'BufEnter', '*', 'call defx#do_action("quit")'};
 	};
+   vimenter = {
+      {'BufEnter', '*', 'if isdirectory(@%) | cd %:p | Defx -buffer-name=defxplore | endif'};
+   }
 
 }
 
