@@ -1,6 +1,6 @@
 app=feh
 last_user=
-screenshot_dir=file:/home/troyd/Pictures
+screenshot_dir=file:/home/troyd/.emacs.d
 action=1
 delay=0
 region=2

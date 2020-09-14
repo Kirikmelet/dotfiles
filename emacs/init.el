@@ -22,7 +22,7 @@
 (require 'better-defaults)
 
 ;; Fonts
-;;(require 'looks)
+(require 'looks)
 
 ;; Loads custom config
 (require 'custom-fileconfig)

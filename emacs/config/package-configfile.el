@@ -24,7 +24,6 @@
 ;; Checks if package is installed
 (dolist (pkg '(
                ;; Inset package here;
-               esup
 
                ;;Music ?
                simple-mpc
@@ -81,37 +80,34 @@
   )
 
 
-(use-package esup
-  :ensure t
-  :pin melpa
-  :commands (esup))
 
 ;; Dashboard config NOTE: SHOULD BE ABSOLUTE TOP!
 (use-package dashboard
-             :config
+             :init
              (dashboard-setup-startup-hook)
-             (setq dashboard-banner-logo-title "Welcome to EMACS comrade!")
-             (setq dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
-             ;;(setq dashboard-startup-banner 'logo)
-             ;;(setq dashboard-init-info "Nothing to lose but your OS!")
-             (setq dashboard-init-time t)
-             (setq dashboard-footer-messages '("Comrade Tux Calls Us!"
+             :custom
+             (dashboard-banner-logo-title "Welcome to EMACS comrade!")
+             (dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
+             ;;(dashboard-startup-banner 'logo)
+             ;;(dashboard-init-info "Nothing to lose but your OS!")
+             (dashboard-init-time t)
+             (dashboard-footer-messages '("Comrade Tux Calls Us!"
                                                "Long Live the Permanent Revolution!"
                                                "Power to the workers!"
                                                "There is worth in a union!"
                                                ))
-             (setq dashboard-center-content t)
-             (setq dashboard-show-shortcuts t)
-             (setq dashboard-items '(
+             (dashboard-center-content t)
+             (dashboard-show-shortcuts t)
+             (dashboard-items '(
                                      (recents . 5)
                                      (projects . 5)
                                      (agenda . 5)
                                      ))
-             (setq dashboard-set-heading-icons t)
-             (setq show-week-agenda-p t)
-             (setq dashboard-set-file-icons t)
-             (setq dashboard-set-navigator t)
-             (setq dashboard-navigator-buttons
+             (dashboard-set-heading-icons t)
+             (show-week-agenda-p t)
+             (dashboard-set-file-icons t)
+             (dashboard-set-navigator t)
+             (dashboard-navigator-buttons
                    `(;; Line 1
                      ((,nil
                         "GitHub"
@@ -135,7 +131,8 @@
              :defer 3
              :init
              (which-key-mode)
-             (setq which-key-use-C-h-commands nil) 
+             :custom
+             (which-key-use-C-h-commands nil)
              )
 
 ;; Electric-Pair mode
@@ -150,11 +147,11 @@
              :defer 3
              :init
              (ivy-mode 1)
-             :config
-             (setq ivy-use-virtual-buffers t)
-             (setq enable-recursive-minibuffers t)
-             ;; enable this if you want `swiper' to use it
-             (setq search-default-mode #'char-fold-to-regexp)
+             :custom
+             (ivy-use-virtual-buffers t)
+             (enable-recursive-minibuffers t)
+             ;; For swiper
+             (search-default-mode #'char-fold-to-regexp)
              :bind
              (("\C-s" . swiper)
               ("C-c C-r" . ivy-resume)
@@ -207,9 +204,9 @@
 (use-package company
              :defer 2
              :hook (after-init-hook . global-company-mode)
-             :config
-             (setq company-minimum-prefix-length 1
-                   company-idle-delay 0.0) ;; default is 0.2
+             :custom
+             (company-minimum-prefix-length 1)
+             (company-idle-delay 0.0) ;; Default is 0.2
              )
 (use-package company-box
              :defer 2
@@ -235,8 +232,8 @@
                     ("s-p" . projectile-command-map)
                     ("C-c p" . projectile-command-map)
                     )
-             :config
-             (setq projectile-completion-system 'ivy) 
+             :custom
+             (projectile-completion-system 'ivy)
              )
 
 
@@ -336,10 +333,11 @@
          )
   :config
   (global-set-key (kbd "C-x C-a C-f ") (lambda () (interactive) (dired "~/org/")))
-  (setq org-agenda-files (list "~/org/global_agenda/work.org"
-                               "~/org/global_agenda/projects.org"
-                               "~/org/global_agenda/school.org"))
-  (setq agenda-skip-scheduled-if-done t
+  :custom
+  (org-agenda-files (list "~/org/global_agenda/work.org"
+                          "~/org/global_agenda/projects.org"
+                          "~/org/global_agenda/school.org"))
+  (agenda-skip-scheduled-if-done t
         org-directory "~/org"
         org-bullets-bullet-list '("")
         org-tags-column -80

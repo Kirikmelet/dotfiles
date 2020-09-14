@@ -80,12 +80,19 @@ vim.g.loaded_netrwFileHandlers = 1
 --}}}
 
 --{{{Disable providers
+-- 1 - Enable
+-- 0 - Disable
 vim.g.loaded_python_provider = 0
 vim.g.loaded_node_provider = 0
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
 --}}}
 
+
+-- Modules
+-- Uncomment to use
+-- Comment to unuse
+-- Restart neovim to see changes
 
 require('plugins/statusline')
 require('plugins/neoformat')

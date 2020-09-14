@@ -1,5 +1,5 @@
 favorites=firefox.desktop,org.gnome.Calculator.desktop,xed.desktop,mintinstall.desktop,xfce4-taskmanager.desktop
-recent=palemoon.desktop,brave-browser.desktop,org.gnome.Calculator.desktop,blueberry.desktop,deadbeef.desktop,firefox.desktop,emacs.desktop,thunderbird.desktop,pdfsam-basic.desktop,anarchism.desktop
+recent=palemoon.desktop,anarchism.desktop,deadbeef.desktop,firefox.desktop,emacs.desktop,org.gnome.Calculator.desktop,brave-browser.desktop,blueberry.desktop,thunderbird.desktop,pdfsam-basic.desktop
 button-icon=distributor-logo-linux-mint
 button-single-row=false
 show-button-title=false

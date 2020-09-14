@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/troyd/.config/nvim'
+let g:netrw_dirhist_2='/home/troyd/.config'
+let g:netrw_dirhist_1='/home/troyd/.config/nvim'
 let g:netrw_dirhist_0='/home/troyd/org/global_agenda'
 let g:netrw_dirhist_9='/home/troyd/.config/emacs/config'
 let g:netrw_dirhist_8='/etc/iwd'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_7='/etc/X11'
 let g:netrw_dirhist_6='/home/troyd/Desktop/360_tours'
 let g:netrw_dirhist_5='/home/troyd/.config/nvim'
 let g:netrw_dirhist_4='/home/troyd/Downloads/mildawn'
-let g:netrw_dirhist_3='/etc/NetworkManager'
-let g:netrw_dirhist_2='/home/troyd'
-let g:netrw_dirhist_1='/home/troyd/.config'
