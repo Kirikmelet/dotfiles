@@ -1,7 +1,8 @@
 
   #{{{ Aliases
 # alias zshconfig="mate ~/.zshrc" alias ohmyzsh="mate ~/.oh-my-zsh"
-     alias ll="ls -l"
+     alias ll="ls -l --color=always"
+     alias ls="ls --color=always"
      alias todo="todo.sh"
      #alias emacs="emacsclient -c"
      #alias emacst="emacsclient -nw"
@@ -111,7 +112,8 @@ function msdos_pwd
     echo $dir | tr '/' '\\'
 }
 
-export PS1='$(pwd)/> '
+
+export PS1='$(tput setaf 2)$(tput bold)$(pwd)$(tput setaf 7)>$(tput sgr0) '
 
 #echo 
 #echo
