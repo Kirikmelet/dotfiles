@@ -11,7 +11,8 @@ vim.o.guifont = 'Fira Code:h14'
 
 -- Colorscheme
 vim.g.colors_name = 'gruvbox'
-vim.o.termguicolors = false
+vim.o.background = 'dark'
+vim.o.termguicolors = true
 vim.g.gruvbox_italic = 1
 
 -- Set Leader
@@ -96,6 +97,7 @@ vim.g.loaded_ruby_provider = 0
 
 require('plugins/statusline')
 require('plugins/neoformat')
+--require('plugins/format')
 -- CSS Colors
 --require('plugins/colorizer')
 --Shougo Plugins

@@ -131,8 +131,8 @@
              :defer 3
              :init
              (which-key-mode)
-             :custom
-             (which-key-use-C-h-commands nil)
+             :config
+             (setq which-key-use-C-h-commands nil)
              )
 
 ;; Electric-Pair mode
@@ -333,19 +333,19 @@
          )
   :config
   (global-set-key (kbd "C-x C-a C-f ") (lambda () (interactive) (dired "~/org/")))
-  :custom
-  (org-agenda-files (list "~/org/global_agenda/work.org"
+  (setq org-agenda-files (list "~/org/global_agenda/work.org"
                           "~/org/global_agenda/projects.org"
                           "~/org/global_agenda/school.org"))
-  (agenda-skip-scheduled-if-done t
+  (setq agenda-skip-scheduled-if-done t
         org-directory "~/org"
         org-bullets-bullet-list '("")
         org-tags-column -80
-        org-todo-keywords '((sequence "TODO(t)" "CURRENT(c)" "HOLD(h)" "|" "FINISHED(f)" "CANCELLED(x)" "FAIL(F)"))
+        org-todo-keywords '((sequence "TODO(t)" "CURRENT(c)" "HOLD(h)" "POSTPONED(p)" "|" "FINISHED(f)" "CANCELLED(x)" "FAIL(F)"))
         org-todo-keyword-faces
         '(("TODO" :foreground "#b8bb26" :weight normal :underline t)
           ("CURRENT" :foreground "#fabd2f" :weight normal :underline t)
           ("HOLD" :foreground "#fe8019" :weight italic :underline t)
+          ("POSTPONED" :foreground "#fabd2f" :weight italic :underline t)
           ("FINISHED" :foreground "#83a598" :weight normal :underline t)
           ("CANCELLED" :foreground "#fb4934" :weight bold :underline t)
           ("FAIL" :foreground "#cc241d" :weight bold :underline t)
