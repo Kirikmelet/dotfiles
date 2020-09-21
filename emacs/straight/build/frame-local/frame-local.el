@@ -1,0 +1,1 @@
+/home/troyd/.emacs.d/straight/repos/frame-local/frame-local.el

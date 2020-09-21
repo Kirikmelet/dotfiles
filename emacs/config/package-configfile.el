@@ -1,29 +1,28 @@
+;;; -*- lexical-binding t; -*-
 ;; package-configfile
 ;; Handles load of packages
 
-
-(require 'package)
-
-(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "https://melpa.org/packages/")
-                         ))
-(package-initialize)
-
-
-;; Ensures use-package 
-;; Source: https://github.com/m32-y/emacs.d/blob/master/modules/basic-optimize-module.el
-(unless (package-installed-p 'use-package)
-  (progn (package-refresh-contents)
-         (package-install 'use-package)))
-(eval-when-compile
-  (require 'use-package))
+(defvar bootstrap-version)
+(let ((bootstrap-file
+       (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
+      (bootstrap-version 5))
+  (unless (file-exists-p bootstrap-file)
+    (with-current-buffer
+        (url-retrieve-synchronously
+         "https://raw.githubusercontent.com/raxod502/straight.el/develop/install.el"
+         'silent 'inhibit-cookies)
+      (goto-char (point-max))
+      (eval-print-last-sexp)))
+  (load bootstrap-file nil 'nomessage))
 
 
+(straight-use-package 'use-package)
+(setq straight-use-package-by-default t)
 
 ;; Checks if package is installed
 (dolist (pkg '(
                ;; Inset package here;
+
 
                ;;Music ?
                simple-mpc
@@ -75,11 +74,8 @@
                undo-tree
                
                ))
-  (unless (package-installed-p pkg)
-    (package-install pkg))  
-  )
-
-
+    (straight-use-package pkg))
+  
 
 ;; Dashboard config NOTE: SHOULD BE ABSOLUTE TOP!
 (use-package dashboard
@@ -127,7 +123,6 @@
 
 ;; which-key config
 (use-package which-key
-             :ensure t
              :defer 3
              :init
              (which-key-mode)
@@ -135,15 +130,9 @@
              (setq which-key-use-C-h-commands nil)
              )
 
-;; Electric-Pair mode
-(use-package electric-pair
-             :defer 5
-             :init
-             (electric-pair-mode))
 
 ;; ivy-mode config
 (use-package ivy
-             :ensure t
              :defer 3
              :init
              (ivy-mode 1)
@@ -176,7 +165,6 @@
 ;; Magit config
 (use-package magit
              :hook ((after-init-hook . magit-mode))
-             :ensure t
              :defer 3
              )
 
@@ -281,7 +269,6 @@
 ;; EVIL
 
 ;;(use-package evil
-;;             :ensure t
 ;;             :defer 1
 ;;             :init
 ;;             (setq evil-want-integration t)
@@ -291,7 +278,6 @@
 ;;             )
 ;;(use-package evil-collection
 ;;             :after evil
-;;             :ensure t
 ;;             :defer 1
 ;;             :config
 ;;             (evil-collection-init)
@@ -302,7 +288,6 @@
 ;; Modes
 
 (use-package markdown-mode
-  :ensure t
   :defer 5
   :mode (("README\\.md\\'" . gfm-mode)
          ("\\.md\\'" . markdown-mode)
@@ -310,13 +295,11 @@
   )
 
 (use-package lua-mode
-  :ensure t
   :defer 5
   :mode ("\\.lua\\'")
   )
 
 (use-package vimrc-mode
-  :ensure t
   :defer 5
   :mode ("\\.vim\\'")
   )
@@ -324,7 +307,6 @@
 
 ;; Org-mode
 (use-package org
-  :ensure t
   :defer 2
   :bind (
          ("C-x C-a o a" . org-agenda)
@@ -332,6 +314,9 @@
          ("C-x C-a o s" . org-store-link)
          )
   :config
+  (setq org-hide-emphasis-markers t
+        org-display-inline-images t
+        org-redisplay-inline-images t)
   (global-set-key (kbd "C-x C-a C-f ") (lambda () (interactive) (dired "~/org/")))
   (setq org-agenda-files (list "~/org/global_agenda/work.org"
                           "~/org/global_agenda/projects.org"
@@ -368,5 +353,11 @@
   :init
   (global-undo-tree-mode))
 
+
+(use-package valign
+             :straight (valign :host github :repo "casouri/valign")
+             :config
+             (add-hook 'org-mode-hook #'valign-mode)
+             )
 ;; End file
 (provide 'package-configfile)

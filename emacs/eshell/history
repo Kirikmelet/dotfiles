@@ -1,10 +1,4 @@
 ls
-./tour_testingserver.sh 
-./tour_testingserver.sh 
-ls
-./tour_testingserver.sh 
-./tour_testingserver.sh 
-ls
 cd ..
 ls
 cd ~/Downloads/
@@ -111,3 +105,24 @@ npm test
 exit
 ls
 npm test
+ls
+npm install vis-timeline
+npm init
+npm install vis-timeline
+ls
+ls
+chmod 755 run.sh
+./run.sh
+exit
+ls
+curl -O https://github.com/Grible/timetable.js/archive/master.zip
+ls
+unzip master.zip
+ls
+unzip master.zip
+rm master.zip
+npm install timetable
+rm -rf node_modules/
+./run.sh
+ls
+./run.sh

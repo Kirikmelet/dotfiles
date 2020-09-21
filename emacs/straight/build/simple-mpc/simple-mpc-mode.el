@@ -1,0 +1,1 @@
+/home/troyd/.emacs.d/straight/repos/simple-mpc/simple-mpc-mode.el

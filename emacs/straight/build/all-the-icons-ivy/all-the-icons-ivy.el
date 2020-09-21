@@ -1,0 +1,1 @@
+/home/troyd/.emacs.d/straight/repos/all-the-icons-ivy/all-the-icons-ivy.el

@@ -1,3 +1,4 @@
+;;; -*- lexical-binding t; -*-
 ;;c-ftconf.el
 ;; For C Language
 
