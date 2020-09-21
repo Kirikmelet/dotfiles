@@ -1,6 +1,6 @@
 #+TITLE: My Emacs config 
 
-- Init time : 1.1 seconds (0.8`if daemon)
+- Init time : 0.66 (low) / 0.81 (high) seconds (0.43`if daemon)
 
 - What's in it
 
@@ -10,5 +10,9 @@ which are then called by 'init.el'
 Better-Defaults.el by Technomancy is included ([[https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el][Source]])
 
 I also use Gruvbox as the theme, and Fira Code as the font.
+
+Straight.el instead of Package.el
+
+Early-init.el is used, shaving startup by 0.4 seconds
 
 And has all the thing you would expect from any Emacs config
