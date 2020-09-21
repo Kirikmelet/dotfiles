@@ -2,7 +2,7 @@
   #{{{ Aliases
 # alias zshconfig="mate ~/.zshrc" alias ohmyzsh="mate ~/.oh-my-zsh"
      alias ll="ls -l --color=always"
-     alias ls="ls --color=always"
+     alias ls="ls --color=auto"
      alias todo="todo.sh"
      #alias emacs="emacsclient -c"
      #alias emacst="emacsclient -nw"
@@ -27,12 +27,8 @@
      alias ytm="youtube-dl -x --audio-format opus $1"
 #}}}
 
-#{{{ Functions
-filesizes(){
-    for i in $(ls); do du -sh "$i"; done
-}
+# Set to vim bindings
 set -o vi
-#}}}
 
 #{{{ NPM
 ###-begin-npm-completion-###
@@ -113,7 +109,7 @@ function msdos_pwd
 }
 
 
-export PS1='$(tput setaf 2)$(tput bold)$(pwd)$(tput setaf 7)>$(tput sgr0) '
+export PS1='$(pwd)> '
 
 #echo 
 #echo
