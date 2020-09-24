@@ -1,1 +1,0 @@
-/home/troyd/.emacs.d/straight/repos/icomplete-vertical/icomplete-vertical.el

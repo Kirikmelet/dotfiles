@@ -1,1 +1,0 @@
-/home/troyd/.emacs.d/straight/repos/lua-mode/lua-mode.el

@@ -1,1 +1,0 @@
-/home/troyd/.emacs.d/straight/repos/emacs-theme-gruvbox/gruvbox-dark-medium-theme.el

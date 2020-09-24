@@ -1,1 +1,0 @@
-/home/troyd/.emacs.d/straight/repos/pkg-info/pkg-info.el
