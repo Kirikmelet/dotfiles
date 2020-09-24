@@ -1,2 +1,2 @@
-source ~/.config/nvim/vim/dein.vim
+"source ~/.config/nvim/vim/dein.vim
 lua require('init')

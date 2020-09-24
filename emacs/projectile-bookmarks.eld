@@ -1,1 +1,1 @@
-("~/.config/" "~/Documents/projects/jquery_timeline/" "~/org/" "~/Documents/github/notamusicplayer/" "~/Documents/projects/vuevidtest/" "~/vimwiki/")
+("~/.config/" "~/org/" "~/Documents/work/ajinomoto/zoom/" "~/Documents/github/notamusicplayer/" "/srv/jitsi-meet/" "~/Documents/projects/vuevidtest/" "~/vimwiki/")

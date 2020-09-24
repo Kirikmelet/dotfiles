@@ -1,4 +1,7 @@
 local vim = vim
 local api = vim.api
+local plugman = require('func/packadder')
 
-return 0
+plugman.packadd({'vim-orgmode'})
+
+vim.g.org_todo_keywords = {'TODO', 'CURRENT', 'HOLD', 'POSTPONED', '|', 'FINISHED', 'CANCELLED', 'FAIL'}

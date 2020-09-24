@@ -35,6 +35,15 @@ return require('packer').startup(function()
 	-- Don't Delete!
 	use {'wbthomason/packer.nvim', opt = true}
 
+   ---- Lua stuff
+   --use {{'nvim-lua/popup.nvim', opt=true}, {'nvim-lua/plenary.nvim', opt=true}}
+
+   ---- Telescope
+   --use {'nvim-lua/telescope.nvim', opt=true}
+
+   -- Shougo plugins
+   use {{'Shougo/denite.nvim', opt=true}, {'Shougo/defx.nvim', opt=true}}
+
 	-- Markdown:
 --	use {'iamcco/markdown-preview.nvim';
 --		opt = true;
@@ -61,20 +70,27 @@ return require('packer').startup(function()
 	}
 
 	-- Vimwiki:
-	use {'vimwiki/vimwiki';
-		opt = true;
-		cmd = 'VimwikiIndex'
-	}
+	--use {'vimwiki/vimwiki';
+	--	opt = true;
+	--	cmd = 'VimwikiIndex'
+	--}
 
 	-- ORG-Mode
-	use {'jceb/vim-orgmode'}
+	use {'jceb/vim-orgmode', opt=true}
 
 	-- LSP:
 
 	use {
-		'neovim/nvim-lspconfig';
-		'nvim-lua/diagnostic-nvim';
-		'nvim-lua/completion-nvim';
+		{'neovim/nvim-lspconfig', opt=true};
+		{'nvim-lua/diagnostic-nvim', opt=true};
+		{'nvim-lua/completion-nvim', opt=true};
+		{'nvim-treesitter/nvim-treesitter', opt=true};
+		{'nvim-treesitter/completion-treesitter', opt=true};
+		{'tjdevries/lsp_extensions.nvim', opt=true};
 	}
 
+   -- REPL
+   use {'hkupty/iron.nvim'}
+
+   -- FZF
 end)

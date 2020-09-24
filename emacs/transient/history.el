@@ -2,4 +2,5 @@
   ("--ff"))
  (magit-commit nil)
  (magit-dispatch nil)
- (magit-push nil))
+ (magit-push nil)
+ (rg-menu nil))

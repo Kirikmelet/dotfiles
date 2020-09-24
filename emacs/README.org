@@ -1,18 +1,21 @@
 #+TITLE: My Emacs config 
 
-- Init time : 0.66 (low) / 0.81 (high) seconds (0.43`if daemon)
+*Init time : 0.60 (low) / 0.81 (high) seconds (0.43`if daemon) [0.2 if no X11]*
 
-- What's in it
+* What's in it
 
-It has Lsp-Mode installed, and all the configs are split into different files,
-which are then called by 'init.el'
+- It has Lsp-Mode installed,
 
-Better-Defaults.el by Technomancy is included ([[https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el][Source]])
+- all the configs are split into different files, which are then called by 'init.el'
 
-I also use Gruvbox as the theme, and Fira Code as the font.
+- Better-Defaults.el by Technomancy is included ([[https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el][Source]])
 
-Straight.el instead of Package.el
+- I also use Gruvbox as the theme, and Fira Code as the font.
 
-Early-init.el is used, shaving startup by 0.4 seconds
+- Straight.el instead of Package.el
+
+- Early-init.el is used, shaving startup by 0.4 seconds
 
 And has all the thing you would expect from any Emacs config
+
+[[file:screenshot.png]]

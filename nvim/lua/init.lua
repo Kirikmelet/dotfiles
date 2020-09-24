@@ -1,9 +1,9 @@
-local vim = vim
-local api = vim.api
+--local vim = vim
+--local api = vim.api
 
 -- Load plugins
 --require('dein')
---require('packages') -- Is not as easy to config as dein (Denite config not working, manual setting of runtimepath for lsp)
+require('packages') -- Is not as easy to config as dein (Denite config not working, manual setting of runtimepath for lsp)
 -- Is also not as fast as dein (9 ms diff)
 
 -- GUI Settings (gnvim)
@@ -49,6 +49,7 @@ vim.o.synmaxcol = 200
 vim.o.completeopt = 'menuone,noinsert,noselect'
 vim.o.inccommand = 'split'
 vim.wo.foldmethod = 'marker'
+vim.bo.omnifunc="v:lua.vim.lsp.omnifunc"
 
 vim.cmd('filetype plugin indent on')
 vim.cmd('syntax enable')
@@ -98,15 +99,18 @@ vim.g.loaded_ruby_provider = 0
 require('plugins/statusline')
 require('plugins/neoformat')
 --require('plugins/format')
+-- Fuzzy
+--require('plugins/fzf')
+--require('plugins/telescope')
 -- CSS Colors
 --require('plugins/colorizer')
 --Shougo Plugins
 require('plugins/denite')
 require('plugins/defx')
 -- LSP
-require('plugins/lsp')
 require('plugins/completion')
 require('plugins/treesitter')
+require('plugins/lsp')
 -- Org-mode & Vimwiki
 require('plugins/orgmode')
 require('plugins/vimwiki')

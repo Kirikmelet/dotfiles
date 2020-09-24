@@ -1,1 +1,0 @@
-/home/troyd/.emacs.d/straight/repos/ivy-dired-history/ivy-dired-history.el

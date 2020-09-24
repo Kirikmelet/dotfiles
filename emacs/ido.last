@@ -22,6 +22,12 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/troyd/.config/emacs/" (24428 17455 332668 679000) "early-init.el" ".cmake/" "auto-save-list/" "README.org" "projectile-bookmarks.eld" "custom.el" "config/" "ido.last" "functions/" "./" "places" "backups/" ".claws-mail/" ".cache/" ".lsp-session-v1" "image-dired/" "package.el" "emms/" "straight/" "transient/" "recentf" "screenshot.png" "network-security.data" ".org-id-locations" "../" "eshell/" "init.el" "var/" "recentf~")
+
+ ("/home/troyd/.config/emacs/config/" (24428 17007 3831 66000) "package-configfile.el" "bindings-config.el" "./" "looks.el" "custom-configfile.el" "../" "nihongo-config.el" "filetype-configfile.el")
+
+ ("/home/troyd/Documents/work/ajinomoto/zoom/" (24428 14752 498320 615000) "./" "node_modules/" "index.html" "package-lock.json" "package.json" "index.js" "../")
+
  ("/home/troyd/.emacs.d/config/" (24373 6277 264276 48000) "package-configfile.el" "./" "better-defaults.el" "../")
 
  ("/home/troyd/.emacs.d/" (24373 6287 724249 21000) "auto-save-list/" "custom.el" "config/" "ido.last" "./" "places" "backups/" "package.el" "network-security.data" "../" "init.el~" "init.el" "elpa/")

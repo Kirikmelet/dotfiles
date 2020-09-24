@@ -45,11 +45,13 @@ if dein#load_state('/home/troyd/.cache/dein')
   " ORG MODE:
   call dein#add('jceb/vim-orgmode')
 
-  " Lsp:
+  " LSP:
   call dein#add('neovim/nvim-lsp')
   call dein#add('nvim-lua/diagnostic-nvim')
   call dein#add('nvim-lua/completion-nvim')
   call dein#add('nvim-treesitter/nvim-treesitter')
+  call dein#add('tjdevries/lsp_extensions.nvim')
+  call dein#add('haorenW1025/completion-nvim')
 
   " REPL:
   call dein#add('hkupty/iron.nvim')

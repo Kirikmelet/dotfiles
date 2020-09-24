@@ -1,6 +1,9 @@
 local vim = vim
 local api = vim.api
+local plugman = require('func/packadder')
 local M = {}
+
+plugman.packadd({'defx.nvim'})
 
 
 local function bufbind(buf, mode, key, cmd, opts)

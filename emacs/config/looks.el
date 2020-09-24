@@ -1,6 +1,5 @@
 ;;; -*- lexical-binding t; -*-
 
-;;Set CJK Fonts (日本語) for ORG Mode
 ;; Set Basic UI
 (show-paren-mode 1)
 (scroll-bar-mode -1)

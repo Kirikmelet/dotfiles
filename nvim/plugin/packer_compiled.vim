@@ -2,6 +2,36 @@
 
 lua << END
 local plugins = {
+  ["completion-nvim"] = {
+    loaded = false,
+    only_sequence = false,
+    only_setup = false,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/completion-nvim"
+  },
+  ["defx.nvim"] = {
+    loaded = false,
+    only_sequence = false,
+    only_setup = false,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/defx.nvim"
+  },
+  ["denite.nvim"] = {
+    loaded = false,
+    only_sequence = false,
+    only_setup = false,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/denite.nvim"
+  },
+  ["diagnostic-nvim"] = {
+    loaded = false,
+    only_sequence = false,
+    only_setup = false,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/diagnostic-nvim"
+  },
+  ["lsp_extensions.nvim"] = {
+    loaded = false,
+    only_sequence = false,
+    only_setup = false,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/lsp_extensions.nvim"
+  },
   neoformat = {
     commands = { "Neoformat" },
     loaded = false,
@@ -9,18 +39,29 @@ local plugins = {
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/neoformat"
   },
+  ["nvim-lspconfig"] = {
+    loaded = false,
+    only_sequence = false,
+    only_setup = false,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-lspconfig"
+  },
+  ["nvim-treesitter"] = {
+    loaded = false,
+    only_sequence = false,
+    only_setup = false,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = false,
     only_sequence = false,
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/packer.nvim"
   },
-  vimwiki = {
-    commands = { "VimwikiIndex" },
+  ["vim-orgmode"] = {
     loaded = false,
     only_sequence = false,
     only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/vimwiki"
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/vim-orgmode"
   }
 }
 
@@ -157,7 +198,6 @@ endfunction
 " Load plugins in order defined by `after`
 
 " Command lazy-loads
-command! -nargs=* -range -bang -complete=file VimwikiIndex call s:load(['vimwiki'], { "cmd": "VimwikiIndex", "l1": <line1>, "l2": <line2>, "bang": <q-bang>, "args": <q-args> })
 command! -nargs=* -range -bang -complete=file Neoformat call s:load(['neoformat'], { "cmd": "Neoformat", "l1": <line1>, "l2": <line2>, "bang": <q-bang>, "args": <q-args> })
 
 " Keymap lazy-loads

@@ -27,6 +27,11 @@ local autocmds = {
 	};
    vimenter = {
       {'BufEnter', '*', 'if isdirectory(@%) | cd %:p | Defx -buffer-name=defxplore | endif'};
+   };
+   lsp_diag = {
+      {'CursorHold', '*', 'lua vim.lsp.util.show_line_diagnostics()'};
+--      {'CursorHold', '*', 'lua vim.lsp.buf.hover()'};
+      {'CursorMoved,InsertLeave,BufEnter,BufWinEnter,TabEnter,BufWritePost', '*.rs', 'lua require"lsp_extensions".inlay_hints{prefix = "", highlight = "Comment"}'};
    }
 
 }

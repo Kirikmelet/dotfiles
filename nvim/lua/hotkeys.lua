@@ -7,7 +7,8 @@ local binder = require('func/binder')
 --{{{ File Hotkeys
 local appkeys = {
    {'n', '<leader>fs', '<cmd>Denite grep<CR>',nil,nil};
-   {'n', '<leader>ff', '<cmd>Neoformat<CR>',nil,nil};
+   --{'n', '<leader>ff', '<cmd>Neoformat<CR>',nil,nil};
+   {'n', '<leader>ff', '<cmd>lua vim.lsp.buf.formatting()<CR>',nil,nil};
    {'n', '<leader>fm', '<cmd>make<CR>',nil,nil};
    {'n', '<leader>fts', '<cmd>Denite tag<CR>',nil,nil};
    {'n', '<leader>ftg', '<cmd>!ctags %<CR>',nil,nil};
@@ -51,6 +52,14 @@ local gitkeys = {
 }
 --}}}
 binder(gitkeys)
+
+--{{{REPL hotkeys
+local ironkeys = {
+   {'n', '<leader>ro', '<cmd>IronRepl<CR>',nil};
+   {'n', '<leader>rf', '<cmd>IronFocus<CR>',nil}
+}
+--}}}
+binder(ironkeys)
 
 -- Debug
 local debugkeys = {

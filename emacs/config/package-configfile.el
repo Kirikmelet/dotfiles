@@ -2,6 +2,7 @@
 ;; package-configfile
 ;; Handles load of packages
 
+;; Bootstrap straight.el
 (defvar bootstrap-version)
 (let ((bootstrap-file
        (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
@@ -22,7 +23,15 @@
 ;; Checks if package is installed
 (dolist (pkg '(
                ;; Inset package here;
-
+               
+               ;; Grep
+               rg
+               
+               ;; Selectrum
+               selectrum
+               selectrum-prescient
+               prescient
+               ctrlf
 
                ;;Music ?
                simple-mpc
@@ -36,7 +45,6 @@
                gruvbox-theme
                dashboard
                all-the-icons
-               all-the-icons-ivy
                all-the-icons-dired
 
                ;; Modes
@@ -52,16 +60,11 @@
                ;;evil
                ;;evil-collection
 
-               ;; Ivy
-               ivy
-               ivy-dired-history
-               swiper
 
 
                ;; LSP
                lsp-mode
                lsp-ui
-               lsp-ivy
                company
                company-box
                format-all
@@ -79,127 +82,128 @@
 
 ;; Dashboard config NOTE: SHOULD BE ABSOLUTE TOP!
 (use-package dashboard
-             :init
-             (dashboard-setup-startup-hook)
-             :custom
-             (dashboard-banner-logo-title "Welcome to EMACS comrade!")
-             (dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/downloaded/political/opensource_commie.png")
-             ;;(dashboard-startup-banner 'logo)
-             ;;(dashboard-init-info "Nothing to lose but your OS!")
-             (dashboard-init-time t)
-             (dashboard-footer-messages '("Comrade Tux Calls Us!"
-                                               "Long Live the Permanent Revolution!"
-                                               "Power to the workers!"
-                                               "There is worth in a union!"
-                                               ))
-             (dashboard-center-content t)
-             (dashboard-show-shortcuts t)
-             (dashboard-items '(
-                                     (recents . 5)
-                                     (projects . 5)
-                                     (agenda . 5)
-                                     ))
-             (dashboard-set-heading-icons t)
-             (show-week-agenda-p t)
-             (dashboard-set-file-icons t)
-             (dashboard-set-navigator t)
-             (dashboard-navigator-buttons
-                   `(;; Line 1
-                     ((,nil
-                        "GitHub"
-                        "Go to my GitHub"
-                        (lambda (&rest _) (browse-url "https://github.com/Kirikmelet"))
-                        'default)
-                      (nil
-                        "PT. AVK"
-                        "Open corporate website"
-                        (lambda (&rest _) (browse-url "https://avk.co.id"))
-                        'default))))
+  :if (< (length command-line-args) 2)
+  :init
+  (dashboard-setup-startup-hook)
+  :custom
+  (dashboard-banner-logo-title "Welcome to EMACS comrade!")
+  (dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/emacs/output/anarchism2.png")
+  ;;(dashboard-startup-banner 'logo)
+  ;;(dashboard-init-info "Nothing to lose but your OS!")
+  (dashboard-init-time t)
+  (dashboard-footer-messages '("Comrade Tux Calls Us!"
+                               "Long Live the Permanent Revolution!"
+                               "Power to the workers!"
+                               "There is worth in a union!"
+                               ))
+  (dashboard-center-content t)
+  (dashboard-show-shortcuts t)
+  (dashboard-items '(
+                     (recents . 5)
+                     (projects . 5)
+                     (agenda . 5)
+                     ))
+  (dashboard-set-heading-icons t)
+  (show-week-agenda-p t)
+  (dashboard-set-file-icons t)
+  (dashboard-set-navigator t)
+  (dashboard-navigator-buttons
+   `(;; Line 1
+     ((,nil
+       "GitHub"
+       "Go to my GitHub"
+       (lambda (&rest _) (browse-url "https://github.com/Kirikmelet"))
+       'default)
+      (nil
+       "PT. AVK"
+       "Open corporate website"
+       (lambda (&rest _) (browse-url "https://avk.co.id"))
+       'default))))
+  )
+
+;; Selectrum
+(use-package selectrum
+  :defer 3
+  :init
+  (selectrum-mode 1))
+
+(use-package prescient
+  :defer 3
+  :config
+  (prescient-persist-mode +1)
+  )
+
+(use-package selectrum-prescient
+  :defer 3
+  :init
+  (selectrum-prescient-mode 1)
+  )
+
+(use-package ctrlf
+  :defer 6
+  :init
+  (ctrlf-mode 1)
+  :custom
+   (ctrlf-mode-bindings
+   '(("C-s" . ctrlf-forward-regexp)
+     ("C-r" . ctrlf-backward-regexp)
+     ("C-M-s" . ctrlf-forward-literal)
+     ("C-M-r" . ctrlf-backward-literal)
+     ("M-s _" . ctrlf-forward-symbol)
+     ("M-s ." . ctrlf-forward-symbol-at-point))))
 
 
-
-             )
-
-
-;; which-key config
+;; Which-key config
 (use-package which-key
-             :defer 3
-             :init
-             (which-key-mode)
-             :config
-             (setq which-key-use-C-h-commands nil)
-             )
+  :defer 3
+  :init
+  (which-key-mode)
+  :config
+  (setq which-key-use-C-h-commands nil)
+  )
 
-
-;; ivy-mode config
-(use-package ivy
-             :defer 3
-             :init
-             (ivy-mode 1)
-             :custom
-             (ivy-use-virtual-buffers t)
-             (enable-recursive-minibuffers t)
-             ;; For swiper
-             (search-default-mode #'char-fold-to-regexp)
-             :bind
-             (("\C-s" . swiper)
-              ("C-c C-r" . ivy-resume)
-              ("<f6>" . ivy-resume)
-              ("C-x C-f" . counsel-find-file)
-              ("<f1> f" . counsel-describe-function)
-              ("<f1> v" . counsel-describe-variable)
-              ("<f1> o" . counsel-describe-symbol)
-              ("<f1> l" . counsel-find-library)
-              ("<f2> i" . counsel-info-lookup-symbol)
-              ("<f2> u" . counsel-unicode-char)
-              ("C-c g" . counsel-git)
-              ("C-c j" . counsel-git-grep)
-              ("C-c k" . counsel-rg)
-              ("C-c l" . counsel-locate)
-              ("C-S-o" . counsel-rhythmbox)
-              :map minibuffer-local-map
-              ("C-r" . counsel-minibuffer-history)
-              )
-             )
 
 ;; Magit config
 (use-package magit
-             :hook ((after-init-hook . magit-mode))
-             :defer 3
-             )
+  :hook ((after-init-hook . magit-mode))
+  :defer 3
+  )
 
 ;; Python-mode config
 
 ;; LSP config
 (use-package lsp-mode
-             :defer 2
-             :hook (
-                    (python-mode . lsp-deferred)
-                    (c-mode . lsp-deferred)
-                    ;;(js-mode . lsp-deferred) ; To slow
-                    (lsp-mode . lsp-enable-which-key-integration))
-             :commands (lsp lsp-deferred)
-             :custom
+  :defer 10
+  :hook (
+         (python-mode . lsp-deferred)
+         (c-mode . lsp-deferred)
+         (js-mode . lsp-deferred) ; To slow
+         (html-mode . lsp-deferred) ; To slow
+         (lsp-mode . lsp-enable-which-key-integration))
+  :commands (lsp lsp-deferred)
+  :custom
              (with-eval-after-load 'lsp-mode
-                                   setq lsp-modeline-diagnostics-scope :project)
+               setq lsp-modeline-diagnostics-scope :project)
              )
 (use-package lsp-ui
-             :defer 2
-             :commands lsp-ui-mode)
-(use-package lsp-ivy
-             :defer 2
-             :commands lsp-ivy-workspace-symbol)
+  :defer 10
+  :commands lsp-ui-mode)
 (use-package company
-             :defer 2
-             :hook (after-init-hook . global-company-mode)
-             :custom
-             (company-minimum-prefix-length 1)
-             (company-idle-delay 0.0) ;; Default is 0.2
-             )
+  :defer 10
+  :hook (after-init-hook . global-company-mode)
+  :custom
+  (company-minimum-prefix-length 1)
+  (company-idle-delay 0.0) ;; Default is 0.2
+  )
 (use-package company-box
-             :defer 2
-             :hook (company-mode . company-box-mode)
-             )
+  :defer 10
+  :hook (company-mode . company-box-mode)
+  :custom
+  (company-box-enable-icon t)
+  (company-box-ghlight-prefix t)
+  (company-box-scrollbar nil)
+  (company-box-icons-alist 'company-box-icons-all-the-icons)
+  )
 
 
 ;; Theme
@@ -212,7 +216,9 @@
 
 ;; Projects
 (use-package projectile
-             :defer 3
+  :defer 3
+  :custom
+  (projectile-completion-system 'default)
              :init
              (projectile-mode 1)
              :bind (
@@ -220,8 +226,6 @@
                     ("s-p" . projectile-command-map)
                     ("C-c p" . projectile-command-map)
                     )
-             :custom
-             (projectile-completion-system 'ivy)
              )
 
 
@@ -229,7 +233,7 @@
 (use-package simple-mpc
              :defer 4
   :bind(
-        ("C-x C-a m" . simple-mpc)))
+        ("<C-f1> a m". simple-mpc)))
 ;;(use-package emms
 ;;             :commands emms
 ;;             :config
@@ -309,15 +313,16 @@
 (use-package org
   :defer 2
   :bind (
-         ("C-x C-a o a" . org-agenda)
-         ("C-x C-a o c" . org-capture)
-         ("C-x C-a o s" . org-store-link)
+         ("<C-f1> o a" . org-agenda)
+         ("<C-f1> o c" . org-capture)
+         ("<C-f1> o s" . org-store-link)
          )
   :config
   (setq org-hide-emphasis-markers t
         org-display-inline-images t
         org-redisplay-inline-images t)
-  (global-set-key (kbd "C-x C-a C-f ") (lambda () (interactive) (dired "~/org/")))
+  (setq org-startup-with-inline-images "inlineimages")
+  (global-set-key (kbd "<C-f1>  C-f ") (lambda () (interactive) (dired "~/org/")))
   (setq org-agenda-files (list "~/org/global_agenda/work.org"
                           "~/org/global_agenda/projects.org"
                           "~/org/global_agenda/school.org"))
@@ -345,19 +350,36 @@
 (use-package eshell
   :defer 3
   :bind (
-         ("C-x C-a e" . eshell))
+         ("<C-f1> a e" . eshell))
   )
 
 (use-package undo-tree
-  :defer 4
+  :defer 10
   :init
   (global-undo-tree-mode))
 
 
 (use-package valign
-             :straight (valign :host github :repo "casouri/valign")
-             :config
-             (add-hook 'org-mode-hook #'valign-mode)
-             )
+  :straight (valign :host github :repo "casouri/valign")
+  :defer 6
+  :config
+  (add-hook 'org-mode-hook #'valign-mode)
+  )
+
+(use-package rg
+  :defer 8
+  :bind (
+         ("<C-f2> s f" . rg-thisbuffer))
+  :config
+  (rg-define-search rg-thisbuffer
+    "Search this buffer"
+    :dir default-directory
+    :files current
+    :menu ("Search" "C" "Current")))
+
+(use-package all-the-icons-dired
+  :defer 8
+  :hook((dired-mode . all-the-icons-dired-mode)))
+
 ;; End file
 (provide 'package-configfile)

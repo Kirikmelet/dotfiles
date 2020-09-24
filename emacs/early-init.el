@@ -2,6 +2,10 @@
 (setq gc-cons-threshold most-positive-fixnum
       gc-cons-percentage 0.6)
 
+;; Just in case
+(set-language-environment "UTF-8")
+(set-default-coding-systems 'utf-8)
+
 ;; Disable package startup
 (setq package-enable-at-startup nil
       package--init-file-ensured t)

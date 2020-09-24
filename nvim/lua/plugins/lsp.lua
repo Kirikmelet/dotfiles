@@ -1,8 +1,13 @@
 local vim = vim
 local api = vim.api
+local plugman = require('func/packadder')
 
---local runpath = api.nvim_get_option('runtimepath')..', /home/troyd/.local/share/nvim/site/pack/packer/start/nvim-lspconfig'
---api.nvim_set_option('runtimepath',runpath)
+plugman.packadd({
+   'nvim-lspconfig',
+   'lsp_extensions.nvim',
+   })
+
+
 
 
 local lspuse = require'nvim_lsp'
@@ -16,6 +21,7 @@ lspuse.clangd.setup{on_attach=on_attach_vim}
 lspuse.pyls.setup{on_attach=on_attach_vim}
 lspuse.html.setup{on_attach=on_attach_vim}
 lspuse.sumneko_lua.setup{on_attach=on_attach_vim}
+
 
 --{{{Bindings
 local lspbinds = {

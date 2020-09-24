@@ -1,23 +1,4 @@
 ls
-cd ..
-ls
-cd ~/Downloads/
-ls
-cd sample_tour/
-ls
-python3 -m http.server 5438
-exit
-ls
-nvim
-clear
-ls
-ed tour_testingserver.sh
-ls
-chmod 755 tour_testingserver.sh 
-./tour_testingserver.sh 
-exit
-cd Music/
-ls
 ytm https://www.youtube.com/watch?v=ry3Tupx4BL4
 youtube-dl -x --audio-format opus https://www.youtube.com/watch?v=ry3Tupx4BL4
 exit
@@ -126,3 +107,22 @@ rm -rf node_modules/
 ./run.sh
 ls
 ./run.sh
+ls
+gcc test.c 
+./a.out 
+ls
+cat lol.txt 
+nvim lol.txt 
+exi
+exit
+ls
+gcc test.c 
+./a.out 
+ls
+cat lol.txt 
+ls
+npm init
+npm eslint --init
+npx eslint --init
+ls
+npm i @zoomus/websdk
