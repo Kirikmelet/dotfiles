@@ -2,6 +2,7 @@ local vim = vim
 local api = vim.api
 local plugman = require('func/packadder')
 local M = {}
+local aug = require('func/augrouper')
 
 plugman.packadd({'denite.nvim'})
 
@@ -14,37 +15,37 @@ end
 
 
 vim.fn['denite#custom#option']('_',
-		{
-			split = 'horizontal';
-			winheight = 5;
-			start_filter = false;
-			smartcase =  true;
-			source_names = 'short';
-			highlight_filet_background = 'NormalFloat';
-			prompt = '>$';
-			floating_preview = true;
-			statusline = false;
-		})
+{
+	split = 'horizontal';
+	winheight = 5;
+	start_filter = false;
+	smartcase =  true;
+	source_names = 'short';
+	highlight_filet_background = 'NormalFloat';
+	prompt = '>$';
+	floating_preview = true;
+	statusline = false;
+})
 
 
 vim.fn['denite#custom#var']('grep',
-	{
-		command = {'rg'};
-		default_opts = {'-i', '--vimgrep', '--no-heading'};
-		recursive_opts =  {};
-		pattern_opt =  {'--regexp'};
-		final_opts = {};
-	}
-	)
+{
+	command = {'rg'};
+	default_opts = {'-i', '--vimgrep', '--no-heading'};
+	recursive_opts =  {};
+	pattern_opt =  {'--regexp'};
+	final_opts = {};
+}
+)
 
 vim.fn['denite#custom#var'](
-   'file/rec',
-   'command',
-   {'rg', '--files', '--glob', '!.git', '--glob', '!.clangd'}
-   )
+'file/rec',
+'command',
+{'rg', '--files', '--glob', '!.git', '--glob', '!.clangd'}
+)
 
 
-local menfconf = {
+vim.fn['denite#custom#var']('menu','menus',{
 	config = {
 		description = 'Neovim Config';
 		file_candidates = {
@@ -63,9 +64,10 @@ local menfconf = {
 		};
 	};
 }
-vim.fn['denite#custom#var']('menu','menus',menfconf)
+)
 
-function M._on_ft_denite_bind()
+
+function M._bind()
 	local buf = api.nvim_get_current_buf()
 	bufbind(buf, 'n', '<CR>', 'denite#do_map("do_action")',nil)
 	bufbind(buf, 'n', 'd', 'denite#do_map("do_action", "delete")',nil)
@@ -78,5 +80,13 @@ function M._on_ft_denite_bind()
 	bufbind(buf, 'n', 't', 'denite#do_map("do_action", "tabopen")',nil)
 	bufbind(buf, 'n', 's', 'denite#do_map("do_action", "preview")',nil)
 end
+
+-- Autogroup
+
+aug({
+	denite_func = {
+		{'BufEnter', '*', 'call denite#do_map("quit")'};
+	};
+})
 
 return M

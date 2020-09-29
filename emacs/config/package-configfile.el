@@ -1,4 +1,4 @@
-;;; -*- lexical-binding t; -*-
+;; -*- lexical-binding t; -*-
 ;; package-configfile
 ;; Handles load of packages
 
@@ -20,6 +20,8 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 
+
+
 ;; Checks if package is installed
 (dolist (pkg '(
                ;; Inset package here;
@@ -27,25 +29,14 @@
                ;; Grep
                rg
                
-               ;; Selectrum
-               selectrum
-               selectrum-prescient
-               prescient
-               ctrlf
-
                ;;Music ?
                simple-mpc
 
                ;; Org-mode
                org
-               org-projectile
-               htmlize
 
                ;; Theme
                gruvbox-theme
-               dashboard
-               all-the-icons
-               all-the-icons-dired
 
                ;; Modes
                markdown-mode
@@ -61,12 +52,10 @@
                ;;evil-collection
 
 
-
                ;; LSP
                lsp-mode
                lsp-ui
                company
-               company-box
                format-all
 
                ;; Git / Projects
@@ -79,79 +68,6 @@
                ))
     (straight-use-package pkg))
   
-
-;; Dashboard config NOTE: SHOULD BE ABSOLUTE TOP!
-(use-package dashboard
-  :if (< (length command-line-args) 2)
-  :init
-  (dashboard-setup-startup-hook)
-  :custom
-  (dashboard-banner-logo-title "Welcome to EMACS comrade!")
-  (dashboard-startup-banner "/home/troyd/Pictures/saved_pictures/emacs/output/anarchism2.png")
-  ;;(dashboard-startup-banner 'logo)
-  ;;(dashboard-init-info "Nothing to lose but your OS!")
-  (dashboard-init-time t)
-  (dashboard-footer-messages '("Comrade Tux Calls Us!"
-                               "Long Live the Permanent Revolution!"
-                               "Power to the workers!"
-                               "There is worth in a union!"
-                               ))
-  (dashboard-center-content t)
-  (dashboard-show-shortcuts t)
-  (dashboard-items '(
-                     (recents . 5)
-                     (projects . 5)
-                     (agenda . 5)
-                     ))
-  (dashboard-set-heading-icons t)
-  (show-week-agenda-p t)
-  (dashboard-set-file-icons t)
-  (dashboard-set-navigator t)
-  (dashboard-navigator-buttons
-   `(;; Line 1
-     ((,nil
-       "GitHub"
-       "Go to my GitHub"
-       (lambda (&rest _) (browse-url "https://github.com/Kirikmelet"))
-       'default)
-      (nil
-       "PT. AVK"
-       "Open corporate website"
-       (lambda (&rest _) (browse-url "https://avk.co.id"))
-       'default))))
-  )
-
-;; Selectrum
-(use-package selectrum
-  :defer 3
-  :init
-  (selectrum-mode 1))
-
-(use-package prescient
-  :defer 3
-  :config
-  (prescient-persist-mode +1)
-  )
-
-(use-package selectrum-prescient
-  :defer 3
-  :init
-  (selectrum-prescient-mode 1)
-  )
-
-(use-package ctrlf
-  :defer 6
-  :init
-  (ctrlf-mode 1)
-  :custom
-   (ctrlf-mode-bindings
-   '(("C-s" . ctrlf-forward-regexp)
-     ("C-r" . ctrlf-backward-regexp)
-     ("C-M-s" . ctrlf-forward-literal)
-     ("C-M-r" . ctrlf-backward-literal)
-     ("M-s _" . ctrlf-forward-symbol)
-     ("M-s ." . ctrlf-forward-symbol-at-point))))
-
 
 ;; Which-key config
 (use-package which-key
@@ -166,10 +82,9 @@
 ;; Magit config
 (use-package magit
   :hook ((after-init-hook . magit-mode))
-  :defer 3
+  :defer 10
   )
 
-;; Python-mode config
 
 ;; LSP config
 (use-package lsp-mode
@@ -185,9 +100,11 @@
              (with-eval-after-load 'lsp-mode
                setq lsp-modeline-diagnostics-scope :project)
              )
+
 (use-package lsp-ui
   :defer 10
   :commands lsp-ui-mode)
+
 (use-package company
   :defer 10
   :hook (after-init-hook . global-company-mode)
@@ -195,16 +112,6 @@
   (company-minimum-prefix-length 1)
   (company-idle-delay 0.0) ;; Default is 0.2
   )
-(use-package company-box
-  :defer 10
-  :hook (company-mode . company-box-mode)
-  :custom
-  (company-box-enable-icon t)
-  (company-box-ghlight-prefix t)
-  (company-box-scrollbar nil)
-  (company-box-icons-alist 'company-box-icons-all-the-icons)
-  )
-
 
 ;; Theme
 (use-package gruvbox-theme
@@ -219,48 +126,21 @@
   :defer 3
   :custom
   (projectile-completion-system 'default)
-             :init
-             (projectile-mode 1)
-             :bind (
-                    :map projectile-mode-map
-                    ("s-p" . projectile-command-map)
-                    ("C-c p" . projectile-command-map)
-                    )
-             )
+  :init
+  (projectile-mode 1)
+  :bind (
+         :map projectile-mode-map
+              ("s-p" . projectile-command-map)
+              ("C-c p" . projectile-command-map)
+              )
+  )
 
 
 ;; Music player
 (use-package simple-mpc
-             :defer 4
+  :defer 4
   :bind(
         ("<C-f1> a m". simple-mpc)))
-;;(use-package emms
-;;             :commands emms
-;;             :config
-;;             (emms-all)
-;;             (emms-history-load)
-;;             ;;(setq emms-player-list '(emms-player-mpd))
-;;             ;;(setq emms-info-functions '(emms-info-mpd))
-;;             ;;(setq emms-player-mpd-server-name "localhost")
-;;             ;;(setq emms-player-mpd-server-port "23955")
-;;             ;;(setq mpc-host "localhost:23955")
-;;
-;;             ;; The only way for mpv to play opus & flac
-;;             (define-emms-simple-player mpvsimp
-;;               '(file)
-;;               (regexp-opt '(".opus" ".flac"))
-;;               "mpv" "--no-audio-display" "--no-video" "--quiet" "--really-quiet")
-;;
-;;             (add-to-list 'emms-player-list 'emms-player-mpvsimp)
-;;
-;;
-;;             (setq emms-source-file-default-directory (expand-file-name "~/Music")
-;;                   emms-source-file-directory-tree-function 'emms-source-file-directory-tree-find
-;;                   emms-browser-covers 'emms-browser-cache-thumbnail)
-;;             (add-to-list 'emms-info-functions 'emms-info-cueinfo)
-;;             )
-
-
 
 
 ;; PDF-Reader
@@ -312,17 +192,16 @@
 ;; Org-mode
 (use-package org
   :defer 2
-  :bind (
-         ("<C-f1> o a" . org-agenda)
-         ("<C-f1> o c" . org-capture)
-         ("<C-f1> o s" . org-store-link)
-         )
+  :bind ((:map org-funcs-map
+         ("a" . org-agenda)
+         ("c" . org-capture)
+         ("s" . org-store-link)
+         ))
   :config
   (setq org-hide-emphasis-markers t
         org-display-inline-images t
         org-redisplay-inline-images t)
   (setq org-startup-with-inline-images "inlineimages")
-  (global-set-key (kbd "<C-f1>  C-f ") (lambda () (interactive) (dired "~/org/")))
   (setq org-agenda-files (list "~/org/global_agenda/work.org"
                           "~/org/global_agenda/projects.org"
                           "~/org/global_agenda/school.org"))
@@ -343,12 +222,49 @@
           )
         org-log-done 'time
         )
+  (setq org-latex-toc-command "\\tableofcontents \\clearpage")
+  (setq org-odt-convert-capabilities
+   '(("Text"
+      ("odt" "ott" "doc" "rtf" "docx")
+      (("pdf" "pdf" nil)
+       ("odt" "odt" nil)
+       ("rtf" "rtf" nil)
+       ("ott" "ott" nil)
+       ("doc" "doc" ":\"MS Word 97\"")
+       ("docx" "docx" nil)
+       ("html" "html" nil)))
+     ("Web"
+      ("html")
+      (("pdf" "pdf" nil)
+       ("odt" "odt" nil)
+       ("html" "html" nil)))
+     ("Spreadsheet"
+      ("ods" "ots" "xls" "csv" "xlsx")
+      (("pdf" "pdf" nil)
+       ("ots" "ots" nil)
+       ("html" "html" nil)
+       ("csv" "csv" nil)
+       ("ods" "ods" nil)
+       ("xls" "xls" nil)
+       ("xlsx" "xlsx" nil)))
+     ("Presentation"
+      ("odp" "otp" "ppt" "pptx")
+      (("pdf" "pdf" nil)
+       ("swf" "swf" nil)
+       ("odp" "odp" nil)
+       ("otp" "otp" nil)
+       ("ppt" "ppt" nil)
+       ("pptx" "pptx" nil)
+       ("odg" "odg" nil)))))
+ (setq org-export-backends '(ascii beamer html icalendar latex man md odt org texinfo))
+ (setq org-html-doctype "xhtml5"
+       org-latex-compile "xetex")
   )
 
 ;; Eshell
 
 (use-package eshell
-  :defer 3
+  :defer 10
   :bind (
          ("<C-f1> a e" . eshell))
   )
@@ -361,15 +277,16 @@
 
 (use-package valign
   :straight (valign :host github :repo "casouri/valign")
-  :defer 6
   :config
   (add-hook 'org-mode-hook #'valign-mode)
   )
 
+;; Ripgrep
 (use-package rg
   :defer 8
   :bind (
-         ("<C-f2> s f" . rg-thisbuffer))
+         ("<C-f2> s f" . rg-thisbuffer)
+         ("<C-f2> s r" . rg))
   :config
   (rg-define-search rg-thisbuffer
     "Search this buffer"
@@ -377,9 +294,6 @@
     :files current
     :menu ("Search" "C" "Current")))
 
-(use-package all-the-icons-dired
-  :defer 8
-  :hook((dired-mode . all-the-icons-dired-mode)))
 
 ;; End file
 (provide 'package-configfile)

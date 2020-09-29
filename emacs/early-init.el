@@ -1,4 +1,4 @@
-;;; -*- lexical-binding t; -*-
+;; -*- lexical-binding t; -*-
 (setq gc-cons-threshold most-positive-fixnum
       gc-cons-percentage 0.6)
 
@@ -27,9 +27,17 @@
 ;;(require 'better-defaults)
 
 (require 'basicfunc)
+(require 'prefixes)
 
 ;; GC
 (require 'gcmh)
+(eval-after-load "gcmh" (lambda()
+ (setq gcmh-verbose             t
+        gcmh-lows-cons-threshold #x800000
+        gcmh-high-cons-threshold most-positive-fixnum
+        gcmh-idle-delay          3600)
+ ))
 
 ;; Looks
 (require 'looks)
+

@@ -1,7 +1,7 @@
 local vim = vim
 local api = vim.api
 
-local function nvim_autgrouper(defi)
+return function (defi)
 	for group_name, defis in pairs(defi) do
 		api.nvim_command('augroup '..group_name)
 		api.nvim_command('autocmd!')
@@ -13,6 +13,3 @@ local function nvim_autgrouper(defi)
 	end
 end
 
-return {
-	nvim_autgrouper = nvim_autgrouper,
-}

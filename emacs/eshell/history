@@ -1,9 +1,3 @@
-ls
-ytm https://www.youtube.com/watch?v=ry3Tupx4BL4
-youtube-dl -x --audio-format opus https://www.youtube.com/watch?v=ry3Tupx4BL4
-exit
-trans ja:en "平日から働きます"
-trans en:ja "I work during the weekdays"
 trans en:ja "I work on weekdays"
 trans ja:en "平日に仕事します"
 trans ja:en "映画を見てた"
@@ -126,3 +120,9 @@ npm eslint --init
 npx eslint --init
 ls
 npm i @zoomus/websdk
+ls
+python3 -m http.serve 5438
+python3 -m http.server  5438
+npm test
+ls
+npm test

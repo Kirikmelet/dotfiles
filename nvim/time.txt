@@ -1,0 +1,69 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.015  000.015: --- NVIM STARTING ---
+000.558  000.543: locale set
+000.973  000.415: inits 1
+000.990  000.017: window checked
+000.994  000.004: parsing arguments
+001.108  000.114: expanding arguments
+001.168  000.060: inits 2
+001.800  000.632: init highlight
+001.802  000.002: waiting for UI
+003.071  001.269: done waiting for UI
+003.104  000.033: initialized screen early for UI
+022.273  009.285  009.285: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/gruvbox/colors/gruvbox.vim
+029.991  007.483  007.483: sourcing /usr/share/nvim/runtime/filetype.vim
+030.149  000.044  000.044: sourcing /usr/share/nvim/runtime/ftplugin.vim
+030.306  000.061  000.061: sourcing /usr/share/nvim/runtime/indent.vim
+031.684  000.381  000.381: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+033.327  000.373  000.373: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+043.337  012.614  011.861: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/gruvbox/colors/gruvbox.vim
+043.446  012.961  000.347: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+043.476  013.082  000.121: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+044.644  000.099  000.099: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/denite.nvim/autoload/denite/custom.vim
+044.945  000.213  000.213: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/denite.nvim/autoload/denite/util.vim
+051.245  047.847  017.580: sourcing /home/troyd/.config/nvim/init.vim
+051.255  000.304: sourcing vimrc file(s)
+053.882  000.681  000.681: sourcing /home/troyd/.config/nvim/plugin/packer_compiled.vim
+055.768  001.750  001.750: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/plugin/nvim-treesitter.vim
+055.886  000.022  000.022: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/completion-treesitter/plugin/completion-treesitter.vim
+056.067  000.118  000.118: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/diagnostic-nvim/plugin/diagnostic.vim
+056.384  000.252  000.252: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/completion-nvim/plugin/completion.vim
+056.520  000.067  000.067: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/denite.nvim/plugin/denite.vim
+056.813  000.015  000.015: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+056.843  000.013  000.013: sourcing /usr/share/nvim/runtime/plugin/health.vim
+057.046  000.188  000.188: sourcing /usr/share/nvim/runtime/plugin/man.vim
+057.846  000.026  000.026: sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+057.924  000.862  000.836: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+057.954  000.014  000.014: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+057.988  000.020  000.020: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+058.498  000.224  000.224: sourcing /usr/share/nvim/runtime/autoload/remote/host.vim
+058.860  000.165  000.165: sourcing /usr/share/nvim/runtime/autoload/remote/define.vim
+059.087  000.936  000.547: sourcing /home/troyd/.local/share/nvim/rplugin.vim
+059.093  001.088  000.152: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+059.271  000.159  000.159: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+059.317  000.027  000.027: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+059.505  000.170  000.170: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+059.550  000.014  000.014: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+059.593  000.022  000.022: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+059.800  000.186  000.186: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+059.825  002.903: loading plugins
+060.366  000.277  000.277: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/iron.nvim/plugin/iron.vim
+090.230  029.727  029.727: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/vim-polyglot/ftdetect/polyglot.vim
+090.434  000.605: loading packages
+090.555  000.121: loading after plugins
+090.571  000.016: inits 3
+094.380  003.809: reading ShaDa
+094.687  000.306: opening buffers
+094.902  000.091  000.091: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/denite.nvim/autoload/denite.vim
+094.992  000.215: BufEnter autocommands
+094.996  000.003: editing files in windows
+095.017  000.021: VimEnter autocommands
+095.019  000.002: UIEnter autocommands
+095.021  000.001: before starting main loop
+095.721  000.700: first screen update
+095.724  000.003: --- NVIM STARTED ---

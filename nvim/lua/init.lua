@@ -1,120 +1,37 @@
---local vim = vim
---local api = vim.api
+local vim = vim
+local api = vim.api
 
 -- Load plugins
---require('dein')
-require('packages') -- Is not as easy to config as dein (Denite config not working, manual setting of runtimepath for lsp)
--- Is also not as fast as dein (9 ms diff)
+require('packages')
 
--- GUI Settings (gnvim)
-vim.o.guifont = 'Fira Code:h14'
-
--- Colorscheme
-vim.g.colors_name = 'gruvbox'
-vim.o.background = 'dark'
-vim.o.termguicolors = true
-vim.g.gruvbox_italic = 1
-
--- Set Leader
-
-vim.g.mapleader = ' '
-
---{{{ Syntax and stuff
-
-vim.o.compatible = false
-vim.o.number = false
-vim.o.expandtab = true
-vim.o.ruler = true
-vim.o.smarttab = true
-vim.o.shiftround = true
-vim.o.smartindent = true
-vim.o.autoindent = true
-vim.o.hidden = true
-vim.o.showmode = true
-vim.o.showcmd = true
-vim.o.incsearch = true
-vim.o.hlsearch = true
-vim.o.lazyredraw = true
-vim.o.splitbelow = true
-vim.o.cursorline = true
-vim.o.wrapscan = true
-vim.o.laststatus = 2
-vim.o.softtabstop = 4
-vim.o.mouse = 'a'
-vim.o.updatetime = 300
-vim.o.backspace = 'indent,eol,start'
-vim.o.display = 'lastline'
-vim.o.report = 0
-vim.o.synmaxcol = 200
-vim.o.completeopt = 'menuone,noinsert,noselect'
-vim.o.inccommand = 'split'
-vim.wo.foldmethod = 'marker'
-vim.bo.omnifunc="v:lua.vim.lsp.omnifunc"
-
-vim.cmd('filetype plugin indent on')
-vim.cmd('syntax enable')
-
---}}}
-
--- {{{App Disable
-
--- 1 - Disable
--- 0 - Enable
-
-vim.g.loaded_gzip = 1
-vim.g.loaded_tar =1
-vim.g.tarPlugin = 1
-vim.g.zip = 1
-vim.g.zipPlugin = 1
-vim.g.loaded_getscript = 1
-vim.g.loaded_getscriptPlugin = 1
-vim.g.vimball = 1
-vim.g.vimballPlugin = 1
-vim.g.loaded_matchit = 1
-vim.g.loaded_matchparen = 1
-vim.g.loaded_2html_plugin = 1
-vim.g.loaded_logiPat = 1
-vim.g.loaded_rrhelper = 1
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-vim.g.loaded_netrwSettings = 1
-vim.g.loaded_netrwFileHandlers = 1
---}}}
-
---{{{Disable providers
--- 1 - Enable
--- 0 - Disable
-vim.g.loaded_python_provider = 0
-vim.g.loaded_node_provider = 0
-vim.g.loaded_perl_provider = 0
-vim.g.loaded_ruby_provider = 0
---}}}
-
+-- Load options
+require('options')
 
 -- Modules
--- Uncomment to use
--- Comment to unuse
+--
+-- Uncomment to enable
+-- Comment to disable
+--
 -- Restart neovim to see changes
 
+-- Tools
 require('plugins/statusline')
 require('plugins/neoformat')
 --require('plugins/format')
--- Fuzzy
---require('plugins/fzf')
---require('plugins/telescope')
+
+-- Looks
+require('plugins/polyglot')
+
 -- CSS Colors
 --require('plugins/colorizer')
 --Shougo Plugins
+
 require('plugins/denite')
 require('plugins/defx')
--- LSP
 require('plugins/completion')
 require('plugins/treesitter')
-require('plugins/lsp')
--- Org-mode & Vimwiki
-require('plugins/orgmode')
-require('plugins/vimwiki')
+--require('plugins/lsp')
 -- Other files
-require('key')
+
 require('hotkeys')
-require('folding')
+require('autopairs')

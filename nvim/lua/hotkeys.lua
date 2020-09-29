@@ -2,12 +2,46 @@ local vim = vim
 local api = vim.api
 local binder = require('func/binder')
 
+--{{{Autopair
+local autopair = {
+      {'i', '(', '()<Esc>hli',nil,nil};
+      {'i', '[', '[]<Esc>hli',nil,nil};
+      {'i', '{', '{}<Esc>hli',nil,nil};
+}
+--}}}
+binder(autopair)
 
+--{{{Splits
+local splits = {
+      {'n', '<leader>sv', '<cmd>vsplit<CR>', {silent = false, noremap = false},nil};
+      {'n', '<leader>sh', '<cmd>split<CR>', {silent = false, noremap = false},nil};
+}
+--}}}
+binder(splits)
+
+--{{{Tabs
+local tabs = {
+      {'n', '<leader>tn', '<cmd>tabnew<CR>', {silent = false, noremap = false},nil};
+      {'n', '<leader>tc', '<cmd>tabclose', {silent = false, noremap = false},nil};
+}
+--}}}
+binder(tabs)
+
+--{{{Completion-nvim /Diagnostic-nvimm
+api.nvim_set_keymap('i', '<Tab>', [[pumvisible() ? "\<C-n>" : "\<Tab>"]], {expr = true, noremap = true})
+api.nvim_set_keymap('i', '<S-Tab>', [[pumvisible() ? "\<C-p>" : "\<S-Tab>"]], {expr = true, noremap = true})
+--}}}
+
+--{{{Terminal
+local termkeys = {
+      {'t', '<C-x><C-c>', '<C-\\><C-n>',nil,nil};
+}
+--}}}
+binder(termkeys)
 
 --{{{ File Hotkeys
 local appkeys = {
    {'n', '<leader>fs', '<cmd>Denite grep<CR>',nil,nil};
-   --{'n', '<leader>ff', '<cmd>Neoformat<CR>',nil,nil};
    {'n', '<leader>ff', '<cmd>lua vim.lsp.buf.formatting()<CR>',nil,nil};
    {'n', '<leader>fm', '<cmd>make<CR>',nil,nil};
    {'n', '<leader>fts', '<cmd>Denite tag<CR>',nil,nil};
@@ -26,7 +60,7 @@ local bufkeys = {
    {'n', '<leader>bst', 'za',nil,nil};
    {'n', '<leader>bsC', 'zM',nil,nil};
    {'n', '<leader>bsO', 'zR',nil,nil};
-   {'n', '<leader>bps', '<cmd>mksession!<CR>',nil,nil};
+   {'n', '<leader>bss', '<cmd>mksession!<CR>',nil,nil};
    {'n', '<leader>bso', '<cmd>source Session.vim<CR>',nil,nil};
 }
 --}}}
@@ -61,8 +95,9 @@ local ironkeys = {
 --}}}
 binder(ironkeys)
 
--- Debug
+--{{{Debug
 local debugkeys = {
       {'n', '<leader>pl', '<cmd>lua require"git".load()<CR>',nil,nil}
 }
+--}}}
 binder(debugkeys)

@@ -5,7 +5,7 @@ local plugman = require('func/packadder')
 plugman.packadd({'nvim-treesitter'})
 
 require'nvim-treesitter.configs'.setup {
-	ensure_installed = {'c', 'python', 'html', 'javascript', 'bash', 'cpp', 'rust'};
+	ensure_installed = {'c', 'python', 'html', 'javascript', 'bash', 'cpp', 'rust', 'lua'};
 	highlight = {
 		enable = true,
 		disable = {},

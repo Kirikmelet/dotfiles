@@ -8,6 +8,12 @@ local plugins = {
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/completion-nvim"
   },
+  ["completion-treesitter"] = {
+    loaded = false,
+    only_sequence = false,
+    only_setup = false,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/completion-treesitter"
+  },
   ["defx.nvim"] = {
     loaded = false,
     only_sequence = false,
@@ -32,13 +38,6 @@ local plugins = {
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/lsp_extensions.nvim"
   },
-  neoformat = {
-    commands = { "Neoformat" },
-    loaded = false,
-    only_sequence = false,
-    only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/neoformat"
-  },
   ["nvim-lspconfig"] = {
     loaded = false,
     only_sequence = false,
@@ -57,11 +56,12 @@ local plugins = {
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/packer.nvim"
   },
-  ["vim-orgmode"] = {
+  ["vim-fugitive"] = {
+    commands = { "Git" },
     loaded = false,
     only_sequence = false,
     only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/vim-orgmode"
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/vim-fugitive"
   }
 }
 
@@ -198,7 +198,7 @@ endfunction
 " Load plugins in order defined by `after`
 
 " Command lazy-loads
-command! -nargs=* -range -bang -complete=file Neoformat call s:load(['neoformat'], { "cmd": "Neoformat", "l1": <line1>, "l2": <line2>, "bang": <q-bang>, "args": <q-args> })
+command! -nargs=* -range -bang -complete=file Git call s:load(['vim-fugitive'], { "cmd": "Git", "l1": <line1>, "l2": <line2>, "bang": <q-bang>, "args": <q-args> })
 
 " Keymap lazy-loads
 

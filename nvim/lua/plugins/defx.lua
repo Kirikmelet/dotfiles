@@ -2,6 +2,7 @@ local vim = vim
 local api = vim.api
 local plugman = require('func/packadder')
 local M = {}
+local aug = require('func/augrouper')
 
 plugman.packadd({'defx.nvim'})
 
@@ -50,14 +51,15 @@ vim.fn['defx#custom#option']('defxplore',
 		buffer_name = 'defxplore';
 	})
 
-function M._on_ft_defx_bind()
+function M._bind()
 	local buf = api.nvim_get_current_buf()
 	vim.wo.signcolumn = 'no'
 	api.nvim_buf_set_option(buf,'expandtab',false)
 
 	bufbind(buf, 'n', '<CR>', 'defx#do_action("drop")',nil)
+	bufbind(buf, 'n', 'l', 'defx#do_action("drop")',nil)
 	bufbind(buf, 'n', 'c', 'defx#do_action("copy")',nil)
-	bufbind(buf, 'n', 'u', 'defx#do_action("cd", [".."])',nil)
+	bufbind(buf, 'n', 'h', 'defx#do_action("cd", [".."])',nil)
 	bufbind(buf, 'n', 'd', 'defx#do_action("remove")',nil)
 	bufbind(buf, 'n', 'm', 'defx#do_action("move")',nil)
 	bufbind(buf, 'n', 'i', 'defx#do_action("open", "vsplit")',nil)
@@ -74,5 +76,16 @@ function M._on_ft_defx_bind()
 	bufbind(buf, 'n', 'nd', 'defx#do_action("new_directory")',nil)
 	bufbind(buf, 'n', 'nF', 'defx#do_action("new_miltiple_files")',nil)
 end
+
+-- Autogroup
+
+aug({
+	defx_func = {
+		{'WinEnter', '*', 'if &filetype == "defx" && winnr("$") == 1| bdel | endif'};
+		{'TabLeave', '*', 'if &filetype == "defx" | wndcmd w | endif'};
+		{'BufEnter', '*', 'call defx#do_action("quit")'};
+      {'BufEnter', '*', 'if isdirectory(@%) | cd %:p | packadd! Defx | Defx -buffer-name=defxplore | endif'};
+	};
+})
 
 return M

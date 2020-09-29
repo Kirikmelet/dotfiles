@@ -8,7 +8,10 @@
 
 
 ;; Load font
-(set-face-font 'default "Fira Code Medium 11")
+(set-face-font 'default "Fira Code Retina 11")
+
+
+;; Set Prefixes
 
 
 (dolist (configs '(
@@ -16,12 +19,11 @@
                    bindings-config
                    custom-configfile
                    filetype-configfile
+                   nihongo-config
                    ))
   (require configs))
 
-(if (< (length command-line-args) 2)
-  (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
-)
+
 
 (add-hook 'emacs-startup-hook
           (lambda ()
