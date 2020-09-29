@@ -4,10 +4,6 @@ local aug = require('func/augrouper')
 
 
 aug({
-	remember_folds = {
-		{'BufWinLeave', '*', 'mkview'};
-		{'BufWinEnter', '*', 'silent! loadview'};
-	};
 	denite_start = {
 		{'FileType', 'denite', 'lua require("plugins/denite")._bind()'};
 	};

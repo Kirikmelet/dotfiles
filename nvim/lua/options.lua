@@ -18,35 +18,35 @@ vim.g.mapleader = ' '
 
 --{{{ Syntax and stuff
 
-vim.o.compatible = false
-vim.o.number = false
-vim.o.expandtab = true
-vim.o.ruler = true
-vim.o.smarttab = true
-vim.o.shiftround = true
-vim.o.smartindent = true
-vim.o.autoindent = true
-vim.o.hidden = true
-vim.o.showmode = true
-vim.o.showcmd = true
-vim.o.incsearch = true
-vim.o.hlsearch = true
-vim.o.lazyredraw = true
-vim.o.splitbelow = true
-vim.o.cursorline = true
-vim.o.wrapscan = true
-vim.o.laststatus = 2
-vim.o.softtabstop = 4
-vim.o.mouse = 'a'
-vim.o.updatetime = 300
-vim.o.backspace = 'indent,eol,start'
-vim.o.display = 'lastline'
-vim.o.report = 0
-vim.o.synmaxcol = 200
-vim.o.completeopt = 'menuone,noinsert,noselect'
-vim.o.inccommand = 'split'
-vim.wo.foldmethod = 'marker'
-vim.bo.omnifunc="v:lua.vim.lsp.omnifunc"
+--vim.o.compatible = false
+--vim.o.number = false
+--vim.o.expandtab = true
+--vim.o.ruler = true
+--vim.o.smarttab = true
+--vim.o.shiftround = true
+--vim.o.smartindent = true
+--vim.o.autoindent = true
+--vim.o.hidden = true
+--vim.o.showmode = true
+--vim.o.showcmd = true
+--vim.o.incsearch = true
+--vim.o.hlsearch = true
+--vim.o.lazyredraw = false
+--vim.o.splitbelow = true
+--vim.o.cursorline = true
+--vim.o.wrapscan = true
+--vim.o.laststatus = 2
+--vim.o.softtabstop = 4
+--vim.o.mouse = 'a'
+--vim.o.updatetime = 300
+--vim.o.backspace = 'indent,eol,start'
+--vim.o.display = 'lastline'
+--vim.o.report = 2
+--vim.o.synmaxcol = 200
+--vim.o.completeopt = 'menuone,noinsert,noselect'
+--vim.o.inccommand = 'split'
+--vim.wo.foldmethod = 'marker'
+--vim.bo.omnifunc="v:lua.vim.lsp.omnifunc"
 
 vim.cmd('filetype plugin indent on')
 vim.cmd('syntax enable')
