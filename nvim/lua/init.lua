@@ -19,17 +19,20 @@ require('plugins/statusline')
 --require('plugins/format')
 
 -- Looks
---require('plugins/polyglot')
+require('plugins/polyglot')
 
 -- CSS Colors
 --require('plugins/colorizer')
---Shougo Plugins
 
---require('plugins/denite')
---require('plugins/defx')
---require('plugins/completion')
---require('plugins/treesitter')
---require('plugins/lsp')
+-- Shougo Plugins
+require('plugins/denite')
+require('plugins/defx')
+
+-- LSP
+require('plugins/completion')
+require('plugins/treesitter')
+require('plugins/lsp')
+
 -- Other files
 
 --require('hotkeys')
