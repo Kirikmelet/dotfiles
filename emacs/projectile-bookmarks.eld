@@ -1,1 +1,1 @@
-("~/Documents/github/notamusicplayer/" "~/.config/" "~/org/" "~/.config/emacs/straight/repos/rg.el/" "~/Documents/work/ajinomoto/zoom/" "/srv/jitsi-meet/" "~/Documents/projects/vuevidtest/" "~/vimwiki/")
+("~/org/" "~/vimwiki/" "~/Documents/github/notamusicplayer/" "~/.config/" "~/.config/emacs/straight/repos/rg.el/" "~/Documents/work/ajinomoto/zoom/" "/srv/jitsi-meet/" "~/Documents/projects/vuevidtest/")

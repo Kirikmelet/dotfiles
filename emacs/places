@@ -1,5 +1,9 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/troyd/Desktop/ajinomoto_flowchart.gv" . 120)
+(("/home/troyd/org/notes/lang/jp/regions.org" . 353)
+ ("/home/troyd/org/notes/lang/jp/relations.org" . 174)
+ ("/home/troyd/vimwiki/language/jp/activities.md" . 1523)
+ ("/home/troyd/org/global_agenda/projects.org" . 540)
+ ("/home/troyd/Desktop/ajinomoto_flowchart.gv" . 120)
  ("/home/troyd/Desktop/dot.pdf" . 12095)
  ("/home/troyd/Desktop/"
   (dired-filename . "/home/troyd/Desktop/dot.pdf"))
@@ -9,7 +13,6 @@
  ("/home/troyd/Documents/github/notamusicplayer/"
   (dired-filename . "/home/troyd/Documents/github/notamusicplayer/test"))
  ("/home/troyd/org/global_agenda/work.org" . 277)
- ("/home/troyd/org/global_agenda/projects.org" . 469)
  ("/home/troyd/org/global_agenda/"
   (dired-filename . "/home/troyd/org/global_agenda/work.org"))
  ("/home/troyd/.config/nvim/lua/hotkeys.lua" . 1540)
@@ -133,11 +136,9 @@
  ("/home/troyd/.emacs.d/functions/"
   (dired-filename . "/home/troyd/.emacs.d/functions/basicfunc.el"))
  ("/home/troyd/.emacs.d/functions/basicfunc.el" . 189)
- ("/home/troyd/org/notes/lang/jp/relations.org" . 174)
  ("/home/troyd/org/notes/lang/jp/location.org" . 54)
  ("/home/troyd/org/notes/lang/jp/education.org" . 690)
  ("/home/troyd/org/notes/lang/jp/family.org" . 2612)
- ("/home/troyd/org/notes/lang/jp/regions.org" . 353)
  ("/home/troyd/org/notes/lang/"
   (dired-filename . "/home/troyd/org/notes/lang/.."))
  ("/home/troyd/org/notes/"
