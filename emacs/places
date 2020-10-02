@@ -1,5 +1,23 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/troyd/Documents/books/politics/das_kapital/"
+(("/home/troyd/Desktop/ajinomoto_flowchart.gv" . 120)
+ ("/home/troyd/Desktop/dot.pdf" . 12095)
+ ("/home/troyd/Desktop/"
+  (dired-filename . "/home/troyd/Desktop/dot.pdf"))
+ ("/home/troyd/.emacs.d/straight/build/graphviz-dot-mode/graphviz-dot-mode-autoloads.el" . 2403)
+ ("/home/troyd/.emacs.d/straight/build/dot-mode/dot-mode-autoloads.el" . 2060)
+ ("/home/troyd/Documents/github/notamusicplayer/src/mainrun.c" . 814)
+ ("/home/troyd/Documents/github/notamusicplayer/"
+  (dired-filename . "/home/troyd/Documents/github/notamusicplayer/test"))
+ ("/home/troyd/org/global_agenda/work.org" . 277)
+ ("/home/troyd/org/global_agenda/projects.org" . 469)
+ ("/home/troyd/org/global_agenda/"
+  (dired-filename . "/home/troyd/org/global_agenda/work.org"))
+ ("/home/troyd/.config/nvim/lua/hotkeys.lua" . 1540)
+ ("/home/troyd/.config/nvim/lua/plugins/telescope.lua" . 79)
+ ("/home/troyd/.config/nvim/lua/"
+  (dired-filename . "/home/troyd/.config/nvim/lua/hotkeys.lua"))
+ ("/home/troyd/.config/nvim/lua/init.lua" . 36)
+ ("/home/troyd/Documents/books/politics/das_kapital/"
   (dired-filename . "/home/troyd/Documents/books/politics/das_kapital/Capital-Volume-I.pdf"))
  ("/home/troyd/"
   (dired-filename . "/home/troyd/test.lua"))
@@ -9,8 +27,6 @@
   (dired-filename . "/home/troyd/org/notes/lang/jp/duolingocomments.org"))
  ("/home/troyd/org/notes/lang/jp/guides.html" . 18545)
  ("/home/troyd/org/notes/lang/jp/guides.org" . 3054)
- ("/home/troyd/org/global_agenda/work.org" . 476)
- ("/home/troyd/org/global_agenda/projects.org" . 417)
  ("/home/troyd/Documents/github/notamusicplayer/test/test.c" . 510)
  ("/home/troyd/.emacs.d/straight/build/org/org-loaddefs.el" . 99796)
  ("/home/troyd/.emacs.d/straight/build/valign/valign-autoloads.el" . 610)
@@ -79,9 +95,6 @@
  ("/home/troyd/.emacs.d/straight/build/dashboard/dashboard-autoloads.el" . 485)
  ("/home/troyd/org/notes/work/sinarmas/Golden Agri-Resources Brief.tex" . 9458)
  ("/home/troyd/org/notes/work/sinarmas/Golden Agri-Resources Brief.man" . 7647)
- ("/home/troyd/org/global_agenda/school.ics" . 163)
- ("/home/troyd/org/global_agenda/projects.ics" . 173)
- ("/home/troyd/org/global_agenda/work.ics" . 774)
  ("/home/troyd/org/notes/work/sinarmas/"
   (dired-filename . "/home/troyd/org/notes/work/sinarmas/gar.org"))
  ("/home/troyd/org/notes/lang/jp/actions.org" . 66)
@@ -99,17 +112,13 @@
   (dired-filename . "/home/troyd/Documents/work/ajinomoto"))
  ("/home/troyd/Documents/work/ajinomoto/"
   (dired-filename . "/home/troyd/Documents/work/ajinomoto/zoom"))
- ("/home/troyd/Documents/github/notamusicplayer/src/mainrun.c" . 763)
  ("/home/troyd/Pictures/saved_pictures/emacs/anarchism2.svg" . 672)
  ("/home/troyd/.emacs.d/straight/build/deadgrep/deadgrep-autoloads.el" . 490)
  ("/srv/jitsi-meet/config.js" . 4624)
  ("/home/troyd/.emacs.d/config/"
   (dired-filename . "/home/troyd/.emacs.d/config/javascript-ftconf.el"))
  ("/usr/share/emacs/27.1/etc/PROBLEMS" . 31)
- ("/home/troyd/org/global_agenda/projects.html" . 10310)
  ("/home/troyd/org/global_agenda/pic/" . 585)
- ("/home/troyd/org/global_agenda/"
-  (dired-filename . "/home/troyd/org/global_agenda/projects.org"))
  ("/home/troyd/.emacs.d/straight/build/counsel/counsel-autoloads.el" . 16995)
  ("/home/troyd/.emacs.d/straight/build/swiper/swiper-autoloads.el" . 1268)
  ("/home/troyd/.emacs.d/straight/build/page-break-lines/page-break-lines-autoloads.el" . 2117)
@@ -119,7 +128,6 @@
  ("/home/troyd/.config/blender/2.91/scripts/addons/panocamadder.py" . 7722)
  ("/home/troyd/.config/awesome/import/bar.lua" . 347)
  ("/home/troyd/.config/awesome/rc.lua" . 9124)
- ("/home/troyd/.config/nvim/lua/init.lua" . 2988)
  ("/home/troyd/.config/nvim/ftplugin/lua.vim" . 25)
  ("/home/troyd/.config/nvim/plugin/packer_compiled.vim" . 3239)
  ("/home/troyd/.emacs.d/functions/"

@@ -1,4 +1,4 @@
-local vim = vim
+vim = vim
 local api = vim.api
 
 -- Load plugins
@@ -17,6 +17,7 @@ require('options')
 -- Tools
 require('plugins/statusline')
 --require('plugins/format')
+require('plugins/telescope')
 
 -- Looks
 require('plugins/polyglot')
@@ -25,7 +26,7 @@ require('plugins/polyglot')
 --require('plugins/colorizer')
 
 -- Shougo Plugins
-require('plugins/denite')
+--require('plugins/denite')
 require('plugins/defx')
 
 -- LSP
@@ -35,5 +36,5 @@ require('plugins/lsp')
 
 -- Other files
 
---require('hotkeys')
+require('hotkeys')
 require('autopairs')

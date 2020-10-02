@@ -41,10 +41,10 @@ binder(termkeys)
 
 --{{{ File Hotkeys
 local appkeys = {
-   {'n', '<leader>fs', '<cmd>Denite grep<CR>',nil,nil};
+   {'n', '<leader>fs', '<cmd>lua require("telescope.builtin").live_grep()<CR>',nil,nil};
    {'n', '<leader>ff', '<cmd>lua vim.lsp.buf.formatting()<CR>',nil,nil};
    {'n', '<leader>fm', '<cmd>make<CR>',nil,nil};
-   {'n', '<leader>fts', '<cmd>Denite tag<CR>',nil,nil};
+   {'n', '<leader>fts', '<cmd>lua require("telescope.builtin").treesitter()<CR>',nil,nil};
    {'n', '<leader>ftg', '<cmd>!ctags %<CR>',nil,nil};
 }
 --}}}
@@ -52,9 +52,9 @@ binder(appkeys)
 
 --{{{Buffer hotkeys
 local bufkeys = {
-   {'n', '<leader>bf', '<cmd>Denite file/rec<CR>',nil,nil};
+   {'n', '<leader>bf', '<cmd>lua require("telescope.builtin").find_files()<CR>',nil,nil};
    {'n', '<leader>bd', '<cmd>Defx -buffer-name=bar<CR>',nil,nil};
-   {'n', '<leader>bb', '<cmd>Denite buffer<CR>',nil,nil};
+   {'n', '<leader>bb', '<cmd>lua require("telescope.builtin").buffers()<CR>',nil,nil};
    {'n', '<leader>bso', 'zo',nil,nil};
    {'n', '<leader>bsc', 'zc',nil,nil};
    {'n', '<leader>bst', 'za',nil,nil};
@@ -69,7 +69,6 @@ binder(bufkeys)
 --{{{Application hotkeys
 local apphotkeys = {
    {'n', '<leader>aw', '<cmd>Defx -buffer-name=defxplore ~/vimwiki<CR>',nil,nil};
-   {'n', '<leader>am', '<cmd>Denite menu<CR>',nil,nil};
    {'n', '<leader>ao', '<cmd>Defx -buffer-name=defxplore ~/org<CR>',nil,nil};
    {'n', '<leader>ad', '<cmd>Defx -buffer-name=defxplore<CR>',nil,nil};
 }

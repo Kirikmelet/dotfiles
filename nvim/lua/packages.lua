@@ -8,16 +8,13 @@ return require('packer').startup(function()
 
 	use('~/.config/nvim/pack/test/start/gitfug.lua')
 
-
-	-- Test
-
 	-- Don't Delete!
 
-	use {'Kirikmelet/packer.nvim', opt = true}
+	use {'wbthomason/packer.nvim', opt = true}
 
    -- Shougo plugins
 
-   use {{'Shougo/denite.nvim', opt=true}, {'Shougo/defx.nvim', opt=true}}
+   use {'Shougo/defx.nvim', opt=true}
 
 	-- Gruvbox:
 
@@ -29,7 +26,7 @@ return require('packer').startup(function()
 
 	-- FTPlugin Plugin:
 
-	use {'sheerun/vim-polyglot'}
+	use {'sheerun/vim-polyglot', opt = true}
 
 	-- LSP:
 
@@ -43,6 +40,15 @@ return require('packer').startup(function()
 	}
 
    -- REPL
+
    use {'hkupty/iron.nvim'}
+
+   -- Telescope.nvim
+
+   use {
+      {'nvim-lua/plenary.nvim', opt = true};
+      {'nvim-lua/popup.nvim', opt = true};
+      {'nvim-lua/telescope.nvim', opt = true};
+   }
 
 end)

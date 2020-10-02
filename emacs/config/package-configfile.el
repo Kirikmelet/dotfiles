@@ -42,6 +42,7 @@
                markdown-mode
                lua-mode
                vimrc-mode
+               graphviz-dot-mode
 
                ;; Tools
                pdf-tools
@@ -187,6 +188,10 @@
   :defer 5
   :mode ("\\.vim\\'")
   )
+
+(use-package graphviz-dot-mode
+  :defer 5
+  :mode ("\\.gv\\'"))
 
 
 ;; Org-mode
