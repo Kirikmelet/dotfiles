@@ -19,5 +19,12 @@ require('format').setup({
           stdin = true
         }
       end
+    },
+    c = {
+       clang-format = function()
+          return {
+             exe = "clang-format"
+          }
+       end
     }
 })

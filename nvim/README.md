@@ -6,11 +6,10 @@
 
     A: Most of the configs are in lua, seperated into different files
 
-- Q: Why is 'package.lua' and 'dein.lua' unused?
+- Q: Why use 'package.lua' 
 
-    A: Not as fast, nor as easy as dein in VimL
+    A: Lua
 
-- Q: Why both org-mode and vimwiki?
+- Startup Time?
 
-    A: Because I'm transferring my vimwiki files to Emac's org-mode
-
+    A: ~107ms
