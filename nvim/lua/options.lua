@@ -3,7 +3,7 @@ local api = vim.api
 
 --{{{GUI Settings
 
-vim.o.guifont = 'Fira Code:h14'
+vim.o.guifont = 'Fira Code Retina:s14'
 
 --}}}
 

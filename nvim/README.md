@@ -8,7 +8,7 @@
 
 - Q: Why use 'package.lua' 
 
-    A: Lua
+    A: Lua, and is about as fast as dein.vim now
 
 - Startup Time?
 

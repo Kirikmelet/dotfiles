@@ -25,8 +25,8 @@ require('plugins/polyglot')
 -- CSS Colors
 --require('plugins/colorizer')
 
--- Shougo Plugins
---require('plugins/denite')
+-- File Manager
+--require('plugins/nvim-tree')
 require('plugins/defx')
 
 -- LSP

@@ -53,7 +53,7 @@ binder(appkeys)
 --{{{Buffer hotkeys
 local bufkeys = {
    {'n', '<leader>bf', '<cmd>lua require("telescope.builtin").find_files()<CR>',nil,nil};
-   {'n', '<leader>bd', '<cmd>Defx -buffer-name=bar<CR>',nil,nil};
+   {'n', '<leader>bd', '<cmd>LuaTreeToggle<CR>',nil,nil};
    {'n', '<leader>bb', '<cmd>lua require("telescope.builtin").buffers()<CR>',nil,nil};
    {'n', '<leader>bso', 'zo',nil,nil};
    {'n', '<leader>bsc', 'zc',nil,nil};
@@ -70,7 +70,7 @@ binder(bufkeys)
 local apphotkeys = {
    {'n', '<leader>aw', '<cmd>Defx -buffer-name=defxplore ~/vimwiki<CR>',nil,nil};
    {'n', '<leader>ao', '<cmd>Defx -buffer-name=defxplore ~/org<CR>',nil,nil};
-   {'n', '<leader>ad', '<cmd>Defx -buffer-name=defxplore<CR>',nil,nil};
+   {'n', '<leader>ad', '<cmd>LuaTreeFindFile<CR>',nil,nil};
 }
 --}}}
 binder(apphotkeys)

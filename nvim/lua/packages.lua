@@ -12,7 +12,7 @@ return require('packer').startup(function()
 
 	use {'wbthomason/packer.nvim', opt = true}
 
-   -- Shougo plugins
+   -- File Manager
 
    use {'Shougo/defx.nvim', opt=true}
 
