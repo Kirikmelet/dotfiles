@@ -9,10 +9,8 @@ local vars = require('import/vars')
 local menulaunch = require('import/menu')
 local M = {}
 
-
 local testwid = require('widget/battery')
 
-local modkey = vars.keys.modkey
 
 local clock = wibox.widget.textclock()
 
