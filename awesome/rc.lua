@@ -17,8 +17,6 @@ local menubar = require("menubar")
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 
-
-
 -- {{{ Autostart
 awful.spawn.with_shell('~/.config/awesome/autorun.sh')
 -- Use LuaJit

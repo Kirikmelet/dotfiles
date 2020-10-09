@@ -10,6 +10,7 @@ local menulaunch = require('import/menu')
 local M = {}
 
 local testwid = require('widget/battery')
+local volwid = require('widget/vol')
 
 
 local clock = wibox.widget.textclock()
@@ -128,6 +129,7 @@ awful.screen.connect_for_each_screen(function(s)
    layout = wibox.layout.fixed.horizontal;
    wibox.widget.systray();
    testwid:init();
+   volwid:init({});
    clock;
    s.layoutbox;
 },
