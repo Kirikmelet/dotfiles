@@ -13,7 +13,7 @@ local M = {}
 -- another config (This code will only ever execute for the fallback config)
 if awesome.startup_errors then
    naughty.notify({ preset = naughty.config.presets.critical,
-   title = "Dai Kuso, kore desukutoppukankyou wa tawagoto!",
+   title = "ERROR! CONFIG ERROR (USING FALLBACK)",
    text = awesome.startup_errors })
 end
 
@@ -26,7 +26,7 @@ do
       in_error = true
 
       naughty.notify({ preset = naughty.config.presets.critical,
-      title = "FUCK FUCK FUCK",
+      title = "ERROR! CONFIG ERROR (RUNTIME)",
       text = tostring(err) })
       in_error = false
    end)

@@ -107,9 +107,6 @@ M.globalkeys = gears.table.join(
    awful.key({ modkey,           }, "Return", function () awful.spawn(vars.appslist.terminal.exec) end,
       {description = "open a terminal", group = "launcher"}),
 
-   awful.key({modkey, 'Shift'}, 'Return', function () awful.spawn('tabbed -c '..vars.appslist.terminal.exec..' -w') end,
-   {description = 'Open a Terminal with tabbed', group = 'launcher'}),
-
    -- Open Browser
    awful.key({modkey}, 'F2', function() awful.spawn(vars.appslist.browser.exec) end,
       {description = 'Open Browser', group = 'launcher'}),
