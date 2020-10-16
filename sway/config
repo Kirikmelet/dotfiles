@@ -6,13 +6,13 @@
 
 
 ### GTK
-set $gnome-schema org.gnome.desktop.interface
-
-exec_always {
-    gsettings set $gnome-schema gtk-theme 'Mint-Yz-Darkest-MintFresh'
-    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
-    gsettings set $gnome-schema cursor-theme 'Adwaita'
-}
+#set $gnome-schema org.gnome.desktop.interface
+#
+#exec_always {
+#    gsettings set $gnome-schema gtk-theme 'Mint-Yz-Darkest-MintFresh'
+#    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+#    gsettings set $gnome-schema cursor-theme 'Adwaita'
+#}
 
 
 ### Variables
@@ -29,7 +29,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
+# set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
 # Audio XF86SymKeys
 bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+

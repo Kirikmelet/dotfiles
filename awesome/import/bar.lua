@@ -119,7 +119,7 @@ awful.screen.connect_for_each_screen(function(s)
       layout = wibox.layout.align.horizontal,
       { -- Das Linke
       layout = wibox.layout.fixed.horizontal;
-      menulaunch.launcher;
+      --menulaunch.launcher;
       s.taglist;
       s.promptbox;
    },
@@ -131,7 +131,7 @@ awful.screen.connect_for_each_screen(function(s)
    testwid:init();
    volwid:init({});
    clock;
-   s.layoutbox;
+   --s.layoutbox;
 },
    }
 end)

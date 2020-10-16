@@ -9,8 +9,8 @@ static const int vertpad            = 0;       /* vertical padding of bar */
 static const int sidepad            = 0;       /* horizontal padding of bar */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Dina:size=10" };
-static const char dmenufont[]       = "Dina:size=10";
+static const char *fonts[]          = { "Fira Code:size=10" };
+static const char dmenufont[]       = "Fira Code:size=10";
 static const char col_gray1[]       = "#282828";
 static const char col_gray2[]       = "#32302f";
 static const char col_gray3[]       = "#ebddb2";
@@ -65,11 +65,11 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *browser[] = {"firefox", NULL};
 static const char *filemanager[] = {"st", "-e", "nnn", NULL};
 static const char *sysview[] = {"st", "-e", "htop", NULL};
-static const char *musicplayer[] = {"st", "-e", "ncmpcpp", NULL};
+static const char *musicplayer[] = {"st", "-e", "cmus", NULL};
 static const char *nmtui[] = {"st", "-e", "nmtui", NULL};
-static const char *volup[] = {"alsamixer", "sset", "Master", "5%+", NULL};
-static const char *voldown[] = {"alsamixer", "sset", "Master", "5%-", NULL};
-static const char *voltog[] = {"alsamixer", "sset", "Master", "toggle", NULL};
+static const char *volup[] = {"amixer", "sset", "Master", "5%+", NULL};
+static const char *voldown[] = {"amixer", "sset", "Master", "5%-", NULL};
+static const char *voltog[] = {"amixer", "sset", "Master", "toggle", NULL};
 static const char *briup[] = {"xbacklight", "-inc", "5", NULL};
 static const char *bridown[] = {"xbacklight", "-dec", "5", NULL};
 

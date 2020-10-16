@@ -1,1 +1,1 @@
-("~/org/" "~/Documents/github/notamusicplayer/" "~/.config/" "~/vimwiki/" "~/.config/emacs/straight/repos/rg.el/" "~/Documents/work/ajinomoto/zoom/" "~/Documents/projects/vuevidtest/")
+("~/Documents/github/notamusicplayer/" "~/Documents/github/weebgtk/" "~/org/" "~/.config/")

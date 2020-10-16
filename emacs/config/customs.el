@@ -20,4 +20,4 @@
 ;;Isearch
 (setq search-default-mode t)
 
-(provide 'custom-configfile)
+(provide 'customs)

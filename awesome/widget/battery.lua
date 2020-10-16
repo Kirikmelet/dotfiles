@@ -18,9 +18,28 @@ function M:init()
    -- Initialize Widget
    self:settings()
 
-   self.widget = wibox.widget(
-      {widget = wibox.widget.textbox()}
+   self.wid = {}
+
+   self.icon_wid = wibox.widget {
+      {
+         id = "icon",
+         widget = wibox.widget.imagebox,
+         resize = false
+      },
+      layout = wibox.container.margin(_, 0, 0, 3)
+   }
+
+   self.text_wid= wibox.widget(
+   {widget = wibox.widget.textbox()}
    )
+
+   self.widget = wibox.widget{
+      self.icon_wid,
+      self.text_wid,
+      layout  = wibox.layout.fixed.horizontal
+   }
+
+   self.icon_wid.widget:set_image('/usr/share/icons/Papirus-Dark/symbolic/status/battery-missing-symbolic.svg')
 
    self:timer()
 
@@ -45,6 +64,9 @@ function M:getbat()
    end
 end
 
+function M:setbat()
+end
+
 function M:timer()
    -- Set timer
    gears.timer{
@@ -53,7 +75,7 @@ function M:timer()
       autostart = true;
       callback = function()
          self:getbat()
-         self.widget:set_text(' BAT: '..self.percent..'% ')
+         self.text_wid:set_text(' BAT: '..self.percent..'% ')
       end
    }
 end

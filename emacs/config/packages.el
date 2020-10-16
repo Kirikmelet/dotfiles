@@ -18,57 +18,7 @@
 
 
 (straight-use-package 'use-package)
-(setq straight-use-package-by-default t)
-
-
-
-;; Checks if package is installed
-(dolist (pkg '(
-               ;; Inset package here;
-               
-               ;; Grep
-               rg
-               
-               ;;Music ?
-               simple-mpc
-
-               ;; Org-mode
-               org
-
-               ;; Theme
-               gruvbox-theme
-
-               ;; Modes
-               markdown-mode
-               lua-mode
-               vimrc-mode
-               graphviz-dot-mode
-
-               ;; Tools
-               pdf-tools
-
-               ;; Handles keybind popup
-               which-key
-               ;;evil
-               ;;evil-collection
-
-
-               ;; LSP
-               lsp-mode
-               lsp-ui
-               company
-               format-all
-
-               ;; Git / Projects
-               magit
-               projectile
-
-               ;; Undo-Tree
-               undo-tree
-               
-               ))
-    (straight-use-package pkg))
-  
+(setq straight-use-package-by-default t)  
 
 ;; Which-key config
 (use-package which-key
@@ -93,8 +43,8 @@
   :hook (
          (python-mode . lsp-deferred)
          (c-mode . lsp-deferred)
-         (js-mode . lsp-deferred) ; To slow
-         (html-mode . lsp-deferred) ; To slow
+         (js-mode . lsp-deferred)
+         (html-mode . lsp-deferred)
          (lsp-mode . lsp-enable-which-key-integration))
   :commands (lsp lsp-deferred)
   :custom
@@ -140,8 +90,8 @@
 ;; Music player
 (use-package simple-mpc
   :defer 4
-  :bind(
-        ("<C-f1> a m". simple-mpc)))
+  :bind(:map app-funcs-map
+        ("m". simple-mpc)))
 
 
 ;; PDF-Reader
@@ -164,7 +114,7 @@
 ;;(use-package evil-collection
 ;;             :after evil
 ;;             :defer 1
-;;             :config
+;;             :init
 ;;             (evil-collection-init)
 ;;             :custom
 ;;             (evil-collection-setup-minibuffer t)
@@ -270,8 +220,8 @@
 
 (use-package eshell
   :defer 10
-  :bind (
-         ("<C-f1> a e" . eshell))
+  :bind ((:map app-funcs-map
+         ("e" . eshell)))
   )
 
 (use-package undo-tree
@@ -289,9 +239,9 @@
 ;; Ripgrep
 (use-package rg
   :defer 8
-  :bind (
-         ("<C-f2> s f" . rg-thisbuffer)
-         ("<C-f2> s r" . rg))
+  :bind (:map regex-funcs
+         ("f" . rg-thisbuffer)
+         ("r" . rg))
   :config
   (rg-define-search rg-thisbuffer
     "Search this buffer"
@@ -299,6 +249,10 @@
     :files current
     :menu ("Search" "C" "Current")))
 
+(use-package paren
+  :defer 6)
+(use-package recentf
+  :defer 10)
 
 ;; End file
-(provide 'package-configfile)
+(provide 'packages)

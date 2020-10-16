@@ -11,19 +11,21 @@
 (set-face-font 'default "Fira Code Retina 11")
 
 
-;; Set Prefixes
+;; Load config files
 
 
-(dolist (configs '(
-                   package-configfile
-                   bindings-config
-                   custom-configfile
-                   filetype-configfile
-                   nihongo-config
-                   ))
-  (require configs))
-
-
+(dolist (config
+         '(
+           prefixes
+           customs
+           packages
+           bindings
+           filetype
+;;           nihongo
+           )
+         )
+  (require config)
+  )
 
 (add-hook 'emacs-startup-hook
           (lambda ()

@@ -1,4 +1,0 @@
-(
- (:id "sha1:5cc4820383ac7cbbf8c82dc9e880f71d2d759012" :fingerprint "sha1:e6:53:0b:7a:07:a7:eb:38:3e:ce:86:71:63:0b:f7:bc:2f:14:3d:39")
- (:id "sha1:85457c729378cc93c732b6a3941c8e4f9c2e60f3" :fingerprint "sha1:ab:a6:d7:6a:b3:d3:63:fa:19:0d:65:41:60:23:6e:ef:d3:2a:46:dc" :host "marmalade-repo.org:443" :conditions (:expired :unknown-ca :invalid))
-)

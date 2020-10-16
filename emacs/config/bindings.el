@@ -3,8 +3,8 @@
 
 
 ;; Applications
-(global-set-key (kbd "<C-f1> a d") 'dired)
-(global-set-key (kbd "<C-f1> a M") 'mail)
+(define-key 'app-funcs-map (kbd "d") 'dired)
+(define-key 'app-funcs-map (kbd "M") 'mail)
 
 ;; Commands
 (define-prefix-command 'command-map)
@@ -27,4 +27,8 @@
 (define-key 'org-agenda-file-map (kbd "s") 'open-agenda-file/school)
 (define-key 'org-agenda-file-map (kbd "p") 'open-agenda-file/projects)
 
-(provide 'bindings-config)
+
+;; Regex
+(define-key 'regex-funcs (kbd "r") 'replace-regexp)
+
+(provide 'bindings)

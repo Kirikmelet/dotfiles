@@ -30,6 +30,7 @@ binder(tabs)
 --{{{Completion-nvim /Diagnostic-nvimm
 api.nvim_set_keymap('i', '<Tab>', [[pumvisible() ? "\<C-n>" : "\<Tab>"]], {expr = true, noremap = true})
 api.nvim_set_keymap('i', '<S-Tab>', [[pumvisible() ? "\<C-p>" : "\<S-Tab>"]], {expr = true, noremap = true})
+api.nvim_set_keymap('i', '<c-space>', [[<Plug>(completion_trigger)]], {expr = false, silent = true, noremap = false})
 --}}}
 
 --{{{Terminal
@@ -70,7 +71,7 @@ binder(bufkeys)
 local apphotkeys = {
    {'n', '<leader>aw', '<cmd>Defx -buffer-name=defxplore ~/vimwiki<CR>',nil,nil};
    {'n', '<leader>ao', '<cmd>Defx -buffer-name=defxplore ~/org<CR>',nil,nil};
-   {'n', '<leader>ad', '<cmd>Defx -buffer-name=defxploreCR>',nil,nil};
+   {'n', '<leader>ad', '<cmd>Defx -buffer-name=defxplore<CR>',nil,nil};
 }
 --}}}
 binder(apphotkeys)

@@ -11,7 +11,7 @@ local themes_path = '~/.config/awesome/themes/'
 
 local theme = {}
 
-theme.font          = "Fira Code 9"
+theme.font          = "Fira Code Retina 9"
 
 theme.bg_normal     = "#1d2021"
 theme.bg_focus      = "#282828"

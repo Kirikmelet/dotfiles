@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Dina:size=10:antialias=true:autohint=true";
+static char *font = "Fira Code Retina:size=10:antialias=true:autohint=true";
 static char *font2[] = {
 	"Noto Color Emoji:antialias=true:autohint=true",
 	"DroidSansMono Nerd Font:style=Book:autohint=true:antialias=true",
@@ -21,7 +21,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char *shell = "/bin/ksh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;

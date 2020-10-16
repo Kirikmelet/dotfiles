@@ -33,4 +33,3 @@
 
 
 
-(provide 'basicfunc)
