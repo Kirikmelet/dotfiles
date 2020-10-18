@@ -2,7 +2,7 @@ sw_volume: 88
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
 state: stop
-current: 163
+current: 183
 random: 1
 repeat: 1
 single: 0

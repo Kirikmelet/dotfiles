@@ -1,4 +1,5 @@
-;;; -*- lexical-binding t; -*-
+;;; -*- lexical-binding: t; -*-
+
 (setq gc-cons-threshold most-positive-fixnum
       gc-cons-percentage 0.6)
 
@@ -13,22 +14,29 @@
 
 ;; Load config files
 
+(eval-when-compile
 
-(dolist (config
-         '(
-           prefixes
-           customs
-           packages
-           bindings
-           filetype
-;;           nihongo
-           )
-         )
-  (require config)
-  )
+  (defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
+  (defconst config-dir (concat emacs-dir "/config"))
+  (defconst func-dir (concat emacs-dir "/functions"))
+
+  (add-to-list 'load-path config-dir)
+  (add-to-list 'load-path func-dir)
+  (dolist (config
+            '(
+              prefixes
+              customs
+              packages
+              bindings
+              filetype
+              ;;           nihongo
+              )
+            )
+    (require config)
+    ))
 
 (add-hook 'emacs-startup-hook
           (lambda ()
-            (setq gc-cons-thresshold 16777216)
+            (setq gc-cons-threshold 16777216)
             (setq file-name-handler-alist file-lister-alist)
             ))

@@ -41,7 +41,7 @@ local termkeys = {
 binder(termkeys)
 
 --{{{ File Hotkeys
-local appkeys = {
+local filekeys = {
    {'n', '<leader>fs', '<cmd>lua require("telescope.builtin").live_grep()<CR>',nil,nil};
    {'n', '<leader>ff', '<cmd>lua vim.lsp.buf.formatting()<CR>',nil,nil};
    {'n', '<leader>fm', '<cmd>make<CR>',nil,nil};
@@ -49,12 +49,11 @@ local appkeys = {
    {'n', '<leader>ftg', '<cmd>!ctags %<CR>',nil,nil};
 }
 --}}}
-binder(appkeys)
+binder(filekeys)
 
 --{{{Buffer hotkeys
 local bufkeys = {
    {'n', '<leader>bf', '<cmd>lua require("telescope.builtin").find_files()<CR>',nil,nil};
-   {'n', '<leader>bd', '<cmd>Defx -buffer-name=bar<CR>',nil,nil};
    {'n', '<leader>bb', '<cmd>lua require("telescope.builtin").buffers()<CR>',nil,nil};
    {'n', '<leader>bso', 'zo',nil,nil};
    {'n', '<leader>bsc', 'zc',nil,nil};
@@ -69,9 +68,9 @@ binder(bufkeys)
 
 --{{{Application hotkeys
 local apphotkeys = {
-   {'n', '<leader>aw', '<cmd>Defx -buffer-name=defxplore ~/vimwiki<CR>',nil,nil};
-   {'n', '<leader>ao', '<cmd>Defx -buffer-name=defxplore ~/org<CR>',nil,nil};
-   {'n', '<leader>ad', '<cmd>Defx -buffer-name=defxplore<CR>',nil,nil};
+   {'n', '<leader>aw', '<cmd>Explore ~/vimwiki<CR>',nil,nil};
+   {'n', '<leader>ao', '<cmd>Explore ~/org<CR>',nil,nil};
+   {'n', '<leader>ad', '<cmd>Explore<CR>',nil,nil};
 }
 --}}}
 binder(apphotkeys)
@@ -87,13 +86,13 @@ local gitkeys = {
 --}}}
 binder(gitkeys)
 
---{{{REPL hotkeys
-local ironkeys = {
-   {'n', '<leader>ro', '<cmd>IronRepl<CR>',nil};
-   {'n', '<leader>rf', '<cmd>IronFocus<CR>',nil}
-}
---}}}
-binder(ironkeys)
+----{{{REPL hotkeys
+--local ironkeys = {
+--   {'n', '<leader>ro', '<cmd>IronRepl<CR>',nil};
+--   {'n', '<leader>rf', '<cmd>IronFocus<CR>',nil}
+--}
+----}}}
+--binder(ironkeys)
 
 --{{{Debug
 local debugkeys = {

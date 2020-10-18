@@ -7,9 +7,8 @@
 (define-key 'app-funcs-map (kbd "M") 'mail)
 
 ;; Commands
-(define-prefix-command 'command-map)
-(global-set-key (kbd "<C-f1> f") 'command-map)
-(define-key 'command-map (kbd "n f") 'new-file)
+
+(define-key 'start-commands (kbd "f") 'new-file)
 
 (defun open-agenda-file/work ()
   (interactive)

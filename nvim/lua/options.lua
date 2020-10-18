@@ -76,10 +76,10 @@ vim.g.loaded_matchparen = 1
 vim.g.loaded_2html_plugin = 1
 vim.g.loaded_logiPat = 1
 vim.g.loaded_rrhelper = 1
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-vim.g.loaded_netrwSettings = 1
-vim.g.loaded_netrwFileHandlers = 1
+--vim.g.loaded_netrw = 1
+--vim.g.loaded_netrwPlugin = 1
+--vim.g.loaded_netrwSettings = 1
+--vim.g.loaded_netrwFileHandlers = 1
 
 --}}}
 
@@ -89,6 +89,7 @@ vim.g.loaded_netrwFileHandlers = 1
 -- 0 - Disable
 
 vim.g.loaded_python_provider = 0
+vim.g.loaded_python3_provider = 0
 vim.g.loaded_node_provider = 0
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0

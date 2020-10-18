@@ -12,10 +12,6 @@ return require('packer').startup(function()
 
 	use {'wbthomason/packer.nvim', opt = true}
 
-   -- File Manager
-
-   use {'Shougo/defx.nvim', opt=true}
-
 	-- Gruvbox:
 
 	use {'morhetz/gruvbox'}
@@ -38,10 +34,6 @@ return require('packer').startup(function()
 		{'nvim-treesitter/completion-treesitter', opt=true};
 		{'tjdevries/lsp_extensions.nvim', opt=true};
 	}
-
-   -- REPL
-
-   use {'hkupty/iron.nvim'}
 
    -- Telescope.nvim
 

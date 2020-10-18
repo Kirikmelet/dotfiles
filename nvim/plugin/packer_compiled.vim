@@ -18,12 +18,6 @@ local plugins = {
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/completion-treesitter"
   },
-  ["defx.nvim"] = {
-    loaded = false,
-    only_sequence = false,
-    only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/defx.nvim"
-  },
   ["diagnostic-nvim"] = {
     loaded = false,
     only_sequence = false,

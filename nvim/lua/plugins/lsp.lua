@@ -18,8 +18,8 @@ local on_attach_vim = function()
 	require'diagnostic'.on_attach()
 end
 lspuse.clangd.setup{on_attach=on_attach_vim}
-lspuse.pyls.setup{on_attach=on_attach_vim}
-lspuse.html.setup{on_attach=on_attach_vim}
+--lspuse.pyls.setup{on_attach=on_attach_vim}
+--lspuse.html.setup{on_attach=on_attach_vim}
 lspuse.sumneko_lua.setup{on_attach=on_attach_vim}
 
 

@@ -109,7 +109,7 @@ function msdos_pwd
 }
 
 
-export PS1='$(pwd)> '
+export PS1='$ '
 
 #echo 
 #echo

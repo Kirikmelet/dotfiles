@@ -1,16 +1,13 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/troyd/Documents/github/notamusicplayer/src/mainrun.c" . 4235)
- ("/home/troyd/Documents/github/weebgtk/Materia/gtk-3.0/gtk-dark.css" . 1318)
- ("/home/troyd/Documents/github/weebgtk/"
-  (dired-filename . "/home/troyd/Documents/github/weebgtk/Materia"))
- ("/home/troyd/Documents/github/weebgtk/Materia/index.theme" . 17)
- ("/home/troyd/Documents/github/weebgtk/Materia/"
-  (dired-filename . "/home/troyd/Documents/github/weebgtk/Materia/index.theme"))
- ("/home/troyd/org/global_agenda/work.org" . 322)
- ("/home/troyd/Documents/github/notamusicplayer/test/test.c" . 227)
- ("/home/troyd/.config/emacs/"
-  (dired-filename . "/home/troyd/.config/emacs/early-init.el"))
- ("/home/troyd/.config/emacs/early-init.el" . 388)
+(("/home/troyd/org/global_agenda/projects.org" . 161)
+ ("/home/troyd/.config/emacs/config/looks.el" . 2485)
+ ("/home/troyd/Documents/github/notamusicplayer/Makefile" . 16)
+ ("/home/troyd/.config/emacs/config/packages.el" . 1116)
+ ("/home/troyd/Documents/github/notamusicplayer/src/mainrun.c" . 6694)
+ ("/home/troyd/Documents/github/notamusicplayer/src/mainrun.h" . 195)
+ ("/home/troyd/Documents/books/novels/adachi_to_shimamura/Adachi and Shimamura 1.pdf" . 14915262)
+ ("/home/troyd/.config/emacs/straight/build/straight/straight-autoloads.el" . 13773)
+ ("/home/troyd/.config/emacs/functions/basicfunc.el" . 678)
  ("/home/troyd/.config/emacs/straight/build/org/org-loaddefs.el" . 106975)
  ("/home/troyd/.config/emacs/straight/build/rg/rg-autoloads.el" . 6330)
  ("/home/troyd/.config/emacs/straight/build/wgrep/wgrep-autoloads.el" . 340)
@@ -48,5 +45,18 @@
  ("/home/troyd/.config/emacs/straight/build/which-key/which-key-autoloads.el" . 7210)
  ("/home/troyd/.config/emacs/straight/build/use-package/use-package-autoloads.el" . 8038)
  ("/home/troyd/.config/emacs/straight/build/bind-key/bind-key-autoloads.el" . 2449)
- ("/home/troyd/.config/emacs/straight/build/straight/straight-autoloads.el" . 13773)
- ("/home/troyd/org/global_agenda/projects.org" . 606))
+ ("/home/troyd/org/global_agenda/work.org" . 2)
+ ("/home/troyd/org/notes/lang/"
+  (dired-filename . "/home/troyd/org/notes/lang/jp"))
+ ("/home/troyd/org/notes/lang/jp/"
+  (dired-filename . "/home/troyd/org/notes/lang/jp/actions.org"))
+ ("/home/troyd/Documents/github/weebgtk/Materia/gtk-3.0/gtk-dark.css" . 1318)
+ ("/home/troyd/Documents/github/weebgtk/"
+  (dired-filename . "/home/troyd/Documents/github/weebgtk/Materia"))
+ ("/home/troyd/Documents/github/weebgtk/Materia/index.theme" . 17)
+ ("/home/troyd/Documents/github/weebgtk/Materia/"
+  (dired-filename . "/home/troyd/Documents/github/weebgtk/Materia/index.theme"))
+ ("/home/troyd/Documents/github/notamusicplayer/test/test.c" . 227)
+ ("/home/troyd/.config/emacs/"
+  (dired-filename . "/home/troyd/.config/emacs/early-init.el"))
+ ("/home/troyd/.config/emacs/early-init.el" . 388))

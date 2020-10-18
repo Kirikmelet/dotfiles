@@ -4,13 +4,6 @@ local aug = require('func/augrouper')
 
 
 aug({
-	denite_start = {
-		{'FileType', 'denite', 'lua require("plugins/denite")._bind()'};
-	};
-	defx_start = {
-		{'FileType', 'defx', 'lua require("plugins/defx")._bind()'};
-		{'BufEnter', '*', 'if isdirectory(@%) | cd %:p | Defx -buffer-name=defxplore | endif'};
-	};
 	lua_highLight = {
 		{'TextYankPost', '*', 'silent! lua require"vim.highlight".on_yank()'};
 	};

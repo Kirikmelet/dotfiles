@@ -18,6 +18,7 @@ require('options')
 require('plugins/statusline')
 --require('plugins/format')
 require('plugins/telescope')
+require('plugins/netrw')
 
 -- Looks
 require('plugins/polyglot')
@@ -27,7 +28,7 @@ require('plugins/polyglot')
 
 -- File Manager
 --require('plugins/nvim-tree')
-require('plugins/defx')
+--require('plugins/defx')
 
 -- LSP
 require('plugins/completion')
