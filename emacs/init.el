@@ -9,31 +9,29 @@
 
 
 ;; Load font
-(set-face-font 'default "Fira Code Retina 11")
+(set-face-font 'default "Fira Code Retina 10")
 
 
 ;; Load config files
 
-(eval-when-compile
 
-  (defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
-  (defconst config-dir (concat emacs-dir "/config"))
-  (defconst func-dir (concat emacs-dir "/functions"))
+(defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
+(defconst config-dir (concat emacs-dir "/config"))
+(defconst func-dir (concat emacs-dir "/functions"))
 
-  (add-to-list 'load-path config-dir)
-  (add-to-list 'load-path func-dir)
-  (dolist (config
-            '(
-              prefixes
-              customs
-              packages
-              bindings
-              filetype
-              ;;           nihongo
-              )
+(add-to-list 'load-path config-dir)
+(add-to-list 'load-path func-dir)
+(dolist (config
+          '(
+            prefixes
+            customs
+            packages
+            bindings
+            filetype
             )
-    (require config)
-    ))
+          )
+  (require config)
+  )
 
 (add-hook 'emacs-startup-hook
           (lambda ()

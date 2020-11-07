@@ -1,6 +1,4 @@
 local vim = vim
-local api = vim.api
-local M = {}
 
 vim.cmd[[packadd! packer.nvim]]
 

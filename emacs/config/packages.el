@@ -157,7 +157,8 @@
              (setq org-startup-with-inline-images "inlineimages")
              (setq org-agenda-files (list "~/org/global_agenda/work.org"
                                           "~/org/global_agenda/projects.org"
-                                          "~/org/global_agenda/school.org"))
+                                          "~/org/global_agenda/school.org"
+                                          "~/org/global_agenda/general.org"))
              (setq agenda-skip-scheduled-if-done t
                    org-directory "~/org"
                    org-bullets-bullet-list '("")

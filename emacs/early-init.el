@@ -10,16 +10,15 @@
 
 
 ;; Paths to load
-(eval-when-compile
 (defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
 (defconst config-dir (concat emacs-dir "/config"))
 (defconst func-dir (concat emacs-dir "/functions"))
 
 (add-to-list 'load-path config-dir)
 (add-to-list 'load-path func-dir)
-)
+
 ;; GC
-(eval-when-compile (require 'gcmh))
+(require 'gcmh)
 (eval-after-load "gcmh" (lambda()
  (setq gcmh-verbose             t
         ;;gcmh-lows-cons-threshold #x800000
@@ -28,5 +27,5 @@
  ))
 
 ;; Looks
-(eval-when-compile (require 'looks))
+(require 'looks)
 

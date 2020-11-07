@@ -1062,6 +1062,7 @@
 /home/troyd/Music/playlists/citypop/Mai Yamane - Get Away.opus
 /home/troyd/Music/playlists/citypop/Mai Yamane   Interlude Shabby Boy.opus
 /home/troyd/Music/playlists/citypop/Mai Yamane -  Wave.opus
+/home/troyd/Music/playlists/7080s_groove/NA.opus
 /home/troyd/Music/playlists/citypop/SOAP- Sayonara Homutaun.opus
 /home/troyd/Music/playlists/citypop/Kimiko Kasai  やりかけの人生.opus
 /home/troyd/Music/playlists/citypop/宮本典子Noriko Miyamoto)   MY LIFE～やりかけの人生～(1978).opus

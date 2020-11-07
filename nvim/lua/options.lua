@@ -1,5 +1,4 @@
 local vim = vim
-local api = vim.api
 
 --{{{GUI Settings
 
@@ -17,7 +16,6 @@ vim.g.gruvbox_italic = 1
 --}}}
 
 -- Set Leader Key
-
 vim.g.mapleader = ' '
 
 --{{{ Syntax and stuff
@@ -35,7 +33,7 @@ vim.o.showmode = true
 vim.o.showcmd = true
 vim.o.incsearch = true
 vim.o.hlsearch = true
-vim.o.lazyredraw = false
+vim.o.lazyredraw = true
 vim.o.splitbelow = true
 vim.wo.cursorline = true
 vim.o.wrapscan = true
@@ -60,7 +58,7 @@ vim.cmd('syntax enable')
 -- {{{App Disable
 
 -- 1 - Disable
--- 0 - Enable
+-- <Comment line> - Enable
 
 vim.g.loaded_gzip = 1
 vim.g.loaded_tar =1

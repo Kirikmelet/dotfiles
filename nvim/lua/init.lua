@@ -16,19 +16,11 @@ require('options')
 
 -- Tools
 require('plugins/statusline')
---require('plugins/format')
 require('plugins/telescope')
 require('plugins/netrw')
 
 -- Looks
-require('plugins/polyglot')
-
--- CSS Colors
---require('plugins/colorizer')
-
--- File Manager
---require('plugins/nvim-tree')
---require('plugins/defx')
+--require('plugins/polyglot')
 
 -- LSP
 require('plugins/completion')

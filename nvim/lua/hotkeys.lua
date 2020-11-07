@@ -96,7 +96,8 @@ binder(gitkeys)
 
 --{{{Debug
 local debugkeys = {
-      {'n', '<leader>pl', '<cmd>lua require"git".load()<CR>',nil,nil}
+      {'n', '<leader>pl', '<cmd>lua require"git".load()<CR>',nil,nil};
+      {'n', '<leader>pb', ':b ', nil,nil}
 }
 --}}}
 binder(debugkeys)
