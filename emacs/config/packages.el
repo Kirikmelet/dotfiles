@@ -99,25 +99,6 @@
              (pdf-loader-install)
              )
 
-;; EVIL
-
-;;(use-package evil
-;;             :defer 1
-;;             :init
-;;             (setq evil-want-integration t)
-;;             (setq evil-want-keybinding nil)
-;;             :config
-;;             (evil-mode 1)
-;;             )
-;;(use-package evil-collection
-;;             :after evil
-;;             :defer 1
-;;             :init
-;;             (evil-collection-init)
-;;             :custom
-;;             (evil-collection-setup-minibuffer t)
-;;             )
-
 ;; Modes
 
 (use-package markdown-mode
@@ -177,42 +158,6 @@
                    org-log-done 'time
                    )
              (setq org-latex-toc-command "\\tableofcontents \\clearpage")
-             (setq org-odt-convert-capabilities
-                   '(("Text"
-                      ("odt" "ott" "doc" "rtf" "docx")
-                      (("pdf" "pdf" nil)
-                       ("odt" "odt" nil)
-                       ("rtf" "rtf" nil)
-                       ("ott" "ott" nil)
-                       ("doc" "doc" ":\"MS Word 97\"")
-                       ("docx" "docx" nil)
-                       ("html" "html" nil)))
-                     ("Web"
-                      ("html")
-                      (("pdf" "pdf" nil)
-                       ("odt" "odt" nil)
-                       ("html" "html" nil)))
-                     ("Spreadsheet"
-                      ("ods" "ots" "xls" "csv" "xlsx")
-                      (("pdf" "pdf" nil)
-                       ("ots" "ots" nil)
-                       ("html" "html" nil)
-                       ("csv" "csv" nil)
-                       ("ods" "ods" nil)
-                       ("xls" "xls" nil)
-                       ("xlsx" "xlsx" nil)))
-                     ("Presentation"
-                      ("odp" "otp" "ppt" "pptx")
-                      (("pdf" "pdf" nil)
-                       ("swf" "swf" nil)
-                       ("odp" "odp" nil)
-                       ("otp" "otp" nil)
-                       ("ppt" "ppt" nil)
-                       ("pptx" "pptx" nil)
-                       ("odg" "odg" nil)))))
-             (setq org-export-backends '(ascii beamer html icalendar latex man md odt org texinfo))
-             (setq org-html-doctype "xhtml5"
-                   org-latex-compile "xetex")
              )
 
 ;; Eshell

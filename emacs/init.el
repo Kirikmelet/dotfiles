@@ -37,4 +37,5 @@
           (lambda ()
             (setq gc-cons-threshold 16777216)
             (setq file-name-handler-alist file-lister-alist)
+            (set-japanese)
             ))

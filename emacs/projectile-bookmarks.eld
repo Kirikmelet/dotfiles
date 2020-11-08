@@ -1,1 +1,1 @@
-("~/" "~/org/" "~/.config/" "~/Documents/github/notamusicplayer/" "~/Documents/github/weebgtk/")
+("~/org/" "~/.config/" "~/" "~/Documents/github/notamusicplayer/" "~/Documents/github/weebgtk/")
