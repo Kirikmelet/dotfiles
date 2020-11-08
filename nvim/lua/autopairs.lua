@@ -1,7 +1,6 @@
 local vim = vim
 local aug = require('func/augrouper')
 
-
 aug({
 	lua_highLight = {
 		{'TextYankPost', '*', 'silent! lua require"vim.highlight".on_yank()'};

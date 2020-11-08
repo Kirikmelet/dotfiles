@@ -16,16 +16,16 @@ require('options')
 
 -- Tools
 require('plugins/statusline')
-require('plugins/telescope')
+--require('plugins/telescope')
 require('plugins/netrw')
 
 -- Looks
 --require('plugins/polyglot')
 
 -- LSP
-require('plugins/completion')
-require('plugins/treesitter')
-require('plugins/lsp')
+--require('plugins/completion')
+--require('plugins/treesitter')
+--require('plugins/lsp')
 
 -- Other files
 
