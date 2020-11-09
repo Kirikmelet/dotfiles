@@ -8,17 +8,9 @@
 ;; Electric-pair
 (electric-pair-mode 1)
 
-
-;; Paths to load
-(defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
-(defconst config-dir (concat emacs-dir "/config"))
-(defconst func-dir (concat emacs-dir "/functions"))
-
-(add-to-list 'load-path config-dir)
-(add-to-list 'load-path func-dir)
+(load-file (expand-file-name (concat "gcmh.el") (substitute-in-file-name "$HOME/.config/emacs/functions")))
 
 ;; GC
-(require 'gcmh)
 (eval-after-load "gcmh" (lambda()
  (setq gcmh-verbose             t
         ;;gcmh-lows-cons-threshold #x800000
@@ -27,5 +19,5 @@
  ))
 
 ;; Looks
-(require 'looks)
+(load-file (expand-file-name (concat "looks.el") (substitute-in-file-name "$HOME/.config/emacs/config")))
 

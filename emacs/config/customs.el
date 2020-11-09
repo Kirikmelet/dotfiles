@@ -28,4 +28,3 @@
   (setq dired-dwim-target 1)
   (setq dired-omit-files "^\\.?#\\|^\\.$\\|^\\.\\.$\\|^\\..*$"))
 
-(provide 'customs)

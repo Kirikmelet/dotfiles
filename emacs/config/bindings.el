@@ -30,4 +30,3 @@
 ;; Regex
 (define-key 'regex-funcs (kbd "r") 'replace-regexp)
 
-(provide 'bindings)

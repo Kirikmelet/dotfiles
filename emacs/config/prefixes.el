@@ -18,4 +18,3 @@
 (global-set-key (kbd "M-c o f a") 'org-agenda-file-map)
 (global-set-key (kbd "M-v r") 'regex-funcs)
 
-(provide 'prefixes)

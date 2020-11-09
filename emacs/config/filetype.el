@@ -20,4 +20,3 @@
 
 (add-hook 'js-mode-hook (lambda() (js-config)))
 
-(provide 'filetype)
