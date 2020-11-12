@@ -32,6 +32,14 @@
                 "pkg-git"))
   (load-file (expand-file-name (concat list ".el") pkg-dir)))
 
+
+(defun straight-update ()
+  (interactive)
+  (load-library "straight-x")
+  (straight-x-clean-unused-repos)
+  (straight-pull-all)
+  (straight-rebuild-all))
+
 ;; For speed loading
 (use-package paren
   :defer 6)
