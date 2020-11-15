@@ -12,17 +12,7 @@
       org-directory "~/org"
       org-bullets-bullet-list '("")
       org-tags-column -80
-      org-todo-keywords '((sequence "TODO(t)" "CURRENT(c)" "HOLD(h)" "POSTPONED(p)" "|" "FINISHED(f)" "CANCELLED(x)" "FAIL(F)"))
-      org-todo-keyword-faces
-      '(("TODO" :foreground "#b8bb26" :weight normal :underline t)
-        ("CURRENT" :foreground "#fabd2f" :weight normal :underline t)
-        ("HOLD" :foreground "#fe8019" :weight italic :underline t)
-        ("POSTPONED" :foreground "#fabd2f" :weight italic :underline t)
-        ("FINISHED" :foreground "#83a598" :weight normal :underline t)
-        ("CANCELLED" :foreground "#fb4934" :weight bold :underline t)
-        ("FAIL" :foreground "#cc241d" :weight bold :underline t)
-        pp
-        )
+      org-todo-keywords '((sequence "TODO(t)" "HOLD(h)" "|" "DONE(d)" "CANCELLED(x)" "FAIL(F)"))
       org-log-done 'time
       )
 (setq org-latex-toc-command "\\tableofcontents \\clearpage")

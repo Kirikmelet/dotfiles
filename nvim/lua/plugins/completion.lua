@@ -4,14 +4,9 @@ local plugman = require('func/packadder')
 
 plugman.packadd({
    'completion-nvim',
-   'diagnostic-nvim',
-   'completion-treesitter'
 })
 
 
-vim.g.diagnostic_enable_virtual_text = 1
-vim.g.diagnostic_trimmed_virtual_text = '40'
-vim.g.diagnostic_insert_delay = 1
 vim.g.completion_matching_strategy_list = {'exact','substring','fuzzy'}
 vim.g.completion_auto_change_source = 1
 vim.g.completion_trigger_on_delete = 1

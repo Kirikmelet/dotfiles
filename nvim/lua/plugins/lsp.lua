@@ -10,18 +10,36 @@ plugman.packadd({
 
 
 
-local lspuse = require'nvim_lsp'
+local lspuse = require('lspconfig')
 local binder = require('../func/binder')
 
 local on_attach_vim = function()
 	require'completion'.on_attach()
-	require'diagnostic'.on_attach()
 end
---lspuse.clangd.setup{on_attach=on_attach_vim}
+lspuse.clangd.setup{on_attach=on_attach_vim}
 --lspuse.pyls.setup{on_attach=on_attach_vim}
 --lspuse.html.setup{on_attach=on_attach_vim}
---lspuse.sumneko_lua.setup{on_attach=on_attach_vim}
+lspuse.sumneko_lua.setup{on_attach=on_attach_vim}
 
+vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(
+  vim.lsp.diagnostic.on_publish_diagnostics, {
+    -- This will disable virtual text, like doing:
+    -- let g:diagnostic_enable_virtual_text = 0
+    virtual_text = {
+       spacing = 4,
+    },
+
+    -- This is similar to:
+    -- let g:diagnostic_show_sign = 1
+    -- To configure sign display,
+    --  see: ":help vim.lsp.diagnostic.set_signs()"
+    signs = true,
+
+    -- This is similar to:
+    -- "let g:diagnostic_insert_delay = 1"
+    update_in_insert = false,
+  }
+)
 
 --{{{Bindings
 local lspbinds = {

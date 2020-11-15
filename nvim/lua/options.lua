@@ -1,8 +1,13 @@
 local vim = vim
 
 --{{{Colorscheme
-vim.g.colors_name = 'gruvbox'
-vim.o.termguicolors = true
+if (os.getenv("TERM") == "linux") then
+   vim.g.colors_name = 'default'
+   vim.o.termguicolors = false
+else
+   vim.g.colors_name = 'gruvbox'
+   vim.o.termguicolors = true
+end
 vim.g.gruvbox_italic = 1
 --}}}
 
@@ -25,7 +30,7 @@ vim.o.softtabstop = 4
 vim.o.mouse = 'a'
 vim.o.report = 2
 vim.o.synmaxcol = 0
---vim.o.completeopt = 'menuone,noinsert,noselect'
+vim.o.completeopt = 'menuone,noinsert,noselect'
 vim.o.inccommand = 'split'
 vim.wo.foldmethod = 'marker'
 vim.bo.omnifunc="v:lua.vim.lsp.omnifunc"
@@ -64,3 +69,7 @@ vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
 --}}}
 
+--{{{Program sets
+vim.o.grepprg = 'rg --vimgrep --no-heading --smart-case'
+--vim.o.grepformat = '%f:%l:%c:%m'
+--}}}

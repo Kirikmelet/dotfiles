@@ -42,12 +42,9 @@ binder(termkeys)
 
 --{{{ File Hotkeys
 local filekeys = {
-   --{'n', '<leader>fs', '<cmd>lua require("telescope.builtin").live_grep()<CR>',nil,nil};
-   {'n', '<leader>fs', ':execute "vimgrep ".input("Search Text: ")." %"<CR>', nil, nil};
+   {'n', '<leader>fs', ':execute "grep ".input("Search Text: ")." %"<CR>', nil, nil};
    {'n', '<leader>ff', '<cmd>lua vim.lsp.buf.formatting()<CR>',nil,nil};
    {'n', '<leader>fm', '<cmd>make<CR>',nil,nil};
-   --{'n', '<leader>fts', '<cmd>lua require("telescope.builtin").treesitter()<CR>',nil,nil};
-   {'n', '<leader>fts', ':tag ',nil,nil};
    {'n', '<leader>ftg', '<cmd>!ctags %<CR>',nil,nil};
 }
 --}}}
@@ -55,10 +52,6 @@ binder(filekeys)
 
 --{{{Buffer hotkeys
 local bufkeys = {
-   --{'n', '<leader>bf', '<cmd>lua require("telescope.builtin").find_files()<CR>',nil,nil};
-   {'n', '<leader>bf', ':e ',nil,nil};
-   --{'n', '<leader>bb', '<cmd>lua require("telescope.builtin").buffers()<CR>',nil,nil};
-   {'n', '<leader>bb', ':b ',nil,nil};
    {'n', '<leader>bso', 'zo',nil,nil};
    {'n', '<leader>bsc', 'zc',nil,nil};
    {'n', '<leader>bst', 'za',nil,nil};
@@ -66,6 +59,7 @@ local bufkeys = {
    {'n', '<leader>bsO', 'zR',nil,nil};
    {'n', '<leader>bss', '<cmd>mksession!<CR>',nil,nil};
    {'n', '<leader>bso', '<cmd>source Session.vim<CR>',nil,nil};
+   {'n', '<leader>bqo', '<cmd>copen<CR>',nil, nil};
    {'n', '<leader>bqn', '<cmd>cnext<CR>',nil, nil};
    {'n', '<leader>bqb', '<cmd>cprev<CR>',nil, nil};
    {'n', '<leader>bqc', '<cmd>cc<CR>',nil, nil};
@@ -95,19 +89,10 @@ local gitkeys = {
 --}}}
 binder(gitkeys)
 
-----{{{REPL hotkeys
---local ironkeys = {
---   {'n', '<leader>ro', '<cmd>IronRepl<CR>',nil};
---   {'n', '<leader>rf', '<cmd>IronFocus<CR>',nil}
---}
-----}}}
---binder(ironkeys)
-
 --{{{Debug
 local debugkeys = {
       {'n', '<leader>pl', '<cmd>lua require"git".load()<CR>',nil,nil};
-      {'n', '<leader>pf', ':e ', nil,nil};
-      {'n', '<leader>pb', ':b ', nil,nil}
 }
 --}}}
 binder(debugkeys)
+

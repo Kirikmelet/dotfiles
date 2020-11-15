@@ -18,12 +18,6 @@ local plugins = {
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/completion-treesitter"
   },
-  ["diagnostic-nvim"] = {
-    loaded = false,
-    only_sequence = false,
-    only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/diagnostic-nvim"
-  },
   ["lsp_extensions.nvim"] = {
     loaded = false,
     only_sequence = false,
@@ -48,36 +42,12 @@ local plugins = {
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/packer.nvim"
   },
-  ["plenary.nvim"] = {
-    loaded = false,
-    only_sequence = false,
-    only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/plenary.nvim"
-  },
-  ["popup.nvim"] = {
-    loaded = false,
-    only_sequence = false,
-    only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/popup.nvim"
-  },
-  ["telescope.nvim"] = {
-    loaded = false,
-    only_sequence = false,
-    only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/telescope.nvim"
-  },
   ["vim-fugitive"] = {
     commands = { "Git" },
     loaded = false,
     only_sequence = false,
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/vim-fugitive"
-  },
-  ["vim-polyglot"] = {
-    loaded = false,
-    only_sequence = false,
-    only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/vim-polyglot"
   }
 }
 

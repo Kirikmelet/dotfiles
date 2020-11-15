@@ -18,8 +18,5 @@
              :mode ("\\.vim\\'")
              )
 
-(use-package graphviz-dot-mode
-             :defer 5
-             :mode ("\\.gv\\'"))
 
 

@@ -23,6 +23,7 @@
 ;; Copied from better-defaults.el
 ;; Source: https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el
 (setq-default indent-tabs-mode nil)
+
 (setq save-interprogram-paste-before-kill t
       apropos-do-all t
       mouse-yank-at-point t
@@ -30,7 +31,7 @@
       visible-bell t
       load-prefer-newer t
       ediff-window-setup-function 'ediff-setup-windows-plain
-      custom-file (expand-file-name "~/.emacs.d/custom.el"))
+      custom-file (expand-file-name "custom.el" "~/.config/emacs"))
 
 (unless backup-directory-alist
   (setq backup-directory-alist `(("." . ,(concat user-emacs-directory

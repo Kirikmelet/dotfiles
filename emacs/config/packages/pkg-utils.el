@@ -7,17 +7,8 @@
   :init
   (global-undo-tree-mode))
 
+
 (if (or (executable-find "rg") (executable-find "rg.exe"))
-    (use-package rg
-      :defer 8
-      :bind (:map regex-funcs
-                  ("f" . rg-thisbuffer)
-                  ("r" . rg))
-      :config
-      (rg-define-search rg-thisbuffer
-        "Search this buffer"
-        :dir default-directory
-        :files current
-        :menu ("Search" "C" "Current"))))
-
-
+    (with-eval-after-load "grep" (lambda()
+                                   (setq grep-find-template "rg -n -H --no-heading --smart-case -e '<R>' <D>")
+                                   (grep-apply-setting 'grep-find-command '("rg -n -H --no-heading --smart-case -e '' $(git rev-parse --show-toplevel 2>/dev/null || pwd)" . 40)))))

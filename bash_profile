@@ -43,7 +43,6 @@ export PSREFIX="$HOME/.photoshopCCV19/prefix/"
  export ARCHFLAGS="-arch x86_64 -O2 -march=native -j4"
 #}}}
 
-
 #{{{NNN
 
 export NNN_OPTS="goa"
