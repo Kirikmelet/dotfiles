@@ -53,7 +53,7 @@ mpd_crossfade_time = 15
 ## }
 ##
 #
-#visualizer_fifo_path = /tmp/mpd.fifo
+visualizer_fifo_path = /tmp/mpd.fifo
 #
 ##
 ## Note: Below parameter is needed for ncmpcpp to determine which output
