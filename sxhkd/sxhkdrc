@@ -16,35 +16,37 @@ super + shift + r
 	pkill sxhkd && sxhkd && notify-send "HOTKEYS" "RESTARTED"
 
 super + Return
-	st
+	alacritty
 super + shift + Return
-	tabbed st -w
+	tabbed alacritty -w
 
 #{{{ program launcher
+#super + F1
+	#dmenu_run
 super + F1
-	dmenu_run
+	rofi -show run
 super + Esc
 	main_menu
 super + F2
 	firefox
 super + F3
-	st -e  nnn
+	alacritty -e  nnn
 super + F4
-	st -c 'htop' -e htop
+	alacritty -c 'htop' -e htop
 super + F5
-	st -c 'music' -e ncmpcpp  #st crashes in Linux Mint
+	strawberry
+#super + F5
+#	alacritty -c 'music' -e ncmpcpp  #st crashes in Linux Mint
 super + F6
-	st -c 'netctl' -e nmtui 
-super + F7
-	st -e aptitude
+	alacritty -c 'netctl' -e nmtui 
+#super + F7
+#	alacritty -e aptitude
 super + F8
-	st -e emacs -nw 
+	emacs
 super + F9
-	st -e neomutt
+	alacritty -e neomutt
 super + F10
 	i3lock -e -f -c 000000
-super + F11
-	spotify
 #}}}
 
 #

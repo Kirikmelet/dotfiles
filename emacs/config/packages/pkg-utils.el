@@ -9,6 +9,5 @@
 
 
 (if (or (executable-find "rg") (executable-find "rg.exe"))
-    (with-eval-after-load "grep" (lambda()
-                                   (setq grep-find-template "rg -n -H --no-heading --smart-case -e '<R>' <D>")
-                                   (grep-apply-setting 'grep-find-command '("rg -n -H --no-heading --smart-case -e '' $(git rev-parse --show-toplevel 2>/dev/null || pwd)" . 40)))))
+      (load-file (expand-file-name "st-utils.el" st-dir)))
+

@@ -169,33 +169,33 @@ label-unmounted-foreground = ${colors.foreground}
 type = internal/bspwm
 
 
-ws-icon-0 = 1;%{F#fb4934}%{F-}
-ws-icon-1 = 2;%{F#d3869b}%{F-}
-ws-icon-2 = 3;%{F#b8bb26}%{F-}
-ws-icon-3 = 4;%{F#83a598}%{F-}
-ws-icon-4 = 5;%{F#8ec07c}%{F-}
-ws-icon-5 = 6;%{F#fe8019}%{F-}
-ws-icon-6 = 7;%{F#fabd2f}%{F-}
-ws-icon-7 = 8;%{F#a89984}%{F-}
-ws-icon-8 = 9;%{F#98971a}%{F-}
-ws-icon-9 = 10;%{F#458588}%{F-}
-ws-icon-default = 3;%{F#fbf1c7}%{F-}
+ws-icon-0 = 1;%{F#fb4934}1%{F-}
+ws-icon-1 = 2;%{F#d3869b}2%{F-}
+ws-icon-2 = 3;%{F#b8bb26}3%{F-}
+ws-icon-3 = 4;%{F#83a598}4%{F-}
+ws-icon-4 = 5;%{F#8ec07c}5%{F-}
+ws-icon-5 = 6;%{F#fe8019}6%{F-}
+ws-icon-6 = 7;%{F#fabd2f}7%{F-}
+ws-icon-7 = 8;%{F#a89984}8%{F-}
+ws-icon-8 = 9;%{F#98971a}9%{F-}
+ws-icon-9 = 10;%{F#458588}0%{F-}
+ws-icon-default = 3;%{F#fbh1c7}S%{F-}
 format = "<label-state>"
 
-label-focused = "%{F#458588}[%{F-}%icon% %{F#458588}]%{F-}"
+label-focused = "%{F#458588}[%{F-}%icon%%{F#458588}]%{F-}"
 ;label-focused-background = ${colors.background-alt}
 ;label-focused-underline= ${colors.primary}
 label-focused-padding = 0
 
 
-label-occupied = "%{F#fbf1c7}[%{F-}%icon% %{F#fbf1c7}]%{F-}"
+label-occupied = "%{F#fbf1c7}[%{F-}%icon%%{F#fbf1c7}]%{F-}"
 label-occupied-padding = 0
 
-label-urgent = "%{F#fb4934}[%{F-}%icon% %{F#fb4934}]%{F-}"
+label-urgent = "%{F#fb4934}[%{F-}%icon%%{F#fb4934}]%{F-}"
 ;label-urgent-background = ${colors.alert}
 label-urgent-padding = 0
 
-label-empty = " %icon%  "
+label-empty = " %icon% "
 ;label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 0
 
@@ -294,7 +294,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp3s0
+interface = wlan0
 interval = 3.0
 
 format-connected = "<ramp-signal> <label-connected>"

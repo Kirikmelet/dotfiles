@@ -24,6 +24,7 @@
             "prefixes"
             "customs"
             "packages"
+            "functions"
             ;;"win-pkg" ;; For Windows w/o GIT
             "bindings"
             "filetype"

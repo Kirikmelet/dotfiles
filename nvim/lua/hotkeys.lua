@@ -74,6 +74,7 @@ local apphotkeys = {
    {'n', '<leader>aw', '<cmd>Explore ~/vimwiki<CR>',nil,nil};
    {'n', '<leader>ao', '<cmd>Explore ~/org<CR>',nil,nil};
    {'n', '<leader>ad', '<cmd>Explore<CR>',nil,nil};
+   {'n', '<leader>at', '<cmd>term<CR>',nil,nil};
 }
 --}}}
 binder(apphotkeys)

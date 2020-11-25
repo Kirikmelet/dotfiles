@@ -50,7 +50,7 @@
 # itunes, gaana, deezer, lastfm. saavn.
 # Please check the github page of ytmdl for more information.
 #
-#METADATA_PROVIDERS = "itunes, gaana"
+METADATA_PROVIDERS = "itunes, gaana, deezer, lastfm"
 #*****************************************#
 # The DEFAULT_FORMAT denotes what to use as default between
 # m4a and mp3

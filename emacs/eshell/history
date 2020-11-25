@@ -1,12 +1,5 @@
 ./tour_testingserver.sh 
 ./tour_testingserver.sh 
-ls
-curl -O https://krpano.com/viewsource.html?plugins/videoplayer/source/videoplayer_basic_source.js
-ls
-ls
-mv videoplayer_basic_source.js vidplayer.js
-./tour_testingserver.sh 
-./tour_testingserver.sh 
 ./tour_testingserver.sh 
 ls
 curl -O https://krpano.com/plugins/videoplayer/source/videoplayer_basic_source.js
@@ -126,3 +119,10 @@ dot -Tpdf ajinomoto_flowchart.gv -o dot.pdf
 dot -Tpdf ajinomoto_flowchart.gv -o dot.pdf 
 dot -Tpdf ajinomoto_flowchart.gv -o dot.pdf 
 dot -Tpdf ajinomoto_flowchart.gv -o dot.pdf 
+ls
+make
+cd ..
+ls
+make
+./cmusic 
+make
