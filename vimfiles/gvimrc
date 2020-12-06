@@ -1,0 +1,7 @@
+
+" Fuck gui
+let no_buffers_menu = 1
+set guioptions=i
+
+" Fuck Windows
+set renderoptions=type:directx

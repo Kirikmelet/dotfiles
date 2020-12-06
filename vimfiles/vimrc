@@ -1,0 +1,114 @@
+" vim config windows
+
+" set fonts
+set guifont=fira\ code\ retina:h12
+set guifontwide=fira\ code\ retina:h12
+
+" set utf-8 (wtf vim???)
+set enc=utf8 " linuxをもっと強く叩く (src: google translate [bash me harder linux] )
+set fileencoding=utf8
+set fileencodings=utf8
+
+" set unix because unix is based
+setglobal fileformat=unix
+set fileformat=unix
+
+" ported from personal lua config and Neovim defaults
+let mapleader=" "
+set langnoremap
+set complete-=i
+set nrformats-=octal
+set incsearch
+set hlsearch
+set showcmd
+set wildmenu
+set sidescroll=1
+set formatoptions+=j
+setglobal tags=./tags;,tags
+set autoread
+set history=10000
+set tabpagemax=50
+set viminfo^=!
+set sessionoptions-=options
+set sessionoptions+=unix,slash
+runtime! macros/matchit.vim
+let lastline='trunc'
+set shortmess+=cf
+set shortmess-=s
+set nostartofline
+set background=dark
+set switchbuf=uselast
+set viewoptions-=options
+nnoremap <silent> <c-l> :nohlsearch<cr><c-l>
+inoremap <c-u> <c-g>u<c-u>
+au cmdwinenter [:>] syntax maxlines=1 minlines=1
+set wildoptions=tagfile
+set cscopeverbose
+set termguicolors
+set nocompatible
+set nonumber
+set expandtab
+set ruler
+set smarttab
+set shiftround
+set smartindent
+set autoindent
+set hidden
+set splitbelow
+set cursorline
+set wrapscan
+set softtabstop=4
+set mouse=a
+set report=2
+set synmaxcol=0
+set completeopt=menuone,noinsert,noselect
+set foldmethod=marker
+set laststatus=2
+
+" ew
+colorscheme gruvbox
+let g:gruvbox_italic = 0
+
+" gvim's backspace is fucking killing me
+set backspace=indent,eol,start
+
+" fuck gui
+let no_buffers_menu = 1
+
+" source netrw config
+source $HOMEPATH/vimfiles/netrwcfg.vim
+
+" Don't forget to use Powershell (CMD.EXE is for boomers, but I miss Bash...)
+set shell=powershell
+
+" Set syntax and ftplugin
+filetype plugin on
+syntax enable
+
+" Autopair
+inoremap ( ()<Esc>hli
+inoremap [ []<Esc>hli
+inoremap { {}<Esc>hli
+
+" File hotkeys
+nnoremap <leader>fs :execute "vimgrep ".input("Search Text: ")." %"<CR>
+
+" Tabs
+nnoremap <leader>tn :tabnew<CR>
+nnoremap <leader>tc :tabclose<CR>
+
+" Buffer hotkeys
+nnoremap <leader>bss :mksession!<CR>
+nnoremap <leader>bso :source Session.vim<CR>
+nnoremap <leader>bqo :copen<CR>
+nnoremap <leader>bqn :cnext<CR>
+nnoremap <leader>bqb :cprev<CR>
+nnoremap <leader>bqc :cc<CR>
+nnoremap <leader>bqf :cfirst<CR>
+nnoremap <leader>bql :clast<CR>
+
+" For NetRW
+nnoremap <leader>ad :Explore<CR>
+
+" Daily reminder
+autocmd VimEnter * echo "Windows is shit, switch to GNU/Linux"
