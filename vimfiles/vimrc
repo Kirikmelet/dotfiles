@@ -62,6 +62,7 @@ set mouse=a
 set report=2
 set synmaxcol=0
 set completeopt=menuone,noinsert,noselect
+set omnifunc=ale#completion#OmniFunc
 set foldmethod=marker
 set laststatus=2
 
@@ -107,8 +108,16 @@ nnoremap <leader>bqc :cc<CR>
 nnoremap <leader>bqf :cfirst<CR>
 nnoremap <leader>bql :clast<CR>
 
+" Ale
+packadd! ale
+silent! helptags ALL
+let g:ale_completion_autoimport = 1
+
 " For NetRW
 nnoremap <leader>ad :Explore<CR>
+
+" Execute Windows progs
+nnoremap <leader>ae :execute "!powershell start ".input("Program & file: ")<CR>
 
 " Daily reminder
 autocmd VimEnter * echo "Windows is shit, switch to GNU/Linux"

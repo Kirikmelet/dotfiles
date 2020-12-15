@@ -1,0 +1,3 @@
+[submodule "vimfiles/pack/lsp/opt/ale"]
+	path = vimfiles/pack/lsp/opt/ale
+	url = https://github.com/dense-analysis/ale.git
