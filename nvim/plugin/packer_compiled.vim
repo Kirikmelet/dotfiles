@@ -1,6 +1,9 @@
 " Automatically generated packer.nvim plugin loader code
 
-if !has('nvim')
+if !has('nvim-0.5')
+  echohl WarningMsg
+  echom "Invalid Neovim version for packer.nvim!"
+  echohl None
   finish
 endif
 
@@ -11,12 +14,6 @@ local plugins = {
     only_sequence = false,
     only_setup = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/completion-nvim"
-  },
-  ["completion-treesitter"] = {
-    loaded = false,
-    only_sequence = false,
-    only_setup = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/completion-treesitter"
   },
   ["lsp_extensions.nvim"] = {
     loaded = false,

@@ -3,14 +3,14 @@
 
 /* appearance */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
-static const unsigned int gappx     = 0;        /* gap pixel between windows */
-static const unsigned int snap      = 32;       /* snap pixel */
+static const unsigned int gappx     = 5;        /* gap pixel between windows */
+static const unsigned int snap      = 30;       /* snap pixel */
 static const int vertpad            = 0;       /* vertical padding of bar */
 static const int sidepad            = 0;       /* horizontal padding of bar */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Fira Code:size=10" };
-static const char dmenufont[]       = "Fira Code:size=10";
+static const char *fonts[]          = { "Fira Code Retina:size=10" };
+static const char dmenufont[]       = "Fira Code Retina:size=10";
 static const char col_gray1[]       = "#282828";
 static const char col_gray2[]       = "#32302f";
 static const char col_gray3[]       = "#ebddb2";
@@ -70,8 +70,8 @@ static const char *nmtui[] = {"st", "-e", "nmtui", NULL};
 static const char *volup[] = {"amixer", "sset", "Master", "5%+", NULL};
 static const char *voldown[] = {"amixer", "sset", "Master", "5%-", NULL};
 static const char *voltog[] = {"amixer", "sset", "Master", "toggle", NULL};
-static const char *briup[] = {"xbacklight", "-inc", "5", NULL};
-static const char *bridown[] = {"xbacklight", "-dec", "5", NULL};
+static const char *briup[] = {"light", "-A", "5", NULL};
+static const char *bridown[] = {"light", "-U", "5", NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */

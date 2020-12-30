@@ -1,0 +1,5 @@
+emacs/straight
+emacs/backups
+emacs/places
+emacs/url
+tmux/plugins

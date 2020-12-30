@@ -1,0 +1,32 @@
+/* Checker TS File */
+
+import { itemList, healthSet, healthList } from './db.js'
+
+interface classSetttings {
+  list: itemList[],
+  target: string,
+  type: string,
+}
+
+export class Checker {
+  constructor() {}
+  private _grabElement (quer: string, target: string): HTMLElement[] {
+    return Array.from(document.querySelectorAll(`${quer} > ${String(target).toLowerCase()}`))
+  }
+  checkRow (setList: classSetttings): number {
+    let useRow: HTMLElement[] = this._grabElement(setList.target, setList.type)
+    let i: number = (useRow[1].innerHTML <= useRow[2].innerHTML) ? 1 : 2 
+    useRow[i].style.color = 'green'
+    return 1
+  }
+}
+
+export class CalCalc {
+  constructor () {}
+  checkFit(matrix: healthList, val: string, row: HTMLElement[]): number {
+    if (parseInt(row[row.length - 1].innerHTML) >= matrix[val]) {
+      alert('Too much calories')
+    } else { alert('Ok') }
+    return 1
+  }
+}

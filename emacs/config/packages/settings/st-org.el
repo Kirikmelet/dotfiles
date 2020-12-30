@@ -25,8 +25,7 @@
                            ;;(set-face-attribute 'org-indent nil :inherit 'fixed-pitch)
                            (set-face-attribute 'org-verbatim nil :inherit 'fixed-pitch)
                            (set-face-attribute 'org-special-keyword nil :inherit 'fixed-pitch)
-                           (set-face-attribute 'org-meta-line nil :inherit 'fixed-pitch)
-                           (set-face-attribute 'org-checkbox nil :inherit 'fixed-pitch)))
+                           (set-face-attribute 'org-meta-line nil :inherit 'fixed-pitch)))
 (if (eq window-system nil)
     (add-hook 'org-mode-hook (lambda ()
                                (let* ((variable-tuple

@@ -43,6 +43,6 @@
   )
 
 ;; FOnts
-(set-face-attribute 'fixed-pitch nil :font "Fira Code Retina")
+(set-face-attribute 'fixed-pitch nil :font "Fira Code Retina" :height 12)
 (set-face-attribute 'variable-pitch nil :font "Noto Sans Display" :weight 'regular)
 

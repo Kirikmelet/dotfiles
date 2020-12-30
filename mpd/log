@@ -1,0 +1,319 @@
+Dec 20 14:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:34 : exception: inotify_add_watch() has failed: Permission denied
+Dec 20 14:34 : exception: Failed to access /media/win/Users/troyd/Music: Permission denied
+Dec 20 14:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:36 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 20 14:36 : exception: Bad song index
+Dec 20 14:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:38 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:38 : exception: No such song
+Dec 20 14:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:39 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 20 14:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:48 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 20 14:48 : exception: Bad song index
+Dec 20 14:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:48 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 20 14:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:49 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 20 14:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 14:56 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 20 21:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 22:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 02:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 02:41 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 21 13:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 13:18 : state_file: Loading state file /home/troyd/.config/mpd/state
+Dec 21 13:18 : inotify: initializing inotify
+Dec 21 13:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 13:18 : inotify: watching music directory
+Dec 21 13:19 : client: [0] opened from 127.0.0.1:47460
+Dec 21 13:19 : client: [0] process command "status"
+Dec 21 13:19 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 21 13:19 : client: [0] command returned 0
+Dec 21 13:19 : client: [0] process command "plchanges "0""
+Dec 21 13:19 : client: [0] command returned 0
+Dec 21 13:19 : client: [0] process command "outputs"
+Dec 21 13:19 : client: [0] command returned 0
+Dec 21 13:19 : client: [0] process command "decoders"
+Dec 21 13:19 : client: [0] command returned 0
+Dec 21 13:19 : client: [0] process command "outputs"
+Dec 21 13:19 : client: [0] command returned 0
+Dec 21 13:19 : client: [0] process command "outputs"
+Dec 21 13:19 : client: [0] command returned 0
+Dec 21 13:19 : client: [0] process command "idle"
+Dec 21 13:19 : client: [0] command returned 1
+Dec 21 13:19 : client: [0] process command "lsinfo """
+Dec 21 13:19 : client: [0] command returned 0
+Dec 21 13:19 : client: [0] process command "idle"
+Dec 21 13:19 : client: [0] command returned 1
+Dec 21 13:19 : client: [0] closed
+Dec 21 13:19 : state_file: Saving state file /home/troyd/.config/mpd/state
+Dec 21 13:19 : fifo_output: Removing FIFO "/tmp/mpd.fifo"

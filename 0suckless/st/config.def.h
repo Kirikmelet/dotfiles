@@ -6,11 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Fira Code Retina:size=10:antialias=true:autohint=true";
-static char *font2[] = {
-	"Noto Color Emoji:antialias=true:autohint=true",
-	"DroidSansMono Nerd Font:style=Book:autohint=true:antialias=true",
-	"Inconsolata:style=Medium:authint=true:antialias=true",
-	"Sumbola:style=Regular:autohint=true:antialias=true"};
+static char *font2[] = {""};
 static int borderpx = 2;
 
 /*

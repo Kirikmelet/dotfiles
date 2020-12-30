@@ -1,0 +1,34 @@
+/* Main TS File */
+
+// Import list from js file
+import { mainList, mainImgs, healthSet } from './db.js'
+import { Checker, CalCalc } from './checker.js'
+import { TableCtl } from './table.js'
+import { FoodGrid } from './searchbar.js'
+
+export let tableCtl = new TableCtl()
+let checker = new Checker()
+let grid = new FoodGrid()
+let calc = new CalCalc()
+
+export function addTable (num: [number, number]) {
+  tableCtl.addRow({list: mainList, target: '#nTHead', isName: true}, num)
+  tableCtl.addRow({list: mainList, target: '#nTICal', value: 'Calorie'}, num)
+}
+
+export function removeTable () {
+  tableCtl.delRow('#nTHead')
+  tableCtl.delRow('#nTICal')
+}
+
+export function addCheck () {
+  checker.checkRow({list: mainList, target: '#nTICal', type: 'td'})
+  calc.checkFit(healthSet, 'cal', Array.from(document.querySelectorAll('#nTICal td')))
+}
+
+addTable([0, 1])
+addCheck()
+
+grid.setup({grid: '.searchGrid', db: mainImgs, list: mainList, maxNum: 6})
+
+

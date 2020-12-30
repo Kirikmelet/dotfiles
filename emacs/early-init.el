@@ -3,10 +3,13 @@
       gc-cons-percentage 0.6)
 
 ;; Disable package startup
-(setq package-enable-at-startup nil)
+(setq-default package-enable-at-startup nil)
 
 ;; Electric-pair
 (electric-pair-mode 1)
+
+;; Pls use tabs UwU
+(setq-default tabs-indent-mode t)
 
 (load-file (expand-file-name (concat "gcmh.el") (substitute-in-file-name "$HOME/.config/emacs/functions")))
 

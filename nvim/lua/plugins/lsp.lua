@@ -3,8 +3,8 @@ local api = vim.api
 local plugman = require('func/packadder')
 
 plugman.packadd({
-   'nvim-lspconfig',
-   'lsp_extensions.nvim',
+   'nvim-lspconfig';
+   'lsp_extensions.nvim'
    })
 
 
@@ -17,8 +17,10 @@ local on_attach_vim = function()
 	require'completion'.on_attach()
 end
 lspuse.clangd.setup{on_attach=on_attach_vim}
---lspuse.pyls.setup{on_attach=on_attach_vim}
---lspuse.html.setup{on_attach=on_attach_vim}
+lspuse.pyls.setup{on_attach=on_attach_vim}
+lspuse.html.setup{on_attach=on_attach_vim}
+lspuse.tsserver.setup{on_attach=on_attach_vim}
+lspuse.rls.setup{on_attach=on_attach_vim}
 lspuse.sumneko_lua.setup{on_attach=on_attach_vim}
 
 vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(

@@ -11,14 +11,6 @@ local autopair = {
 --}}}
 binder(autopair)
 
---{{{Splits
-local splits = {
-      {'n', '<leader>sv', '<cmd>vsplit<CR>', {silent = false, noremap = false},nil};
-      {'n', '<leader>sh', '<cmd>split<CR>', {silent = false, noremap = false},nil};
-}
---}}}
-binder(splits)
-
 --{{{Tabs
 local tabs = {
       {'n', '<leader>tn', '<cmd>tabnew<CR>', {silent = false, noremap = false},nil};
@@ -42,7 +34,8 @@ binder(termkeys)
 
 --{{{ File Hotkeys
 local filekeys = {
-   {'n', '<leader>fs', ':execute "grep ".input("Search Text: ")." %"<CR>', nil, nil};
+   --{'n', '<leader>fs', ':execute "grep ".input("Search Text: ")." %"<CR>', nil, nil};
+   {'n', '<leader>fs', '<cmd>lua require("telescope.builtin").live_grep()<CR>', nil, nil};
    {'n', '<leader>ff', '<cmd>lua vim.lsp.buf.formatting()<CR>',nil,nil};
    {'n', '<leader>fm', '<cmd>make<CR>',nil,nil};
    {'n', '<leader>ftg', '<cmd>!ctags %<CR>',nil,nil};
@@ -52,6 +45,8 @@ binder(filekeys)
 
 --{{{Buffer hotkeys
 local bufkeys = {
+   {'n', '<leader>bb', '<cmd>lua require("telescope.builtin").buffers()<CR>', nil,nil};
+   {'n', '<leader>bf', '<cmd>lua require("telescope.builtin").current_buffer_fuzzy_find()<CR>', nil,nil};
    {'n', '<leader>bso', 'zo',nil,nil};
    {'n', '<leader>bsc', 'zc',nil,nil};
    {'n', '<leader>bst', 'za',nil,nil};

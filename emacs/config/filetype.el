@@ -1,22 +1,18 @@
 ;; Filetype configs -*- lexical-binding t; -*-
 
 ;; C-lang
-(setq c-default-style
-      (quote(
-             (c-mode . "linux")
-             (java-mode . "java")
-             (awk-mode . "awk")
-             (other . "linux")
-             )
-            )
-      )
+(defun c-config ()
+  (setq c-default-style "linux"
+        c-basic-offset 8))
 
-(add-hook 'c-mode-hook (lambda() (setq tabs-indent-mode t)) )
+(defun ts-config ()
+  (setq typescript-indent-level 2))
 
 ;; Javascript
 (defun js-config ()
-  (setq js-indent-level 2)
-  (setq tabs-indent-mode t))
+  (setq js-indent-level 2))
 
-(add-hook 'js-mode-hook (lambda() (js-config)))
+(add-hook 'js-mode-hook 'js-config)
+(add-hook 'c-mode-hook 'c-config)
+(add-hook 'typescript-mode-hook 'ts-config)
 

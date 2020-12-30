@@ -23,5 +23,5 @@
 # Set to vim bindings
 set -o vi
 
-export PS1='$ '
+#export PS1='$ '
 

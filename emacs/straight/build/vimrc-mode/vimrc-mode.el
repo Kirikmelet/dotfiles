@@ -1,0 +1,1 @@
+/home/troyd/.config/emacs/straight/repos/vimrc-mode/vimrc-mode.el

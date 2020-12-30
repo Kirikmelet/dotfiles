@@ -4,6 +4,8 @@
              :defer 10
              :hook (
                     (c-mode . lsp-deferred)
+                    (typescript-mode . lsp-deferred)
+                    (python-mode . lsp-deferred)
                     (lsp-mode . lsp-enable-which-key-integration))
              :commands (lsp lsp-deferred)
              :custom

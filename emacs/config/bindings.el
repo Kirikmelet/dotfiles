@@ -29,4 +29,5 @@
 
 ;; Regex
 (define-key 'regex-funcs (kbd "r") 'replace-regexp)
+(define-key 'regex-funcs (kbd "s") 'rgrep)
 

@@ -1,0 +1,1 @@
+/home/troyd/.config/emacs/straight/repos/typescript.el/typescript-mode.el
