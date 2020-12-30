@@ -1,1 +1,0 @@
-/home/troyd/.config/emacs/straight/repos/pdf-tools/server/synctex_parser_local.h

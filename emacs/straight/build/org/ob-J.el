@@ -1,1 +1,0 @@
-/home/troyd/.config/emacs/straight/repos/org/lisp/ob-J.el

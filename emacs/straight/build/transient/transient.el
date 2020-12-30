@@ -1,1 +1,0 @@
-/home/troyd/.config/emacs/straight/repos/transient/lisp/transient.el

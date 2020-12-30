@@ -1,1 +1,0 @@
-/home/troyd/.config/emacs/straight/repos/pdf-tools/server/Makefile.am

@@ -1,1 +1,0 @@
-/home/troyd/.config/emacs/straight/repos/magit/Documentation/AUTHORS.md
