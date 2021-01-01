@@ -46,7 +46,8 @@ binder(filekeys)
 --{{{Buffer hotkeys
 local bufkeys = {
    {'n', '<leader>bb', '<cmd>lua require("telescope.builtin").buffers()<CR>', nil,nil};
-   {'n', '<leader>bf', '<cmd>lua require("telescope.builtin").current_buffer_fuzzy_find()<CR>', nil,nil};
+   {'n', '<leader>bf', '<cmd>lua require("telescope.builtin").find_files()<CR>', nil,nil};
+   {'n', '<leader>bw', '<cmd>lua require("telescope.builtin").current_buffer_fuzzy_find()<CR>', nil,nil};
    {'n', '<leader>bso', 'zo',nil,nil};
    {'n', '<leader>bsc', 'zc',nil,nil};
    {'n', '<leader>bst', 'za',nil,nil};

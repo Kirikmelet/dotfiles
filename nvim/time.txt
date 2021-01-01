@@ -1,0 +1,130 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.014  000.014: --- NVIM STARTING ---
+000.503  000.489: locale set
+001.043  000.541: inits 1
+001.067  000.024: window checked
+001.072  000.005: parsing arguments
+001.205  000.133: expanding arguments
+001.275  000.069: inits 2
+002.200  000.926: init highlight
+002.203  000.002: waiting for UI
+004.177  001.974: done waiting for UI
+004.249  000.072: initialized screen early for UI
+004.611  000.027  000.027: sourcing /usr/share/nvim/archlinux.vim
+004.620  000.071  000.044: sourcing /etc/xdg//nvim/sysinit.vim
+042.040  037.720: sourcing vimrc file(s)
+056.467  000.057  000.057: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/query.vim
+056.811  000.028  000.028: sourcing /usr/share/vim/vimfiles/ftdetect/PKGBUILD.vim
+057.484  015.270  015.185: sourcing /usr/share/nvim/runtime/filetype.vim
+058.242  000.067  000.067: sourcing /usr/share/nvim/runtime/ftplugin.vim
+058.964  000.057  000.057: sourcing /usr/share/nvim/runtime/indent.vim
+119.667  059.560  059.560: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/gruvbox.nvim/colors/gruvbox.vim
+119.954  060.249  000.690: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+120.021  060.501  000.252: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+122.316  001.098  001.098: sourcing /home/troyd/.config/nvim/plugin/packer_compiled.vim
+122.618  000.111  000.111: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-lspconfig/plugin/lspconfig.vim
+125.167  002.426  002.426: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/plugin/nvim-treesitter.vim
+125.794  000.482  000.482: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/completion-nvim/plugin/completion.vim
+133.734  007.788  007.788: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim
+134.306  000.432  000.432: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/telescope.nvim/plugin/telescope.vim
+134.878  000.032  000.032: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+134.924  000.021  000.021: sourcing /usr/share/nvim/runtime/plugin/health.vim
+135.293  000.350  000.350: sourcing /usr/share/nvim/runtime/plugin/man.vim
+135.336  000.022  000.022: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+135.377  000.022  000.022: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+136.267  000.871  000.871: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+136.634  000.019  000.019: sourcing /home/troyd/.local/share/nvim/rplugin.vim
+136.647  000.305  000.286: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+136.890  000.214  000.214: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+136.980  000.044  000.044: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+137.338  000.304  000.304: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+137.404  000.023  000.023: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+137.471  000.033  000.033: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+137.880  000.373  000.373: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+139.183  001.149  001.149: sourcing /usr/share/vim/vimfiles/plugin/fzf.vim
+139.194  005.159: loading plugins
+139.852  000.104  000.104: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim
+140.289  000.248  000.248: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/telescope.nvim/plugin/telescope.vim
+140.632  001.085: loading packages
+140.951  000.320: loading after plugins
+140.978  000.027: inits 3
+145.396  004.417: reading ShaDa
+145.913  000.517: opening buffers
+146.022  000.109: BufEnter autocommands
+146.028  000.006: editing files in windows
+146.208  000.179: VimEnter autocommands
+146.213  000.005: UIEnter autocommands
+146.217  000.004: before starting main loop
+148.115  001.899: first screen update
+148.130  000.014: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.016  000.016: --- NVIM STARTING ---
+000.493  000.477: locale set
+001.030  000.537: inits 1
+001.064  000.033: window checked
+001.070  000.006: parsing arguments
+001.212  000.142: expanding arguments
+001.298  000.086: inits 2
+002.177  000.879: init highlight
+002.179  000.002: waiting for UI
+004.143  001.963: done waiting for UI
+004.225  000.083: initialized screen early for UI
+004.700  000.029  000.029: sourcing /usr/share/nvim/archlinux.vim
+004.715  000.088  000.058: sourcing /etc/xdg//nvim/sysinit.vim
+041.854  037.541: sourcing vimrc file(s)
+056.097  000.058  000.058: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/query.vim
+056.450  000.029  000.029: sourcing /usr/share/vim/vimfiles/ftdetect/PKGBUILD.vim
+057.084  015.028  014.941: sourcing /usr/share/nvim/runtime/filetype.vim
+057.838  000.107  000.107: sourcing /usr/share/nvim/runtime/ftplugin.vim
+058.533  000.059  000.059: sourcing /usr/share/nvim/runtime/indent.vim
+061.052  000.515  000.515: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+062.867  000.299  000.299: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+079.403  019.701  018.887: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/gruvbox/colors/gruvbox.vim
+079.645  020.400  000.699: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+079.711  020.644  000.244: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+081.881  001.141  001.141: sourcing /home/troyd/.config/nvim/plugin/packer_compiled.vim
+082.192  000.125  000.125: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-lspconfig/plugin/lspconfig.vim
+086.205  003.884  003.884: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/plugin/nvim-treesitter.vim
+087.126  000.581  000.581: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/completion-nvim/plugin/completion.vim
+092.922  005.632  005.632: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim
+093.658  000.579  000.579: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/telescope.nvim/plugin/telescope.vim
+094.203  000.037  000.037: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+094.255  000.027  000.027: sourcing /usr/share/nvim/runtime/plugin/health.vim
+094.979  000.704  000.704: sourcing /usr/share/nvim/runtime/plugin/man.vim
+095.028  000.024  000.024: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+095.069  000.021  000.021: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+095.958  000.870  000.870: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+096.311  000.019  000.019: sourcing /home/troyd/.local/share/nvim/rplugin.vim
+096.325  000.312  000.292: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+096.583  000.229  000.229: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+096.681  000.049  000.049: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+097.031  000.310  000.310: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+097.102  000.022  000.022: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+097.178  000.042  000.042: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+097.593  000.366  000.366: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+100.080  002.252  002.252: sourcing /usr/share/vim/vimfiles/plugin/fzf.vim
+100.112  005.214: loading plugins
+100.828  000.119  000.119: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim
+101.351  000.330  000.330: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/telescope.nvim/plugin/telescope.vim
+101.705  001.144: loading packages
+102.014  000.310: loading after plugins
+102.043  000.028: inits 3
+106.243  004.200: reading ShaDa
+106.857  000.614: opening buffers
+107.024  000.167: BufEnter autocommands
+107.029  000.005: editing files in windows
+107.250  000.221: VimEnter autocommands
+107.256  000.006: UIEnter autocommands
+107.260  000.004: before starting main loop
+109.397  002.137: first screen update
+109.409  000.013: --- NVIM STARTED ---

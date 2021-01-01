@@ -18,7 +18,7 @@
 (setq comp-deferred-compilation nil)
 
 ;; Saveplaces
-(save-place-mode 1)
+(add-hook 'emacs-startup-hook #'save-place-mode)
 
 ;; Copied from better-defaults.el
 ;; Source: https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el
@@ -26,6 +26,7 @@
 
 (setq save-interprogram-paste-before-kill t
       apropos-do-all t
+      toggle-truncate-lines t
       mouse-yank-at-point t
       require-final-newline t
       visible-bell t

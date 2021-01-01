@@ -6,8 +6,8 @@
   (load-theme 'gruvbox-dark-medium t))
 
 (use-package which-key
-  :defer 3
+  :defer t
   :init
-  (which-key-mode)
+  (add-hook 'after-init-hook 'which-key-mode)
   :custom
   (which-key-use-C-h-commands t))

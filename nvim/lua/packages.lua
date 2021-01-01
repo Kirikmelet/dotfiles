@@ -12,7 +12,8 @@ return require('packer').startup(function()
 
    -- Gruvbox:
 
-   use {"npxbr/gruvbox.nvim", requires = {"tjdevries/colorbuddy.vim"}}
+   use {'morhetz/gruvbox'}
+   --use {"npxbr/gruvbox.nvim", requires = {"tjdevries/colorbuddy.vim"}}
 
    -- Git:
 

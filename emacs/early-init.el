@@ -6,14 +6,12 @@
 (setq-default package-enable-at-startup nil)
 
 ;; Electric-pair
-(electric-pair-mode 1)
-
-;; Pls use tabs UwU
-(setq-default tabs-indent-mode t)
+(add-hook 'after-init-hook #'electric-pair-mode)
 
 (load-file (expand-file-name (concat "gcmh.el") (substitute-in-file-name "$HOME/.config/emacs/functions")))
 
 ;; GC
+(gcmh-mode)
 (eval-after-load "gcmh" (lambda()
  (setq gcmh-verbose             t
         ;;gcmh-lows-cons-threshold #x800000

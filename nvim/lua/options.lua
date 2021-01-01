@@ -5,8 +5,8 @@ if (os.getenv("TERM") == "linux") then
    vim.g.colors_name = 'default'
    vim.o.termguicolors = false
 else
-   --vim.g.colors_name = 'gruvbox'
-   require('plugins.colorscheme')
+   vim.g.colors_name = 'gruvbox'
+   --require('plugins.colorscheme')
    vim.o.termguicolors = true
 end
 vim.g.gruvbox_italic = 1

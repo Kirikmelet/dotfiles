@@ -14,9 +14,9 @@
 
 ;; Load config files
 
-(if (not (eq system-type 'windows-nt))
-    (defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
-  (defconst emacs-dir (substitue-in-file-name "%APPDATA%/emacs")))
+;;(if (not (eq system-type 'windows-nt))
+(defconst emacs-dir (substitute-in-file-name "$HOME/.config/emacs/"))
+  ;;(defconst emacs-dir (substitue-in-file-name "%APPDATA%/emacs")))
 (defconst cfg-dir (concat emacs-dir "/config"))
 
 (dolist (config
