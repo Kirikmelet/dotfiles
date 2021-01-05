@@ -1,9 +1,12 @@
 ;; -*- lexical-binding: t; -*-
 
-(use-package undo-tree
+(use-package undo-fu
   :defer 10
-  :init
-  (global-undo-tree-mode))
+  :bind (
+         ("C-z" . undo-fu-only-undo )
+         ("C-S-z" . undo-fu-only-redo )
+         )
+  )
 
 (use-package vterm
   :defer 2

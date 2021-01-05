@@ -5,6 +5,9 @@
 ;; Disable package startup
 (setq-default package-enable-at-startup nil)
 
+;; I hate this shit so fucking much
+(global-unset-key (kbd "C-z"))
+
 ;; Electric-pair
 (add-hook 'after-init-hook #'electric-pair-mode)
 
