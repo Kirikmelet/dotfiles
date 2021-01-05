@@ -34,5 +34,10 @@ return require('packer').startup(function()
       'nvim-telescope/telescope.nvim',
       requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
    }
+   --use {
+   --   'junegunn/fzf.vim';
+   --   opt=true;
+   --   requires = {'junegunn/fzf', opt=true}
+   --}
 
 end)

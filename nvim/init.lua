@@ -23,6 +23,7 @@ require('plugins.netrw')
 
 -- Fuzzy UwU
 require('plugins.telescope')
+--require('plugins.fzf')
 
 -- LSP
 require('plugins.completion')
