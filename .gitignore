@@ -3,3 +3,4 @@ emacs/backups
 emacs/places
 emacs/url
 tmux/plugins
+vis/plugins
