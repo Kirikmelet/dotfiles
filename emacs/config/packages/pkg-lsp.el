@@ -1,12 +1,13 @@
 ;; -*- lexical-binding: t; -*-
 
 (use-package lsp-mode
-  :defer 10
   :hook (
          (c-mode . lsp-deferred)
          (typescript-mode . lsp-deferred)
          (python-mode . lsp-deferred)
+         (html-mode . lsp-deferred)
          (js-mode . lsp-deferred)
+         (css-mode .lsp-deferred)
          (lsp-mode . lsp-enable-which-key-integration))
   :commands (lsp lsp-deferred)
   :custom
@@ -14,16 +15,16 @@
     setq lsp-modeline-diagnostics-scope :project))
 
 (use-package lsp-ui
-  :defer 10
+  :after lsp-mode
   :commands lsp-ui-mode)
 
 (use-package company
-  :defer 10
-  :hook ((c-mode . global-company-mode)
-         (c-mode . global-company-mode)
-         (typescript-mode . global-company-mode)
-         (python-mode . global-company-mode)
-         (javascript-mode . global-company-mode)
+  :hook ((c-mode . company-mode)
+         (typescript-mode . company-mode)
+         (python-mode . company-mode)
+         (css-mode . company-mode)
+         (js-mode . company-mode)
+         (html-mode . company-mode)
          )
   :custom
   (company-minimum-prefix-length 1)

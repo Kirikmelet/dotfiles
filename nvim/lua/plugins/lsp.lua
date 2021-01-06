@@ -13,6 +13,8 @@ plugman.packadd({
 local lspuse = require('lspconfig')
 local binder = require('../func/binder')
 
+local sumnekopath = os.getenv('HOME')..'/.local/opt/lua-language-server/'
+
 local on_attach_vim = function()
 	require'completion'.on_attach()
 end
@@ -21,7 +23,10 @@ lspuse.pyls.setup{on_attach=on_attach_vim}
 lspuse.html.setup{on_attach=on_attach_vim}
 lspuse.tsserver.setup{on_attach=on_attach_vim}
 lspuse.rls.setup{on_attach=on_attach_vim}
-lspuse.sumneko_lua.setup{on_attach=on_attach_vim}
+lspuse.sumneko_lua.setup{
+   on_attach=on_attach_vim,
+   cmd = {sumnekopath..'bin/Linux/lua-language-server', '-E', sumnekopath..'main.lua'}
+}
 
 vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(
   vim.lsp.diagnostic.on_publish_diagnostics, {

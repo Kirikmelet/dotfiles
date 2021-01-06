@@ -18,6 +18,7 @@ vim.g.mapleader = ' '
 --{{{ Syntax and stuff
 vim.o.number = false
 vim.o.expandtab = true
+vim.o.sidescroll = 1
 vim.o.ruler = true
 vim.o.smarttab = true
 vim.o.shiftround = true

@@ -28,6 +28,7 @@
                 "pkg-utils"
                 ;;"pkg-vi"
                 "pkg-term"
+                "pkg-framework"
                 "pkg-media"
                 "pkg-mode"
                 "pkg-git"))
