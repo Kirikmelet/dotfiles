@@ -1,15 +1,13 @@
 # Neovim Config
 
-![Screenshot](screen.png)
+- Q: Why only LUA????
 
-- Q: Why is the init.vim file only **2** lines?
-
-    A: Most of the configs are in lua, seperated into different files
+    A: Neovim babyyyy
 
 - Q: Why use 'package.lua' 
 
-    A: Lua, and is about as fast as dein.vim now
+    A: Same as above
 
 - Startup Time?
 
-    A: ~107ms
+    A: ~74ms (Ryzen 7 4800H)

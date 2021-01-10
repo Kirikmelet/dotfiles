@@ -31,7 +31,7 @@ vim.g.completions_chain_complete_list = {
       {complete_items = {'ts', 'lsp', 'path', 'snippet'}},
    },
    lua = {
-      {complete_items = {'ts', 'lsp', 'path', 'snippet'}},
+      {complete_items = {'ts', 'lsp', 'path'}},
    },
    javascript = {
       {complete_items = {'ts', 'lsp', 'path', 'snippet'}},

@@ -1,14 +1,10 @@
 local vim = vim
-local api = vim.api
 local plugman = require('func/packadder')
 
 plugman.packadd({
    'nvim-lspconfig';
    'lsp_extensions.nvim'
    })
-
-
-
 
 local lspuse = require('lspconfig')
 local binder = require('../func/binder')
@@ -24,8 +20,15 @@ lspuse.html.setup{on_attach=on_attach_vim}
 lspuse.tsserver.setup{on_attach=on_attach_vim}
 lspuse.rls.setup{on_attach=on_attach_vim}
 lspuse.sumneko_lua.setup{
-   on_attach=on_attach_vim,
-   cmd = {sumnekopath..'bin/Linux/lua-language-server', '-E', sumnekopath..'main.lua'}
+   on_attach=on_attach_vim;
+   cmd = {sumnekopath..'bin/Linux/lua-language-server', '-E', sumnekopath..'main.lua'};
+   settings = {
+      Lua = {
+         diagnostics = {
+            globals = { 'vim' }
+         }
+      }
+   }
 }
 
 vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(

@@ -6,72 +6,69 @@ if (os.getenv("TERM") == "linux") then
    vim.o.termguicolors = false
 else
    vim.g.colors_name = 'gruvbox'
-   --require('plugins.colorscheme')
    vim.o.termguicolors = true
 end
-vim.g.gruvbox_italic = 1
 --}}}
 
--- Set Leader Key
-vim.g.mapleader = ' '
-
---{{{ Syntax and stuff
-vim.o.number = false
-vim.o.expandtab = true
-vim.o.sidescroll = 1
-vim.o.ruler = true
-vim.o.smarttab = true
-vim.o.shiftround = true
-vim.o.smartindent = true
-vim.o.autoindent = true
-vim.o.hidden = true
-vim.o.splitbelow = true
-vim.wo.cursorline = true
-vim.o.wrapscan = true
-vim.o.softtabstop = 4
-vim.o.mouse = 'a'
-vim.o.report = 2
-vim.o.synmaxcol = 0
-vim.o.completeopt = 'menuone,noinsert,noselect'
-vim.o.inccommand = 'split'
-vim.wo.foldmethod = 'marker'
-vim.bo.omnifunc="v:lua.vim.lsp.omnifunc"
+--{{{Options
+local nOpts = {
+   [vim.o] = { -- Global Options
+      number = false;
+      expandtab = true;
+      sidescroll = 1;
+      ruler = true;
+      smarttab = true;
+      shiftround = true;
+      ['smartindent'] = true;
+      autoindent = true;
+      hidden = true;
+      splitbelow = true;
+      wrapscan = true;
+      softtabstop = 4;
+      mouse = 'a';
+      report = 2;
+      synmaxcol = 0;
+      completeopt = 'menuone,noinsert,noselect';
+      inccommand = 'split';
+      grepprg = 'rg --vimgrep --no-heading --smart-case';
+   };
+   [vim.wo] = { -- Window Options
+      cursorline = true;
+      foldmethod = 'marker';
+   };
+   [vim.bo] = { -- Buffer Options
+      omnifunc = 'v:lua.vim.lsp.omnifunc';
+   };
+   [vim.g] = { -- Globals (General)
+      mapleader = ' ';
+      gruvbox_italic = 1;
+      -- Disable apps
+      loaded_gzip = 1;
+      loaded_tar = 1;
+      tarPlugin = 1;
+      zip = 1;
+      zipPlugin = 1;
+      loaded_getscript = 1;
+      loaded_getscriptPlugin = 1;
+      vimball = 1;
+      vimballPlugin = 1;
+      loaded_matchit = 1;
+      loaded_matchparen = 1;
+      loaded_2html_plugin = 1;
+      loaded_logiPat = 1;
+      loaded_rrhelper = 1;
+      -- Providers
+      loaded_python_provider = 0;
+      loaded_python3_provider = 0;
+      loaded_node_provider = 0;
+      loaded_perl_provider = 0;
+      loaded_ruby_provider = 0;
+   }
+}
 --}}}
 
--- {{{App Disable
-
--- 1 - Disable
--- <Comment line> - Enable
-
-vim.g.loaded_gzip = 1
-vim.g.loaded_tar =1
-vim.g.tarPlugin = 1
-vim.g.zip = 1
-vim.g.zipPlugin = 1
-vim.g.loaded_getscript = 1
-vim.g.loaded_getscriptPlugin = 1
-vim.g.vimball = 1
-vim.g.vimballPlugin = 1
-vim.g.loaded_matchit = 1
-vim.g.loaded_matchparen = 1
-vim.g.loaded_2html_plugin = 1
-vim.g.loaded_logiPat = 1
-vim.g.loaded_rrhelper = 1
---}}}
-
---{{{Disable providers
-
--- 1 - Enable
--- 0 - Disable
-
-vim.g.loaded_python_provider = 0
-vim.g.loaded_python3_provider = 0
-vim.g.loaded_node_provider = 0
-vim.g.loaded_perl_provider = 0
-vim.g.loaded_ruby_provider = 0
---}}}
-
---{{{Program sets
-vim.o.grepprg = 'rg --vimgrep --no-heading --smart-case'
---vim.o.grepformat = '%f:%l:%c:%m'
---}}}
+for scope,arg in pairs(nOpts) do
+   for opt,val in pairs(arg) do
+      scope[opt] = val
+   end
+end

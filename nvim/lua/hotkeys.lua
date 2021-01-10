@@ -1,6 +1,6 @@
 local vim = vim
 local api = vim.api
-local binder = require('func/binder')
+local binder = require('func.binder')
 
 --{{{Autopair
 local autopair = {

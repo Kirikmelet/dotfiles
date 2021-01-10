@@ -1,12 +1,3 @@
-local vim = vim
-local api = vim.api
-
--- Load plugins
-require('packages')
-
--- Load options
-require('options')
-
 -- Modules
 --
 -- Uncomment to enable
@@ -14,23 +5,29 @@ require('options')
 --
 -- Restart neovim to see changes
 
--- Tools
-require('plugins.statusline')
-require('plugins.netrw')
+local requirements = {
+   -- IMPORTANT
+   'packages';
+   'options';
 
--- Looks
--- require('plugins/polyglot')
+   -- MODULES
+   -- Tools
+   'plugins.statusline';
+   'plugins.netrw';
+   -- Fuzzy UwU
+   'plugins.telescope';
+   -- LSP
+   'plugins.completion';
+   'plugins.treesitter';
+   'plugins.lsp';
 
--- Fuzzy UwU
-require('plugins.telescope')
---require('plugins.fzf')
+   -- LOAD AT END
+   -- IMPORTANT
+   'hotkeys';
+   'autopairs';
+}
 
--- LSP
-require('plugins.completion')
-require('plugins.treesitter')
-require('plugins.lsp')
+for _,i in ipairs(requirements) do
+   require(i)
+end
 
--- Other files
-
-require('hotkeys')
-require('autopairs')

@@ -10,10 +10,9 @@ return require('packer').startup(function()
 
    use {'wbthomason/packer.nvim', opt = true}
 
-   -- Gruvbox:
+   -- Theme:
 
    use {'morhetz/gruvbox'}
-   --use {"npxbr/gruvbox.nvim", requires = {"tjdevries/colorbuddy.vim"}}
 
    -- Git:
 
@@ -31,13 +30,8 @@ return require('packer').startup(function()
    -- Telescope
 
    use {
-      'nvim-telescope/telescope.nvim',
-      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+      'nvim-telescope/telescope.nvim';
+      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}};
    }
-   --use {
-   --   'junegunn/fzf.vim';
-   --   opt=true;
-   --   requires = {'junegunn/fzf', opt=true}
-   --}
 
 end)
