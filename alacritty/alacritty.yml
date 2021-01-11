@@ -3,14 +3,14 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-#env:
+env:
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  #TERM: alacritty
+  TERM: xterm-256color
 
 window:
   # Window dimensions (changes require restart)
@@ -76,7 +76,7 @@ window:
   #
   # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
   # Set this to `None` to use the default theme variant.
-  gtk_theme_variant: dark
+  gtk_theme_variant: None
 
 #scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -97,7 +97,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Fira Code
+    family: Fira Code Retina
 
     # The `style` can be specified to pick a specific face.
     style: Retina
@@ -136,7 +136,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 10.0
+  size: 12.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -251,14 +251,14 @@ colors:
   #  green:   '#7a8530'
   #  yellow:  '#97822e'
   #  blue:    '#506d8f'
-  #  magenta: '#80638e'
+  #  magenta: '#8038e'
   #  cyan:    '#497e7a'
   #  white:   '#9a9a9a'
 
   # Indexed Colors
   #
   # The indexed colors include all colors from 16 to 256.
-  # When these are not set, they're filled with sensible defaults.
+  # When these are nt set, xterm-256color're filled with sensible defaults.
   #
   # Example:
   #   `- { index: 16, color: '#ff00ff' }`

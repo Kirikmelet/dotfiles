@@ -16,4 +16,3 @@
 (add-hook 'js-mode-hook 'js-config)
 (add-hook 'c-mode-hook 'c-config)
 (add-hook 'typescript-mode-hook 'ts-config)
-

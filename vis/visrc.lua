@@ -3,14 +3,14 @@ require('vis')
 
 -- FTPlugin
 local ft = require('plugins.ftconf')
-
+--require('plugins.fm')
 
 -- Terminal name
 require('plugins.vis-title')
 
 
 local initSet = {
-   'set change-256colors off',
+   'set change-256colors on',
 	'set theme default-256',
 	'set expandtab true',
 	'set tw 4',

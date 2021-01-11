@@ -4,3 +4,4 @@ emacs/places
 emacs/url
 tmux/plugins
 vis/plugins
+emacs/undo-fu-session

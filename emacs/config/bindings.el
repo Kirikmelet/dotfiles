@@ -3,7 +3,6 @@
 
 
 ;; Applications
-(define-key 'app-funcs-map (kbd "d") 'dired)
 (define-key 'app-funcs-map (kbd "M") 'mail)
 
 ;; Commands
@@ -29,5 +28,7 @@
 
 ;; Regex
 (define-key 'regex-funcs (kbd "r") 'replace-regexp)
-(define-key 'regex-funcs (kbd "s") 'rgrep)
+;;(define-key 'regex-funcs (kbd "s") 'rgrep)
 
+
+;; Unbind stuff here

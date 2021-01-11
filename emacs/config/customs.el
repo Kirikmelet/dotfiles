@@ -27,3 +27,4 @@
   (setq dired-dwim-target 1)
   (setq dired-omit-files "^\\.?#\\|^\\.$\\|^\\.\\.$\\|^\\..*$"))
 
+(setq-default mpc-host "127.0.0.1:23955")

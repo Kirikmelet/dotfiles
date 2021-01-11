@@ -9,7 +9,7 @@
 
 
 ;; Load font
-(set-face-font 'default "Fira Code Retina 12")
+(set-face-font 'default "Fira Code Retina 14")
 
 
 ;; Load config files

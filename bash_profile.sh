@@ -1,19 +1,19 @@
-#
-# ~/.bash_profile
-#
+# .bash_profile
 
-
-PATH=$PATH:$HOME/.local/bin
-[[ -f ~/.bashrc ]] && . ~/.bashrc
-if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-   echo "startx to start LXQT"
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
 fi
 
+# Set editor/visual
+export VIEWER="emacs -nw"
+export EDITOR=$VIEWER
 
-export PSREFIX="$HOME/.photoshopCCV19/prefix/"
+# User specific environment and startup programs
+
+export DOTBARE_DIR="$HOME/dotfiles"
 
 #{{{NNN
-
 export NNN_OPTS="goa"
 export NNN_BMS="h:~/;D:~/Documents;d:~/Desktop/;V:~/Videos/;M:~/Music/;l:~/Downloads"
 export NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip|zst|zstd)$"
@@ -27,8 +27,14 @@ export NNN_OPS_PROG=1
 #export BAT_THEME="base16"
 #}}}
 
-#{{{Fuck
-#eval $(thefuck --alias)
-#}}}
 
+# INPUT
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=\@im=fcitx
+export SDL_IM_MODULE=fcitx
 
+# MPD
+export MPD_PORT=23955
+
+# QT5

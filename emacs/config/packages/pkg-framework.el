@@ -72,10 +72,14 @@
          ("M-g e" . consult-error)
          ("M-s m" . consult-multi-occur)
          ("M-y" . consult-yank-pop)
-         ("<help> a" . consult-apropos))
+         ("<help> a" . consult-apropos)
+         :map regex-funcs
+         ("s" . consult-ripgrep)
+         )
   :init
   (fset 'multi-occur #'consult-multi-occur)
   :config
+  (global-unset-key (kbd "C-r"))
   (setq consult-narrow-key "<") ;; (kbd "C-+")
   (consult-preview-mode))
 

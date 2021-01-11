@@ -3,8 +3,8 @@
 (use-package undo-fu
   :defer 10
   :bind (
-         ("C-z" . undo-fu-only-undo )
-         ("C-S-z" . undo-fu-only-redo )))
+         ("C-_" . undo-fu-only-undo )
+         ("C-x u" . undo-fu-only-redo )))
 
 (use-package undo-fu-session
   :after undo-fu
@@ -15,7 +15,7 @@
 
 (use-package vterm
   :defer 2
-  :bind (:map start-commands
+  :bind (:map app-funcs-map
               ("t" . vterm)))
 
 
