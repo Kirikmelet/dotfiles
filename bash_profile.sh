@@ -6,7 +6,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # Set editor/visual
-export VIEWER="emacs -nw"
+export VIEWER=vis
 export EDITOR=$VIEWER
 
 # User specific environment and startup programs

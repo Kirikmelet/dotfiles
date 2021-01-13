@@ -1,5 +1,19 @@
 ;; -*- lexical-binding: t; -*-
 
+(eval-when-compile
+  (defvar org-hide-emphasis-markers)
+  (defvar org-display-inline-images)
+  (defvar org-redisplay-inline-images)
+  (defvar org-startup-with-inline-images)
+  (defvar org-agenda-files)
+  (defvar agenda-skip-scheduled-if-done)
+  (defvar org-directory)
+  (defvar org-bullets-bullet-list)
+  (defvar org-tags-column)
+  (defvar org-todo-keywords)
+  (defvar org-log-done)
+  (defvar org-latex-toc-command))
+
 (setq org-hide-emphasis-markers t
       org-display-inline-images t
       org-redisplay-inline-images t)

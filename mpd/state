@@ -1,9 +1,10 @@
-sw_volume: 88
+sw_volume: 98
 audio_device_state:0:My ALSA Device
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
-state: stop
-current: 12
+state: pause
+current: 2
+time: 76.638000
 random: 1
 repeat: 1
 single: 0
@@ -12,40 +13,11 @@ crossfade: 20
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:youtube/jpop/[MV]I LOVE YOU - 尾崎豊 (Ozaki Yutaka) Cover by yurisa.opus
-1:youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus
-2:youtube/jpop/【オリジナル】スーサイドパレヱド _ ユリイ・カノン feat.GUMI －Suicide Parade／YurryCanon.opus
-3:youtube/jpop/【東方ボーカル】 「Fall In The Dark」 【ShibayanRecords】【Subbed】.opus
-4:youtube/jpop/【歌ってみた】サイレントマジョリティ ー _ 欅坂46【天神子兎音cover】.opus
-5:youtube/jpop/【鬼滅の刃】紅蓮華 _ LiSA (Acoustic Covered by コバソロ & 藤川千愛).opus
-6:youtube/jpop/God knows... ''The Melancholy of Haruhi Suzumiya'' 【涼宮ハルヒの憂鬱】Kadokawa公認MAD【ﾍﾞｰｽ 演奏】.opus
-7:youtube/jpop/Hanatan - Romeo and Cinderella.opus
-8:youtube/jpop/Housou Marine with Holoism Fantasy - Hoihoi☆Gensou Holoism.opus
-9:youtube/jpop/Love Deterrence (Unused _ Demo ver.).opus
-10:youtube/jpop/ツユ - くらべられっ子 (TUYU Remix) MV.opus
-11:youtube/jpop/ツユ - くらべられっ子 MV.opus
-12:youtube/jpop/ツユ - 太陽になれるかな MV.opus
-13:youtube/jpop/ツユ - 泥の分際で私だけの大切を奪おうだなんて MV.opus
-14:youtube/jpop/ツユ - 雨を浴びる MV.opus
-15:youtube/jpop/ユアネス-yourness-「籠の中に鳥」Official Music Video【アニメ「イエスタデイをうたって」主題歌】.opus
-16:youtube/jpop/ヨルシカ - 花に亡霊（OFFICIAL VIDEO）.opus
-17:youtube/jpop/三月のパンタシア 『青春なんていらないわ』.opus
-18:youtube/jpop/命に嫌われている。 (Hated by Life Itself.) _ covered by 芦澤 サキ.opus
-19:youtube/jpop/天樂 (Tengaku) _ covered by 芦澤 サキ.opus
-20:youtube/jpop/東山奈央 「灯火のまにまに（ＴＶアニメ「かくりよの宿飯」OPテーマ）」Music Video(2Chorus).opus
-21:youtube/jpop/水樹奈々「METANOIA」MUSIC CLIP（Full Ver.）.opus
-22:youtube/jpop/革命デュアリズム (Kakumei Dualism) _ covered by 芦澤 サキ × 道明寺 ここあ.opus
-23:youtube/jpop/鳥の詩 Tori no Uta.opus
-24:youtube/jpop/ツユ - あの世行きのバスに乗ってさらば。 MV.opus
-25:youtube/jpop/ツユ - ロックな君とはお別れだ MV.opus
-26:youtube/jpop/ふわふわ時間 _ 猫又おかゆ (Cover).opus
-27:youtube/jpop/いきものがかり 『HANABI』Music Video.opus
-28:youtube/jpop/Hatsukoi.m4a
-29:youtube/jpop/Koi no Yokushiryoku (Love Deterrence) English Lyrics.opus
-30:youtube/jpop/Stereopony - Hitohira No Hanabira.opus
-31:youtube/jpop/Say So -Japanese Version- (tofubeats Remix).opus
-32:youtube/jpop/ヨルシカ - パレード (Music Video).opus
-33:youtube/jpop/いきものがかり 『夏空グラフィティ』Music Video.opus
-34:youtube/jpop/ヨルシカ - 言って。(Music Video).opus
-35:youtube/jpop/Ariabl'eyes - 穢れなき薔薇十字.opus
+0:youtube/citypop/80s/初恋 (Hatsukoi) First Love (1983)  - Kozo Murashita 村下孝蔵さん.opus
+1:youtube/citypop/80s/竹内まりや_MARIYA TAKEUCHI~SECRET  LOVE.opus
+2:youtube/citypop/anime80s/Hiiragi Mifuyu - Access wa Anata Kara (Buttobi CPU opening).opus
+3:youtube/citypop/anime80s/奥井雅美 「輪舞-revolution」 _ 少女革命ウテナ _ オープニング.opus
+4:youtube/citypop/anime80s/Top o Nerae! -FLY HIGH-.opus
+5:youtube/citypop/covers/【COVER】「恋人がサンタクロース_松任谷由実」.opus
+6:youtube/citypop/ost/Bid You Goodbye - Bakamitai English Cover (Yakuza Parody).opus
 playlist_end

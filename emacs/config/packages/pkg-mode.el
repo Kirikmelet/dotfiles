@@ -14,6 +14,7 @@
 
 (use-package typescript-mode
   :mode ("\\.ts\\'")
+  :defines typescript-indent-level
   :config
   (setq typescript-indent-level 2)
   )

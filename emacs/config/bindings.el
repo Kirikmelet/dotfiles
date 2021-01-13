@@ -7,7 +7,7 @@
 
 ;; Commands
 
-(define-key 'start-commands (kbd "f") 'new-file)
+(define-key 'start-commands (kbd "F") 'new-file)
 
 (defun open-agenda-file/work ()
   (interactive)

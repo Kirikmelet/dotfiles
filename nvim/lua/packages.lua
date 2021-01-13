@@ -1,4 +1,5 @@
 local vim = vim
+local use = require('packer').use
 
 vim.cmd[[packadd! packer.nvim]]
 

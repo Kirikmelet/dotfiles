@@ -1,5 +1,10 @@
 ;; Filetype configs -*- lexical-binding t; -*-
 
+(eval-when-compile
+  (defvar c-default-style)
+  (defvar c-basic-offset)
+  (defvar js-indent-level))
+
 ;; C-lang
 (defun c-config ()
   (setq c-default-style "linux"

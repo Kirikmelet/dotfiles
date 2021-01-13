@@ -10,12 +10,18 @@
 
 (use-package orderless
   :after selectrum-prescient
+  :defines (
+            selectrum-refine-candidates-function
+            selectrum-highlight-candidates-function)
   :config
   (setq selectrum-refine-candidates-function #'orderless-filter)
   (setq selectrum-highlight-candidates-function #'orderless-highlight-matches))
 
 (use-package embark
   :ensure t
+  :defines (embark-action-indicator
+            embark-become-indicator
+            embark-active-p)
   :bind
   ("C-S-a" . embark-act)               ; pick some comfortable binding
   :config
@@ -40,6 +46,7 @@
   (add-hook 'embark-setup-hook 'selectrum-set-selected-candidate))
 
 (use-package marginalia
+  :defines marginalia-annotators
   :bind (:map minibuffer-local-map
               ("C-M-a" . marginalia-cycle))
   :init
@@ -51,6 +58,7 @@
 )
 
 (use-package consult
+  :defines consult-narrow-key
   ;; Replace bindings. Lazily loaded due by `use-package'.
   :bind (("C-x M-:" . consult-complex-command)
          ("C-c h" . consult-history)
@@ -83,6 +91,6 @@
   (setq consult-narrow-key "<") ;; (kbd "C-+")
   (consult-preview-mode))
 
-(use-package consult-selectrum
-  :after selectrum
-  :demand t)
+;(use-package consult-selectrum
+;  :after selectrum
+;  :demand t)

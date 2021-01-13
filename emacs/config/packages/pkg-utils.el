@@ -8,6 +8,8 @@
 
 (use-package undo-fu-session
   :after undo-fu
+  :defines undo-fu-session-incompatible-files
+  :functions global-undo-fu-session-mode
   :init
   (global-undo-fu-session-mode)
   :config
@@ -15,11 +17,9 @@
 
 (use-package vterm
   :defer 2
+  :no-require t
   :bind (:map app-funcs-map
               ("t" . vterm)))
-
-
-
 
 (if (executable-find "rg")
       (load-file (expand-file-name "st-utils.el" st-dir)))

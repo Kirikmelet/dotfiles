@@ -3,23 +3,22 @@ require('vis')
 
 -- FTPlugin
 local ft = require('plugins.ftconf')
---require('plugins.fm')
+local m = require('plugins.vis-fzf')
 
 -- Terminal name
 require('plugins.vis-title')
 
-
 local initSet = {
    'set change-256colors on',
-	'set theme default-256',
-	'set expandtab true',
-	'set tw 4',
+   'set theme default-256',
+   'set expandtab true',
+   'set tw 4',
 }
 
 local ftConf = {
    lua = {'set tw 3'},
    javascript = {'set tw 2'},
-   ansi_c = {'set tw 8'},
+   ansi_c = {'set tw 8', 'set expandtab false'},
    html = {'set tw 2'}
 }
 

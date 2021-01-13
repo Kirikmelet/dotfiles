@@ -29,7 +29,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-# set $menu dmenu_path | dmenu | xargs swaymsg exec --
+set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
 # Audio XF86SymKeys
 bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
@@ -46,7 +46,7 @@ exec swaybg -i  /home/troyd/Documents/projects/artix_wallpaper/output/classic_wa
 exec source ~/.wprofile
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
-# Example configuration:
+#Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
@@ -95,7 +95,7 @@ default_border pixel
     bindsym $mod+F4 exec $term -e htop
     bindsym $mod+F5 exec $term -e ncmpcpp
     bindsym $mod+F6 exec $term -e nmtui
-    bindsym $mod+F7 exec $term -e aptitude
+    bindsym $mod+F7 exec $term -e emacs -nw
     bindsym $mod+F8 exec $term -e calcurse
     bindsym $mod+F10 exec swaylock -l -c "#000000" --text-color "#FFFFFF"
     
@@ -254,7 +254,7 @@ bar {
         inactive_workspace #32323200 #32323200 #5c5c5c
     }
 }
-exec --no-startup-id waybar
+#exec --no-startup-id waybar
 
 include /etc/sway/config.d/*
 

@@ -11,6 +11,6 @@ hook global WinSetOption filetype=c %{
    	set-option buffer indentwidth 8
 }
 
-hook global BufCreate *bash* %{
+hook global BufCreate .bash* %{
     set-option window filetype sh
 }

@@ -34,8 +34,11 @@
                 "pkg-git"))
   (load-file (expand-file-name (concat list ".el") pkg-dir)))
 
+(eval-when-compile
+  (declare-function straight-x-clean-unused-repos "straight" ()))
 
 (defun straight-update ()
+  "Update straight-x repo"
   (interactive)
   (load-library "straight-x")
   (straight-x-clean-unused-repos)

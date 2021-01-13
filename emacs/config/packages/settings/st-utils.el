@@ -1,4 +1,9 @@
 ;; -*- lexical-binding: t; -*-
+
+(eval-when-compile
+  (defvar grep-find-template)
+  (declare-function grep-apply-setting "grep" (a b)))
+
 (with-eval-after-load "grep"
   (grep-apply-setting
    'grep-find-command

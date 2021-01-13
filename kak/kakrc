@@ -1,13 +1,8 @@
-# Set theme
-colorscheme gruvbox
+# Source options
+source "%val{config}/config/option.kak"
 
-# Set tab stop
-set-option global tabstop 4
-set-option global indentwidth 4
+# Source filetype configs
+source "%val{config}/config/filetype.kak"
 
-# Set scrolloff
-set-option global scrolloff 1,3
-
-# Set ncurses
-set-option global ui_options ncurses_status_on_top=false
-
+# Source mappings
+source "%val{config}/config/mapping.kak"

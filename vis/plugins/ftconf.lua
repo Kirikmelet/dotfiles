@@ -13,5 +13,4 @@ function M:setup(settings, win)
    else return end
 end
 
-
 return M

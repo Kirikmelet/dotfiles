@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 DATE(){
 	DATE=$(date "+%y/%m/%d %H:%M")
 	echo "$DATE"
@@ -21,14 +21,14 @@ NET(){
 
 
 VOLUME(){
-    VOL=$(amixer get Master | awk 'FNR == 5 {printf $4}' | tr -d "[]")
-    #VOL=$(pamixer --get-volume)
+    #VOL=$(amixer get Master | awk 'FNR == 5 {printf $4}' | tr -d "[]")
+    VOL=$(pamixer --get-volume)
     echo "$VOL"
 
 
 }
 
 while true; do
-    xsetroot -name "|[NET: $(NET)][VOL: $(VOLUME)][DATE: $(DATE)][BAT: $(BAT)]"
+    xsetroot -name "[NET: $(NET)][VOL: $(VOLUME)][DATE: $(DATE)][BAT: $(BAT)]"
 	sleep 1
 done

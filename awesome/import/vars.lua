@@ -17,7 +17,7 @@ M.keys = {
 
 -- Appkey for AwesomeWM
 M.appslist = {
-   terminal = {exec = 'alacritty'};
+   terminal = {exec = 'st'};
    editor = {exec = os.getenv('EDITOR') or 'nvim', term = true};
    fileman = {exec = 'nnn', term = true};
    browser = {exec = 'firefox'};

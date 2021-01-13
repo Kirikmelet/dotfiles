@@ -1,10 +1,6 @@
 #!/bin/bash
 
-dunst &
-nitrogen --restore &
-picom &
-fcitx &
+fcitx5 &
 pkill bar.sh
-exec "./bar.sh" 
-xsetroot -solid "#282828"
-
+exec "~/.local/share/dwm/bar.sh" &
+xwallpaper --zoom ~/Pictures/wallpapers/professional/systemd-wp-alt.png
