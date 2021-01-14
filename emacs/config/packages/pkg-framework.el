@@ -88,8 +88,7 @@
   (fset 'multi-occur #'consult-multi-occur)
   :config
   (global-unset-key (kbd "C-r"))
-  (setq consult-narrow-key "<") ;; (kbd "C-+")
-  (consult-preview-mode))
+  (setq consult-narrow-key "<")) ;; (kbd "C-+")
 
 ;(use-package consult-selectrum
 ;  :after selectrum

@@ -8,5 +8,11 @@ set-option global indentwidth 4
 # Set scrolloff
 set-option global scrolloff 1,3
 
-# Set ncurses
-set-option global ui_options ncurses_status_on_top=false
+
+# Grep
+try %{
+	require-module x11
+	set-option global grepcmd 'rg --follow --vimgrep'
+} catch %{
+    echo 'Failed to load X11 and Ripgrep'
+}

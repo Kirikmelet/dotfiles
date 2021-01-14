@@ -4,5 +4,8 @@ source "%val{config}/config/option.kak"
 # Source filetype configs
 source "%val{config}/config/filetype.kak"
 
+# Source commands
+source "%val{config}/config/commands.kak"
+
 # Source mappings
 source "%val{config}/config/mapping.kak"
