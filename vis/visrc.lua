@@ -10,7 +10,7 @@ require('plugins.vis-title')
 
 local initSet = {
    'set change-256colors on';
-   'set theme default-256';
+   'set theme default-16';
    'set expandtab true';
    'set autoindent on';
    'set tw 4';
@@ -22,6 +22,7 @@ local ftConf = {
    ansi_c = {'set tw 8', 'set expandtab false'},
    html = {'set tw 2'};
    cpp = {'set tw 8', 'set expandtab false'},
+   default = {'set tw 4', 'set expandtab true'}
 }
 
 vis.events.subscribe(vis.events.WIN_OPEN, function(win)
