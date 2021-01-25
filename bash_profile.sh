@@ -5,8 +5,17 @@ if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
 
+# Autostart X11
+if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+    exec startx
+elif [ "${TMUX}" ]; then
+    return
+else
+    neofetch
+fi
+
 # Set editor/visual
-export VIEWER=vis
+export VIEWER=nvim
 export EDITOR=$VIEWER
 
 # User specific environment and startup programs

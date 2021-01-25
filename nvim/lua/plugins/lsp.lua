@@ -3,8 +3,8 @@ local plugman = require('func/packadder')
 
 plugman.packadd({
    'nvim-lspconfig';
-   'lsp_extensions.nvim'
-   })
+   'lsp_extensions.nvim';
+   'lspsaga.nvim'})
 
 local lspuse = require('lspconfig')
 local binder = require('../func/binder')

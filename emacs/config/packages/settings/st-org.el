@@ -12,7 +12,8 @@
   (defvar org-tags-column)
   (defvar org-todo-keywords)
   (defvar org-log-done)
-  (defvar org-latex-toc-command))
+  (defvar org-latex-toc-command)
+  (defvar org-default-notes-file))
 
 (setq org-hide-emphasis-markers t
       org-display-inline-images t
@@ -33,13 +34,7 @@
 
 (add-hook 'org-mode-hook (lambda ()
                            (visual-line-mode)
-                           (variable-pitch-mode)
-                           (set-face-attribute 'org-block nil :foreground nil :inherit 'fixed-pitch)
-                           (set-face-attribute 'org-code nil   :inherit 'fixed-pitch)
-                           ;;(set-face-attribute 'org-indent nil :inherit 'fixed-pitch)
-                           (set-face-attribute 'org-verbatim nil :inherit 'fixed-pitch)
-                           (set-face-attribute 'org-special-keyword nil :inherit 'fixed-pitch)
-                           (set-face-attribute 'org-meta-line nil :inherit 'fixed-pitch)))
+                           (variable-pitch-mode)))
 (if (eq window-system nil)
     (add-hook 'org-mode-hook (lambda ()
                                (let* ((variable-tuple
@@ -65,3 +60,4 @@
                                   `(org-document-title ((t (,@headline ,@variable-tuple :height 2.0 :underline nil)))))))
               ))
 
+(setq org-default-notes-file (concat org-directory "/notes.org"))

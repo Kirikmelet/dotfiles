@@ -27,6 +27,7 @@ return require('packer').startup(function()
       {'nvim-lua/completion-nvim', opt=true};
       {'tjdevries/lsp_extensions.nvim', opt=true};
       {'nvim-treesitter/nvim-treesitter', opt=true};
+      {'glepnir/lspsaga.nvim', opt=true};
    }
 
    -- Telescope
@@ -34,6 +35,13 @@ return require('packer').startup(function()
    use {
       'nvim-telescope/telescope.nvim';
       requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}};
+   }
+
+   -- Autopairs
+
+   use {
+      'windwp/nvim-autopairs';
+      opt=true;
    }
 
 end)

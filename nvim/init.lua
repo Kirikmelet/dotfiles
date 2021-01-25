@@ -20,7 +20,7 @@ local requirements = {
    'plugins.completion';
    'plugins.treesitter';
    'plugins.lsp';
-
+   'plugins.autopairs';
    -- LOAD AT END
    -- IMPORTANT
    'hotkeys';

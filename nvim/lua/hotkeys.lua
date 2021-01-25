@@ -9,7 +9,7 @@ local autopair = {
       {'i', '{', '{}<Esc>hli',nil,nil};
 }
 --}}}
-binder(autopair)
+--binder(autopair)
 
 --{{{Tabs
 local tabs = {

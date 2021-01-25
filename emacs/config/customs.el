@@ -25,6 +25,6 @@
   (require 'dired-x)
   (add-hook 'dired-mode-hook 'dired-omit-mode)
   (setq dired-dwim-target 1)
-  (setq dired-omit-files "^\\.?#\\|^\\.$\\|^\\.\\.$\\|^\\..*$"))
+  (setq dired-omit-files "^\\.$\\|^\\.\\.$\\|^\\..*$"))
 
 (setq-default mpc-host "127.0.0.1:23955")

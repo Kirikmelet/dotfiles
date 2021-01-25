@@ -11,6 +11,6 @@
 (use-package evil-collection
   :after evil
   :ensure t
-  :functions evil-collection-init
+  :functions evil-collection-inithv
   :config
   (evil-collection-init))

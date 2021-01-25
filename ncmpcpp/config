@@ -527,7 +527,7 @@ use_console_editor = yes
 #
 #state_flags_color = default:b
 #
-main_window_color = red
+#main_window_color = yellow
 #
 #color1 = white
 #

@@ -1,6 +1,6 @@
 #!/bin/bash
 DATE(){
-	DATE=$(date "+%y/%m/%d %H:%M")
+	DATE=$(date "+%y/%m/%d %R")
 	echo "$DATE"
 }
 
