@@ -1,9 +1,6 @@
 local vim = vim
-local api = vim.api
 
-
-
-local statusline = {
+vim.o.statusline = table.concat({
 	'%#PmenuSel#';
 	'0x%B%m';
 	'%r%h%w%q%<%#LineNr#';
@@ -12,6 +9,4 @@ local statusline = {
 	'%<%{&fileencoding?&fileencoding:&encoding}|%{&fileformat}';
 	'%#WildMenu#';
 	'%l.%c - %<L:%L ';
-}
-statusline = table.concat(vim.tbl_flatten(statusline), ' ')
-vim.o.statusline = statusline
+}, ' ')

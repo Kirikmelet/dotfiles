@@ -37,6 +37,7 @@ local filekeys = {
    --{'n', '<leader>fs', ':execute "grep ".input("Search Text: ")." %"<CR>', nil, nil};
    {'n', '<leader>fs', '<cmd>lua require("telescope.builtin").live_grep()<CR>', nil, nil};
    {'n', '<leader>ff', '<cmd>lua vim.lsp.buf.formatting()<CR>',nil,nil};
+  -- {'n', '<leader>ff', '<cmd>Format<CR>',nil,nil};
    {'n', '<leader>fm', '<cmd>make<CR>',nil,nil};
    {'n', '<leader>ftg', '<cmd>!ctags %<CR>',nil,nil};
 }
@@ -79,17 +80,19 @@ binder(apphotkeys)
 local gitkeys = {
    {'n', '<leader>gc', '<cmd>Git commit<CR>',nil};
    {'n', '<leader>gg', '<cmd>G<CR>',nil};
-   {'n', '<leader>gps', '<cmd>split | term git push<CR>',nil};
+   {'n', '<leader>gps', '<cmd>Git push<CR>',nil};
    {'n', '<leader>gpl', '<cmd>Git pull<CR>',nil,nil};
    {'n', '<leader>gf', '<cmd>Git fetch<CR>',nil,nil};
 }
 --}}}
 binder(gitkeys)
 
---{{{Debug
-local debugkeys = {
-      {'n', '<leader>pl', '<cmd>lua require"git".load()<CR>',nil,nil};
+--{{{ LSP
+local lspkeys = {
+   {'n', '<leader>la', '<cmd>lua require("lspsaga.codeaction").code_action()<CR>',nil,nil};
+   {'n', '<leader>lf', '<cmd>lua require("lspsaga.provider").lsp_finder()<CR>',nil,nil};
+   {'n', '<leader>lh', '<cmd>lua vim.lsp.buf.hover()<CR>',nil,nil};
+   {'n', '<leader>ld', '<cmd>lua require("lspsaga.provider").preview_definition()<CR>',nil,nil};
 }
 --}}}
-binder(debugkeys)
-
+binder(lspkeys)

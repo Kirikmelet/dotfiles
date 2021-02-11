@@ -11,7 +11,6 @@
         c-basic-offset 8))
 
 (defun ts-config ()
-  (message "HI TYPESCRIPT :D")
   )
 
 ;; Javascript

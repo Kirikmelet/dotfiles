@@ -24,10 +24,12 @@ return require('packer').startup(function()
 
    use {
       {'neovim/nvim-lspconfig', opt=true};
-      {'nvim-lua/completion-nvim', opt=true};
+      --{'nvim-lua/completion-nvim', opt=true};
+      {'hrsh7th/nvim-compe', opt=true};
       {'tjdevries/lsp_extensions.nvim', opt=true};
       {'nvim-treesitter/nvim-treesitter', opt=true};
       {'glepnir/lspsaga.nvim', opt=true};
+      --{'mhartington/formatter.nvim', opt=true};
    }
 
    -- Telescope

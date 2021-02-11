@@ -1,0 +1,10 @@
+--audio-quality 0
+--write-thumbnail
+--prefer-free-formats
+--write-sub
+--write-sub
+--embed-subs
+--embed-thumbnail
+--add-metadata
+--xattrs
+-o "%(title)s.%(ext)s"

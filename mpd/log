@@ -1716,3 +1716,117 @@ Jan 24 08:42 : player: played "youtube/jpop/ツユ - 泥の分際で私だけの
 Jan 24 08:42 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
 Jan 24 13:57 : avahi: Client Disconnected, will reconnect shortly
 Jan 25 18:23 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 25 21:01 : avahi: Client Disconnected, will reconnect shortly
+Jan 26 14:05 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 26 08:38 : exception: Unsupported URI scheme
+Jan 26 08:38 : exception: Failed to open '/home/troyd/.config/mpd/playlists/[Radio Streams].m3u': No such file or directory
+Jan 26 08:38 : exception: No such playlist
+Jan 26 08:41 : player: played "playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus"
+Jan 26 08:44 : player: played "playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus"
+Jan 26 08:44 : avahi: Client Disconnected, will reconnect shortly
+Jan 26 08:44 : exception: Failed to play on "My Pulse Output" (pulse): disconnected
+Jan 26 08:44 : player: played "playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus"
+Jan 26 08:45 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 26 08:45 : avahi: Client Disconnected, will reconnect shortly
+Jan 26 08:45 : exception: Failed to play on "My Pulse Output" (pulse): disconnected
+Jan 26 08:45 : player: played "playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus"
+Jan 26 08:46 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 26 08:48 : player: played "playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus"
+Jan 26 08:51 : player: played "playlists/hololive/[Nissin Curry Meshi Collab Song] Curry Meshi Is a Miracle (With Lyrics) #ホロライブカレーメシWEEK.opus"
+Jan 26 10:19 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 26 10:20 : avahi: Client Disconnected, will reconnect shortly
+Jan 26 10:20 : exception: Failed to play on "My Pulse Output" (pulse): disconnected
+Jan 26 10:20 : player: played "playlists/hololive/[Nissin Curry Meshi Collab Song] Curry Meshi Is a Miracle (With Lyrics) #ホロライブカレーメシWEEK.opus"
+Jan 26 10:21 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 26 10:22 : player: played "playlists/hololive/[Nissin Curry Meshi Collab Song] Curry Meshi Is a Miracle (With Lyrics) #ホロライブカレーメシWEEK.opus"
+Jan 26 10:22 : avahi: Client Disconnected, will reconnect shortly
+Jan 26 10:22 : exception: Failed to play on "My Pulse Output" (pulse): disconnected
+Jan 26 10:22 : player: played "playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus"
+Jan 28 20:44 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 28 20:44 : avahi: Client Disconnected, will reconnect shortly
+Jan 28 20:44 : exception: Failed to play on "My Pulse Output" (pulse): disconnected
+Jan 28 20:44 : player: played "playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus"
+Jan 29 02:44 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 29 02:44 : player: played "playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus"
+Jan 28 20:48 : player: played "playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus"
+Jan 28 20:52 : player: played "playlists/hololive/[Nissin Curry Meshi Collab Song] Curry Meshi Is a Miracle (With Lyrics) #ホロライブカレーメシWEEK.opus"
+Jan 28 20:55 : player: played "playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus"
+Jan 28 22:44 : player: played "playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus"
+Jan 28 22:44 : update: added youtube/vocaloid/jp/[60fps Full風] 番凩 Paired Wintry Wind (TSUGAI KOGARASHI) - KAITO MEIKO DIVA English Romaji ドリーミーシアター.opus
+Jan 28 22:44 : update: added youtube/vocaloid/zh/【Luo Tianyi 洛天依】March Rain Modulation Ver【三月雨 调制版】.opus
+Jan 28 22:44 : update: added youtube/vocaloid/zh/【洛天依·樂正綾】Luo Tianyi, Yuezheng Ling - 白石溪 White Stone Creek.opus
+Jan 28 22:44 : update: added youtube/vocaloid/zh/【洛天依】Luo Tianyi -  春來發幾枝 Blossom in the Spring (English Sub+Retuned).opus
+Jan 28 22:44 : update: added youtube/vocaloid/zh/【洛天依】Luo Tianyi - 憶紅蓮 Reminiscence of the Red Lotus (English Sub).opus
+Jan 28 22:45 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 28 22:46 : player: played "youtube/vocaloid/zh/【Luo Tianyi 洛天依】March Rain Modulation Ver【三月雨 调制版】.opus"
+Jan 28 22:58 : player: played "youtube/vocaloid/jp/[60fps Full風] 番凩 Paired Wintry Wind (TSUGAI KOGARASHI) - KAITO MEIKO DIVA English Romaji ドリーミーシアター.opus"
+Jan 29 13:23 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 29 21:45 : avahi: Client Disconnected, will reconnect shortly
+Jan 31 20:27 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Jan 31 22:31 : avahi: Client Disconnected, will reconnect shortly
+Feb 01 15:44 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 01 23:24 : avahi: Client Disconnected, will reconnect shortly
+Feb 02 15:36 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 02 16:33 : avahi: Client Disconnected, will reconnect shortly
+Feb 02 23:25 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 02 22:27 : avahi: Client Disconnected, will reconnect shortly
+Feb 03 07:51 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 03 07:58 : avahi: Client Disconnected, will reconnect shortly
+Feb 03 15:02 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 03 17:02 : avahi: Client Disconnected, will reconnect shortly
+Feb 04 00:26 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 04 20:53 : avahi: Client Disconnected, will reconnect shortly
+Feb 05 14:26 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 05 08:29 : avahi: Client Disconnected, will reconnect shortly
+Feb 05 08:30 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 05 16:34 : player: played "youtube/vocaloid/jp/[60fps Full風] 番凩 Paired Wintry Wind (TSUGAI KOGARASHI) - KAITO MEIKO DIVA English Romaji ドリーミーシアター.opus"
+Feb 05 16:38 : player: played "youtube/vocaloid/jp/[60fps Full風] 番凩 Paired Wintry Wind (TSUGAI KOGARASHI) - KAITO MEIKO DIVA English Romaji ドリーミーシアター.opus"
+Feb 05 16:41 : player: played "youtube/vocaloid/jp/[60fps Full風] 番凩 Paired Wintry Wind (TSUGAI KOGARASHI) - KAITO MEIKO DIVA English Romaji ドリーミーシアター.opus"
+Feb 05 16:45 : player: played "youtube/vocaloid/zh/【洛天依】Luo Tianyi - 憶紅蓮 Reminiscence of the Red Lotus (English Sub).opus"
+Feb 05 16:46 : player: played "youtube/jpop/いきものがかり 『HANABI』Music Video.opus"
+Feb 05 16:49 : player: played "youtube/citypop/covers/【COVER】「恋人がサンタクロース_松任谷由実」.opus"
+Feb 05 16:53 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Feb 05 16:53 : player: played "youtube/jpop/三月のパンタシア 『青春なんていらないわ』.opus"
+Feb 05 16:58 : player: played "youtube/jpop/Hatsukoi.m4a"
+Feb 05 17:03 : player: played "youtube/jpop/命に嫌われている。 (Hated by Life Itself.) _ covered by 芦澤 サキ.opus"
+Feb 05 17:06 : player: played "youtube/jpop/ふわふわ時間 _ 猫又おかゆ (Cover).opus"
+Feb 05 17:11 : player: played "youtube/jpop/【歌ってみた】サイレントマジョリティ ー _ 欅坂46【天神子兎音cover】.opus"
+Feb 05 17:14 : player: played "youtube/jpop/ツユ - ロックな君とはお別れだ MV.opus"
+Feb 05 17:18 : player: played "youtube/jpop/Say So -Japanese Version- (tofubeats Remix).opus"
+Feb 05 17:21 : player: played "youtube/jpop/革命デュアリズム (Kakumei Dualism) _ covered by 芦澤 サキ × 道明寺 ここあ.opus"
+Feb 05 17:33 : avahi: Client Disconnected, will reconnect shortly
+Feb 05 17:33 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 06 21:09 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 06 23:38 : avahi: Client Disconnected, will reconnect shortly
+Feb 06 23:38 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 07 09:01 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 07 21:23 : avahi: Client Disconnected, will reconnect shortly
+Feb 07 21:23 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 08 08:12 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 08 11:23 : avahi: Client Disconnected, will reconnect shortly
+Feb 08 11:23 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 08 11:24 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 08 11:24 : avahi: Client Disconnected, will reconnect shortly
+Feb 08 11:24 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 08 11:25 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 08 15:53 : avahi: Client Disconnected, will reconnect shortly
+Feb 08 15:53 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 08 20:11 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 08 22:35 : avahi: Client Disconnected, will reconnect shortly
+Feb 08 22:35 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 09 09:29 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 09 09:34 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 09:34 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 09 09:36 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 09 16:13 : avahi: Client Disconnected, will reconnect shortly
+Feb 09 16:13 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 10 08:11 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 10 16:11 : avahi: Client Disconnected, will reconnect shortly
+Feb 10 16:11 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 10 18:20 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 10 19:42 : avahi: Client Disconnected, will reconnect shortly
+Feb 10 19:42 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 10 19:46 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
+Feb 10 23:01 : avahi: Client Disconnected, will reconnect shortly
+Feb 10 23:01 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Feb 11 07:32 : avahi: Service 'Music Player @ ATG-1550-PGSL' successfully established.
