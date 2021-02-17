@@ -47,3 +47,4 @@ export SDL_IM_MODULE=fcitx
 export MPD_PORT=23955
 
 # QT5
+source "$HOME/.cargo/env"

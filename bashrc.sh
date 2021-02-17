@@ -25,3 +25,4 @@ cmux () {
 }
 
 set -o vi
+source "$HOME/.cargo/env"

@@ -32,6 +32,7 @@ local nOpts = {
       inccommand = 'split';
       grepprg = 'rg --vimgrep --no-heading --smart-case';
       lazyredraw = true;
+      updatetime = 100;
    };
    [vim.wo] = { -- Window Options
       cursorline = true;
