@@ -27,4 +27,8 @@
   (setq dired-dwim-target 1)
   (setq dired-omit-files "^\\.$\\|^\\.\\.$\\|^\\..*$"))
 
+
+;; Completion at point
+(global-set-key (kbd "C-x C-p") 'completion-at-point)
+
 (setq-default mpc-host "127.0.0.1:23955")

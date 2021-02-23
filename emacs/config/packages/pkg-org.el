@@ -12,7 +12,6 @@
 
 (use-package valign
   :straight (valign :host github :repo "casouri/valign")
-  :hook (org-mode . valign-mode)
   :config
   (add-hook 'org-mode-hook #'valign-mode))
 

@@ -15,8 +15,8 @@ else
 fi
 
 # Set editor/visual
-export VIEWER=nvim
-export EDITOR=$VIEWER
+export VIEWER=bat
+export EDITOR=emacs -nw
 
 # User specific environment and startup programs
 

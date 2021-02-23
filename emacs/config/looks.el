@@ -38,6 +38,7 @@
   (setq backup-directory-alist `(("." . ,(concat user-emacs-directory
                                                  "backups")))))
 (defun set-japanese ()
+  """Allows you to use the Japanese language"""
   (dolist (charset '(kana han cjk-misc symbol bopomofo))
     (set-fontset-font (frame-parameter nil 'font) charset (font-spec :family "Noto Sans CJK JP"))
     )
