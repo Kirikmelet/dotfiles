@@ -5,6 +5,9 @@
 ;; Disable package startup
 (setq-default package-enable-at-startup nil)
 
+;; Wtf Gentoo
+(setenv "HOME" "/home/troyd")
+
 ;; I hate this shit so fucking much
 (global-unset-key (kbd "C-z"))
 

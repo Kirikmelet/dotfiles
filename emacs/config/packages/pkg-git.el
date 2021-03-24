@@ -1,7 +1,6 @@
 ;; -*- lexical-binding: t; -*-
 (use-package magit
-  :hook ((after-init-hook . magit-mode))
-  :defer 10)
+  :hook ((after-init-hook . magit-mode)))
 
 ;;(use-package projectile
 ;;  :defer 3

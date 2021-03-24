@@ -22,6 +22,7 @@ local requirements = {
    'plugins.lsp';
    'plugins.autopairs';
    -- LOAD AT END
+
    -- IMPORTANT
    'hotkeys';
    'autopairs';

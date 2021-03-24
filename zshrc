@@ -36,3 +36,5 @@ zinit wait lucid for \
 	light-mode zdharma/history-search-multi-word \
 	light-mode zsh-users/zsh-completions \
 	light-mode zsh-users/zsh-autosuggestions
+
+source "$HOME/.bash_profile"

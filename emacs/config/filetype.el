@@ -11,6 +11,7 @@
         c-basic-offset 8))
 
 (defun ts-config ()
+  (setq typescript-indent-level 2)
   )
 
 ;; Javascript

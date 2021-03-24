@@ -1,3 +1,4 @@
+#!/bin/bash
 # .bash_profile
 
 # Get the aliases and functions
@@ -6,17 +7,17 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # Autostart X11
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-    exec startx
-elif [ "${TMUX}" ]; then
-    return
-else
-    neofetch
-fi
+#if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+#    exec startx
+#elif [ "${TMUX}" ]; then
+#    return
+#else
+#    neofetch
+#fi
 
 # Set editor/visual
 export VIEWER=bat
-export EDITOR=emacs -nw
+export EDITOR=emacs\ -nw
 
 # User specific environment and startup programs
 
@@ -45,6 +46,3 @@ export SDL_IM_MODULE=fcitx
 
 # MPD
 export MPD_PORT=23955
-
-# QT5
-source "$HOME/.cargo/env"

@@ -18,9 +18,10 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 
-
 (straight-use-package 'use-package)
-(setq straight-use-package-by-default t)  
+
+(setq straight-use-package-by-default t)
+
 (dolist (list '(
                 "pkg-looks"
                 "pkg-lsp"
@@ -33,9 +34,6 @@
                 "pkg-mode"
                 "pkg-git"))
   (load-file (expand-file-name (concat list ".el") pkg-dir)))
-
-(eval-when-compile
-  (declare-function straight-x-clean-unused-repos "straight" ()))
 
 (defun straight-update ()
   "Update straight-x repo"

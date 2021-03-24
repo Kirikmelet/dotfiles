@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/troyd'
+let g:netrw_dirhist_0='/home/troyd/dotfiles/nvim/lua'
+let g:netrw_dirhist_9='/home/troyd/dotfiles/nvim'
 let g:netrw_dirhist_8='/home/troyd'
 let g:netrw_dirhist_7='/home/troyd/dotfiles/nvim/lua'
 let g:netrw_dirhist_6='/home/troyd/Documents/github/konpeko-bot/data'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_5='/home/troyd/Documents/github/peko_bot/node_modules'
 let g:netrw_dirhist_4='/home/troyd/dotfiles/nvim/lua'
 let g:netrw_dirhist_3='/home/troyd/dotfiles/nvim/lua/func'
 let g:netrw_dirhist_2='/home/troyd/dotfiles/nvim/lua'
-let g:netrw_dirhist_1='/home/troyd'
-let g:netrw_dirhist_0='/home/troyd/dotfiles/nvim'
-let g:netrw_dirhist_9='/home/troyd/Documents/work/ajinomoto/html/foodran'

@@ -8,10 +8,10 @@ fi
 # User specific environment
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
 then
-    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+    PATH="$HOME/.local/bin:$PATH"
 fi
 export PATH
-export PATH=$PATH:$HOME/.local/opt/dotbare:$HOME/.local/bin/
+
 
 # User specific aliases and functions
 
@@ -25,4 +25,3 @@ cmux () {
 }
 
 set -o vi
-source "$HOME/.cargo/env"
