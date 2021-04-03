@@ -43,8 +43,3 @@
     (set-fontset-font (frame-parameter nil 'font) charset (font-spec :family "Noto Sans CJK JP"))
     )
   )
-
-;; FOnts
-(set-face-attribute 'fixed-pitch nil :font "Fira Code Retina" :height 12)
-(set-face-attribute 'variable-pitch nil :font "Noto Sans Display" :weight 'regular)
-

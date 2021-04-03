@@ -9,7 +9,7 @@
 (setq file-name-handler-alist nil)
 
 ;; Load font
-(set-face-font 'default "Fira Code Retina 12")
+(set-face-font 'default "Fira Code Retina 18")
 
 ;; Load config files
 (defconst cfg-dir (substitute-in-file-name "$HOME/.config/emacs/config"))
@@ -30,5 +30,4 @@
           (lambda ()
             (setq gc-cons-threshold 16777216)
             (setq file-name-handler-alist file-lister-alist)
-            (if (eq window-system t)
-                (set-japanese))))
+                (set-japanese)))

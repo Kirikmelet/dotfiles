@@ -24,7 +24,7 @@
   :ensure t
   :demand t
   :config
-  (moe-light))
+  (moe-dark))
 
 (use-package which-key
   :defer t

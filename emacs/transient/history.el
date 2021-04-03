@@ -1,7 +1,7 @@
 ((magit-cherry-pick
   ("--ff"))
- (magit-commit
-  ("--all"))
+ (magit-commit nil
+               ("--all"))
  (magit-dispatch nil)
  (magit-file-dispatch nil)
  (magit-push nil)

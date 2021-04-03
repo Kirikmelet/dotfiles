@@ -33,7 +33,6 @@
 (setq org-latex-toc-command "\\tableofcontents \\clearpage")
 
 (add-hook 'org-mode-hook (lambda ()
-                           (visual-line-mode)
-                           (variable-pitch-mode)))
-0
+                           (visual-line-mode)))
+
 (setq org-default-notes-file (concat org-directory "/notes.org"))

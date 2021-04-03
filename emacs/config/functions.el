@@ -1,4 +1,4 @@
-;; -*- lexical-binding: t; -*-
+;;; -*- lexical-binding: t; -*-
 
 (define-minor-mode untitled-buffer-mode
   "For untitled buffers"
@@ -25,6 +25,7 @@
 
 
 (defun set-japanese ()
+  (interactive)
   (dolist (charset '(kana han cjk-misc symbol bopomofo))
     (set-fontset-font (frame-parameter nil 'font) charset (font-spec :family "Noto Sans CJK JP"))
     )
