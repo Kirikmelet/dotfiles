@@ -18,6 +18,10 @@
 (defun js-config ()
   (setq js-indent-level 2))
 
+(defun py-config ()
+  (setq python-indent-level 4))
+
 (add-hook 'js-mode-hook 'js-config)
 (add-hook 'c-mode-hook 'c-config)
 (add-hook 'typescript-mode-hook 'ts-config)
+(add-hook 'python-mode-hook 'py-config)
