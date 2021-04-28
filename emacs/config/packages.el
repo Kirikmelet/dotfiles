@@ -27,7 +27,7 @@
                 "pkg-lsp"
                 "pkg-org"
                 "pkg-utils"
-                ;;"pkg-vi"
+                "pkg-vi"
                 "pkg-term"
                 "pkg-framework"
                 "pkg-media"

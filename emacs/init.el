@@ -9,7 +9,7 @@
 (setq file-name-handler-alist nil)
 
 ;; Load font
-(set-face-font 'default "Fira Code Retina 18")
+(set-face-font 'default "Fira Code Retina 16")
 
 ;; Load config files
 (defconst cfg-dir (substitute-in-file-name "$HOME/.config/emacs/config"))

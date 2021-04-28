@@ -3,11 +3,11 @@ local api = vim.api
 local binder = require('func.binder')
 
 --{{{Autopair
-local autopair = {
-      {'i', '(', '()<Esc>hli',nil,nil};
-      {'i', '[', '[]<Esc>hli',nil,nil};
-      {'i', '{', '{}<Esc>hli',nil,nil};
-}
+--local autopair = {
+--      {'i', '(', '()<Esc>hli',nil,nil};
+--      {'i', '[', '[]<Esc>hli',nil,nil};
+--      {'i', '{', '{}<Esc>hli',nil,nil};
+--}
 --}}}
 --binder(autopair)
 
@@ -68,7 +68,6 @@ binder(bufkeys)
 
 --{{{Application hotkeys
 local apphotkeys = {
-   {'n', '<leader>aw', '<cmd>Explore ~/vimwiki<CR>',nil,nil};
    {'n', '<leader>ao', '<cmd>Explore ~/org<CR>',nil,nil};
    {'n', '<leader>ad', '<cmd>Explore<CR>',nil,nil};
    {'n', '<leader>at', '<cmd>term<CR>',nil,nil};

@@ -3336,3 +3336,781 @@ Mar 02 11:47 : update: updating playlists/[J-SONGS] BUBBLEGUM CRISIS COMPLETE VO
 Mar 02 11:47 : player: played "NewPipe/Yorushika - That_s Why I Gave Up on Music (MUSIC VIDEO).opus"
 Mar 02 11:48 : update: removing youtube/jpop/test.opus
 Mar 02 13:33 : avahi: Client Disconnected, will reconnect shortly
+Apr 14 17:55 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 14 17:57 : player: played "youtube/jpop/[VnSharing] I am a broken umbrella - Hatsune Miku - Vocaloid vietsub.opus"
+Apr 14 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 14 17:57 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 14 18:00 : player: played "youtube/jpop/[VnSharing] I am a broken umbrella - Hatsune Miku - Vocaloid vietsub.opus"
+Apr 14 18:00 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "default": Device or resource busy
+Apr 14 18:00 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 14 18:00 : player: played "youtube/jpop/[VnSharing] I am a broken umbrella - Hatsune Miku - Vocaloid vietsub.opus"
+Apr 14 19:07 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 14 19:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 14 21:31 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Apr 15 23:07 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 16 00:07 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Apr 16 17:42 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 16 17:42 : player: played "youtube/jpop/[MV]雪の華 - 中島 美嘉(Nakashima Mika) Cover by yurisa.opus"
+Apr 16 17:42 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 16 17:50 : player: played "youtube/jpop/Stereopony - Hitohira No Hanabira.opus"
+Apr 16 17:53 : player: played "youtube/jpop/ツユ - くらべられっ子 MV.opus"
+Apr 16 17:56 : player: played "youtube/jpop/ツユ - くらべられっ子 (TUYU Remix) MV.opus"
+Apr 16 17:56 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 16 18:02 : player: played "playlists/hololive/【アイキス２ED曲】as×sist ~甘えベタな私なりに~【Vo.さくらみこ】.opus"
+Apr 16 18:03 : player: played "playlists/hololive/発光体ソーラーサイクル _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 16 18:40 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 16 18:40 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 16 20:56 : player: played "playlists/hololive/発光体ソーラーサイクル _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 16 20:58 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 16 20:58 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 16 20:59 : player: played "playlists/hololive/発光体ソーラーサイクル _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 16 21:02 : player: played "playlists/hololive/傘 _ King Gnu 『covered by 律可』.opus"
+Apr 16 21:04 : player: played "playlists/hololive/【ON STAGE!収録】Step and Go!!(Short ver.)MV【ときのそらオリジナル楽曲】.opus"
+Apr 16 21:08 : player: played "playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus"
+Apr 16 21:11 : player: played "playlists/hololive/乙女解剖 _ DECO_27『covered by 律可』.opus"
+Apr 16 21:14 : player: played "playlists/hololive/太陽が似合うよ _ Taiyou ga Niau yo _ Airani Iofifteen Cover 「歌ってみた」.opus"
+Apr 16 21:42 : player: played "playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus"
+Apr 17 21:36 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus': No such file or directory
+Apr 17 21:36 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus': No such file or directory
+Apr 17 21:36 : player: played "playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus"
+Apr 17 21:36 : exception: inotify_add_watch() has failed: No such file or directory
+Apr 17 21:37 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】without U _ AZKi 【1st ALBUM収録曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】without U _ AZKi 【1st ALBUM収録曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】without U _ AZKi 【1st ALBUM収録曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】without U _ AZKi 【1st ALBUM収録曲】.opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】without U _ AZKi 【1st ALBUM収録曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】KING - Kanaria _ covered by 影山シエン.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】KING - Kanaria _ covered by 影山シエン.opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】KING - Kanaria _ covered by 影山シエン.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Shiny Smily Story.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】フロンティアローカス _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】フロンティアローカス _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】フロンティアローカス _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/キラメキライダー☆.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/キラメキライダー☆.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/キラメキライダー☆.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Cover] Cosmology of NyanNyan _ Kanade Izuru.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Cover] Cosmology of NyanNyan _ Kanade Izuru.opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Cover] Cosmology of NyanNyan _ Kanade Izuru.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original song] 'Hyakkaryouran Hanafubuki' short ver. [Shirakami Fubuki, Nakiri Ayame, Ookami Mio].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original song] 'Hyakkaryouran Hanafubuki' short ver. [Shirakami Fubuki, Nakiri Ayame, Ookami Mio].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original song] 'Hyakkaryouran Hanafubuki' short ver. [Shirakami Fubuki, Nakiri Ayame, Ookami Mio].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】威風堂々 _ RIZnote【奏手イヅル_律可】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】威風堂々 _ RIZnote【奏手イヅル_律可】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】威風堂々 _ RIZnote【奏手イヅル_律可】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Original Song】Gate Open - START! - Pavolia Reine (short ver.).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Original Song】Gate Open - START! - Pavolia Reine (short ver.).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Original Song】Gate Open - START! - Pavolia Reine (short ver.).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Valkyrie「今宵月の館にて」 _ 戌亥とこ × 星街すいせい(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Valkyrie「今宵月の館にて」 _ 戌亥とこ × 星街すいせい(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Valkyrie「今宵月の館にて」 _ 戌亥とこ × 星街すいせい(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/アウトサイダー／天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/アウトサイダー／天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/アウトサイダー／天音かなた(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ろぼかぐ】ラブレター【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ろぼかぐ】ラブレター【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ろぼかぐ】ラブレター【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[ORIGINAL SONG]  Cursed Night - Calliope Mori.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[ORIGINAL SONG]  Cursed Night - Calliope Mori.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[ORIGINAL SONG]  Cursed Night - Calliope Mori.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ふわふわ時間 _ 猫又おかゆ (Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ふわふわ時間 _ 猫又おかゆ (Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ふわふわ時間 _ 猫又おかゆ (Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【DECO_27 】乙女解剖 _ AZKi【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【DECO_27 】乙女解剖 _ AZKi【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【DECO_27 】乙女解剖 _ AZKi【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん】誕生日に HAPPY BIRTHDAY 【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん】誕生日に HAPPY BIRTHDAY 【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ロボ子さん】誕生日に HAPPY BIRTHDAY 【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/_ERROR_常闇トワ(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/_ERROR_常闇トワ(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/_ERROR_常闇トワ(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Dua Lipa - Don't Start Now (cover by Akaihaato).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Dua Lipa - Don't Start Now (cover by Akaihaato).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Dua Lipa - Don't Start Now (cover by Akaihaato).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/太陽が似合うよ _ Taiyou ga Niau yo _ Airani Iofifteen Cover 「歌ってみた」.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/太陽が似合うよ _ Taiyou ga Niau yo _ Airani Iofifteen Cover 「歌ってみた」.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/太陽が似合うよ _ Taiyou ga Niau yo _ Airani Iofifteen Cover 「歌ってみた」.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】好き！雪！本気マジック.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】好き！雪！本気マジック.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】好き！雪！本気マジック.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Cover] Telecaster B-Boy _ Kanade Izuru.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Cover] Telecaster B-Boy _ Kanade Izuru.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Cover] Telecaster B-Boy _ Kanade Izuru.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/マイオドレ！舞舞タイム 【ときのそら＆さくらみこ×maimai でらっくす Splash 】MV.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/マイオドレ！舞舞タイム 【ときのそら＆さくらみこ×maimai でらっくす Splash 】MV.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/マイオドレ！舞舞タイム 【ときのそら＆さくらみこ×maimai でらっくす Splash 】MV.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【5人で】Alice in N.Y.【歌ってみた_ホロALICE】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【5人で】Alice in N.Y.【歌ってみた_ホロALICE】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【5人で】Alice in N.Y.【歌ってみた_ホロALICE】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【チヤホヤして！！】ヒロイン育成計画 歌ってみた AZKi【HoneyWorks】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【チヤホヤして！！】ヒロイン育成計画 歌ってみた AZKi【HoneyWorks】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【チヤホヤして！！】ヒロイン育成計画 歌ってみた AZKi【HoneyWorks】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】チキンライス _ Covered by 夕刻ロベル.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】チキンライス _ Covered by 夕刻ロベル.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】チキンライス _ Covered by 夕刻ロベル.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original song] 'BLUE CLAPPER' short MV [Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original song] 'BLUE CLAPPER' short MV [Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original song] 'BLUE CLAPPER' short MV [Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【アカペラ】小さな恋のうた -1Chorus【白上フブキ_ホロライブ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【アカペラ】小さな恋のうた -1Chorus【白上フブキ_ホロライブ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【アカペラ】小さな恋のうた -1Chorus【白上フブキ_ホロライブ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】さくらんぼキッス ～爆発だも〜ん～【Vo.宝鐘マリン】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】さくらんぼキッス ～爆発だも〜ん～【Vo.宝鐘マリン】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【アイキス２ED曲】さくらんぼキッス ～爆発だも〜ん～【Vo.宝鐘マリン】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】すてきなホリデイ【ゆるスタ_ホロスターズ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】すてきなホリデイ【ゆるスタ_ホロスターズ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】すてきなホリデイ【ゆるスタ_ホロスターズ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ボンバーキングのテーマ_戌神ころね(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ボンバーキングのテーマ_戌神ころね(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ボンバーキングのテーマ_戌神ころね(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】ベノム _ 奏手イヅル.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】ベノム _ 奏手イヅル.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】ベノム _ 奏手イヅル.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【11thオリジナルソング】from A to Z_AZKi【AZKi WHiTE】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【11thオリジナルソング】from A to Z_AZKi【AZKi WHiTE】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【11thオリジナルソング】from A to Z_AZKi【AZKi WHiTE】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ドレミファロンド_Covered by 花咲みやび.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ドレミファロンド_Covered by 花咲みやび.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ドレミファロンド_Covered by 花咲みやび.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Cover] Universe [Kanade Izuru_Hanasaki Miyabi].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Cover] Universe [Kanade Izuru_Hanasaki Miyabi].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Cover] Universe [Kanade Izuru_Hanasaki Miyabi].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】嘘嘘嘘嘘 _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】嘘嘘嘘嘘 _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】嘘嘘嘘嘘 _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ふたりだけの歌よ】紅藍クロニクル _ SorAZ【AZKi ときのそら】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ふたりだけの歌よ】紅藍クロニクル _ SorAZ【AZKi ときのそら】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ふたりだけの歌よ】紅藍クロニクル _ SorAZ【AZKi ときのそら】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Original MemeSong】KSZK song【Moona Hoshinova】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Original MemeSong】KSZK song【Moona Hoshinova】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Original MemeSong】KSZK song【Moona Hoshinova】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん】アザミナ_VTuberオリジナル楽曲アルバム第3弾「VirtuaREAL.02」.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん】アザミナ_VTuberオリジナル楽曲アルバム第3弾「VirtuaREAL.02」.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ロボ子さん】アザミナ_VTuberオリジナル楽曲アルバム第3弾「VirtuaREAL.02」.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/あゝオオサカdreamin'night _ どついたれ本舗【Covered by 夕刻ロベル・岸堂天真・アステル】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/あゝオオサカdreamin'night _ どついたれ本舗【Covered by 夕刻ロベル・岸堂天真・アステル】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/あゝオオサカdreamin'night _ どついたれ本舗【Covered by 夕刻ロベル・岸堂天真・アステル】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story (Instrumental).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story (Instrumental).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Shiny Smily Story (Instrumental).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Song of Sketch _ Mrs. GREEN APPLE (feat. Sonoko Inoue) covered by Rikka x Roboco.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Song of Sketch _ Mrs. GREEN APPLE (feat. Sonoko Inoue) covered by Rikka x Roboco.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Song of Sketch _ Mrs. GREEN APPLE (feat. Sonoko Inoue) covered by Rikka x Roboco.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】太陽系デスコ _ RIZnote【奏手イヅル_律可】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】太陽系デスコ _ RIZnote【奏手イヅル_律可】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】太陽系デスコ _ RIZnote【奏手イヅル_律可】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【COVER】KING - Kanaria【Ayunda Risu】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【COVER】KING - Kanaria【Ayunda Risu】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【COVER】KING - Kanaria【Ayunda Risu】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】Rain of Cherry Blossoms _ RIZnote【Kanade Izuru _ Rikka】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】Rain of Cherry Blossoms _ RIZnote【Kanade Izuru _ Rikka】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】Rain of Cherry Blossoms _ RIZnote【Kanade Izuru _ Rikka】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【公式OP】「アイキス２」OPムービー【Vo.さくらみこ、宝鐘マリン、AZKi】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【公式OP】「アイキス２」OPムービー【Vo.さくらみこ、宝鐘マリン、AZKi】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【公式OP】「アイキス２」OPムービー【Vo.さくらみこ、宝鐘マリン、AZKi】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1人2役】獣ゆく細道／天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1人2役】獣ゆく細道／天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1人2役】獣ゆく細道／天音かなた(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/「風吹けば恋」short ver. -IMAGINATION vol.3 収録-.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/「風吹けば恋」short ver. -IMAGINATION vol.3 収録-.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/「風吹けば恋」short ver. -IMAGINATION vol.3 収録-.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【オリジナルハロウィン曲】『今宵はHalloween Night!』ショートMV【夜空メル_紫咲シオン_癒月ちょこ_潤羽るしあ ホロライブ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【オリジナルハロウィン曲】『今宵はHalloween Night!』ショートMV【夜空メル_紫咲シオン_癒月ちょこ_潤羽るしあ ホロライブ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【オリジナルハロウィン曲】『今宵はHalloween Night!』ショートMV【夜空メル_紫咲シオン_癒月ちょこ_潤羽るしあ ホロライブ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Ochame Kinou - hololive Indonesia (Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Ochame Kinou - hololive Indonesia (Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Ochame Kinou - hololive Indonesia (Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/John Denver - Take Me Home, Country Roads (Cover by Akaihaato).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/John Denver - Take Me Home, Country Roads (Cover by Akaihaato).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/John Denver - Take Me Home, Country Roads (Cover by Akaihaato).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】Happy Halloween _ RIZnote【奏手イヅル×律可】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】Happy Halloween _ RIZnote【奏手イヅル×律可】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】Happy Halloween _ RIZnote【奏手イヅル×律可】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【アカペラ】小さな恋のうた -1Chorus【白上フブキ_ホロライブ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【アカペラ】小さな恋のうた -1Chorus【白上フブキ_ホロライブ】.opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【アカペラ】小さな恋のうた -1Chorus【白上フブキ_ホロライブ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/夢見る空へ (Instrumental).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/夢見る空へ (Instrumental).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】MOON PRIDE _ ももいろクローバーZ【朝ノ瑠璃×戌亥とこ×白上フブキ×樋口楓×宝鐘マリン】美少女戦士セーラームーンCrystal OPテーマ _ SailorMoon.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/夢見る空へ (Instrumental).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/夢見る空へ (Instrumental).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/夢見る空へ (Instrumental).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Ochame Kinou - hololive Indonesia (Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Ochame Kinou - hololive Indonesia (Cover).opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st Anniversary】Blessing _ halyosy covered by HOLOSTARS【We tried to sing】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st Anniversary】Blessing _ halyosy covered by HOLOSTARS【We tried to sing】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Ochame Kinou - hololive Indonesia (Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st Anniversary】Blessing _ halyosy covered by HOLOSTARS【We tried to sing】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st Anniversary】Blessing _ halyosy covered by HOLOSTARS【We tried to sing】.opus': No such file or directory
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st Anniversary】Blessing _ halyosy covered by HOLOSTARS【We tried to sing】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ゆるキャン△EDver】ふゆびより_白上フブキ【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ゆるキャン△EDver】ふゆびより_白上フブキ【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ゆるキャン△EDver】ふゆびより_白上フブキ【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】チキンライス _ Covered by 夕刻ロベル.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】チキンライス _ Covered by 夕刻ロベル.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】チキンライス _ Covered by 夕刻ロベル.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/LiSA『紅蓮華』 _ 星街すいせい(Live-edition).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/LiSA『紅蓮華』 _ 星街すいせい(Live-edition).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/LiSA『紅蓮華』 _ 星街すいせい(Live-edition).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ボンバーキングのテーマ_戌神ころね(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ボンバーキングのテーマ_戌神ころね(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ボンバーキングのテーマ_戌神ころね(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/おこちゃま戦争／Covered by紫咲シオン＆湊あくあ【歌ってみた_4K】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/おこちゃま戦争／Covered by紫咲シオン＆湊あくあ【歌ってみた_4K】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/おこちゃま戦争／Covered by紫咲シオン＆湊あくあ【歌ってみた_4K】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ワタシノテンシ _ 夏色まつり cover【オリジナルPV】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ワタシノテンシ _ 夏色まつり cover【オリジナルPV】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ワタシノテンシ _ 夏色まつり cover【オリジナルPV】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【COVER】KING - Kanaria【Ayunda Risu】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【COVER】KING - Kanaria【Ayunda Risu】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【COVER】KING - Kanaria【Ayunda Risu】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】Leaf ticket【Vo.AZKi】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】Leaf ticket【Vo.AZKi】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【アイキス２ED曲】Leaf ticket【Vo.AZKi】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/発光体ソーラーサイクル _ AZKi 【2nd ALBUM 収録曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/発光体ソーラーサイクル _ AZKi 【2nd ALBUM 収録曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/発光体ソーラーサイクル _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【4K】気まぐれメルシィ-coverd by百鬼あやめ×カグラナナ【full dance ver】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【original】Ahoy!! 我ら宝鐘海賊団☆【ホロライブ_宝鐘マリン】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【original】Ahoy!! 我ら宝鐘海賊団☆【ホロライブ_宝鐘マリン】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【original】Ahoy!! 我ら宝鐘海賊団☆【ホロライブ_宝鐘マリン】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】帝国少女-Imperial Girl _ 奏手イヅル(Kanade Izuru).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】帝国少女-Imperial Girl _ 奏手イヅル(Kanade Izuru).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】帝国少女-Imperial Girl _ 奏手イヅル(Kanade Izuru).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/第六感 - THE SIXTH SENSE  Acoustic Guitar cover.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/第六感 - THE SIXTH SENSE  Acoustic Guitar cover.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/第六感 - THE SIXTH SENSE  Acoustic Guitar cover.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん】誕生日に HAPPY BIRTHDAY 【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん】誕生日に HAPPY BIRTHDAY 【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ロボ子さん】誕生日に HAPPY BIRTHDAY 【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【COVER】~ Snow Halation ~【Ayunda Risu】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【COVER】~ Snow Halation ~【Ayunda Risu】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【COVER】~ Snow Halation ~【Ayunda Risu】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【piano arrange】 Uru「あなたがいることで」テセウスの船 主題歌  _ Covered by 律可×波羅ノ鬼.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【piano arrange】 Uru「あなたがいることで」テセウスの船 主題歌  _ Covered by 律可×波羅ノ鬼.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【piano arrange】 Uru「あなたがいることで」テセウスの船 主題歌  _ Covered by 律可×波羅ノ鬼.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【オリジナルソング】光 _ AZKi 【2020.4.15リリース】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【オリジナルソング】光 _ AZKi 【2020.4.15リリース】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【オリジナルソング】光 _ AZKi 【2020.4.15リリース】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/『歌ってみた』One more time,One more chance _ アステル(Astel Leda).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/『歌ってみた』One more time,One more chance _ アステル(Astel Leda).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/『歌ってみた』One more time,One more chance _ アステル(Astel Leda).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1人2役】獣ゆく細道／天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1人2役】獣ゆく細道／天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1人2役】獣ゆく細道／天音かなた(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Uptown Funk- Mark Ronson ft. Bruno Mars(cover by HAACHAMA).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Uptown Funk- Mark Ronson ft. Bruno Mars(cover by HAACHAMA).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Uptown Funk- Mark Ronson ft. Bruno Mars(cover by HAACHAMA).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】Cream+Mint【Vo.AZKi】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】Cream+Mint【Vo.AZKi】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【アイキス２ED曲】Cream+Mint【Vo.AZKi】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/月陽-ツキアカリ-／星街すいせい＆天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/月陽-ツキアカリ-／星街すいせい＆天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/月陽-ツキアカリ-／星街すいせい＆天音かなた(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Original MemeSong】KSZK song【Moona Hoshinova】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Original MemeSong】KSZK song【Moona Hoshinova】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Original MemeSong】KSZK song【Moona Hoshinova】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/太陽が似合うよ _ Taiyou ga Niau yo _ Airani Iofifteen Cover 「歌ってみた」.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/太陽が似合うよ _ Taiyou ga Niau yo _ Airani Iofifteen Cover 「歌ってみた」.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/太陽が似合うよ _ Taiyou ga Niau yo _ Airani Iofifteen Cover 「歌ってみた」.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】だから僕は音楽を辞めた _ ヨルシカ【不知火フレア(Cover)】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】だから僕は音楽を辞めた _ ヨルシカ【不知火フレア(Cover)】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】だから僕は音楽を辞めた _ ヨルシカ【不知火フレア(Cover)】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ドレミファロンド_Covered by 花咲みやび.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ドレミファロンド_Covered by 花咲みやび.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ドレミファロンド_Covered by 花咲みやび.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ふわふわ時間 _ 猫又おかゆ (Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ふわふわ時間 _ 猫又おかゆ (Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ふわふわ時間 _ 猫又おかゆ (Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【オリジナルソング】Eternity Bright _ AZKi 【2020.3.31リリース】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【オリジナルソング】Eternity Bright _ AZKi 【2020.3.31リリース】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【オリジナルソング】Eternity Bright _ AZKi 【2020.3.31リリース】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【original】ぺこらんだむぶれいん！【ホロライブ_兎田ぺこら】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【original】ぺこらんだむぶれいん！【ホロライブ_兎田ぺこら】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【original】ぺこらんだむぶれいん！【ホロライブ_兎田ぺこら】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/シャルル _ バルーン 『covered by 律可』.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/シャルル _ バルーン 『covered by 律可』.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/シャルル _ バルーン 『covered by 律可』.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/キラメキライダー☆.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/キラメキライダー☆.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/キラメキライダー☆.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/あゝオオサカdreamin'night _ どついたれ本舗【Covered by 夕刻ロベル・岸堂天真・アステル】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/あゝオオサカdreamin'night _ どついたれ本舗【Covered by 夕刻ロベル・岸堂天真・アステル】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/あゝオオサカdreamin'night _ どついたれ本舗【Covered by 夕刻ロベル・岸堂天真・アステル】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Asano Ruri ×Tokino Sora】Delusion Sentiment Compensation Federation _ DSCF  - DECO_27【Cover】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Asano Ruri ×Tokino Sora】Delusion Sentiment Compensation Federation _ DSCF  - DECO_27【Cover】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Asano Ruri ×Tokino Sora】Delusion Sentiment Compensation Federation _ DSCF  - DECO_27【Cover】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original song] 'Candy-Go-Round' short ver. [Roboco-san, Mel, AkiRose, Aqua, Flare].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original song] 'Candy-Go-Round' short ver. [Roboco-san, Mel, AkiRose, Aqua, Flare].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original song] 'Candy-Go-Round' short ver. [Roboco-san, Mel, AkiRose, Aqua, Flare].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/チューリングラブ _Cover 湊あくあ_猫又おかゆ【ホロライブ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/チューリングラブ _Cover 湊あくあ_猫又おかゆ【ホロライブ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/チューリングラブ _Cover 湊あくあ_猫又おかゆ【ホロライブ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/恋愛サーキュレーション-  Renai Circulation-／角巻わため(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/恋愛サーキュレーション-  Renai Circulation-／角巻わため(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/恋愛サーキュレーション-  Renai Circulation-／角巻わため(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【11thオリジナルソング】from A to Z_AZKi【AZKi WHiTE】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【11thオリジナルソング】from A to Z_AZKi【AZKi WHiTE】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【11thオリジナルソング】from A to Z_AZKi【AZKi WHiTE】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/in this world _ AZKi 【2nd ALBUM 収録曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/in this world _ AZKi 【2nd ALBUM 収録曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/in this world _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】ピザ パスタ ピザ のうた【フブちゃん&アルランディス_ #ピザコーン】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】ピザ パスタ ピザ のうた【フブちゃん&アルランディス_ #ピザコーン】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】ピザ パスタ ピザ のうた【フブちゃん&アルランディス_ #ピザコーン】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ボッカデラベリタ_常闇トワ(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ボッカデラベリタ_常闇トワ(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ボッカデラベリタ_常闇トワ(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【 1_24 Hololive MV】『Shiny Smily Story』.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【 1_24 Hololive MV】『Shiny Smily Story』.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【 1_24 Hololive MV】『Shiny Smily Story』.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/秒針を噛む _ ずっと真夜中でいいのに。『covered by 律可』.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/秒針を噛む _ ずっと真夜中でいいのに。『covered by 律可』.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/秒針を噛む _ ずっと真夜中でいいのに。『covered by 律可』.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[ORIGINAL SONG]  Cursed Night - Calliope Mori.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[ORIGINAL SONG]  Cursed Night - Calliope Mori.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[ORIGINAL SONG]  Cursed Night - Calliope Mori.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【キメキメで】アンヘル【歌ってみた_ときのそら】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【キメキメで】アンヘル【歌ってみた_ときのそら】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【キメキメで】アンヘル【歌ってみた_ときのそら】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【オリジナルソング】黒鉄の守り人 _ AZKi【ジンキ・リザレクションEDテーマ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【オリジナルソング】黒鉄の守り人 _ AZKi【ジンキ・リザレクションEDテーマ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【オリジナルソング】黒鉄の守り人 _ AZKi【ジンキ・リザレクションEDテーマ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/歌｜カントリーロード _K’s piano arrange ver｜ロボ子さん.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/歌｜カントリーロード _K’s piano arrange ver｜ロボ子さん.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/歌｜カントリーロード _K’s piano arrange ver｜ロボ子さん.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/HOLOGRAM CIRCUS - 尾丸ポルカ (short ver.).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/HOLOGRAM CIRCUS - 尾丸ポルカ (short ver.).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/HOLOGRAM CIRCUS - 尾丸ポルカ (short ver.).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】Paintër _ halyosy covered by HOLOSTARS【9人歌唱】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】Paintër _ halyosy covered by HOLOSTARS【9人歌唱】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】Paintër _ halyosy covered by HOLOSTARS【9人歌唱】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/アウトサイダー／天音かなた(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/アウトサイダー／天音かなた(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/アウトサイダー／天音かなた(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【爽やかに】ただ君に晴れ（Cover）【歌ってみた_ときのそら】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【爽やかに】ただ君に晴れ（Cover）【歌ってみた_ときのそら】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【爽やかに】ただ君に晴れ（Cover）【歌ってみた_ときのそら】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Dua Lipa - Don't Start Now (cover by Akaihaato).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Dua Lipa - Don't Start Now (cover by Akaihaato).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Dua Lipa - Don't Start Now (cover by Akaihaato).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Colorful World  _ 夏色まつりcover ( 1cho.ver ).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Colorful World  _ 夏色まつりcover ( 1cho.ver ).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Colorful World  _ 夏色まつりcover ( 1cho.ver ).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ライラック _ 美波 covered by 律可【#V歌リレー】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ライラック _ 美波 covered by 律可【#V歌リレー】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ライラック _ 美波 covered by 律可【#V歌リレー】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ローゼンメイデン】聖少女領域_coverd Aki Rosenthal【歌ってみた_4K】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ローゼンメイデン】聖少女領域_coverd Aki Rosenthal【歌ってみた_4K】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ローゼンメイデン】聖少女領域_coverd Aki Rosenthal【歌ってみた_4K】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ON STAGE!収録】ブルーベリームーン(Short ver.)MV【ときのそらオリジナル楽曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ON STAGE!収録】ブルーベリームーン(Short ver.)MV【ときのそらオリジナル楽曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ON STAGE!収録】ブルーベリームーン(Short ver.)MV【ときのそらオリジナル楽曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】ロメオ _ RIZnote【奏手イヅル_律可】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】ロメオ _ RIZnote【奏手イヅル_律可】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】ロメオ _ RIZnote【奏手イヅル_律可】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Ievan Polkka　ロイちゃま.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Ievan Polkka　ロイちゃま.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Ievan Polkka　ロイちゃま.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[ORIGINAL SONG]  失礼しますが、RIP♡ _ “Excuse My Rudeness, But Could You Please RIP” - Calliope Mori.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[ORIGINAL SONG]  失礼しますが、RIP♡ _ “Excuse My Rudeness, But Could You Please RIP” - Calliope Mori.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[ORIGINAL SONG]  失礼しますが、RIP♡ _ “Excuse My Rudeness, But Could You Please RIP” - Calliope Mori.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】Reflection_ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】Reflection_ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】Reflection_ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Cover] They Who Wait for the Rainbow _ Kanade Izuru.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Cover] They Who Wait for the Rainbow _ Kanade Izuru.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Cover] They Who Wait for the Rainbow _ Kanade Izuru.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】Midnight Song _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】Midnight Song _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】Midnight Song _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【オリジナルハロウィン曲】『今宵はHalloween Night!』ショートMV【夜空メル_紫咲シオン_癒月ちょこ_潤羽るしあ ホロライブ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【オリジナルハロウィン曲】『今宵はHalloween Night!』ショートMV【夜空メル_紫咲シオン_癒月ちょこ_潤羽るしあ ホロライブ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【オリジナルハロウィン曲】『今宵はHalloween Night!』ショートMV【夜空メル_紫咲シオン_癒月ちょこ_潤羽るしあ ホロライブ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/#あくあ色ぱれっと.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/#あくあ色ぱれっと.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/#あくあ色ぱれっと.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/カブトムシ 1cho.ver_aiko(Covered by 夏色まつり&律可).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/カブトムシ 1cho.ver_aiko(Covered by 夏色まつり&律可).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/カブトムシ 1cho.ver_aiko(Covered by 夏色まつり&律可).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ドMホイホイ】タイトルなんて自分で考えなさいな【Cover_#アキ・ローゼンタール】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ドMホイホイ】タイトルなんて自分で考えなさいな【Cover_#アキ・ローゼンタール】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ドMホイホイ】タイトルなんて自分で考えなさいな【Cover_#アキ・ローゼンタール】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Can You Do the hololive Beyond the Stage ver. [STAGE1+2 edit].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Can You Do the hololive Beyond the Stage ver. [STAGE1+2 edit].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Can You Do the hololive Beyond the Stage ver. [STAGE1+2 edit].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】Happy Halloween _ RIZnote【奏手イヅル×律可】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】Happy Halloween _ RIZnote【奏手イヅル×律可】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】Happy Halloween _ RIZnote【奏手イヅル×律可】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【MMD】ECHO【赤井はあと】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【MMD】ECHO【赤井はあと】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【MMD】ECHO【赤井はあと】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】Dramaturgy _ Kanade Izuru.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】Dramaturgy _ Kanade Izuru.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】Dramaturgy _ Kanade Izuru.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【何度でも開拓するよ】Creating world 2020ver. _ AZKi【みんなと一緒に】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【何度でも開拓するよ】Creating world 2020ver. _ AZKi【みんなと一緒に】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【何度でも開拓するよ】Creating world 2020ver. _ AZKi【みんなと一緒に】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Queen - We Will Rock You (Cover by HAACHAMA).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Queen - We Will Rock You (Cover by HAACHAMA).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Queen - We Will Rock You (Cover by HAACHAMA).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Ahoy!! 我ら宝鐘海賊団☆.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Ahoy!! 我ら宝鐘海賊団☆.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Ahoy!! 我ら宝鐘海賊団☆.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/キラメキライダー☆ (Instrumental).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/キラメキライダー☆ (Instrumental).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/キラメキライダー☆ (Instrumental).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】好き！雪！本気マジック.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】好き！雪！本気マジック.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】好き！雪！本気マジック.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Original Song】Gate Open - START! - Pavolia Reine (short ver.).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Original Song】Gate Open - START! - Pavolia Reine (short ver.).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Original Song】Gate Open - START! - Pavolia Reine (short ver.).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/今宵はHalloween Night!.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/今宵はHalloween Night!.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/今宵はHalloween Night!.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/社畜の歌_original song ロボ子さんfeat.K's.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/社畜の歌_original song ロボ子さんfeat.K's.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/社畜の歌_original song ロボ子さんfeat.K's.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/気まぐれメルシィKimagure Mercy_アキ・ローゼンタール【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/気まぐれメルシィKimagure Mercy_アキ・ローゼンタール【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/気まぐれメルシィKimagure Mercy_アキ・ローゼンタール【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original song] 'Hyakkaryouran Hanafubuki' short ver. [Shirakami Fubuki, Nakiri Ayame, Ookami Mio].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original song] 'Hyakkaryouran Hanafubuki' short ver. [Shirakami Fubuki, Nakiri Ayame, Ookami Mio].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original song] 'Hyakkaryouran Hanafubuki' short ver. [Shirakami Fubuki, Nakiri Ayame, Ookami Mio].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】それがあなたの幸せとしても _ 奏手イヅル.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】それがあなたの幸せとしても _ 奏手イヅル.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】それがあなたの幸せとしても _ 奏手イヅル.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Cover] Cosmology of NyanNyan _ Kanade Izuru.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Cover] Cosmology of NyanNyan _ Kanade Izuru.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Cover] Cosmology of NyanNyan _ Kanade Izuru.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】allegretto-そらときみ-【Vo.さくらみこ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】allegretto-そらときみ-【Vo.さくらみこ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【アイキス２ED曲】allegretto-そらときみ-【Vo.さくらみこ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】フロンティアローカス _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】フロンティアローカス _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】フロンティアローカス _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/John Denver - Take Me Home, Country Roads (Cover by Akaihaato).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/John Denver - Take Me Home, Country Roads (Cover by Akaihaato).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/John Denver - Take Me Home, Country Roads (Cover by Akaihaato).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/弾き語り 香水_瑛人 １chorus.ver『covered by 律可』.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/弾き語り 香水_瑛人 １chorus.ver『covered by 律可』.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/弾き語り 香水_瑛人 １chorus.ver『covered by 律可』.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/「風吹けば恋」short ver. -IMAGINATION vol.3 収録-.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/「風吹けば恋」short ver. -IMAGINATION vol.3 収録-.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/「風吹けば恋」short ver. -IMAGINATION vol.3 収録-.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【オリジナルソング】猫ならばいける _ AZKi【にゃにゃにゃにゃ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【オリジナルソング】猫ならばいける _ AZKi【にゃにゃにゃにゃ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【オリジナルソング】猫ならばいける _ AZKi【にゃにゃにゃにゃ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/三月のパンタシア-コラージュ『 衛宮さんちの今日のごはんED』Hololive_アキ・ローゼンタール(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/三月のパンタシア-コラージュ『 衛宮さんちの今日のごはんED』Hololive_アキ・ローゼンタール(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/三月のパンタシア-コラージュ『 衛宮さんちの今日のごはんED』Hololive_アキ・ローゼンタール(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【あなたはあなただから】スーパーヒーロー 歌ってみた AZKi【Guiano】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【あなたはあなただから】スーパーヒーロー 歌ってみた AZKi【Guiano】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【あなたはあなただから】スーパーヒーロー 歌ってみた AZKi【Guiano】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【#ホロWACCA】『ぺこみこ大戦争！！』フルMV【さくらみこ_兎田ぺこら ホロライブ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【#ホロWACCA】『ぺこみこ大戦争！！』フルMV【さくらみこ_兎田ぺこら ホロライブ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【#ホロWACCA】『ぺこみこ大戦争！！』フルMV【さくらみこ_兎田ぺこら ホロライブ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/劣等上等_天音かなた(VARK LIVE version）.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/劣等上等_天音かなた(VARK LIVE version）.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/劣等上等_天音かなた(VARK LIVE version）.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Minato Aqua - For The Win 【湊あくあ_オリジナル曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Minato Aqua - For The Win 【湊あくあ_オリジナル曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Minato Aqua - For The Win 【湊あくあ_オリジナル曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/月曜日の憂鬱 _ 夏色まつり cover.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/月曜日の憂鬱 _ 夏色まつり cover.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/月曜日の憂鬱 _ 夏色まつり cover.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Japanese.Ver】Baby Doll-Utopia _ Moona Hoshinova Cover.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Japanese.Ver】Baby Doll-Utopia _ Moona Hoshinova Cover.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Japanese.Ver】Baby Doll-Utopia _ Moona Hoshinova Cover.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ふたりだけの歌よ】紅藍クロニクル _ SorAZ【AZKi ときのそら】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ふたりだけの歌よ】紅藍クロニクル _ SorAZ【AZKi ときのそら】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ふたりだけの歌よ】紅藍クロニクル _ SorAZ【AZKi ときのそら】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ハロハロナリヤンス音頭 _ 戌神ころね(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ハロハロナリヤンス音頭 _ 戌神ころね(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ハロハロナリヤンス音頭 _ 戌神ころね(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/SoundHorizon「朝までハロウィン」(Cover)_ 角巻わため ×白上フブキ ×不知火フレア【#バカタレ共】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/SoundHorizon「朝までハロウィン」(Cover)_ 角巻わため ×白上フブキ ×不知火フレア【#バカタレ共】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/SoundHorizon「朝までハロウィン」(Cover)_ 角巻わため ×白上フブキ ×不知火フレア【#バカタレ共】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【エモみ全開】あさがおの詩 - AZKi 歌ってみた 【朝ノ瑠璃】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【エモみ全開】あさがおの詩 - AZKi 歌ってみた 【朝ノ瑠璃】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【エモみ全開】あさがおの詩 - AZKi 歌ってみた 【朝ノ瑠璃】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】さくらんぼキッス ～爆発だも〜ん～【Vo.宝鐘マリン】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】さくらんぼキッス ～爆発だも〜ん～【Vo.宝鐘マリン】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【アイキス２ED曲】さくらんぼキッス ～爆発だも〜ん～【Vo.宝鐘マリン】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Shiny Smily Story.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】unravel _ 奏手イヅル.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】unravel _ 奏手イヅル.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】unravel _ 奏手イヅル.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original Song] Live Again - Calliope Mori #holoMyth #hololiveEnglish.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original Song] Live Again - Calliope Mori #holoMyth #hololiveEnglish.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original Song] Live Again - Calliope Mori #holoMyth #hololiveEnglish.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/百鬼祭_常闇トワ(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/百鬼祭_常闇トワ(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/百鬼祭_常闇トワ(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】without U _ AZKi 【1st ALBUM収録曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】without U _ AZKi 【1st ALBUM収録曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】without U _ AZKi 【1st ALBUM収録曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】世界は巡り、やがて君のものになる _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】世界は巡り、やがて君のものになる _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】世界は巡り、やがて君のものになる _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】ちいさな心が決めたこと _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】ちいさな心が決めたこと _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】ちいさな心が決めたこと _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Alien Alien _ エイリアンエイリアン Cover by Airani Iofifteen _ イオフィ.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Alien Alien _ エイリアンエイリアン Cover by Airani Iofifteen _ イオフィ.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Alien Alien _ エイリアンエイリアン Cover by Airani Iofifteen _ イオフィ.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/KING／Covered by紫咲シオン【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/KING／Covered by紫咲シオン【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/KING／Covered by紫咲シオン【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【みんなに届いて】命に嫌われている。 歌ってみた AZKi【カンザキイオリ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【みんなに届いて】命に嫌われている。 歌ってみた AZKi【カンザキイオリ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【みんなに届いて】命に嫌われている。 歌ってみた AZKi【カンザキイオリ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ホロライブ】さぷらいずぱらだいす！【どっきりラビリンス】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ホロライブ】さぷらいずぱらだいす！【どっきりラビリンス】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ホロライブ】さぷらいずぱらだいす！【どっきりラビリンス】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1周年記念】君に届け【Covered by 岸堂天真_ホロスターズ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1周年記念】君に届け【Covered by 岸堂天真_ホロスターズ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1周年記念】君に届け【Covered by 岸堂天真_ホロスターズ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original Rap] DEAD BEATS - Calliope Mori #holoMyth #hololiveEnglish.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original Rap] DEAD BEATS - Calliope Mori #holoMyth #hololiveEnglish.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original Rap] DEAD BEATS - Calliope Mori #holoMyth #hololiveEnglish.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ORIGINAL SONG+MV】HOLOGRAM CIRCUS - Omaru Polka【尾丸ポルカ_ホロライブ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ORIGINAL SONG+MV】HOLOGRAM CIRCUS - Omaru Polka【尾丸ポルカ_ホロライブ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ORIGINAL SONG+MV】HOLOGRAM CIRCUS - Omaru Polka【尾丸ポルカ_ホロライブ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】as×sist ~甘えベタな私なりに~【Vo.さくらみこ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【アイキス２ED曲】as×sist ~甘えベタな私なりに~【Vo.さくらみこ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【アイキス２ED曲】as×sist ~甘えベタな私なりに~【Vo.さくらみこ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】嘘嘘嘘嘘 _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】嘘嘘嘘嘘 _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】嘘嘘嘘嘘 _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Cover] Telecaster B-Boy _ Kanade Izuru.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Cover] Telecaster B-Boy _ Kanade Izuru.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Cover] Telecaster B-Boy _ Kanade Izuru.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【COVER】FIRE BIRD _ Roselia【Moona Hoshinova】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【COVER】FIRE BIRD _ Roselia【Moona Hoshinova】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【COVER】FIRE BIRD _ Roselia【Moona Hoshinova】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【IOFI x POCHI-MARU】 Happy Synthesizer _ ハッピーシンセサイザ COVER【＃いおぽち】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【IOFI x POCHI-MARU】 Happy Synthesizer _ ハッピーシンセサイザ COVER【＃いおぽち】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【IOFI x POCHI-MARU】 Happy Synthesizer _ ハッピーシンセサイザ COVER【＃いおぽち】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん】アザミナ_VTuberオリジナル楽曲アルバム第3弾「VirtuaREAL.02」.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん】アザミナ_VTuberオリジナル楽曲アルバム第3弾「VirtuaREAL.02」.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ロボ子さん】アザミナ_VTuberオリジナル楽曲アルバム第3弾「VirtuaREAL.02」.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】YELLOW【奏手イヅル_唯牙コハク】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】YELLOW【奏手イヅル_唯牙コハク】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】YELLOW【奏手イヅル_唯牙コハク】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Ochame Kinou] hololive Fukkireta Chorus [24 VTubers].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Ochame Kinou] hololive Fukkireta Chorus [24 VTubers].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Ochame Kinou] hololive Fukkireta Chorus [24 VTubers].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/夏祭り  _ 赤井はあと×夏色まつり【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/夏祭り  _ 赤井はあと×夏色まつり【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/夏祭り  _ 赤井はあと×夏色まつり【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Song of Sketch _ Mrs. GREEN APPLE (feat. Sonoko Inoue) covered by Rikka x Roboco.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Song of Sketch _ Mrs. GREEN APPLE (feat. Sonoko Inoue) covered by Rikka x Roboco.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Song of Sketch _ Mrs. GREEN APPLE (feat. Sonoko Inoue) covered by Rikka x Roboco.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【SorAZの】東京サマーセッション ときのそら & AZKi【夏の思い出】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【SorAZの】東京サマーセッション ときのそら & AZKi【夏の思い出】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【SorAZの】東京サマーセッション ときのそら & AZKi【夏の思い出】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【MMD】ワールドイズマイン【赤井はあと】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【MMD】ワールドイズマイン【赤井はあと】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【MMD】ワールドイズマイン【赤井はあと】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【#あんぽんたん姉妹】Crazy Party Night ～ぱんぷきんの逆襲～【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【#あんぽんたん姉妹】Crazy Party Night ～ぱんぷきんの逆襲～【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【#あんぽんたん姉妹】Crazy Party Night ～ぱんぷきんの逆襲～【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】可愛くなりたい【花岸(岸堂天真 花咲みやび)_ホロスターズ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】可愛くなりたい【花岸(岸堂天真 花咲みやび)_ホロスターズ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】可愛くなりたい【花岸(岸堂天真 花咲みやび)_ホロスターズ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】威風堂々 _ RIZnote【奏手イヅル_律可】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】威風堂々 _ RIZnote【奏手イヅル_律可】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】威風堂々 _ RIZnote【奏手イヅル_律可】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story - hololive Indonesia (Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story - hololive Indonesia (Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Shiny Smily Story - hololive Indonesia (Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】クリスマスソング _ RIZnote【奏手イヅル_律可】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】クリスマスソング _ RIZnote【奏手イヅル_律可】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】クリスマスソング _ RIZnote【奏手イヅル_律可】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【3DMV】シャルイース _Aki Rosenthal【ホロライブ_民族調オリジナル】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【3DMV】シャルイース _Aki Rosenthal【ホロライブ_民族調オリジナル】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【3DMV】シャルイース _Aki Rosenthal【ホロライブ_民族調オリジナル】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】のんびりと、_ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】のんびりと、_ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】のんびりと、_ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/今宵はHalloween Night! (Instrumental).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/今宵はHalloween Night! (Instrumental).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/今宵はHalloween Night! (Instrumental).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/KING _ covered by Roboco-san.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/KING _ covered by Roboco-san.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/KING _ covered by Roboco-san.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[We tried to sing] At God's Mercy [Astel _ Kanade Izuru].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[We tried to sing] At God's Mercy [Astel _ Kanade Izuru].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[We tried to sing] At God's Mercy [Astel _ Kanade Izuru].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/夢見る空へ.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/夢見る空へ.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/夢見る空へ.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】Rain of Cherry Blossoms _ RIZnote【Kanade Izuru _ Rikka】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】Rain of Cherry Blossoms _ RIZnote【Kanade Izuru _ Rikka】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】Rain of Cherry Blossoms _ RIZnote【Kanade Izuru _ Rikka】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】KING - Kanaria _ covered by 影山シエン.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】KING - Kanaria _ covered by 影山シエン.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】KING - Kanaria _ covered by 影山シエン.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【バンド演奏】sailing day _ BUMP OF CHICKEN 『Covered by 律可』#VTuberバンド企画.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【バンド演奏】sailing day _ BUMP OF CHICKEN 『Covered by 律可』#VTuberバンド企画.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【バンド演奏】sailing day _ BUMP OF CHICKEN 『Covered by 律可』#VTuberバンド企画.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Saint Snow「Believe Again」_ 星街すいせい×夏色まつり(Live-edition).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Saint Snow「Believe Again」_ 星街すいせい×夏色まつり(Live-edition).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Saint Snow「Believe Again」_ 星街すいせい×夏色まつり(Live-edition).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【胸キュンしながら】気まぐれロマンティック（cover)【歌ってみた_ときのそら】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【胸キュンしながら】気まぐれロマンティック（cover)【歌ってみた_ときのそら】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【胸キュンしながら】気まぐれロマンティック（cover)【歌ってみた_ときのそら】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】ヒロイン育成計画【Covered by 岸堂天真_ホロスターズ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】ヒロイン育成計画【Covered by 岸堂天真_ホロスターズ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】ヒロイン育成計画【Covered by 岸堂天真_ホロスターズ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ブリキノダンス _ 日向電工『covered by 律可』.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ブリキノダンス _ 日向電工『covered by 律可』.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ブリキノダンス _ 日向電工『covered by 律可』.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Cover] Universe [Kanade Izuru_Hanasaki Miyabi].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Cover] Universe [Kanade Izuru_Hanasaki Miyabi].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Cover] Universe [Kanade Izuru_Hanasaki Miyabi].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/だから僕は音楽を辞めた _ ヨルシカ 『covered by 律可』.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/だから僕は音楽を辞めた _ ヨルシカ 『covered by 律可』.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/だから僕は音楽を辞めた _ ヨルシカ 『covered by 律可』.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/日清カレーメシ「カレーメシ×ホロライブ」リリックビデオ.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/日清カレーメシ「カレーメシ×ホロライブ」リリックビデオ.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/日清カレーメシ「カレーメシ×ホロライブ」リリックビデオ.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【original】#あくあ色ぱれっと【ホロライブ_湊あくあ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【original】#あくあ色ぱれっと【ホロライブ_湊あくあ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【original】#あくあ色ぱれっと【ホロライブ_湊あくあ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【絶対聞いたことある】シャイニングスター 歌ってみた AZKi【魔王魂】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【絶対聞いたことある】シャイニングスター 歌ってみた AZKi【魔王魂】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【絶対聞いたことある】シャイニングスター 歌ってみた AZKi【魔王魂】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】コトノハ _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】コトノハ _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】コトノハ _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original song - 'SHIJOSHUGI ADTRUCK' short ver. [Natsuiro Matsuri, Ookami Mio, Shiranui Flare].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original song - 'SHIJOSHUGI ADTRUCK' short ver. [Natsuiro Matsuri, Ookami Mio, Shiranui Flare].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original song - 'SHIJOSHUGI ADTRUCK' short ver. [Natsuiro Matsuri, Ookami Mio, Shiranui Flare].opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ON STAGE!収録】Step and Go!!(Short ver.)MV【ときのそらオリジナル楽曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ON STAGE!収録】Step and Go!!(Short ver.)MV【ときのそらオリジナル楽曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ON STAGE!収録】Step and Go!!(Short ver.)MV【ときのそらオリジナル楽曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/マイオドレ！舞舞タイム 【ときのそら＆さくらみこ×maimai でらっくす Splash 】MV.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/マイオドレ！舞舞タイム 【ときのそら＆さくらみこ×maimai でらっくす Splash 】MV.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/マイオドレ！舞舞タイム 【ときのそら＆さくらみこ×maimai でらっくす Splash 】MV.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】虹を駆け抜けて _ AZKi【without U】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1st ALBUM収録曲】虹を駆け抜けて _ AZKi【without U】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1st ALBUM収録曲】虹を駆け抜けて _ AZKi【without U】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/止まない雨 _ AZKi 【2nd ALBUM 収録曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/止まない雨 _ AZKi 【2nd ALBUM 収録曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/止まない雨 _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/HINOTORI - Takanashi Kiara (Official Music Video).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/HINOTORI - Takanashi Kiara (Official Music Video).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/HINOTORI - Takanashi Kiara (Official Music Video).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/メンヘラじゃないもん！ - 尾丸ポルカ(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/メンヘラじゃないもん！ - 尾丸ポルカ(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/メンヘラじゃないもん！ - 尾丸ポルカ(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】すてきなホリデイ【ゆるスタ_ホロスターズ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】すてきなホリデイ【ゆるスタ_ホロスターズ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】すてきなホリデイ【ゆるスタ_ホロスターズ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【DECO_27 】乙女解剖 _ AZKi【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【DECO_27 】乙女解剖 _ AZKi【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【DECO_27 】乙女解剖 _ AZKi【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Valkyrie「今宵月の館にて」 _ 戌亥とこ × 星街すいせい(Cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Valkyrie「今宵月の館にて」 _ 戌亥とこ × 星街すいせい(Cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Valkyrie「今宵月の館にて」 _ 戌亥とこ × 星街すいせい(Cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【コラボ】「BOYS & GIRLS 3.0 feat. ロボ子」 _ キツネDJ.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【コラボ】「BOYS & GIRLS 3.0 feat. ロボ子」 _ キツネDJ.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【コラボ】「BOYS & GIRLS 3.0 feat. ロボ子」 _ キツネDJ.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】ベノム _ 奏手イヅル.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】ベノム _ 奏手イヅル.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】ベノム _ 奏手イヅル.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【COVER】Again _ Beverly【Moona Hoshinova】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【COVER】Again _ Beverly【Moona Hoshinova】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【COVER】Again _ Beverly【Moona Hoshinova】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/KING／夏色まつり cover【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/KING／夏色まつり cover【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/KING／夏色まつり cover【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Re -Hello world _ 律可【オリジナルMV】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Re -Hello world _ 律可【オリジナルMV】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Re -Hello world _ 律可【オリジナルMV】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/傘 _ King Gnu 『covered by 律可』.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/傘 _ King Gnu 『covered by 律可』.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/傘 _ King Gnu 『covered by 律可』.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Nissin Curry Meshi Collab Song] Curry Meshi Is a Miracle (With Lyrics) #ホロライブカレーメシWEEK.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Nissin Curry Meshi Collab Song] Curry Meshi Is a Miracle (With Lyrics) #ホロライブカレーメシWEEK.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Nissin Curry Meshi Collab Song] Curry Meshi Is a Miracle (With Lyrics) #ホロライブカレーメシWEEK.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original Rap] ReaperかRapper 自己紹介ラップ - Calliope Mori #holoMyth #hololiveEnglish.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original Rap] ReaperかRapper 自己紹介ラップ - Calliope Mori #holoMyth #hololiveEnglish.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original Rap] ReaperかRapper 自己紹介ラップ - Calliope Mori #holoMyth #hololiveEnglish.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【神無月の巫女】agony _ AZKi【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【神無月の巫女】agony _ AZKi【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【神無月の巫女】agony _ AZKi【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】DADDY ! DADDY ! DO !【Ayunda Risu & 荒咬オウガ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】DADDY ! DADDY ! DO !【Ayunda Risu & 荒咬オウガ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】DADDY ! DADDY ! DO !【Ayunda Risu & 荒咬オウガ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ミルクと果実のうた_Music Video【電脳少女シロ_白上フブキ_アキローゼンタール_神楽すず_燦鳥ノム】【ミルクと果実シスターズ】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ミルクと果実のうた_Music Video【電脳少女シロ_白上フブキ_アキローゼンタール_神楽すず_燦鳥ノム】【ミルクと果実シスターズ】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ミルクと果実のうた_Music Video【電脳少女シロ_白上フブキ_アキローゼンタール_神楽すず_燦鳥ノム】【ミルクと果実シスターズ】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ぬんぬんと覚える】青空のシンフォニー【コール練習動画※ShortVersion】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ぬんぬんと覚える】青空のシンフォニー【コール練習動画※ShortVersion】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ぬんぬんと覚える】青空のシンフォニー【コール練習動画※ShortVersion】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ろぼかぐ】ラブレター【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ろぼかぐ】ラブレター【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ろぼかぐ】ラブレター【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【公式OP】「アイキス２」OPムービー【Vo.さくらみこ、宝鐘マリン、AZKi】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【公式OP】「アイキス２」OPムービー【Vo.さくらみこ、宝鐘マリン、AZKi】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【公式OP】「アイキス２」OPムービー【Vo.さくらみこ、宝鐘マリン、AZKi】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【チヤホヤして！！】ヒロイン育成計画 歌ってみた AZKi【HoneyWorks】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【チヤホヤして！！】ヒロイン育成計画 歌ってみた AZKi【HoneyWorks】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【チヤホヤして！！】ヒロイン育成計画 歌ってみた AZKi【HoneyWorks】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/1st Single 【 REDHEART 】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/1st Single 【 REDHEART 】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/1st Single 【 REDHEART 】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/曇天羊／角巻わため feat.Calliope Mori【オリジナル曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/曇天羊／角巻わため feat.Calliope Mori【オリジナル曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/曇天羊／角巻わため feat.Calliope Mori【オリジナル曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/_ERROR_常闇トワ(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/_ERROR_常闇トワ(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/_ERROR_常闇トワ(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/乙女解剖 _ DECO_27『covered by 律可』.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/乙女解剖 _ DECO_27『covered by 律可』.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/乙女解剖 _ DECO_27『covered by 律可』.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/ホロライブ言えるかな？／角巻わため【オリジナル曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/ホロライブ言えるかな？／角巻わため【オリジナル曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/ホロライブ言えるかな？／角巻わため【オリジナル曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover Sing】Coca Cola【Moona Hoshinova】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover Sing】Coca Cola【Moona Hoshinova】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover Sing】Coca Cola【Moona Hoshinova】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/失楽ペトリ _ 猫又おかゆ(cover).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/失楽ペトリ _ 猫又おかゆ(cover).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/失楽ペトリ _ 猫又おかゆ(cover).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【おちゃめ機能】ほろふぁいぶが吹っ切れた【5人で歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【おちゃめ機能】ほろふぁいぶが吹っ切れた【5人で歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【おちゃめ機能】ほろふぁいぶが吹っ切れた【5人で歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん×樋口楓】鬼KYOKAN【歌ってみた】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【ロボ子さん×樋口楓】鬼KYOKAN【歌ってみた】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【ロボ子さん×樋口楓】鬼KYOKAN【歌ってみた】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story (Instrumental).opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/Shiny Smily Story (Instrumental).opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/Shiny Smily Story (Instrumental).opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【Cover】太陽系デスコ _ RIZnote【奏手イヅル_律可】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【Cover】太陽系デスコ _ RIZnote【奏手イヅル_律可】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【Cover】太陽系デスコ _ RIZnote【奏手イヅル_律可】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【5人で】Alice in N.Y.【歌ってみた_ホロALICE】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【5人で】Alice in N.Y.【歌ってみた_ホロALICE】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【5人で】Alice in N.Y.【歌ってみた_ホロALICE】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【東方Vocal_アニメPV】人間が大好きなこわれた妖怪の唄【ホロライブ_宝鐘マリン】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【東方Vocal_アニメPV】人間が大好きなこわれた妖怪の唄【ホロライブ_宝鐘マリン】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【東方Vocal_アニメPV】人間が大好きなこわれた妖怪の唄【ホロライブ_宝鐘マリン】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/さくら色ハイテンション！ _ さくらみこ【オリジナル曲】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/さくら色ハイテンション！ _ さくらみこ【オリジナル曲】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/さくら色ハイテンション！ _ さくらみこ【オリジナル曲】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】Fire◎Flower covered by HOLOSTARS【律可_イヅル_アステル_シエン】.opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/【歌ってみた】Fire◎Flower covered by HOLOSTARS【律可_イヅル_アステル_シエン】.opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/【歌ってみた】Fire◎Flower covered by HOLOSTARS【律可_イヅル_アステル_シエン】.opus"
+Apr 17 21:37 : exception: Failed to decode /media/win/Users/troyd/Music/playlists/hololive/[Original song] 'BLUE CLAPPER' short MV [Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka].opus; Failed to open '/media/win/Users/troyd/Music/playlists/hololive/[Original song] 'BLUE CLAPPER' short MV [Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka].opus': No such file or directory
+Apr 17 21:37 : player: played "playlists/hololive/[Original song] 'BLUE CLAPPER' short MV [Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka].opus"
+Apr 17 21:42 : player: played "playlists/hololive/[Original song] 'Hyakkaryouran Hanafubuki' short ver. [Shirakami Fubuki, Nakiri Ayame, Ookami Mio].opus"
+Apr 17 21:44 : player: played "playlists/hololive/[Original song] 'BLUE CLAPPER' short MV [Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka].opus"
+Apr 17 21:48 : player: played "playlists/hololive/Synchronicity III - Requiem of the Endless World _ Aoi Sora × @Moona Hoshinova hololive-ID.opus"
+Apr 17 22:46 : player: played "playlists/hololive/止まない雨 _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 18 01:26 : player: played "playlists/hololive/止まない雨 _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 18 02:50 : player: played "playlists/hololive/止まない雨 _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 18 02:52 : player: played "playlists/hololive/止まない雨 _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 18 17:43 : player: played "playlists/hololive/ドレミファロンド_Covered by 花咲みやび.opus"
+Apr 18 17:46 : player: played "playlists/hololive/百鬼祭_常闇トワ(cover).opus"
+Apr 18 17:50 : player: played "playlists/hololive/【5人で】Alice in N.Y.【歌ってみた_ホロALICE】.opus"
+Apr 19 00:33 : player: played "playlists/hololive/[Original Rap] DEAD BEATS - Calliope Mori #holoMyth #hololiveEnglish.opus"
+Apr 19 00:39 : player: played "playlists/hololive/[Original Rap] DEAD BEATS - Calliope Mori #holoMyth #hololiveEnglish.opus"
+Apr 19 00:46 : player: played "playlists/hololive/[Original Rap] DEAD BEATS - Calliope Mori #holoMyth #hololiveEnglish.opus"
+Apr 19 08:22 : player: played "playlists/hololive/[Cover] They Who Wait for the Rainbow _ Kanade Izuru.opus"
+Apr 19 08:24 : player: played "playlists/hololive/KING／夏色まつり cover【歌ってみた】.opus"
+Apr 19 08:27 : player: played "playlists/hololive/【1st ALBUM収録曲】Midnight Song _ AZKi【without U】.opus"
+Apr 19 08:32 : player: played "playlists/hololive/【歌ってみた】すてきなホリデイ【ゆるスタ_ホロスターズ】.opus"
+Apr 19 08:36 : player: played "playlists/hololive/劣等上等_天音かなた(VARK LIVE version）.opus"
+Apr 19 08:40 : player: played "playlists/hololive/【ロボ子さん】誕生日に HAPPY BIRTHDAY 【歌ってみた】.opus"
+Apr 19 08:41 : player: played "playlists/hololive/歌｜カントリーロード _K’s piano arrange ver｜ロボ子さん.opus"
+Apr 19 17:21 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 19 21:36 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 19 22:25 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 20 17:08 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 21 01:26 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 21 23:34 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 22 18:59 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 23 00:54 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 23 08:47 : player: played "playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus"
+Apr 23 08:56 : player: played "playlists/hololive/ドレミファロンド_Covered by 花咲みやび.opus"
+Apr 23 08:59 : player: played "playlists/hololive/アウトサイダー／天音かなた(Cover).opus"
+Apr 23 09:03 : player: played "youtube/vocaloid/jp/[60fps Full風] 番凩 Paired Wintry Wind (TSUGAI KOGARASHI) - KAITO MEIKO DIVA English Romaji ドリーミーシアター.opus"
+Apr 23 09:07 : player: played "playlists/hololive/【Cover】それがあなたの幸せとしても _ 奏手イヅル.opus"
+Apr 23 09:12 : player: played "playlists/hololive/【COVER】Again _ Beverly【Moona Hoshinova】.opus"
+Apr 23 09:15 : player: played "playlists/hololive/[ORIGINAL SONG]  Cursed Night - Calliope Mori.opus"
+Apr 23 09:18 : player: played "playlists/hololive/メンヘラじゃないもん！ - 尾丸ポルカ(cover).opus"
+Apr 23 09:19 : player: played "playlists/hololive/社畜の歌_original song ロボ子さんfeat.K's.opus"
+Apr 23 09:23 : player: played "playlists/hololive/【歌ってみた】Fire◎Flower covered by HOLOSTARS【律可_イヅル_アステル_シエン】.opus"
+Apr 23 09:25 : player: played "playlists/hololive/【公式OP】「アイキス２」OPムービー【Vo.さくらみこ、宝鐘マリン、AZKi】.opus"
+Apr 23 09:28 : player: played "playlists/hololive/ボッカデラベリタ_常闇トワ(cover).opus"
+Apr 23 09:31 : player: played "playlists/hololive/失楽ペトリ _ 猫又おかゆ(cover).opus"
+Apr 23 09:32 : player: played "playlists/hololive/【Original Song】Gate Open - START! - Pavolia Reine (short ver.).opus"
+Apr 23 09:33 : player: played "playlists/hololive/[Original song] 'Hyakkaryouran Hanafubuki' short ver. [Shirakami Fubuki, Nakiri Ayame, Ookami Mio].opus"
+Apr 23 09:36 : player: played "playlists/hololive/Alien Alien _ エイリアンエイリアン Cover by Airani Iofifteen _ イオフィ.opus"
+Apr 23 09:40 : player: played "playlists/hololive/劣等上等_天音かなた(VARK LIVE version）.opus"
+Apr 23 09:41 : player: played "playlists/hololive/【ゆるキャン△EDver】ふゆびより_白上フブキ【歌ってみた】.opus"
+Apr 23 09:43 : player: played "playlists/hololive/【original】Ahoy!! 我ら宝鐘海賊団☆【ホロライブ_宝鐘マリン】.opus"
+Apr 23 09:47 : player: played "playlists/hololive/【1st ALBUM収録曲】Reflection_ AZKi【without U】.opus"
+Apr 23 09:51 : player: played "playlists/hololive/曇天羊／角巻わため feat.Calliope Mori【オリジナル曲】.opus"
+Apr 23 09:54 : player: played "playlists/hololive/【歌ってみた】だから僕は音楽を辞めた _ ヨルシカ【不知火フレア(Cover)】.opus"
+Apr 23 09:59 : player: played "playlists/hololive/【Asano Ruri ×Tokino Sora】Delusion Sentiment Compensation Federation _ DSCF  - DECO_27【Cover】.opus"
+Apr 23 10:02 : player: played "playlists/hololive/ふわふわ時間 _ 猫又おかゆ (Cover).opus"
+Apr 23 10:06 : player: played "playlists/hololive/【歌ってみた】ヒロイン育成計画【Covered by 岸堂天真_ホロスターズ】.opus"
+Apr 23 10:09 : player: played "playlists/hololive/【1人2役】獣ゆく細道／天音かなた(Cover).opus"
+Apr 23 10:14 : player: played "playlists/hololive/【1周年記念】君に届け【Covered by 岸堂天真_ホロスターズ】.opus"
+Apr 23 10:18 : player: played "playlists/hololive/LiSA『紅蓮華』 _ 星街すいせい(Live-edition).opus"
+Apr 23 10:24 : player: played "playlists/hololive/【Cover】Rain of Cherry Blossoms _ RIZnote【Kanade Izuru _ Rikka】.opus"
+Apr 23 10:27 : player: played "playlists/hololive/【MMD】ECHO【赤井はあと】.opus"
+Apr 23 10:31 : player: played "playlists/hololive/【COVER】~ Snow Halation ~【Ayunda Risu】.opus"
+Apr 23 10:35 : player: played "playlists/hololive/秒針を噛む _ ずっと真夜中でいいのに。『covered by 律可』.opus"
+Apr 23 10:39 : player: played "playlists/hololive/乙女解剖 _ DECO_27『covered by 律可』.opus"
+Apr 23 10:40 : player: played "playlists/hololive/John Denver - Take Me Home, Country Roads (Cover by Akaihaato).opus"
+Apr 23 10:41 : player: played "playlists/hololive/ミルクと果実のうた_Music Video【電脳少女シロ_白上フブキ_アキローゼンタール_神楽すず_燦鳥ノム】【ミルクと果実シスターズ】.opus"
+Apr 23 10:43 : player: played "playlists/hololive/【Original MemeSong】KSZK song【Moona Hoshinova】.opus"
+Apr 23 10:47 : player: played "playlists/hololive/【歌ってみた】Paintër _ halyosy covered by HOLOSTARS【9人歌唱】.opus"
+Apr 23 10:49 : player: played "playlists/hololive/KING／Covered by紫咲シオン【歌ってみた】.opus"
+Apr 23 10:52 : player: played "playlists/hololive/[Original Rap] ReaperかRapper 自己紹介ラップ - Calliope Mori #holoMyth #hololiveEnglish.opus"
+Apr 23 10:55 : player: played "playlists/hololive/【ホロライブ】さぷらいずぱらだいす！【どっきりラビリンス】.opus"
+Apr 23 11:00 : player: played "playlists/hololive/発光体ソーラーサイクル _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 23 11:03 : player: played "playlists/hololive/【Cover】太陽系デスコ _ RIZnote【奏手イヅル_律可】.opus"
+Apr 23 11:05 : player: played "playlists/hololive/マイオドレ！舞舞タイム 【ときのそら＆さくらみこ×maimai でらっくす Splash 】MV.opus"
+Apr 23 11:09 : player: played "playlists/hololive/【歌ってみた】すてきなホリデイ【ゆるスタ_ホロスターズ】.opus"
+Apr 23 11:14 : player: played "playlists/hololive/キラメキライダー☆.opus"
+Apr 23 11:18 : player: played "playlists/hololive/【SorAZ Special Live】紅藍クロニクル _ SorAZ (ときのそら,AZKi)【#劇場版SorAZ】.opus"
+Apr 23 11:22 : player: played "playlists/hololive/Minato Aqua - For The Win 【湊あくあ_オリジナル曲】.opus"
+Apr 23 11:25 : player: played "playlists/hololive/【1st ALBUM収録曲】嘘嘘嘘嘘 _ AZKi【without U】.opus"
+Apr 23 11:29 : player: played "playlists/hololive/【ろぼかぐ】ラブレター【歌ってみた】.opus"
+Apr 23 11:33 : player: played "playlists/hololive/【5人で】Alice in N.Y.【歌ってみた_ホロALICE】.opus"
+Apr 23 11:36 : player: played "playlists/hololive/【Cover】威風堂々 _ RIZnote【奏手イヅル_律可】.opus"
+Apr 23 11:39 : player: played "playlists/hololive/【Cover】ベノム _ 奏手イヅル.opus"
+Apr 23 11:41 : player: played "playlists/hololive/三月のパンタシア-コラージュ『 衛宮さんちの今日のごはんED』Hololive_アキ・ローゼンタール(Cover).opus"
+Apr 23 11:44 : player: played "playlists/hololive/【爽やかに】ただ君に晴れ（Cover）【歌ってみた_ときのそら】.opus"
+Apr 23 11:48 : player: played "playlists/hololive/【オリジナルソング】黒鉄の守り人 _ AZKi【ジンキ・リザレクションEDテーマ】.opus"
+Apr 23 11:50 : player: played "playlists/hololive/[Original song] 'BLUE CLAPPER' short MV [Yukihana Lamy, Momosuzu Nene, Shishiro Botan, Omaru Polka].opus"
+Apr 23 11:55 : player: played "playlists/hololive/【1st ALBUM収録曲】コトノハ _ AZKi【without U】.opus"
+Apr 23 11:59 : player: played "playlists/hololive/【MMD】ワールドイズマイン【赤井はあと】.opus"
+Apr 23 12:01 : player: played "playlists/hololive/【歌ってみた】好き！雪！本気マジック.opus"
+Apr 23 12:03 : player: played "playlists/hololive/カブトムシ 1cho.ver_aiko(Covered by 夏色まつり&律可).opus"
+Apr 23 12:06 : player: played "playlists/hololive/Worth it - Fifth Harmony ft.Kid Ink (metal  cover by Akaihaato).opus"
+Apr 23 12:09 : player: played "playlists/hololive/あゝオオサカdreamin'night _ どついたれ本舗【Covered by 夕刻ロベル・岸堂天真・アステル】.opus"
+Apr 23 12:10 : player: played "playlists/hololive/[Cover] Telecaster B-Boy _ Kanade Izuru.opus"
+Apr 23 12:14 : player: played "playlists/hololive/【Cover】ロメオ _ RIZnote【奏手イヅル_律可】.opus"
+Apr 23 12:15 : player: played "playlists/hololive/歌｜カントリーロード _K’s piano arrange ver｜ロボ子さん.opus"
+Apr 23 12:16 : player: played "playlists/hololive/【ぬんぬんと覚える】青空のシンフォニー【コール練習動画※ShortVersion】.opus"
+Apr 23 12:21 : player: played "playlists/hololive/Valkyrie「今宵月の館にて」 _ 戌亥とこ × 星街すいせい(Cover).opus"
+Apr 23 12:24 : player: played "playlists/hololive/【Kiara x Calliope】 ワーワーワールド _ Wah Wah World【COVER】#TAKAMORI.opus"
+Apr 23 12:27 : player: played "playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus"
+Apr 23 12:31 : player: played "playlists/hololive/[Nissin Curry Meshi Collab Song] Curry Meshi Is a Miracle (With Lyrics) #ホロライブカレーメシWEEK.opus"
+Apr 23 12:35 : player: played "playlists/hololive/Re -Hello world _ 律可【オリジナルMV】.opus"
+Apr 23 12:39 : player: played "playlists/hololive/【オリジナルソング】光 _ AZKi 【2020.4.15リリース】.opus"
+Apr 23 12:42 : player: played "playlists/hololive/今宵はHalloween Night!.opus"
+Apr 23 12:44 : player: played "playlists/hololive/ホロライブ言えるかな？／角巻わため【オリジナル曲】.opus"
+Apr 23 12:49 : player: played "playlists/hololive/【東方Vocal_アニメPV】人間が大好きなこわれた妖怪の唄【ホロライブ_宝鐘マリン】.opus"
+Apr 23 12:53 : player: played "playlists/hololive/#あくあ色ぱれっと.opus"
+Apr 23 12:57 : player: played "playlists/hololive/【オリジナルソング】猫ならばいける _ AZKi【にゃにゃにゃにゃ】.opus"
+Apr 23 13:01 : player: played "playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus"
+Apr 23 13:05 : player: played "playlists/hololive/【DECO_27 】乙女解剖 _ AZKi【歌ってみた】.opus"
+Apr 23 13:10 : player: played "playlists/hololive/【Cover】クリスマスソング _ RIZnote【奏手イヅル_律可】.opus"
+Apr 23 13:14 : player: played "playlists/hololive/日清カレーメシ「カレーメシ×ホロライブ」リリックビデオ.opus"
+Apr 23 13:18 : player: played "playlists/hololive/【IOFI x POCHI-MARU】 Happy Synthesizer _ ハッピーシンセサイザ COVER【＃いおぽち】.opus"
+Apr 23 13:21 : player: played "playlists/hololive/[Original Rap] DEAD BEATS - Calliope Mori #holoMyth #hololiveEnglish.opus"
+Apr 23 13:26 : player: played "playlists/hololive/【piano arrange】 Uru「あなたがいることで」テセウスの船 主題歌  _ Covered by 律可×波羅ノ鬼.opus"
+Apr 23 13:29 : player: played "playlists/hololive/気まぐれメルシィKimagure Mercy_アキ・ローゼンタール【歌ってみた】.opus"
+Apr 23 13:32 : player: played "playlists/hololive/Dua Lipa - Don't Start Now (cover by Akaihaato).opus"
+Apr 23 13:36 : player: played "playlists/hololive/【絶対聞いたことある】シャイニングスター 歌ってみた AZKi【魔王魂】.opus"
+Apr 23 13:40 : player: played "playlists/hololive/恋愛サーキュレーション-  Renai Circulation-／角巻わため(Cover).opus"
+Apr 23 13:42 : player: played "playlists/hololive/[Original song] 'Candy-Go-Round' short ver. [Roboco-san, Mel, AkiRose, Aqua, Flare].opus"
+Apr 23 13:47 : player: played "playlists/hololive/止まない雨 _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 23 13:50 : player: played "playlists/hololive/【チヤホヤして！！】ヒロイン育成計画 歌ってみた AZKi【HoneyWorks】.opus"
+Apr 23 13:51 : player: played "playlists/hololive/HOLOGRAM CIRCUS - 尾丸ポルカ (short ver.).opus"
+Apr 23 13:54 : player: played "playlists/hololive/【COVER】FIRE BIRD _ Roselia【Moona Hoshinova】.opus"
+Apr 23 13:58 : player: played "playlists/hololive/【11thオリジナルソング】from A to Z_AZKi【AZKi WHiTE】.opus"
+Apr 23 13:59 : player: played "playlists/hololive/【ドMホイホイ】タイトルなんて自分で考えなさいな【Cover_#アキ・ローゼンタール】.opus"
+Apr 23 14:03 : player: played "playlists/hololive/【#ホロWACCA】『ぺこみこ大戦争！！』フルMV【さくらみこ_兎田ぺこら ホロライブ】.opus"
+Apr 23 14:07 : player: played "playlists/hololive/夢見る空へ.opus"
+Apr 23 14:11 : player: played "playlists/hololive/【1st ALBUM収録曲】ちいさな心が決めたこと _ AZKi【without U】.opus"
+Apr 23 14:15 : player: played "playlists/hololive/ボンバーキングのテーマ_戌神ころね(cover).opus"
+Apr 23 14:18 : player: played "playlists/hololive/【Cover】Dramaturgy _ Kanade Izuru.opus"
+Apr 23 14:20 : player: played "playlists/hololive/Colorful World  _ 夏色まつりcover ( 1cho.ver ).opus"
+Apr 23 14:24 : player: played "playlists/hololive/【3DMV】シャルイース _Aki Rosenthal【ホロライブ_民族調オリジナル】.opus"
+Apr 23 14:29 : player: played "playlists/hololive/ワタシノテンシ _ 夏色まつり cover【オリジナルPV】.opus"
+Apr 23 14:30 : player: played "playlists/hololive/Uptown Funk- Mark Ronson ft. Bruno Mars(cover by HAACHAMA).opus"
+Apr 23 14:34 : player: played "playlists/hololive/三つ葉の結びめ／AZKi & 天音かなた(Cover).opus"
+Apr 23 14:36 : player: played "playlists/hololive/【おちゃめ機能】ほろふぁいぶが吹っ切れた【5人で歌ってみた】.opus"
+Apr 23 14:40 : player: played "playlists/hololive/【original】#あくあ色ぱれっと【ホロライブ_湊あくあ】.opus"
+Apr 23 14:44 : player: played "playlists/hololive/[Cover] They Who Wait for the Rainbow _ Kanade Izuru.opus"
+Apr 23 14:47 : player: played "playlists/hololive/[Cover] Cosmology of NyanNyan _ Kanade Izuru.opus"
+Apr 23 14:49 : player: played "playlists/hololive/「風吹けば恋」short ver. -IMAGINATION vol.3 収録-.opus"
+Apr 23 14:51 : player: played "playlists/hololive/[ORIGINAL SONG]  失礼しますが、RIP♡ _ “Excuse My Rudeness, But Could You Please RIP” - Calliope Mori.opus"
+Apr 23 14:55 : player: played "playlists/hololive/夏祭り  _ 赤井はあと×夏色まつり【歌ってみた】.opus"
+Apr 23 14:57 : player: played "playlists/hololive/ハロハロナリヤンス音頭 _ 戌神ころね(cover).opus"
+Apr 23 14:59 : player: played "playlists/hololive/【ON STAGE!収録】Step and Go!!(Short ver.)MV【ときのそらオリジナル楽曲】.opus"
+Apr 23 15:02 : player: played "playlists/hololive/【Japanese.Ver】Baby Doll-Utopia _ Moona Hoshinova Cover.opus"
+Apr 23 15:03 : player: played "playlists/hololive/【アカペラ】小さな恋のうた -1Chorus【白上フブキ_ホロライブ】.opus"
+Apr 23 15:07 : player: played "playlists/hololive/チューリングラブ _Cover 湊あくあ_猫又おかゆ【ホロライブ】.opus"
+Apr 23 15:11 : player: played "playlists/hololive/【Cover】帝国少女-Imperial Girl _ 奏手イヅル(Kanade Izuru).opus"
+Apr 23 15:12 : player: played "playlists/hololive/【オリジナルハロウィン曲】『今宵はHalloween Night!』ショートMV【夜空メル_紫咲シオン_癒月ちょこ_潤羽るしあ ホロライブ】.opus"
+Apr 23 15:16 : player: played "playlists/hololive/【歌ってみた】DADDY ! DADDY ! DO !【Ayunda Risu & 荒咬オウガ】.opus"
+Apr 23 15:18 : player: played "playlists/hololive/【アイキス２ED曲】Leaf ticket【Vo.AZKi】.opus"
+Apr 23 15:21 : player: played "playlists/hololive/太陽が似合うよ _ Taiyou ga Niau yo _ Airani Iofifteen Cover 「歌ってみた」.opus"
+Apr 23 15:25 : player: played "playlists/hololive/【椎名もた】Q  _ AZKi【歌ってみた】.opus"
+Apr 23 15:29 : player: played "playlists/hololive/【1st ALBUM収録曲】虹を駆け抜けて _ AZKi【without U】.opus"
+Apr 23 15:30 : player: played "playlists/hololive/第六感 - THE SIXTH SENSE  Acoustic Guitar cover.opus"
+Apr 23 15:34 : player: played "playlists/hololive/【キメキメで】アンヘル【歌ってみた_ときのそら】.opus"
+Apr 23 15:37 : player: played "playlists/hololive/【ロボ子さん×樋口楓】鬼KYOKAN【歌ってみた】.opus"
+Apr 23 15:38 : player: played "playlists/hololive/【Cover Sing】Coca Cola【Moona Hoshinova】.opus"
+Apr 23 15:42 : player: played "playlists/hololive/in this world _ AZKi 【2nd ALBUM 収録曲】.opus"
+Apr 23 15:47 : player: played "playlists/hololive/Ochame Kinou - hololive Indonesia (Cover).opus"
+Apr 23 15:50 : player: played "playlists/hololive/【胸キュンしながら】気まぐれロマンティック（cover)【歌ってみた_ときのそら】.opus"
+Apr 23 15:51 : player: played "playlists/hololive/【#HOLAURENT】ロメオ_ホムラ＆フブキWithわためぇ.opus"
+Apr 23 15:54 : player: played "playlists/hololive/百鬼祭_常闇トワ(cover).opus"
+Apr 23 15:55 : player: played "playlists/hololive/弾き語り 香水_瑛人 １chorus.ver『covered by 律可』.opus"
+Apr 23 15:57 : player: played "playlists/hololive/【Cover】Happy Halloween _ RIZnote【奏手イヅル×律可】.opus"
+Apr 23 16:00 : player: played "playlists/hololive/【みんなに届いて】命に嫌われている。 歌ってみた AZKi【カンザキイオリ】.opus"
+Apr 25 21:07 : player: played "playlists/hololive/_ERROR_常闇トワ(cover).opus"
+Apr 25 21:07 : player: played "playlists/hololive/_ERROR_常闇トワ(cover).opus"
+Apr 25 21:08 : player: played "playlists/hololive/_ERROR_常闇トワ(cover).opus"
+Apr 25 21:12 : player: played "playlists/hololive/【DECO_27 】乙女解剖 _ AZKi【歌ってみた】.opus"
+Apr 25 21:13 : player: played "playlists/hololive/【ロボ子さん】アザミナ_VTuberオリジナル楽曲アルバム第3弾「VirtuaREAL.02」.opus"
+Apr 25 21:18 : player: played "playlists/hololive/【1st ALBUM収録曲】コトノハ _ AZKi【without U】.opus"
+Apr 25 21:22 : player: played "playlists/hololive/【絶対聞いたことある】シャイニングスター 歌ってみた AZKi【魔王魂】.opus"
+Apr 25 21:26 : player: played "playlists/hololive/【SorAZの】東京サマーセッション ときのそら & AZKi【夏の思い出】.opus"
+Apr 25 21:27 : player: played "playlists/hololive/歌｜カントリーロード _K’s piano arrange ver｜ロボ子さん.opus"
+Apr 25 21:31 : player: played "playlists/hololive/【1st ALBUM収録曲】フロンティアローカス _ AZKi【without U】.opus"
+Apr 25 21:33 : player: played "playlists/hololive/KING／夏色まつり cover【歌ってみた】.opus"
+Apr 25 21:38 : player: played "playlists/hololive/ボンバーキングのテーマ_戌神ころね(cover).opus"
+Apr 25 21:42 : player: played "playlists/hololive/【1st ALBUM収録曲】ちいさな心が決めたこと _ AZKi【without U】.opus"
+Apr 25 21:46 : player: played "playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus"
+Apr 25 21:53 : player: played "playlists/hololive/【歌ってみた】ヒロイン育成計画【Covered by 岸堂天真_ホロスターズ】.opus"
+Apr 25 21:57 : player: played "playlists/hololive/【ろぼかぐ】ラブレター【歌ってみた】.opus"
+Apr 25 22:01 : player: played "playlists/hololive/【ロボ子さん】誕生日に HAPPY BIRTHDAY 【歌ってみた】.opus"
+Apr 25 22:04 : player: played "playlists/hololive/アウトサイダー／天音かなた(Cover).opus"
+Apr 25 22:07 : player: played "playlists/hololive/Alien Alien _ エイリアンエイリアン Cover by Airani Iofifteen _ イオフィ.opus"
+Apr 25 22:13 : player: played "playlists/hololive/Shiny Smily Story.opus"
+Apr 25 22:16 : player: played "playlists/hololive/失楽ペトリ _ 猫又おかゆ(cover).opus"
+Apr 25 22:21 : player: played "playlists/hololive/【ORIGINAL SONG+MV】HOLOGRAM CIRCUS - Omaru Polka【尾丸ポルカ_ホロライブ】.opus"
+Apr 25 22:23 : player: played "playlists/hololive/【アイキス２ED曲】さくらんぼキッス ～爆発だも〜ん～【Vo.宝鐘マリン】.opus"
+Apr 25 22:27 : player: played "playlists/hololive/【歌ってみた】Fire◎Flower covered by HOLOSTARS【律可_イヅル_アステル_シエン】.opus"
+Apr 25 22:30 : player: played "playlists/hololive/【チヤホヤして！！】ヒロイン育成計画 歌ってみた AZKi【HoneyWorks】.opus"
+Apr 25 22:36 : player: played "playlists/hololive/【Cover】クリスマスソング _ RIZnote【奏手イヅル_律可】.opus"
+Apr 25 23:18 : player: played "playlists/hololive/【1st ALBUM収録曲】虹を駆け抜けて _ AZKi【without U】.opus"
+Apr 25 23:32 : player: played "playlists/hololive/【1st ALBUM収録曲】虹を駆け抜けて _ AZKi【without U】.opus"
+Apr 25 23:35 : player: played "playlists/hololive/【ホロライブ】さぷらいずぱらだいす！【どっきりラビリンス】.opus"
+Apr 25 23:35 : player: played "playlists/hololive/マイオドレ！舞舞タイム 【ときのそら＆さくらみこ×maimai でらっくす Splash 】MV.opus"
+Apr 25 23:35 : player: played "youtube/jpop/【オリジナル】スーサイドパレヱド _ ユリイ・カノン feat.GUMI －Suicide Parade／YurryCanon.opus"

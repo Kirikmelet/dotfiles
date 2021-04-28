@@ -39,7 +39,7 @@ function M:init()
       layout  = wibox.layout.fixed.horizontal
    }
 
-   self.icon_wid.widget:set_image('/usr/share/icons/Papirus-Dark/symbolic/status/battery-missing-symbolic.svg')
+   self.icon_wid.widget:set_image('/usr/share/icons/Adwaita/symbolic/status/battery-missing-symbolic.svg')
 
    self:timer()
 

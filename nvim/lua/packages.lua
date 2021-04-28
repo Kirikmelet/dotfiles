@@ -1,12 +1,14 @@
 local vim = vim
 
+require('func/bootstrap-package')
+
 vim.cmd[[packadd! packer.nvim]]
 
 local use = require('packer').use
 
 return require('packer').startup(function()
 
-   use('~/.config/nvim/pack/test/start/gitfug.lua')
+   --use('~/.config/nvim/pack/test/start/gitfug.lua')
 
    -- Don't Delete!
 

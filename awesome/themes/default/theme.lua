@@ -11,7 +11,7 @@ local themes_path = '~/.config/awesome/themes/'
 
 local theme = {}
 
-theme.font          = "Fira Code Retina 9"
+theme.font          = "Fira Code Retina 16"
 
 theme.bg_normal     = "#1d2021"
 theme.bg_focus      = "#282828"
@@ -25,7 +25,7 @@ theme.fg_urgent     = "#fbf1c7"
 theme.fg_minimize   = "#fbf1c7"
 
 theme.useless_gap   = dpi(5)
-theme.border_width  = dpi(1)
+theme.border_width  = dpi(10)
 theme.border_normal = "#282828"
 theme.border_focus  = "#282828"
 theme.border_marked = "#fb4934"
@@ -42,6 +42,9 @@ theme.border_marked = "#fb4934"
 -- hotkeys_[bg|fg|border_width|border_color|shape|opacity|modifiers_fg|label_bg|label_fg|group_margin|font|description_font]
 -- Example:
 --theme.taglist_bg_focus = "#ff0000"
+
+theme.hotkeys_font = "Fira Code Retina 16"
+theme.hotkeys_description_font = "Fira Code Retina 12"
 
 -- Generate taglist squares:
 local taglist_square_size = dpi(4)
@@ -62,8 +65,8 @@ theme.taglist_squares_unsel = theme_assets.taglist_squares_unsel(
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
 theme.menu_submenu_icon = themes_path.."default/submenu.png"
-theme.menu_height = dpi(15)
-theme.menu_width  = dpi(100)
+theme.menu_height = dpi(20)
+theme.menu_width  = dpi(200)
 
 -- You can add as many variables as
 -- you wish and access them by using
@@ -97,7 +100,7 @@ theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar
 theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = themes_path.."default/classic_wall_notux_grvbox.png"
+theme.wallpaper = themes_path.."default/bg_anime.png"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"
@@ -124,7 +127,7 @@ theme.awesome_icon = theme_assets.awesome_icon(
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
-theme.icon_theme = 'Papirus-Dark'
+theme.icon_theme = 'Adwaita'
 
 return theme
 

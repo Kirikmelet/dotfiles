@@ -16,7 +16,7 @@ local on_attach_vim = function()
    --require'completion'.on_attach()
 end
 lspuse.clangd.setup{on_attach=on_attach_vim}
---lspuse.pyls.setup{on_attach=on_attach_vim}
+lspuse.pyls.setup{on_attach=on_attach_vim}
 lspuse.html.setup{on_attach=on_attach_vim}
 lspuse.tsserver.setup{on_attach=on_attach_vim}
 --lspuse.rls.setup{on_attach=on_attach_vim}

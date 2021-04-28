@@ -1,8 +1,3 @@
-curl -O https://krpano.com/plugins/videoplayer/source/videoplayer_basic_source.js
-ls
-exit
-ls
-npx eslint --init
 npx eslint --init
 ls
 rm .eslintrc.json 
@@ -126,3 +121,8 @@ tsc
 tsc
 tsc
 tsc
+make
+cd ..
+make
+make
+./cmusic
