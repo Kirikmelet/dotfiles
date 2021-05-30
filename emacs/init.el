@@ -9,25 +9,25 @@
 (setq file-name-handler-alist nil)
 
 ;; Load font
-(set-face-font 'default "Fira Code Retina 16")
+(set-face-font 'default "Fira Code Retina 14")
 
 ;; Load config files
-(defconst cfg-dir (substitute-in-file-name "$HOME/.config/emacs/config"))
+(defconst cfg-dir (expand-file-name "config/" user-emacs-directory))
 
 (dolist (config
-          '(
-            "prefixes"
-            "customs"
-            "packages"
-            "functions"
-            "bindings"
-            "filetype"
-            )
-          )
+         '(
+           "prefixes"
+           "customs"
+           "packages"
+           "functions"
+           "bindings"
+           "filetype"
+           )
+         )
   (load-file (expand-file-name (concat config ".el") cfg-dir)))
 
 (add-hook 'emacs-startup-hook
           (lambda ()
             (setq gc-cons-threshold 16777216)
             (setq file-name-handler-alist file-lister-alist)
-                (set-japanese)))
+            (set-japanese)))

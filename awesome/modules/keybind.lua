@@ -53,13 +53,13 @@ M.globalkeys = gears.table.join(
    
    -- Media Keys
    awful.key({}, 'XF86AudioLowerVolume', function ()
-         awful.util.spawn('amixer sset Master 5%-',false)
+         awful.util.spawn('pamixer -d 5',false)
    end),
    awful.key({}, 'XF86AudioRaiseVolume', function ()
-         awful.util.spawn('amixer sset Master 5%+',false)
+         awful.util.spawn('pamixer -i 5',false)
    end),
    awful.key({}, 'XF86AudioMute', function ()
-         awful.util.spawn('amixer sset Master toggle',false)
+         awful.util.spawn('pamixer -t',false)
    end),
    awful.key({}, 'XF86MonBrightnessDown', function ()
          awful.util.spawn('brightnessctl s 15-',false)

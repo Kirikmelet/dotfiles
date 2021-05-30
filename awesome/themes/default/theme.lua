@@ -11,7 +11,7 @@ local themes_path = '~/.config/awesome/themes/'
 
 local theme = {}
 
-theme.font          = "Fira Code Retina 16"
+theme.font          = "Fira Code Retina 14"
 
 theme.bg_normal     = "#1d2021"
 theme.bg_focus      = "#282828"
@@ -43,7 +43,7 @@ theme.border_marked = "#fb4934"
 -- Example:
 --theme.taglist_bg_focus = "#ff0000"
 
-theme.hotkeys_font = "Fira Code Retina 16"
+theme.hotkeys_font = "Fira Code Retina 14"
 theme.hotkeys_description_font = "Fira Code Retina 12"
 
 -- Generate taglist squares:
@@ -100,7 +100,7 @@ theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar
 theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = themes_path.."default/bg_anime.png"
+theme.wallpaper = themes_path.."default/kurumi_shiratomi.png"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"

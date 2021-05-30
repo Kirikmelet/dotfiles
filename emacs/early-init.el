@@ -5,8 +5,6 @@
 ;; Disable package startup
 (setq-default package-enable-at-startup nil)
 
-;; Wtf Gentoo
-(setenv "HOME" "/home/troyd")
 
 ;; I hate this shit so fucking much
 (global-unset-key (kbd "C-z"))
@@ -14,7 +12,9 @@
 ;; Electric-pair
 (add-hook 'after-init-hook #'electric-pair-mode)
 
-(load-file (expand-file-name (concat "gcmh.el") (substitute-in-file-name "$HOME/.config/emacs/functions")))
+;; ????
+
+(load-file (expand-file-name "functions/gcmh.el" user-emacs-directory))
 
 ;; GC
 (gcmh-mode)
@@ -26,5 +26,5 @@
  ))
 
 ;; Looks
-(load-file (expand-file-name (concat "looks.el") (substitute-in-file-name "$HOME/.config/emacs/config")))
+(load-file (expand-file-name "config/looks.el" user-emacs-directory))
 

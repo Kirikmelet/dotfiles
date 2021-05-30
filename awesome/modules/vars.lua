@@ -8,12 +8,12 @@ M.keys = {
 }
 
 M.appslist = {
-   terminal = {exec = "alacritty"};
+   terminal = {exec = "xfce4-terminal"};
    editor = {exec = os.getenv("EDITOR") or "emacs -nw", term = true};
-   fileman = {exec = "nnn", term = true};
+   fileman = {exec = "thunar", term = false};
    browser = {exec = "firefox"};
-   netman = {exec = "iwctl", term = true};
-   music = {exec = "ncmpcpp", term = true};
+   netman = {exec = "nm-connection-editor", term = false};
+   music = {exec = "pragha", term = false};
    sysrec = {exec = "htop", term = true};
    scrshot = {exec = "scrot -e 'mv $f ~/Pictures/linux_scrot/' ", term = false}
 }

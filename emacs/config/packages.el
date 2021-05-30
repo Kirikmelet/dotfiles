@@ -3,8 +3,8 @@
 ;; Handles load of packages
 
 ;; Bootstrap straight.el
-(defconst pkg-dir (substitute-in-file-name "$HOME/.config/emacs/config/packages"))
-(defconst st-dir (substitute-in-file-name "$HOME/.config/emacs/config/packages/settings"))
+(defconst pkg-dir (expand-file-name "config/packages" user-emacs-directory))
+(defconst st-dir (expand-file-name "config/packages/settings" user-emacs-directory))
 (defvar bootstrap-version)
 (let ((bootstrap-file
         (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))

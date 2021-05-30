@@ -2,6 +2,7 @@
 
 (use-package company
   :hook ((c-mode . company-mode)
+         (c++-mode . company-mode)
          (typescript-mode . company-mode)
          (python-mode . company-mode)
          (css-mode . company-mode)
@@ -14,6 +15,7 @@
 
 (use-package eglot
   :hook (
+         (c++-mode . eglot-ensure)
          (c-mode . eglot-ensure)
          (typescript-mode . eglot-ensure)
          (js-mode . eglot-ensure)

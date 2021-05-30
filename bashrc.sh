@@ -14,5 +14,5 @@ source ~/.config/bash/alias.sh
 source ~/.config/bash/nnn-config.sh
 source ~/.config/bash/env.sh
 
-set -o vi
+#set -o vi
 
