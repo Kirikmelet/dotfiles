@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <21/05/20 22:08:33 /home/troyd/.config/emacs/tramp>
+;; -*- emacs-lisp -*- <21/06/01 17:47:36 /home/troyd/.config/emacs/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; Run `M-x tramp-cleanup-all-connections' instead.
 
@@ -23,7 +23,7 @@
   ("gid-string" "root")
   ("uid-integer" 0))
  ((tramp-file-name "sudo" "root" nil "ATG-1550-PGSL" nil nil nil)
-  ("uname" "Linux 5.12.4-arch1-2")
+  ("uname" "Linux 5.12.8-arch1-1")
   ("locale" "LC_ALL=en_US.utf8")
   ("test" "test")
   ("remote-path"
@@ -31,10 +31,10 @@
   ("pipe-buf" 4096)
   ("remote-shell" "/bin/sh")
   ("~root" "/root")
+  ("file-exists" "test -e")
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
-  ("file-exists" "test -e")
   ("case-insensitive" nil)
   ("readlink" "\\readlink")
   ("stat" "env QUOTING_STYLE=locale \\stat")

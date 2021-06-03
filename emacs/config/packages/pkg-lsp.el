@@ -21,11 +21,21 @@
          (js-mode . eglot-ensure)
          (python-mode . eglot-ensure))
   :config
-  (add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd"))
-  )
+  (add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd")))
 
 (use-package flymake
   :bind(:map flymake-funcs
-                            ("n" . flymake-goto-next-error)
-                            ("p" . flymake-goto-prev-error)
-                            ("b" . flymake-show-diagnostics-buffer)))
+             ("n" . flymake-goto-next-error)
+             ("p" . flymake-goto-prev-error)
+             ("b" . flymake-show-diagnostics-buffer)))
+
+(use-package tree-sitter
+  :hook (
+         (c++-mode . tree-sitter-mode)
+         (c-mode . tree-sitter-mode)
+         (js-mode . tree-sitter-mode)
+         (typescript-mode . tree-sitter-mode))
+  :config
+  (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
+
+(use-package tree-sitter-langs)

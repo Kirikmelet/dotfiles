@@ -1,28 +1,36 @@
-Section "ServerLayout"
-	Identifier "layout"
-	Screen 0 "amdgpu"
-	Inactive "nvidia"
-EndSection
+#
+# $PARU_CONF
+# /etc/paru.conf
+# ~/.config/paru/paru.conf
+#
+# See the paru.conf(5) manpage for options
 
-Section "Device"
-	Identifier "nvidia"
-	Driver "nvidia"
-EndSection
+#
+# GENERAL OPTIONS
+#
+[options]
+PgpFetch
+Devel
+Provides
+DevelSuffixes = -git -cvs -svn -bzr -darcs -always
+#BottomUp
+#RemoveMake
+#SudoLoop
+#UseAsk
+#CombinedUpgrade
+#CleanAfter
+#UpgradeMenu
+#NewsOnUpgrade
 
-Section "Device"
-	Identifier "amdgpu"
-	Driver "amdgpu"
-EndSection
+#LocalRepo
+#Chroot
+#Sign
+#SignDb
 
-Section "Screen"
-	Identifier "nvidia"
-	Device "nvidia"
-	Option "AllowEmptyInitialConfiguration"
-        Option "UseEdidDpi" "FALSE"
-#        Option "DPI" "142x142"
-EndSection
-
-Section "Screen"
-	Identifier "amdgpu"
-	Device "amdgpu"
-EndSection
+#
+# Binary OPTIONS
+#
+#[bin]
+#FileManager = vifm
+#MFlags = --skippgpcheck
+#Sudo = doas

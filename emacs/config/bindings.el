@@ -6,7 +6,7 @@
 (define-key 'app-funcs-map (kbd "M") 'mail)
 
 ;; Commands
-
+(global-set-key (kbd "C-c C-c") 'comment-or-uncomment-region)
 (define-key 'start-commands (kbd "F") 'new-file)
 
 (defun open-agenda-file/work ()
