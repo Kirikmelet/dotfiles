@@ -14,17 +14,22 @@ local requirements = {
    -- Tools
    'plugins.statusline';
    'plugins.netrw';
+   'plugins.orgmode';
+   'plugins.autopairs';
+   'plugins.git';
+   'plugins.bqf';
+   'plugins.which-key';
    -- Fuzzy UwU
-   'plugins.telescope';
+   --'plugins.telescope';
+   'plugins.snap';
    -- LSP
    'plugins.completion';
    'plugins.treesitter';
    'plugins.lsp';
-   'plugins.autopairs';
    -- LOAD AT END
 
    -- IMPORTANT
-   'hotkeys';
+   --'hotkeys';
    'autopairs';
 }
 

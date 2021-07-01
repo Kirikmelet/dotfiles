@@ -8,6 +8,7 @@
  (magit-ediff nil)
  (magit-fetch nil)
  (magit-file-dispatch nil)
+ (magit-merge nil)
  (magit-pull nil)
  (magit-push nil)
  (magit-rebase nil)

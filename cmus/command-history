@@ -1,3 +1,4 @@
+add ~/Music/
 add /media/win/Users/troyd/Music/
 a /m
 q
@@ -7,4 +8,3 @@ player-next-
 pl-create default
 pl-rename Yoshiko
 pl-rename
-add ~/Music/

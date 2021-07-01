@@ -1,38 +1,3 @@
-npx eslint --init
-ls
-rm .eslintrc.json 
-npx eslint --init
-eslint 
-eslint --init
-sudo npm install eslint
-eslint --init
-ls
-ls -al
-mpx eslint --init
-npx eslint --init
-sudo npm -g install eslin
-sudo npm -g install eslint
-npx eslint --init
-npx eslint --init
-npx standard --fix
-npx standard --fix index.js 
-npx standard --fix
-npx standard --fix
-npm test
-ls
-npx standard --fix
-npm test
-exit
-npm tesr
-npm test
-exit
-cd Documents/projects/
-standard --fix index.js 
-npm test
-exit
-ls
-npm test
-ls
 npm install vis-timeline
 npm init
 npm install vis-timeline
@@ -126,3 +91,38 @@ cd ..
 make
 make
 ./cmusic
+ls
+./bin/osab-qt
+ls
+make
+cd build/
+make
+../bin/osab-qt
+make
+cmake 
+cmake ..
+make
+make
+../bin/osab-qt
+make
+../bin/osab-qt
+make
+../bin/osab-qt
+cd build/
+make
+make
+make
+cmake ..
+rm ../include/geo/.\#map.h
+make
+cmake ..
+cd build/
+make
+make
+clear
+make
+make
+make
+../bin/osab-qt
+make
+../bin/osab-qt

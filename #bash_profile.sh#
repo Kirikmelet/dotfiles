@@ -9,12 +9,17 @@ fi
 . ~/dotfiles/bash/functions.sh
 
 # Autostart X11
-# if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-#     exec startx
-# elif [ "${TMUX}" ]; then
-#     return
-#     # neofetch
-# fi
+case  in
+    n
+)
+    if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+        exec startx
+    elif [ "${TMUX}" ]; then
+        return
+        # neofetch
+    fi
+    ;;
+    
 
 # User specific environment and startup programs
 #. ~/.config/bash/nnn-config.sh

@@ -18,3 +18,5 @@
   :config
   )
 
+(use-package glsl-mode
+  :mode ("\\.frag\\'" "\\.vert\\'" "\\.vs\\'"))

@@ -1,6 +1,6 @@
 ;;; -*- lisp-data -*-
-(("~/Documents/work/ajinomoto/html/q3/")
+(("~/Documents/github/osab-qt/")
+ ("~/Documents/work/ajinomoto/html/q3/")
  ("~/Documents/github/notamusicplayer/")
  ("~/Documents/github/threejs-game-engine/")
- ("~/Documents/github/konpeko-bot")
- ("~/.config/"))
+ ("~/Documents/github/konpeko-bot"))

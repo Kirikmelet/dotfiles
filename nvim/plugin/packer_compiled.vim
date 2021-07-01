@@ -46,9 +46,9 @@ local function save_profiles(threshold)
   _G._packer.profile_output = results
 end
 
-time("Luarocks path setup", true)
-local package_path_str = "/home/troyd/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?.lua;/home/troyd/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?/init.lua;/home/troyd/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?.lua;/home/troyd/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/troyd/.cache/nvim/packer_hererocks/2.0.5/lib/lua/5.1/?.so"
+time([[Luarocks path setup]], true)
+local package_path_str = "/home/troyd/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/troyd/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/troyd/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/troyd/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/troyd/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -57,27 +57,24 @@ if not string.find(package.cpath, install_cpath_pattern, 1, true) then
   package.cpath = package.cpath .. ';' .. install_cpath_pattern
 end
 
-time("Luarocks path setup", false)
-time("try_loadstring definition", true)
+time([[Luarocks path setup]], false)
+time([[try_loadstring definition]], true)
 local function try_loadstring(s, component, name)
   local success, result = pcall(loadstring(s))
   if not success then
-    print('Error running ' .. component .. ' for ' .. name)
-    error(result)
+    vim.schedule(function()
+      vim.api.nvim_notify('packer.nvim: Error running ' .. component .. ' for ' .. name .. ': ' .. result, vim.log.levels.ERROR, {})
+    end)
   end
   return result
 end
 
-time("try_loadstring definition", false)
-time("Defining packer_plugins", true)
+time([[try_loadstring definition]], false)
+time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["gitfug.lua"] = {
+  ["ayu-vim"] = {
     loaded = true,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/start/gitfug.lua"
-  },
-  gruvbox = {
-    loaded = true,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/start/gruvbox"
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/start/ayu-vim"
   },
   ["lsp_extensions.nvim"] = {
     loaded = false,
@@ -89,13 +86,24 @@ _G.packer_plugins = {
     needs_bufread = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/lspsaga.nvim"
   },
+  neogit = {
+    after = { "plenary.nvim" },
+    loaded = false,
+    needs_bufread = true,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/neogit"
+  },
   ["nvim-autopairs"] = {
     loaded = false,
     needs_bufread = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-autopairs"
   },
+  ["nvim-bqf"] = {
+    loaded = false,
+    needs_bufread = true,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-bqf"
+  },
   ["nvim-compe"] = {
-    after_files = { "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_buffer.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_calc.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_emoji.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_luasnip.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_nvim_lsp.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_nvim_lua.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_omni.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_path.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_snippets_nvim.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_spell.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_tags.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_treesitter.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_ultisnips.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_vim_lsc.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_vim_lsp.vim", "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe_vsnip.vim" },
+    after_files = { "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe.vim" },
     loaded = false,
     needs_bufread = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-compe"
@@ -110,6 +118,11 @@ _G.packer_plugins = {
     needs_bufread = true,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter"
   },
+  ["orgmode.nvim"] = {
+    loaded = false,
+    needs_bufread = true,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/orgmode.nvim"
+  },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
@@ -117,41 +130,29 @@ _G.packer_plugins = {
   },
   ["plenary.nvim"] = {
     load_after = {
-      ["telescope.nvim"] = true
+      neogit = true
     },
     loaded = false,
     needs_bufread = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/plenary.nvim"
   },
-  ["popup.nvim"] = {
-    load_after = {
-      ["telescope.nvim"] = true
-    },
+  ["presence.nvim"] = {
+    loaded = true,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/start/presence.nvim"
+  },
+  snap = {
     loaded = false,
     needs_bufread = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/popup.nvim"
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/snap"
   },
-  ["telescope.nvim"] = {
-    after = { "popup.nvim", "plenary.nvim" },
+  ["which-key.nvim"] = {
     loaded = false,
     needs_bufread = false,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/telescope.nvim"
-  },
-  ["vim-fugitive"] = {
-    commands = { "Git" },
-    loaded = false,
-    needs_bufread = true,
-    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/vim-fugitive"
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/which-key.nvim"
   }
 }
 
-time("Defining packer_plugins", false)
-
--- Command lazy-loads
-time("Defining lazy-load commands", true)
-vim.cmd [[command! -nargs=* -range -bang -complete=file Git lua require("packer.load")({'vim-fugitive'}, { cmd = "Git", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args> }, _G.packer_plugins)]]
-time("Defining lazy-load commands", false)
-
+time([[Defining packer_plugins]], false)
 if should_profile then save_profiles() end
 
 END

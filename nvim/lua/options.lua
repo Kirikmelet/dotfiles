@@ -5,14 +5,15 @@ if (os.getenv("TERM") == "linux") then
    vim.g.colors_name = 'default'
    vim.o.termguicolors = false
 else
-   vim.g.colors_name = 'gruvbox'
+   vim.g.colors_name = 'ayu'
+   vim.g.ayucolor = 'dark'
    vim.o.termguicolors = true
 end
 --}}}
 
 --{{{Options
 local nOpts = {
-   [vim.o] = { -- Global Options
+   ['opt'] = {
       number = false;
       expandtab = true;
       sidescroll = 1;
@@ -33,17 +34,13 @@ local nOpts = {
       grepprg = 'rg --vimgrep --no-heading --smart-case';
       lazyredraw = true;
       updatetime = 100;
-   };
-   [vim.wo] = { -- Window Options
       cursorline = true;
       foldmethod = 'marker';
-   };
-   [vim.bo] = { -- Buffer Options
       omnifunc = 'v:lua.vim.lsp.omnifunc';
    };
-   [vim.g] = { -- Globals (General)
+   ['g'] = {
+      -- For key bindings
       mapleader = ' ';
-      gruvbox_italic = 1;
       -- Disable apps
       --loaded_gzip = 1;
       --loaded_tar = 1;
@@ -65,12 +62,14 @@ local nOpts = {
       loaded_node_provider = 0;
       loaded_perl_provider = 0;
       loaded_ruby_provider = 0;
-   }
+      gruvbox_italic = 1;
+   };
 }
 --}}}
 
-for scope,arg in pairs(nOpts) do
-   for opt,val in pairs(arg) do
-      scope[opt] = val
+for scope,list in pairs(nOpts) do
+   for opt, arg in pairs(list) do
+      vim[scope][opt] = arg;
    end
 end
+

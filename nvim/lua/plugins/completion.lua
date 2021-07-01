@@ -8,14 +8,19 @@ plugman.packadd({
 
 require'compe'.setup {
   enabled = true;
+  autocomplete = true;
   debug = false;
   min_length = 1;
+  preselect = "enable";
   allow_prefix_unmatch = false;
   source = {
     path = true;
     buffer = true;
     nvim_lsp = true;
+    nvim_lua = true;
+    orgmode = true;
   };
+  documentation = true
 }
 
 

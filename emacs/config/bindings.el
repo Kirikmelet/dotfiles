@@ -21,9 +21,22 @@
   (interactive)
   (find-file "~/org/global_agenda/projects.org" ))
 
+(defun config-files/open ()
+  (interactive)
+  (dired "~/.config/emacs"))
+
+(defun config-files/eval ()
+  (interactive)
+  (load-file "~/.config/emacs/init.el")
+  (message "Config restarted"))
+
 (define-key 'org-agenda-file-map (kbd "w") 'open-agenda-file/work)
 (define-key 'org-agenda-file-map (kbd "s") 'open-agenda-file/school)
 (define-key 'org-agenda-file-map (kbd "p") 'open-agenda-file/projects)
+(define-key 'config-files-map (kbd "f") 'config-files/open)
+(define-key 'config-files-map (kbd "e") 'config-files/eval)
+(define-key 'eval-map (kbd "b") 'eval-buffer)
+(define-key 'eval-map (kbd "e") 'eval-expression)
 
 
 ;; Regex

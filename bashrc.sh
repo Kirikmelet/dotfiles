@@ -16,3 +16,5 @@ source ~/.config/bash/env.sh
 
 #set -o vi
 
+
+alias luamake=/home/troyd/.local/opt/lua-language-server/3rd/luamake/luamake
