@@ -1,8 +1,10 @@
-sw_volume: 44
+sw_volume: 80
 audio_device_state:0:My ALSA Device
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
-state: stop
+state: pause
+current: 49
+time: 242.570000
 random: 1
 repeat: 1
 single: 0
@@ -11,4 +13,73 @@ crossfade: 15
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:yt_artists/saki_ashizawa/1_3の純情な感情 (One-third naive feelings) - SIAM SHADE _ covered by 芦澤 サキ.opus
+1:yt_artists/saki_ashizawa/All Alone With You - EGOIST _ covered by 芦澤 サキ.opus
+2:yt_artists/saki_ashizawa/Brave Shine - Aimer _ covered by 芦澤 サキ.opus
+3:yt_artists/saki_ashizawa/Can Do - GRANRODEO _ covered by 芦澤 サキ.opus
+4:yt_artists/saki_ashizawa/chase - batta _ covered by 芦澤 サキ.opus
+5:yt_artists/saki_ashizawa/COLORS - FLOW _ covered by 芦澤 サキ.opus
+6:yt_artists/saki_ashizawa/CORE PRIDE - UVERworld _ covered by 芦澤 サキ.opus
+7:yt_artists/saki_ashizawa/D-tecnoLife - UVERworld _ covered by 芦澤 サキ.opus
+8:yt_artists/saki_ashizawa/DAYBREAK'S BELL - L'Arc～en～Ciel _ covered by 芦澤 サキ.opus
+9:yt_artists/saki_ashizawa/daze - じん ft.メイリア from GARNiDELiA _ covered by 芦澤 サキ.opus
+10:yt_artists/saki_ashizawa/Departures ～あなたにおくるアイの歌～ (Departures ~Anata ni okuru AI no uta~) - EGOIST _ covered by 芦澤 サキ.opus
+11:yt_artists/saki_ashizawa/Don't say 'lazy' - 桜高軽音部 _ covered by 芦澤 サキ.opus
+12:yt_artists/saki_ashizawa/Get Wild - TM NETWORK _ covered by 芦澤 サキ.opus
+13:yt_artists/saki_ashizawa/GLAMOROUS SKY - NANA starring MIKA NAKASHIMA _ covered by 芦澤 サキ.opus
+14:yt_artists/saki_ashizawa/GO!!! - FLOW _ covered by 芦澤サキ.opus
+15:yt_artists/saki_ashizawa/ignited -イグナイテッド- -  T.M.Revolution _ covered by 芦澤 サキ.opus
+16:yt_artists/saki_ashizawa/JOINT - 川田まみ _ covered by 芦澤 サキ.opus
+17:yt_artists/saki_ashizawa/Lost my music - 涼宮ハルヒ(CV.平野綾) _ covered by 芦澤 サキ.opus
+18:yt_artists/saki_ashizawa/No title - Reol _ covered by 芦澤 サキ.opus
+19:yt_artists/saki_ashizawa/NO,Thank You! - 放課後ティータイム _ covered by 芦澤 サキ.opus
+20:yt_artists/saki_ashizawa/Preserved Roses - T.M.Revolution × 水樹奈々 _ covered by 芦澤サキ × 道明寺ここあ.opus
+21:yt_artists/saki_ashizawa/SAKI ASHIZAWA 1st ANNIVERSARY LIVE -芦澤サキ1周年ライブ-.opus
+22:yt_artists/saki_ashizawa/V.I.P - シド _ covered by 芦澤 サキ.opus
+23:yt_artists/saki_ashizawa/Velonica - Aqua Timez _ covered by 芦澤 サキ.opus
+24:yt_artists/saki_ashizawa/あしざわさんのほーそうぶ ~ひさしぶりの部活~【第3回】.opus
+25:yt_artists/saki_ashizawa/お勉強しといてよ (STUDY ME) - ずっと真夜中でいいのに。 _ covered by 芦澤 サキ.opus
+26:yt_artists/saki_ashizawa/カルマ (karma) - BUMP OF CHICKEN _ covered by 芦澤 サキ.opus
+27:yt_artists/saki_ashizawa/サムライハート (Some Like It Hot!!) - SPYAIR _ covered by 芦澤 サキ.opus
+28:yt_artists/saki_ashizawa/だから僕は音楽を辞めた (Moonlight) - ヨルシカ _ covered by 芦澤 サキ.opus
+29:yt_artists/saki_ashizawa/ツキアカリのミチシルベ (Tsukiakari no Michishirube) - ステレオポニー _ covered by 芦澤 サキ.opus
+30:yt_artists/saki_ashizawa/ノーザンクロス (Northern cross) -  シェリル・ノーム starring May'n _ covered by 芦澤 サキ.opus
+31:yt_artists/saki_ashizawa/バレリーコ (Balleriko) - みきとP _ covered by 芦澤 サキ.opus
+32:yt_artists/saki_ashizawa/ヒバナ (Hibana) - DECO_27 _ covered by 芦澤 サキ.opus
+33:yt_artists/saki_ashizawa/モノクロのキス (Monochrome no kiss) - シド _ covered by 芦澤 サキ.opus
+34:yt_artists/saki_ashizawa/ロキ (ROKI) _ - みきとP _ covered by 芦澤 サキ.opus
+35:yt_artists/saki_ashizawa/一滴の影響 (Itteki no Eikyou) - UVERworld _ covered by 芦澤 サキ.opus
+36:yt_artists/saki_ashizawa/僕が死のうと思ったのは (Boku ga shinouto omottanoha) - amazarashi _ covered by 芦澤サキ.opus
+37:yt_artists/saki_ashizawa/儚くも永久のカナシ (Hakanakumo Towano Kanashi) -  UVERworld _ covered by 芦澤 サキ.opus
+38:yt_artists/saki_ashizawa/君の神様になりたい。 (Kimi no Kamisama ni Naritai.) - カンザキイオリ _ covered by 芦澤 サキ.opus
+39:yt_artists/saki_ashizawa/嘘 (Uso) - シド _ covered by 芦澤 サキ.opus
+40:yt_artists/saki_ashizawa/夜咄ディセイブ (Yobanashi Deceive) - じん _ covered by 芦澤 サキ.opus
+41:yt_artists/saki_ashizawa/天ノ弱 (Amanojaku) - 164 _ covered by 芦澤 サキ.opus
+42:yt_artists/saki_ashizawa/天樂 (Tengaku) - ゆうゆ _ covered by 芦澤 サキ.opus
+43:yt_artists/saki_ashizawa/季節は次々死んでいく (Seasons die one after another) - amazarashi _ covered by 芦澤 サキ.opus
+44:yt_artists/saki_ashizawa/孤独に咲け (Bloom lonely) - 芦澤 サキ (Official Video).opus
+45:yt_artists/saki_ashizawa/完全感覚Dreamer (Kanzen Kankaku Dreamer) - ONE OK ROCK _ covered by 芦澤 サキ.opus
+46:yt_artists/saki_ashizawa/心絵 (kokoroe) - ロードオブメジャー _ covered by 芦澤 サキ.opus
+47:yt_artists/saki_ashizawa/春を告げる (Haru wo Tsugeru) - yama _ covered by 芦澤 サキ.opus
+48:yt_artists/saki_ashizawa/曇天 (Donten) - DOES _ covered by 芦澤サキ.opus
+49:yt_artists/saki_ashizawa/月光花 (Gekkouka) -Janne Da Arc  _ covered by 芦澤 サキ.opus
+50:yt_artists/saki_ashizawa/残酷な天使のテーゼ (A Cruel Angel's Thesis) - 高橋洋子 _ covered by 芦澤 サキ.opus
+51:yt_artists/saki_ashizawa/決意の朝に (Ketsui no Asa ni) - Aqua Timez _ covered by 芦澤 サキ.opus
+52:yt_artists/saki_ashizawa/激動 (Gekidou) - UVERworld _ covered by 芦澤 サキ.opus
+53:yt_artists/saki_ashizawa/狂乱 Hey Kids!! (Kyouran Hey Kids!!) - (THE ORAL CIGARETTES) _ covered by 芦澤 サキ.opus
+54:yt_artists/saki_ashizawa/空に歌えば (Sora ni utaeba) - amazarashi _ covered by 芦澤サキ.opus
+55:yt_artists/saki_ashizawa/第六感 (THE SIXTH SENSE) - Reol _ covered by 芦澤サキ.opus
+56:yt_artists/saki_ashizawa/粉雪 (Konayuki) - レミオロメン _ covered by 芦澤 サキ.opus
+57:yt_artists/saki_ashizawa/群青日和 (Ideal Days For Ultramarine) - 東京事変 _ covered by 芦澤 サキ.opus
+58:yt_artists/saki_ashizawa/芦澤サキ _ DEBUT SINGLE - “孤独に咲け” (SPOT CM).opus
+59:yt_artists/saki_ashizawa/裏切りの夕焼け (Uragiri no Yuuyake) - THEATRE BROOK _ covered by 芦澤 サキ.opus
+60:yt_artists/saki_ashizawa/青空のナミダ (Aozora no namida) - 高橋瞳 _ covered by 芦澤 サキ.opus
+61:yt_artists/saki_ashizawa/革命デュアリズム (Kakumei Dualism) - 水樹奈々×T.M.Revolution _ covered by 芦澤 サキ × 道明寺 ここあ.opus
+62:yt_artists/saki_ashizawa/心臓デモクラシー (Shinzo Democracy) - みきとP _ covered by 芦澤 サキ.opus
+63:yt_artists/saki_ashizawa/Meteor -ミーティア- - T.M.Revolution _ covered by 芦澤 サキ.opus
+64:yt_artists/saki_ashizawa/ボッカデラベリタ (Bocca della Verità) - 柊キライ _ covered by 芦澤 サキ.opus
+65:yt_artists/saki_ashizawa/アトラクトライト (Attract Light) - _Luna feat.ゆある _ covered by 芦澤 サキ.opus
+66:yt_artists/saki_ashizawa/命に嫌われている。 (Hated by Life Itself.) - カンザキイオリ _ covered by 芦澤 サキ.opus
+67:yt_artists/saki_ashizawa/夜明けと蛍 (Yoake to hotaru) - n-buna _ covered by 芦澤 サキ.opus
+68:yt_artists/saki_ashizawa/少女レイ (Shoujo Rei) - みきとP _ covered by 芦澤 サキ.opus
 playlist_end

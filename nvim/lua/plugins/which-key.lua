@@ -5,8 +5,8 @@ require('func.packadder').packadd({'which-key.nvim'})
 
 
 local w = require('which-key')
-
 local lsp_buf = vim.lsp.buf
+local telescope = require('telescope.builtin')
 
 
 w.setup()
@@ -22,7 +22,7 @@ w.register({
      f = {function() vim.lsp.buf.formatting() end, 'Format file'};
      m = {function() vim.cmd[[make]] end, 'Make project'};
      t = {function() vim.cmd[[!ctags %]] end, 'Generate ctags'};
-     s = {'Find in files'}
+     s = {function() telescope.live_grep() end, 'Search for string'}
   };
   b = {
      name = 'buffer';
@@ -32,7 +32,7 @@ w.register({
         c = {'zc', 'Close fold'};
         t = {'za', 'Toggle fold'};
         C = {'cM', 'Close ALL folds'};
-        O = {'cO', 'Open ALL folds'}
+        O = {'cO', 'Open ALL folds'};
      };
      w = {
         name = 'session | workplace';
@@ -40,14 +40,16 @@ w.register({
         o = {function() vim.cmd[[source Session.vim]] end, 'Open session file'};
      };
      ['<leader>'] = {function() vim.cmd[[copen]] end, 'Open quickfix/loclist buffer'};
-     f = {'Find file (RG)'};
-     b = {'Find buffer'}
+     f = {function() telescope.find_files() end, 'Find file'};
+     b = {function() telescope.buffers() end, 'Find buffer'};
   };
   a = {
      name ='apps';
-     o = {function() vim.cmd[[Explore ~/org]] end, 'Open org dir'};
-     d = {function() vim.cmd[[Explore]] end, 'Open (n)vim file explorer'};
-     n = {function() vim.cmd[[term]] end, 'Open terminal'};
+     o = {function() vim.cmd[[edit ~/org]] end, 'Open org dir'};
+     d = {function() vim.cmd[[edit .]] end, 'Open (n)vim file explorer'};
+     --s = {function() vim.cmd[[edit . | bel res -10]] end , 'Open (n)vim file explorer horizontally'};
+     --v = {function() vim.cmd[[edit . | vert res 30]] end , 'Open (n)vim file explorer vertically'};
+     t = {function() vim.cmd[[term]] end, 'Open terminal'};
      g = {
         name = 'git';
         c = {function() neogit.open({'commit'}) end, 'Git commit'};
@@ -75,10 +77,12 @@ w.register({
         function() require('lspaga.provider').preview_definition() end,
         'Preview definition'
      };
+     q = {function() vim.lsp.diagnostic.set_loclist() end, 'Get issues'};
+     s = {function() vim.lsp.buf.signature_help() end, 'Get signature help'};
   }
 
 }, {prefix = '<leader>'})
 
 w.register({
-   t = {'<C-x><C-c>', '<C-\\><C-n>'};
+   ['<C-x><C-c>'] = {'Go to terminal-normal mode'};
 }, {mode='t'})

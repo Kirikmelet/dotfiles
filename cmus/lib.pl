@@ -127,16 +127,21 @@
 /home/troyd/Music/playlists/hololive/【神無月の巫女】agony _ AZKi【歌ってみた】.opus
 /home/troyd/Music/playlists/hololive/【絶対聞いたことある】シャイニングスター 歌ってみた AZKi【魔王魂】.opus
 /home/troyd/Music/youtube/vocaloid/zh/【Luo Tianyi 洛天依】March Rain Modulation Ver【三月雨 调制版】.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/bad guy - Billie Eilish ( Cover ) _ VESPERBELL.opus
 /home/troyd/Music/playlists/[J-SONGS] BUBBLEGUM CRISIS COMPLETE VOCAL COLLECTION/Disc 1/1-02 Mr.Dandy.flac
 /home/troyd/Music/youtube/citypop/covers/Do You Remember Love _ ENGLISH VERSION _ Caitlin Myers.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/決戦スピリット - CHiCO with HoneyWorks ( Cover ) _ VESPERBELL ヨミ.opus
 /home/troyd/Music/youtube/jpop/CHiCO with HoneyWorks 13thシングル『醜い生き物』.opus
 /home/troyd/Music/playlists/hololive/【歌ってみた】可愛くなりたい【花岸(岸堂天真 花咲みやび)_ホロスターズ】.opus
 /home/troyd/Music/youtube/jpop/グッバイ宣言 _ FloweR.opus
 /home/troyd/Music/playlists/hololive/【東方Vocal_アニメPV】人間が大好きなこわれた妖怪の唄【ホロライブ_宝鐘マリン】.opus
 /home/troyd/Music/playlists/hololive/【MMD】ECHO【赤井はあと】.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ヴァンパイア - DECO_27 ( Cover ) _ VESPERBELL カスカ.opus
 /home/troyd/Music/playlists/hololive/乙女解剖 _ DECO_27『covered by 律可』.opus
 /home/troyd/Music/playlists/hololive/【コラボ】「BOYS & GIRLS 3.0 feat. ロボ子」 _ キツネDJ.opus
 /home/troyd/Music/playlists/hololive/【IOFI x POCHI-MARU】 Happy Synthesizer _ ハッピーシンセサイザ COVER【＃いおぽち】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/SAKI ASHIZAWA 1st ANNIVERSARY LIVE -芦澤サキ1周年ライブ-.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/SAKI ASHIZAWA 1st ANNIVERSARY LIVE -芦澤サキ1周年ライブ-.opus
 /home/troyd/Music/youtube/jpop/平行線 - Eve × suis from ヨルシカ MV.opus
 /home/troyd/Music/playlists/hololive/【1周年記念】君に届け【Covered by 岸堂天真_ホロスターズ】.opus
 /home/troyd/Music/youtube/jpop/東山奈央 「灯火のまにまに（ＴＶアニメ「かくりよの宿飯」OPテーマ）」Music Video(2Chorus).opus
@@ -204,11 +209,14 @@
 /home/troyd/Music/playlists/hololive/【歌ってみた】好き！雪！本気マジック.opus
 /home/troyd/Music/playlists/hololive/【Cover】ロメオ _ RIZnote【奏手イヅル_律可】.opus
 /home/troyd/Music/youtube/english_covers/「Full English Cover」Higurashi no Naku Koro ni ( Higurashi Opening 1 )【Jayn】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/アトラクトライト (Attract Light) - _Luna feat.ゆある _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/アトラクトライト (Attract Light) - _Luna feat.ゆある _ covered by 芦澤 サキ.opus
 /home/troyd/Music/playlists/hololive/【original】Ahoy!! 我ら宝鐘海賊団☆【ホロライブ_宝鐘マリン】.opus
 /home/troyd/Music/youtube/citypop/ost/Bid You Goodbye - Bakamitai English Cover (Yakuza Parody).opus
 /home/troyd/Music/playlists/hololive/ワタシノテンシ _ 夏色まつり cover【オリジナルPV】.opus
 /home/troyd/Music/playlists/hololive/楓 _ スピッツ (Covered by 夏色まつり&律可).opus
 /home/troyd/Music/playlists/hololive/「風吹けば恋」short ver. -IMAGINATION vol.3 収録-.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/Red fraction - MELL ( Cover ) _ VESPERBELL ヨミ.opus
 /home/troyd/Music/youtube/citypop/anime80s/Hiiragi Mifuyu - Access wa Anata Kara (Buttobi CPU opening).opus
 /home/troyd/Music/playlists/hololive/さくら色ハイテンション！ _ さくらみこ【オリジナル曲】.opus
 /home/troyd/Music/playlists/hololive/【1周年記念】私、アイドル宣言_花咲みやび【歌ってみた】.opus
@@ -224,7 +232,11 @@
 /home/troyd/Music/playlists/hololive/[ORIGINAL SONG]  Cursed Night - Calliope Mori.opus
 /home/troyd/Music/playlists/hololive/[Original Song] Live Again - Calliope Mori #holoMyth #hololiveEnglish.opus
 /home/troyd/Music/playlists/hololive/[ORIGINAL SONG]  失礼しますが、RIP♡ _ “Excuse My Rudeness, But Could You Please RIP” - Calliope Mori.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/1,000,000 TIMES - MY FIRST STORY ( Cover ) _ VESPERBELL ヨミ × 凪原涼菜.opus
 /home/troyd/Music/youtube/jpop/Hatsukoi.m4a
+/home/troyd/Music/yt_artists/saki_ashizawa/夜明けと蛍 (Yoake to hotaru) - n-buna _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/夜明けと蛍 (Yoake to hotaru) - n-buna _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/再教育 - Neru ( Cover ) _ VESPERBELL.opus
 /home/troyd/Music/youtube/citypop/80s/初恋 (Hatsukoi) First Love (1983)  - Kozo Murashita 村下孝蔵さん.opus
 /home/troyd/Music/youtube/jpop/👭 Eli & Nozomi- Garasu no Hanazono👭 (color coded, English sub, romaji, kanji).opus
 /home/troyd/Music/youtube/citypop/anime80s/Top o Nerae! -FLY HIGH-.opus
@@ -238,6 +250,8 @@
 /home/troyd/Music/playlists/hololive/【ORIGINAL SONG+MV】HOLOGRAM CIRCUS - Omaru Polka【尾丸ポルカ_ホロライブ】.opus
 /home/troyd/Music/playlists/hololive/【ホロライブ】さぷらいずぱらだいす！【どっきりラビリンス】.opus
 /home/troyd/Music/playlists/hololive/メンヘラじゃないもん！ - 尾丸ポルカ(cover).opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/DENKOUSEKKA - ポルカドットスティングレイ ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/テレキャスター・ストライプ - ポルカドットスティングレイ ( Cover ) _ VESPERBELL カスカ.opus
 /home/troyd/Music/youtube/jpop/テレキャスター・ストライプ.opus
 /home/troyd/Music/youtube/jjazz/【Jazz Cover】God knows... (涼宮ハルヒの憂鬱)【Precious Jazz Orchestra】.opus
 /home/troyd/Music/youtube/political/Mother Anarchy Loves Her Sons [English Subtitle].opus
@@ -282,12 +296,15 @@
 /home/troyd/Music/youtube/english_covers/「English Cover」Haruhi Suzumiya 'God Knows' FULL VER.【Kelly Mahoney】- Studio Yuraki.opus
 /home/troyd/Music/youtube/english_covers/「English Cover」Soul Eater OP 2 'Paper Moon' FULL VER. 『 ソウルイーター 』【Kelly Mahoney】 - Studio Yuraki.opus
 /home/troyd/Music/youtube/english_covers/The 2017 Bad Apple Rock Cover (Sam Luff Ver.) - Studio Yuraki.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/VORACITY - MYTH & ROID ( Cover ) _ VESPERBELL.opus
 /home/troyd/Music/playlists/hololive/LiSA『紅蓮華』 _ 星街すいせい(Live-edition).opus
 /home/troyd/Music/playlists/hololive/Saint Snow「Believe Again」_ 星街すいせい×夏色まつり(Live-edition).opus
 /home/troyd/Music/playlists/hololive/Valkyrie「今宵月の館にて」 _ 戌亥とこ × 星街すいせい(Cover).opus
 /home/troyd/Music/playlists/hololive/HINOTORI - Takanashi Kiara (Official Music Video).opus
 /home/troyd/Music/youtube/jpop/鳥の詩 Tori no Uta.opus
 /home/troyd/Music/playlists/hololive/【歌ってみた】ヒロイン育成計画【Covered by 岸堂天真_ホロスターズ】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Meteor -ミーティア- - T.M.Revolution _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Meteor -ミーティア- - T.M.Revolution _ covered by 芦澤 サキ.opus
 /home/troyd/Music/youtube/jpop/【初音ミクAppend】ミルクティー【オリジナルPV】.opus
 /home/troyd/Music/youtube/jjazz/Peace Sign (from 'My Hero Academia) - Full Jazz Band Cover.opus
 /home/troyd/Music/playlists/hololive/_ERROR_常闇トワ(cover).opus
@@ -295,12 +312,52 @@
 /home/troyd/Music/playlists/hololive/百鬼祭_常闇トワ(cover).opus
 /home/troyd/Music/youtube/citypop/80s/竹内まりや_MARIYA TAKEUCHI~SECRET  LOVE.opus
 /home/troyd/Music/youtube/english_covers/[TYER] English Air OP - 'Tori no Uta' [feat. AmyAnn].opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/202 feat. 泉まくら - ラブリーサマーちゃん ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/abnormalize - 凛として時雨 ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/All Alone With You - EGOIST ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/DADA - RADWIMPS ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/HIGHSCHOOL OF THE DEAD - 岸田教団&THE明星ロケッツ ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/I beg you - Aimer ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/IGNITE - 藍井エイル ( Cover ) _ VESPERBELL カスカ × 松永依織.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ignition _ VESPERBELL [Official Music Video].opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/LOVE&ROLL - supercell ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/Mela! - 緑黄色社会 ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/No.1 - DISH_ ( Cover ) _ VESPERBELL.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/Preserved Roses - T.M.Revolution × 水樹奈々 ( Cover ) _ VESPERBELL.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/RED - GOUACHE ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/RISE _ VESPERBELL [Official Music Video].opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/The Beginning - ONE OK ROCK ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/The Everlasting Guilty Crown - EGOIST ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/VERSUS _ VESPERBELL [Official Music Video].opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/おしゃかしゃま - RADWIMPS ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/カルマ - BUMP OF CHICKEN ( Cover ) _ VESPERBELL.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/サイサキ - Reol ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/スターマーカー - KANA-BOON ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/チョコレイト・ディスコ - Perfume ( Cover ) _ VESPERBELL.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ツキアカリのミチシルベ - ステレオポニー ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ないものねだり - KANA-BOON ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ピースサイン - 米津玄師 ( Cover ) _ VESPERBELL.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ヒステリックナイトガール - PSYQUI ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/プレパレード - 逢坂大河(釘宮理恵)・櫛枝実乃梨(堀江由衣)・川嶋亜美(喜多村英梨) ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ラズベリー＊モンスター - HoneyWorks ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/名前のない怪物 - EGOIST ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/君と夏フェス - SHISHAMO ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/夜は眠れるかい？ - flumpool ( Cover ) _ VESPERBELL.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/感電 - 米津玄師 ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/瞬間センチメンタル - SCANDAL ( Cover ) _ VESPERBELL.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/空色デイズ - 中川翔子 ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/終末じゃない - ぬゆり ( Cover ) _ VESPERBELL.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/過去を喰らう - 花譜 ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/青空のナミダ - 高橋瞳 ( Cover ) _ VESPERBELL カスカ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/革命デュアリズム - 水樹奈々×T.M.Revolution ( Cover ) _ VESPERBELL.opus
 /home/troyd/Music/youtube/jpop/[VnSharing] I am a broken umbrella - Hatsune Miku - Vocaloid vietsub.opus
 /home/troyd/Music/playlists/hololive/chocolate box／角巻わため×天音かなた(Cover).opus
 /home/troyd/Music/playlists/hololive/ホロライブ言えるかな？／角巻わため【オリジナル曲】.opus
 /home/troyd/Music/playlists/hololive/恋愛サーキュレーション-  Renai Circulation-／角巻わため(Cover).opus
 /home/troyd/Music/playlists/hololive/曇天羊／角巻わため feat.Calliope Mori【オリジナル曲】.opus
 /home/troyd/Music/playlists/hololive/【ロボ子さん×樋口楓】鬼KYOKAN【歌ってみた】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/春を告げる (Haru wo Tsugeru) - yama _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/春を告げる (Haru wo Tsugeru) - yama _ covered by 芦澤 サキ.opus
 /home/troyd/Music/youtube/jpop/YOASOBI「怪物」Official Music Video　(YOASOBI - Monster).opus
 /home/troyd/Music/youtube/jpop/ヨルシカ - 花に亡霊（OFFICIAL VIDEO）.opus
 /home/troyd/Music/playlists/(JPop, Folk) [CD] Yoshiko Sai - Mangekyou - 1975 (2008), FLAC (tracks+.cue), lossless/01 - Yoru no Sei.flac
@@ -319,6 +376,7 @@
 /home/troyd/Music/youtube/jpop/ずっと真夜中でいいのに。『低血ボルト』MV（ZUTOMAYO - FASTENING）.opus
 /home/troyd/Music/playlists/hololive/【MMD】ワールドイズマイン【赤井はあと】.opus
 /home/troyd/Music/playlists/hololive/【COVER】~ Snow Halation ~【Ayunda Risu】.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/Snow halation - μ's ( Cover ) _ VESPERBELL カスカ.opus
 /home/troyd/Music/playlists/hololive/【3DMV】シャルイース _Aki Rosenthal【ホロライブ_民族調オリジナル】.opus
 /home/troyd/Music/playlists/hololive/【ドMホイホイ】タイトルなんて自分で考えなさいな【Cover_#アキ・ローゼンタール】.opus
 /home/troyd/Music/playlists/hololive/【ローゼンメイデン】聖少女領域_coverd Aki Rosenthal【歌ってみた_4K】.opus
@@ -328,6 +386,10 @@
 /home/troyd/Music/youtube/jpop/いきものがかり 『夏空グラフィティ』Music Video.opus
 /home/troyd/Music/playlists/hololive/【Cover】Happy Halloween _ RIZnote【奏手イヅル×律可】.opus
 /home/troyd/Music/playlists/hololive/【Cover】ベノム _ 奏手イヅル.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/命に嫌われている。 (Hated by Life Itself.) - カンザキイオリ _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/命に嫌われている。 (Hated by Life Itself.) - カンザキイオリ _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ねむるまち - くじら ( Cover ) _ VESPERBELL ヨミ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/夜咄ディセイブ - じん ( Cover ) _ VESPERBELL.opus
 /home/troyd/Music/youtube/jpop/【GUMI】失恋リピーター【Original PV】／タカノン（Takanon）［公式（Official）］.opus
 /home/troyd/Music/youtube/jpop/ツユ - あの世行きのバスに乗ってさらば。 MV.opus
 /home/troyd/Music/youtube/jpop/ツユ - くらべられっ子 MV.opus
@@ -353,6 +415,12 @@
 /home/troyd/Music/playlists/hololive/【アカペラ】小さな恋のうた -1Chorus【白上フブキ_ホロライブ】.opus
 /home/troyd/Music/playlists/hololive/【ゆるキャン△EDver】ふゆびより_白上フブキ【歌ってみた】.opus
 /home/troyd/Music/playlists/hololive/【歌ってみた】ピザ パスタ ピザ のうた【フブちゃん&アルランディス_ #ピザコーン】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/バレリーコ (Balleriko) - みきとP _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/バレリーコ (Balleriko) - みきとP _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/心臓デモクラシー (Shinzo Democracy) - みきとP _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/心臓デモクラシー (Shinzo Democracy) - みきとP _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/少女レイ (Shoujo Rei) - みきとP _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/少女レイ (Shoujo Rei) - みきとP _ covered by 芦澤 サキ.opus
 /home/troyd/Music/youtube/jpop/ユアネス-yourness-「籠の中に鳥」Official Music Video【アニメ「イエスタデイをうたって」主題歌】.opus
 /home/troyd/Music/youtube/jpop/【オリジナル】スーサイドパレヱド _ ユリイ・カノン feat.GUMI －Suicide Parade／YurryCanon.opus
 /home/troyd/Music/playlists/hololive/【歌ってみた】だから僕は音楽を辞めた _ ヨルシカ【不知火フレア(Cover)】.opus
@@ -395,8 +463,13 @@
 /home/troyd/Music/playlists/hololive/【アイキス２ED曲】Cream+Mint【Vo.AZKi】.opus
 /home/troyd/Music/playlists/hololive/【アイキス２ED曲】Leaf ticket【Vo.AZKi】.opus
 /home/troyd/Music/playlists/hololive/【アイキス２ED曲】さくらんぼキッス ～爆発だも〜ん～【Vo.宝鐘マリン】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/NO,Thank You! - 放課後ティータイム _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/NO,Thank You! - 放課後ティータイム _ covered by 芦澤 サキ.opus
 /home/troyd/Music/playlists/hololive/日清カレーメシ「カレーメシ×ホロライブ」リリックビデオ.opus
 /home/troyd/Music/playlists/hololive/【Asano Ruri ×Tokino Sora】Delusion Sentiment Compensation Federation _ DSCF  - DECO_27【Cover】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/ボッカデラベリタ (Bocca della Verità) - 柊キライ _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/ボッカデラベリタ (Bocca della Verità) - 柊キライ _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/ラブカ？ - 柊キライ ( Cover ) _ VESPERBELL ヨミ.opus
 /home/troyd/Music/playlists/hololive/【Cover】威風堂々 _ RIZnote【奏手イヅル_律可】.opus
 /home/troyd/Music/playlists/[J-SONGS] BUBBLEGUM CRISIS COMPLETE VOCAL COLLECTION/Disc 2/2-05 スターライト.flac
 /home/troyd/Music/playlists/[J-SONGS] BUBBLEGUM CRISIS COMPLETE VOCAL COLLECTION/Disc 2/2-06 With.flac
@@ -407,9 +480,126 @@
 /home/troyd/Music/youtube/jpop/Koi no Yokushiryoku (Love Deterrence) English Lyrics.opus
 /home/troyd/Music/youtube/jpop/水樹奈々「METANOIA」MUSIC CLIP（Full Ver.）.opus
 /home/troyd/Music/youtube/jpop/Hanatan - Romeo and Cinderella.opus
+/media/win/Users/troyd/Music/yt_artists/vasperbell/God knows... - 涼宮ハルヒ(平野綾) ( Cover ) _ VESPERBELL ヨミ.opus
 /home/troyd/Music/playlists/hololive/#あくあ色ぱれっと.opus
 /home/troyd/Music/playlists/hololive/ミルクと果実のうた_Music Video【電脳少女シロ_白上フブキ_アキローゼンタール_神楽すず_燦鳥ノム】【ミルクと果実シスターズ】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/1_3の純情な感情 (One-third naive feelings) - SIAM SHADE _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/1_3の純情な感情 (One-third naive feelings) - SIAM SHADE _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/All Alone With You - EGOIST _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/All Alone With You - EGOIST _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Brave Shine - Aimer _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Brave Shine - Aimer _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Can Do - GRANRODEO _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Can Do - GRANRODEO _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/chase - batta _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/chase - batta _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/COLORS - FLOW _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/COLORS - FLOW _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/CORE PRIDE - UVERworld _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/CORE PRIDE - UVERworld _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/DAYBREAK'S BELL - L'Arc～en～Ciel _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/DAYBREAK'S BELL - L'Arc～en～Ciel _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/daze - じん ft.メイリア from GARNiDELiA _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/daze - じん ft.メイリア from GARNiDELiA _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Departures ～あなたにおくるアイの歌～ (Departures ~Anata ni okuru AI no uta~) - EGOIST _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Departures ～あなたにおくるアイの歌～ (Departures ~Anata ni okuru AI no uta~) - EGOIST _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Don't say 'lazy' - 桜高軽音部 _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Don't say 'lazy' - 桜高軽音部 _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/D-tecnoLife - UVERworld _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/D-tecnoLife - UVERworld _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Get Wild - TM NETWORK _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Get Wild - TM NETWORK _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/GLAMOROUS SKY - NANA starring MIKA NAKASHIMA _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/GLAMOROUS SKY - NANA starring MIKA NAKASHIMA _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/GO!!! - FLOW _ covered by 芦澤サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/GO!!! - FLOW _ covered by 芦澤サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/ignited -イグナイテッド- -  T.M.Revolution _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/ignited -イグナイテッド- -  T.M.Revolution _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/JOINT - 川田まみ _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/JOINT - 川田まみ _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Lost my music - 涼宮ハルヒ(CV.平野綾) _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Lost my music - 涼宮ハルヒ(CV.平野綾) _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/No title - Reol _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/No title - Reol _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Preserved Roses - T.M.Revolution × 水樹奈々 _ covered by 芦澤サキ × 道明寺ここあ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Preserved Roses - T.M.Revolution × 水樹奈々 _ covered by 芦澤サキ × 道明寺ここあ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/Velonica - Aqua Timez _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/Velonica - Aqua Timez _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/V.I.P - シド _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/V.I.P - シド _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/あしざわさんのほーそうぶ ~ひさしぶりの部活~【第3回】.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/あしざわさんのほーそうぶ ~ひさしぶりの部活~【第3回】.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/お勉強しといてよ (STUDY ME) - ずっと真夜中でいいのに。 _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/お勉強しといてよ (STUDY ME) - ずっと真夜中でいいのに。 _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/カルマ (karma) - BUMP OF CHICKEN _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/カルマ (karma) - BUMP OF CHICKEN _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/サムライハート (Some Like It Hot!!) - SPYAIR _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/サムライハート (Some Like It Hot!!) - SPYAIR _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/だから僕は音楽を辞めた (Moonlight) - ヨルシカ _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/だから僕は音楽を辞めた (Moonlight) - ヨルシカ _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/ツキアカリのミチシルベ (Tsukiakari no Michishirube) - ステレオポニー _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/ツキアカリのミチシルベ (Tsukiakari no Michishirube) - ステレオポニー _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/ノーザンクロス (Northern cross) -  シェリル・ノーム starring May'n _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/ノーザンクロス (Northern cross) -  シェリル・ノーム starring May'n _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/ヒバナ (Hibana) - DECO_27 _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/ヒバナ (Hibana) - DECO_27 _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/モノクロのキス (Monochrome no kiss) - シド _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/モノクロのキス (Monochrome no kiss) - シド _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/ロキ (ROKI) _ - みきとP _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/ロキ (ROKI) _ - みきとP _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/一滴の影響 (Itteki no Eikyou) - UVERworld _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/一滴の影響 (Itteki no Eikyou) - UVERworld _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/僕が死のうと思ったのは (Boku ga shinouto omottanoha) - amazarashi _ covered by 芦澤サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/僕が死のうと思ったのは (Boku ga shinouto omottanoha) - amazarashi _ covered by 芦澤サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/儚くも永久のカナシ (Hakanakumo Towano Kanashi) -  UVERworld _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/儚くも永久のカナシ (Hakanakumo Towano Kanashi) -  UVERworld _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/君の神様になりたい。 (Kimi no Kamisama ni Naritai.) - カンザキイオリ _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/君の神様になりたい。 (Kimi no Kamisama ni Naritai.) - カンザキイオリ _ covered by 芦澤 サキ.opus
 /home/troyd/Music/youtube/jpop/命に嫌われている。 (Hated by Life Itself.) _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/嘘 (Uso) - シド _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/嘘 (Uso) - シド _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/夜咄ディセイブ (Yobanashi Deceive) - じん _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/夜咄ディセイブ (Yobanashi Deceive) - じん _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/天ノ弱 (Amanojaku) - 164 _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/天ノ弱 (Amanojaku) - 164 _ covered by 芦澤 サキ.opus
 /home/troyd/Music/youtube/jpop/天樂 (Tengaku) _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/天樂 (Tengaku) - ゆうゆ _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/天樂 (Tengaku) - ゆうゆ _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/季節は次々死んでいく (Seasons die one after another) - amazarashi _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/季節は次々死んでいく (Seasons die one after another) - amazarashi _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/孤独に咲け (Bloom lonely) - 芦澤 サキ (Official Video).opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/孤独に咲け (Bloom lonely) - 芦澤 サキ (Official Video).opus
+/home/troyd/Music/yt_artists/saki_ashizawa/完全感覚Dreamer (Kanzen Kankaku Dreamer) - ONE OK ROCK _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/完全感覚Dreamer (Kanzen Kankaku Dreamer) - ONE OK ROCK _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/心絵 (kokoroe) - ロードオブメジャー _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/心絵 (kokoroe) - ロードオブメジャー _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/曇天 (Donten) - DOES _ covered by 芦澤サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/曇天 (Donten) - DOES _ covered by 芦澤サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/月光花 (Gekkouka) -Janne Da Arc  _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/月光花 (Gekkouka) -Janne Da Arc  _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/残酷な天使のテーゼ (A Cruel Angel's Thesis) - 高橋洋子 _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/残酷な天使のテーゼ (A Cruel Angel's Thesis) - 高橋洋子 _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/決意の朝に (Ketsui no Asa ni) - Aqua Timez _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/決意の朝に (Ketsui no Asa ni) - Aqua Timez _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/激動 (Gekidou) - UVERworld _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/激動 (Gekidou) - UVERworld _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/狂乱 Hey Kids!! (Kyouran Hey Kids!!) - (THE ORAL CIGARETTES) _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/狂乱 Hey Kids!! (Kyouran Hey Kids!!) - (THE ORAL CIGARETTES) _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/空に歌えば (Sora ni utaeba) - amazarashi _ covered by 芦澤サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/空に歌えば (Sora ni utaeba) - amazarashi _ covered by 芦澤サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/第六感 (THE SIXTH SENSE) - Reol _ covered by 芦澤サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/第六感 (THE SIXTH SENSE) - Reol _ covered by 芦澤サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/粉雪 (Konayuki) - レミオロメン _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/粉雪 (Konayuki) - レミオロメン _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/群青日和 (Ideal Days For Ultramarine) - 東京事変 _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/群青日和 (Ideal Days For Ultramarine) - 東京事変 _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/芦澤サキ _ DEBUT SINGLE - “孤独に咲け” (SPOT CM).opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/芦澤サキ _ DEBUT SINGLE - “孤独に咲け” (SPOT CM).opus
+/home/troyd/Music/yt_artists/saki_ashizawa/裏切りの夕焼け (Uragiri no Yuuyake) - THEATRE BROOK _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/裏切りの夕焼け (Uragiri no Yuuyake) - THEATRE BROOK _ covered by 芦澤 サキ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/青空のナミダ (Aozora no namida) - 高橋瞳 _ covered by 芦澤 サキ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/青空のナミダ (Aozora no namida) - 高橋瞳 _ covered by 芦澤 サキ.opus
 /home/troyd/Music/youtube/jpop/革命デュアリズム (Kakumei Dualism) _ covered by 芦澤 サキ × 道明寺 ここあ.opus
+/home/troyd/Music/yt_artists/saki_ashizawa/革命デュアリズム (Kakumei Dualism) - 水樹奈々×T.M.Revolution _ covered by 芦澤 サキ × 道明寺 ここあ.opus
+/media/win/Users/troyd/Music/yt_artists/saki_ashizawa/革命デュアリズム (Kakumei Dualism) - 水樹奈々×T.M.Revolution _ covered by 芦澤 サキ × 道明寺 ここあ.opus
 /home/troyd/Music/playlists/hololive/【#Vsevendeadlysins】KILLER B 【歌ってみた】.opus

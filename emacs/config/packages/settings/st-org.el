@@ -36,3 +36,6 @@
                            (visual-line-mode)))
 
 (setq org-default-notes-file (concat org-directory "/notes.org"))
+
+(setq org-latex-compiler "xelatex")
+(setq org-latex-pdf-process '("latexmk -pdfxelatex='xelatex -shell-escape -synctex=1' -pdfxe -f %f"))

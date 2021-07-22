@@ -1,4 +1,4 @@
-;; -*- lexical-binding: t; -*-
+;;; -*- lexical-binding: t; -*-
 
 ;; (use-package gruvbox-theme
 ;;   :ensure t
@@ -25,7 +25,7 @@
  :ensure t
  :demand t
  :config
- (moe-light))
+ (moe-dark))
 
 (use-package which-key
   :defer t
@@ -33,3 +33,7 @@
   (add-hook 'after-init-hook 'which-key-mode)
   :custom
   (which-key-use-C-h-commands t))
+
+
+
+(use-package all-the-icons)

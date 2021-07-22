@@ -1,13 +1,12 @@
 local vim = vim
-local plugman = require('func/packadder')
-plugman.packadd({
+
+require('func.packadder').packadd({
    'nvim-lspconfig';
    'lsp_extensions.nvim';
    'lspsaga.nvim'
 })
 
 local lspuse = require('lspconfig')
-local binder = require('../func/binder')
 
 local sumnekopath = os.getenv('HOME')..'/.local/opt/lua-language-server/'
 
@@ -15,9 +14,9 @@ local on_attach_vim = function()
    --require'completion'.on_attach()
 end
 lspuse.clangd.setup{on_attach=on_attach_vim}
-lspuse.pyls.setup{on_attach=on_attach_vim}
-lspuse.html.setup{on_attach=on_attach_vim}
-lspuse.tsserver.setup{on_attach=on_attach_vim}
+lspuse.pylsp.setup{on_attach=on_attach_vim}
+--lspuse.html.setup{on_attach=on_attach_vim}
+--lspuse.tsserver.setup{on_attach=on_attach_vim}
 --lspuse.rls.setup{on_attach=on_attach_vim}
 lspuse.sumneko_lua.setup{
    on_attach=on_attach_vim;

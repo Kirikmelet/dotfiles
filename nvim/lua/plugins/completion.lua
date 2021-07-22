@@ -1,10 +1,10 @@
 local vim = vim
 local api = vim.api
-local plugman = require('func/packadder')
+--local plugman = require('func/packadder')
 
-plugman.packadd({
-   'nvim-compe'
-})
+--plugman.packadd({
+--   'nvim-compe'
+--})
 
 require'compe'.setup {
   enabled = true;

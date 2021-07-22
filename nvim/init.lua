@@ -1,5 +1,6 @@
 -- Modules
 --
+--
 -- Uncomment to enable
 -- Comment to disable
 --
@@ -12,25 +13,24 @@ local requirements = {
 
    -- MODULES
    -- Tools
-   'plugins.statusline';
    'plugins.netrw';
-   'plugins.orgmode';
-   'plugins.autopairs';
+   --'plugins.orgmode';
+   --'plugins.autopairs';
+   'plugins.telescope';
    'plugins.git';
-   'plugins.bqf';
+   --'plugins.bqf';
    'plugins.which-key';
-   -- Fuzzy UwU
-   --'plugins.telescope';
-   'plugins.snap';
+   'plugins.lir';
    -- LSP
-   'plugins.completion';
+   --'plugins.completion';
    'plugins.treesitter';
    'plugins.lsp';
+   -- Looks
    -- LOAD AT END
-
+   'plugins.statusline';
    -- IMPORTANT
-   --'hotkeys';
-   'autopairs';
+   'hotkeys';
+   'augroups';
 }
 
 for _,i in ipairs(requirements) do
