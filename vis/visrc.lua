@@ -6,7 +6,7 @@ local ft = require('plugins.ftconf')
 local m = require('plugins.vis-fzf')
 
 -- Terminal name
-require('plugins.vis-title')
+--require('plugins.vis-title')
 
 local initSet = {
    'set change-256colors on';

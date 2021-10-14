@@ -1,13 +1,3 @@
-npm install vis-timeline
-npm init
-npm install vis-timeline
-ls
-ls
-chmod 755 run.sh
-./run.sh
-exit
-ls
-curl -O https://github.com/Grible/timetable.js/archive/master.zip
 ls
 unzip master.zip
 ls
@@ -126,3 +116,13 @@ make
 ../bin/osab-qt
 make
 ../bin/osab-qt
+exit
+ls
+cd build/
+make
+make -j16
+bin/ ~/Documents/github/osab-qt/bin/osab-qt
+. ~/Documents/github/osab-qt/bin/osab-qt
+. ~/Documents/github/osab-qt/bin/osab-qt
+clear
+exit

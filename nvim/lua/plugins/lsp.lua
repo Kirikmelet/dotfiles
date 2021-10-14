@@ -10,13 +10,18 @@ local lspuse = require('lspconfig')
 
 local sumnekopath = os.getenv('HOME')..'/.local/opt/lua-language-server/'
 
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
 local on_attach_vim = function()
    --require'completion'.on_attach()
 end
+
+lspuse.cssls.setup{on_attach=on_attach_vim,capabilities=capabilities}
 lspuse.clangd.setup{on_attach=on_attach_vim}
 lspuse.pylsp.setup{on_attach=on_attach_vim}
---lspuse.html.setup{on_attach=on_attach_vim}
---lspuse.tsserver.setup{on_attach=on_attach_vim}
+-- lspuse.html.setup{on_attach=on_attach_vim}
+lspuse.tsserver.setup{on_attach=on_attach_vim}
 --lspuse.rls.setup{on_attach=on_attach_vim}
 lspuse.sumneko_lua.setup{
    on_attach=on_attach_vim;

@@ -7,4 +7,8 @@ export EDITOR=nvim
 
 # For Wayland support
 
-export MOZ_WAYLAND=1
+export MOZ_ENABLE_WAYLAND=1
+
+
+# WINE Prefixes
+export WINE_HENTAI=/home/troyd/.config/wine/koikatsu

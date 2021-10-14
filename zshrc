@@ -1,4 +1,3 @@
-
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
@@ -37,4 +36,10 @@ zinit wait lucid for \
 	light-mode zsh-users/zsh-completions \
 	light-mode zsh-users/zsh-autosuggestions
 
-source "$HOME/.bash_profile"
+#source "$HOME/.bashrc"
+source ~/.config/bash/tmux.sh
+# source ~/.config/bash/ps1.sh
+source ~/.config/bash/path.sh
+# source ~/.config/bash/alias.sh
+# source ~/.config/bash/nnn-config.sh
+source ~/.config/bash/env.sh

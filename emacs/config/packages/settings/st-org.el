@@ -39,3 +39,34 @@
 
 (setq org-latex-compiler "xelatex")
 (setq org-latex-pdf-process '("latexmk -pdfxelatex='xelatex -shell-escape -synctex=1' -pdfxe -f %f"))
+(setq org-latex-packages-alist '(
+                                 ("" "org-japanese" ("xelatex"))
+                                 ("" "org-math" ("xelatex"))))
+
+(setq org-publish-project-alist
+      '(("lang-jp-pdf"
+         :base-directory "~/org/lang/jp"
+         :publishing-directory "~/org/export/jp/pdf"
+         :base-extension "org"
+         :publishing-function org-latex-publish-to-pdf)
+        ("lang-jp-html"
+         :base-directory "~/org/lang/jp"
+         :publishing-directory "~/org/export/jp/html"
+         :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         )
+        ("math-pdf"
+         :base-directory "~/org/math"
+         :publishing-directory "~/org/export/math/pdf"
+         :base-extension "org"
+         :recursive t
+         :publishing-function org-latex-publish-to-pdf
+         )
+        ("math-html"
+         :base-directory "~/org/math"
+         :publishing-directory "~/org/export/math/html"
+         :base-extension "org"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         )
+        ))

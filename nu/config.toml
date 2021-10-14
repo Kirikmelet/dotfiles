@@ -1,0 +1,30 @@
+filesize_format = "mb"
+filesize_metric = "true"
+path=["~/.local/bin", "~/.cargo/bin", "/usr/lib/qt6/bin", "/home/troyd/spicetify-cli"]
+skip_welcome_message = "true"
+startup = []
+table_mode = "compact"
+
+[line_editor]
+complete_from_path = "true"
+edit_mode = "vi"
+pager = "bat"
+rm_always_trash = "false"
+
+[env]
+EDITOR = "nvim"
+MOZ_ENABLE_WAYLAND = 1
+VIEWER = "bat"
+SPICETIFY_INSTALL="/home/troyd/spicetify-cli"
+GTK_IM_MODULE="fcitx"
+QT_IM_MODULE="fcitx"
+SDL_IM_MODULE="fcitx"
+XMODIFIERS="@imfcitx"
+NNN_OPTS="goa"
+NNN_BMS="h:~/;D:~/Documents;d:~/Desktop/;V:~/Videos/;M:~/Music/;l:~/Downloads"
+NNN_ARCHIVE="\\.(7z|a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|rar|rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip|zst|zstd)$"
+NNN_TRASH=0
+NNN_COLORS="4444"
+NNN_PLUG="i:imgview;o:launch;P:picker;v:pdfread;b:nbak;l:oldbigfile;f:organize;g:gpge;G:gpgd;p:preview-tui-ext"
+NNN_OPS_PROG=1
+MPD_PORT=23955

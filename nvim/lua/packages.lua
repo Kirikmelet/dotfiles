@@ -1,5 +1,4 @@
 local vim = vim
-local packer = require('func.packadder').packadd
 
 require('func/bootstrap-package')
 

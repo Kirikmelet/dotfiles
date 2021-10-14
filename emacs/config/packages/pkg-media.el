@@ -4,7 +4,10 @@
   :defer 10)
 
 (use-package pdf-tools
-  :mode ("\\.pdf\\'"))
+  :mode ("\\.pdf\\'")
+  :config
+  (pdf-loader-install)
+  )
 
 (use-package elcord
   :defer 20

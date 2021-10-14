@@ -184,7 +184,7 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     after = { "popup.nvim" },
     loaded = false,
-    needs_bufread = false,
+    needs_bufread = true,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/telescope.nvim"
   },
   ["vim-glsl"] = {
@@ -206,8 +206,8 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Keymap lazy-loads
 time([[Defining lazy-load keymaps]], true)
-vim.cmd [[noremap <silent> n <cmd>lua require("packer.load")({'orgmode.nvim'}, { keys = "n", prefix = "" }, _G.packer_plugins)<cr>]]
 vim.cmd [[noremap <silent> <leader>o <cmd>lua require("packer.load")({'orgmode.nvim'}, { keys = "<lt>leader>o", prefix = "" }, _G.packer_plugins)<cr>]]
+vim.cmd [[noremap <silent> n <cmd>lua require("packer.load")({'orgmode.nvim'}, { keys = "n", prefix = "" }, _G.packer_plugins)<cr>]]
 time([[Defining lazy-load keymaps]], false)
 
 vim.cmd [[augroup packer_load_aucmds]]

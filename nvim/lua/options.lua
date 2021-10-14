@@ -2,10 +2,12 @@ local vim = vim
 
 --{{{Colorscheme
 if (os.getenv("TERM") == "linux") then
-   vim.g.colors_name = 'default'
+   --vim.g.colors_name = 'default'
+   vim.cmd[[colorscheme default]]
    vim.o.termguicolors = false
 else
-   vim.g.colors_name = 'gruvbox'
+   --vim.g.colors_name = 'gruvbox'
+   vim.cmd[[colorscheme gruvbox]]
    --vim.g.ayucolor = 'dark'
    vim.o.termguicolors = true
 end
@@ -14,7 +16,7 @@ end
 --{{{Options
 local nOpts = {
    ['opt'] = {
-      number = false;
+      number = true;
       expandtab = true;
       sidescroll = 1;
       ruler = true;
@@ -30,7 +32,7 @@ local nOpts = {
       report = 2;
       synmaxcol = 0;
       completeopt = 'menuone,noinsert,noselect';
-      guifont = 'Fira Code:h14';
+      guifont = 'Cica:h18';
       inccommand = 'split';
       grepprg = 'rg --vimgrep --no-heading --smart-case';
       lazyredraw = true;
@@ -38,6 +40,7 @@ local nOpts = {
       cursorline = true;
       foldmethod = 'marker';
       omnifunc = 'v:lua.vim.lsp.omnifunc';
+      shell = 'sh';
    };
    ['g'] = {
       -- For key bindings
