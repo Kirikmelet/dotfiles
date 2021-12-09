@@ -18,14 +18,13 @@ fi
 
 # User specific environment and startup programs
 #. ~/.config/bash/nnn-config.sh
+source_file ~/.config/bash/wine.sh
 source_file ~/.config/bash/nnn-config.sh
 
 # INPUT
 source_file ~/.config/bash/input.sh
 
-# MPD
-export MPD_PORT=23955
-
-source_file ~/.config/bash/spotify.sh
+# Spotify 
+# source_file ~/.config/bash/spotify.sh
 
 

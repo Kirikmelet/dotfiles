@@ -11,7 +11,7 @@ source ~/.config/bash/tmux.sh
 source ~/.config/bash/ps1.sh
 source ~/.config/bash/path.sh
 source ~/.config/bash/alias.sh
-source ~/.config/bash/nnn-config.sh
+# source ~/.config/bash/nnn-config.sh
 source ~/.config/bash/env.sh
 
 #set -o vi

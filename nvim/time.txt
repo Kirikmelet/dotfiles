@@ -1,0 +1,97 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.013  000.013: --- NVIM STARTING ---
+000.355  000.342: locale set
+000.744  000.389: inits 1
+000.766  000.022: window checked
+000.772  000.005: parsing arguments
+000.852  000.080: expanding arguments
+000.917  000.065: inits 2
+001.449  000.532: init highlight
+001.456  000.008: waiting for UI
+002.397  000.941: done waiting for UI
+002.422  000.025: init screen for UI
+002.636  000.020  000.020: sourcing /usr/share/nvim/archlinux.vim
+002.644  000.059  000.039: sourcing /etc/xdg/nvim/sysinit.vim
+039.582  028.455  028.455: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/gruvbox.nvim/colors/gruvbox.vim
+110.258  107.582  079.127: sourcing /home/troyd/.config/nvim/init.lua
+110.286  000.223: sourcing vimrc file(s)
+118.421  000.053  000.053: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/elixir.vim
+118.473  000.022  000.022: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/fish.vim
+118.514  000.019  000.019: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/gdresource.vim
+118.571  000.035  000.035: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/gdscript.vim
+118.607  000.015  000.015: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/gomod.vim
+118.661  000.024  000.024: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/graphql.vim
+118.702  000.022  000.022: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/hcl.vim
+118.733  000.014  000.014: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/heex.vim
+118.762  000.014  000.014: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/hjson.vim
+118.792  000.011  000.011: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/json5.vim
+118.824  000.013  000.013: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/julia.vim
+118.861  000.020  000.020: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/ledger.vim
+118.892  000.014  000.014: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/nix.vim
+118.927  000.017  000.017: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/ql.vim
+118.976  000.031  000.031: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/query.vim
+119.007  000.012  000.012: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/surface.vim
+119.039  000.014  000.014: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/teal.vim
+119.069  000.014  000.014: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/tlaplus.vim
+119.123  000.013  000.013: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/yang.vim
+119.156  000.013  000.013: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/ftdetect/zig.vim
+119.366  000.032  000.032: sourcing /usr/share/vim/vimfiles/ftdetect/meson.vim
+119.535  000.017  000.017: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/vim-qml/ftdetect/qml.vim
+120.166  009.771  009.332: sourcing /usr/share/nvim/runtime/filetype.vim
+120.327  000.020  000.020: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/filetype.nvim/filetype.vim
+120.608  000.082  000.082: sourcing /usr/share/nvim/runtime/ftplugin.vim
+120.984  000.058  000.058: sourcing /usr/share/nvim/runtime/indent.vim
+131.950  000.571  000.571: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+141.267  019.562  018.992: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/gruvbox.nvim/colors/gruvbox.vim
+142.118  020.712  001.150: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+142.247  020.992  000.280: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+143.447  000.440  000.440: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/lspsaga.nvim/plugin/lspsaga.vim
+143.780  000.143  000.143: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-lspconfig/plugin/lspconfig.vim
+145.513  001.631  001.631: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-treesitter/plugin/nvim-treesitter.vim
+146.221  000.499  000.499: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/lir.nvim/plugin/lir.vim
+146.417  000.031  000.031: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/which-key.nvim/plugin/which-key.vim
+147.901  001.398  001.398: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/neogit/plugin/neogit.vim
+148.146  000.058  000.058: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/plenary.nvim/plugin/plenary.vim
+149.166  000.939  000.939: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/telescope.nvim/plugin/telescope.vim
+149.601  000.064  000.064: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+149.640  000.017  000.017: sourcing /usr/share/nvim/runtime/plugin/health.vim
+150.026  000.374  000.374: sourcing /usr/share/nvim/runtime/plugin/man.vim
+150.085  000.027  000.027: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+150.116  000.016  000.016: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+150.160  000.029  000.029: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+150.373  000.015  000.015: sourcing /home/troyd/.local/share/nvim/rplugin.vim
+150.383  000.208  000.193: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+150.816  000.418  000.418: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+150.903  000.045  000.045: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+151.353  000.433  000.433: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+151.423  000.022  000.022: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+151.463  000.023  000.023: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+151.999  000.520  000.520: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+153.954  000.630  000.630: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/vim-glsl/ftdetect/glsl.vim
+154.067  000.027  000.027: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/orgmode.nvim/ftdetect/org.vim
+154.116  000.018  000.018: sourcing /home/troyd/.local/share/nvim/site/pack/packer/opt/orgmode.nvim/ftdetect/org_archive.vim
+154.125  001.954  001.278: sourcing /home/troyd/.config/nvim/plugin/packer_compiled.lua
+154.792  004.294: loading plugins
+157.191  002.180  002.180: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/filetype.nvim/plugin/filetype.vim
+157.535  000.077  000.077: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/lush.nvim/plugin/lush.vim
+157.753  000.062  000.062: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/nvim-web-devicons/plugin/nvim-web-devicons.vim
+162.901  000.057  000.057: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/presence.nvim/autoload/presence.vim
+167.729  009.849  009.791: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/presence.nvim/plugin/presence.vim
+168.064  000.029  000.029: sourcing /home/troyd/.local/share/nvim/site/pack/packer/start/vim-qml/ftdetect/qml.vim
+168.220  001.232: loading packages
+168.446  000.227: loading after plugins
+168.474  000.028: inits 3
+172.465  003.991: reading ShaDa
+175.733  003.268: opening buffers
+175.958  000.225: BufEnter autocommands
+175.967  000.009: editing files in windows
+188.531  012.564: VimEnter autocommands
+188.544  000.013: UIEnter autocommands
+188.570  000.026: before starting main loop
+196.764  008.194: first screen update
+196.774  000.010: --- NVIM STARTED ---

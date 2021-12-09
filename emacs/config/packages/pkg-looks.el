@@ -1,10 +1,10 @@
 ;;; -*- lexical-binding: t; -*-
 
-;; (use-package gruvbox-theme
-;;   :ensure t
-;;   :demand t
-;;   :init
-;;   (load-theme 'gruvbox-dark-medium t))
+(use-package gruvbox-theme
+  :ensure t
+  :demand t
+  :init
+  (load-theme 'gruvbox-dark-medium t))
 
 ;; (use-package modus-themes
 ;;  :ensure
@@ -21,11 +21,18 @@
 ;;  ;;(modus-themes-load-operandi))
 ;;  ;;(modus-themes-load-vivendi))
 
-(use-package moe-theme
- :ensure t
- :demand t
- :config
- (moe-dark))
+;; (use-package moe-theme
+;;  :ensure t
+;;  :demand t
+;;  :config
+;;  (moe-dark))
+
+;; (use-package color-theme-modern
+;;   :ensure t
+;;   :demand t
+;;   :config
+;;   (load-theme 'tty-dark t t)
+;;   (enable-theme 'tty-dark))
 
 (use-package which-key
   :defer t

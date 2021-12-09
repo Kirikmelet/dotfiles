@@ -2,7 +2,6 @@ local vim = vim
 
 require('func/bootstrap-package')
 
-
 vim.cmd[[packadd! packer.nvim]]
 
 local use = require('packer').use
@@ -24,9 +23,14 @@ return require('packer').startup(function()
    use {
       'neovim/nvim-lspconfig', opt=true, requires = {
          {
-            'hrsh7th/nvim-compe', opt=true,
+            'hrsh7th/nvim-cmp', opt=true,
             event='InsertEnter *',
-            config = [[require'plugins.completion']]
+            -- config = [[require'plugins.completion']],
+            requires = {
+               'hrsh7th/cmp-buffer',
+               'hrsh7th/cmp-path',
+               'hrsh7th/cmp-cmdline',
+            },
          };
          {
             'tjdevries/lsp_extensions.nvim',
@@ -34,6 +38,7 @@ return require('packer').startup(function()
          };
          {'nvim-treesitter/nvim-treesitter', opt=true};
          {'glepnir/lspsaga.nvim', opt=true};
+               {'hrsh7th/cmp-nvim-lsp', opt=true},
       },
       --{'mhartington/formatter.nvim' };
    }
@@ -51,15 +56,23 @@ return require('packer').startup(function()
    }
    -- Orgmode
    use {
-      'kristijanhusak/orgmode.nvim';
-      opt=true,
+      'nvim-orgmode/orgmode';
       config = function()
          require('orgmode').setup({
             org_agenda_files = {'~/org/global_agenda/*'}
          })
+         local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
+         parser_config.org = {
+            install_info = {
+               url = 'https://github.com/milisims/tree-sitter-org',
+               revision = 'main',
+               files = {'src/parser.c', 'src/scanner.cc'},
+            },
+            filetype = 'org',
+         }
       end,
-      ft = 'org',
-      keys = {'n', '<leader>o'}
+      --ft = 'org',
+      --keys = {'n', '<leader>o'}
    }
    -- Quickbuffer
    use {
@@ -78,7 +91,7 @@ return require('packer').startup(function()
       opt = true
    }
    -- Statusline
-    use {'hoob3rt/lualine.nvim'; opt=true};
+   use {'hoob3rt/lualine.nvim'; opt=true};
    -- Icons
    use {'kyazdani42/nvim-web-devicons'}
    -- QML
@@ -95,4 +108,6 @@ return require('packer').startup(function()
       },
       opt=true,
    }
+   -- filetype.nvim
+   use {'nathom/filetype.nvim'}
 end)

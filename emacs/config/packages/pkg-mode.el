@@ -20,3 +20,6 @@
 
 (use-package glsl-mode
   :mode ("\\.frag\\'" "\\.vert\\'" "\\.vs\\'"))
+
+(use-package qml-mode
+  :mode ("\\.qml\\'"))

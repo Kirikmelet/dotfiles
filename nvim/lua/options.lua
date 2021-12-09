@@ -69,6 +69,8 @@ local nOpts = {
       loaded_perl_provider = 0;
       loaded_ruby_provider = 0;
       --gruvbox_italic = 1;
+      -- Disable filetype.vim
+      did_load_filetypes = 1;
    };
 }
 --}}}

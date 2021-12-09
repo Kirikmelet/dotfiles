@@ -3,28 +3,95 @@ local vim = vim
 require('func.packadder').packadd({
    'nvim-lspconfig';
    'lsp_extensions.nvim';
-   'lspsaga.nvim'
+   'lspsaga.nvim';
+   'nvim-cmp';
+   'cmp-nvim-lsp'
 })
 
 local lspuse = require('lspconfig')
-
 local sumnekopath = os.getenv('HOME')..'/.local/opt/lua-language-server/'
+local cmp_nvim = require('cmp_nvim_lsp')
 
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities.textDocument.completion.completionItem.snippetSupport = true
+--{{{Completions
+local cmp = require'cmp'
+cmp.setup {
+  mapping = {
+     ['<C-Space>'] = cmp.mapping(cmp.mapping.complete(), { 'i', 'c' }),
+     ['<CR>'] = cmp.mapping.confirm({select=true})
+  };
+  sources = cmp.config.sources({
+     {name = 'nvim_lsp'},
+     {name = 'orgmode'}
+  },
+  {
+     name = 'buffer'
+  }
+  )
+}
 
-local on_attach_vim = function()
-   --require'completion'.on_attach()
-end
+cmp.setup.cmdline('/', {
+   sources = {
+      {name = 'buffer'}
+   }
+})
+cmp.setup.cmdline(':', {
+   sources = cmp.config.sources({
+      { name = 'path' }
+   }, {
+      { name = 'cmdline' }
+   })
+})
 
-lspuse.cssls.setup{on_attach=on_attach_vim,capabilities=capabilities}
-lspuse.clangd.setup{on_attach=on_attach_vim}
-lspuse.pylsp.setup{on_attach=on_attach_vim}
+
+--vim.g.completion_matching_strategy_list = {'exact','substring','fuzzy'}
+--vim.g.completion_auto_change_source = 1
+--vim.g.completion_trigger_on_delete = 1
+--
+--vim.g.completions_chain_complete_list = {
+--   default = {
+--      default = {
+--         {complete_items = {'lsp', 'snippet', 'path'}};
+--         {mode = 'file'};
+--      },
+--      comment = {},
+--      string = {}
+--   },
+--   vim = {
+--      {complete_items = {'snippet', 'path'}},
+--      {mode = 'cmd'}
+--   },
+--   c = {
+--      {complete_items = {'ts', 'lsp', 'path', 'snippet'}},
+--   },
+--   python = {
+--      {complete_items = {'ts', 'lsp', 'path', 'snippet'}},
+--   },
+--   lua = {
+--      {complete_items = {'ts', 'lsp', 'path'}},
+--   },
+--   javascript = {
+--      {complete_items = {'ts', 'lsp', 'path', 'snippet'}},
+--   },
+--   typescript = {
+--      {complete_items = {'ts', 'lsp', 'path', 'snippet'}},
+--   },
+--
+--}
+
+vim.o.shortmess = vim.o.shortmess..'c'
+--}}}
+
+local capabilities = cmp_nvim.update_capabilities(vim.lsp.protocol.make_client_capabilities())
+--capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+--{{{Setups
+lspuse.cssls.setup{capabilities=capabilities}
+lspuse.clangd.setup{capabilities=capabilities}
+lspuse.pylsp.setup{capabilities=capabilities}
 -- lspuse.html.setup{on_attach=on_attach_vim}
-lspuse.tsserver.setup{on_attach=on_attach_vim}
+lspuse.tsserver.setup{capabilities=capabilities}
 --lspuse.rls.setup{on_attach=on_attach_vim}
 lspuse.sumneko_lua.setup{
-   on_attach=on_attach_vim;
    cmd = {sumnekopath..'bin/Linux/lua-language-server', '-E', sumnekopath..'main.lua'};
    settings = {
       Lua = {
@@ -32,10 +99,12 @@ lspuse.sumneko_lua.setup{
             globals = { 'vim' }
          }
       }
-   }
+   },
+capabilities=capabilities
 }
+--}}}
 
-
+--{{{Handles
 vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(
 vim.lsp.diagnostic.on_publish_diagnostics, {
    -- This will disable virtual text, like doing:
@@ -55,8 +124,10 @@ vim.lsp.diagnostic.on_publish_diagnostics, {
    update_in_insert = false,
 }
 )
+--}}}
 
 --{{{Bindings
 --}}}
+
 
 -- Quickfix Buffer
