@@ -189,7 +189,7 @@ _G.packer_plugins = {
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
-    after = { "lspsaga.nvim", "lsp_extensions.nvim", "cmp-nvim-lsp", "nvim-cmp", "nvim-treesitter" },
+    after = { "lspsaga.nvim", "lsp_extensions.nvim", "nvim-treesitter", "nvim-cmp", "cmp-nvim-lsp" },
     loaded = false,
     needs_bufread = false,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/opt/nvim-lspconfig",
@@ -243,6 +243,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/troyd/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
+  },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/home/troyd/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     after = { "popup.nvim" },

@@ -45,9 +45,10 @@ return require('packer').startup(function()
    -- Fuzzy Search
    use {
       'nvim-telescope/telescope.nvim';
-      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}};
+      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}},
       opt = true;
    }
+   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
    -- Autopairs
    use {
       'windwp/nvim-autopairs';
