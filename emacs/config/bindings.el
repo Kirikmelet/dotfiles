@@ -1,13 +1,19 @@
 ;;; -*- lexical-binding t; -*-
 ;; bindings-config.el
 
+(dolist (list '(
+                (start-maps . "M-c")
+                (start-commands . "M-v")))
+  (define-prefix-command (car list))
+  (global-set-key (kbd (cdr list)) (car list)))
+
 
 ;; Applications
-(define-key 'app-funcs-map (kbd "M") 'mail)
+(define-key 'start-maps (kbd "a m") 'mail)
 
 ;; Commands
 (global-set-key (kbd "C-c C-c") 'comment-or-uncomment-region)
-(define-key 'start-commands (kbd "F") 'new-file)
+(define-key 'start-commands (kbd "f f") 'new-file)
 
 (defun open-agenda-file/work ()
   (interactive)
@@ -21,26 +27,15 @@
   (interactive)
   (find-file "~/org/global_agenda/projects.org" ))
 
-(defun config-files/open ()
-  (interactive)
-  (dired "~/.config/emacs"))
-
-(defun config-files/eval ()
-  (interactive)
-  (load-file "~/.config/emacs/init.el")
-  (message "Config restarted"))
-
-(define-key 'org-agenda-file-map (kbd "w") 'open-agenda-file/work)
-(define-key 'org-agenda-file-map (kbd "s") 'open-agenda-file/school)
-(define-key 'org-agenda-file-map (kbd "p") 'open-agenda-file/projects)
-(define-key 'config-files-map (kbd "f") 'config-files/open)
-(define-key 'config-files-map (kbd "e") 'config-files/eval)
-(define-key 'eval-map (kbd "b") 'eval-buffer)
-(define-key 'eval-map (kbd "e") 'eval-expression)
+(define-key 'start-maps (kbd "o w") 'open-agenda-file/work)
+(define-key 'start-maps (kbd "o s") 'open-agenda-file/school)
+(define-key 'start-maps (kbd "o p") 'open-agenda-file/projects)
+(define-key 'start-maps (kbd "e b") 'eval-buffer)
+(define-key 'start-maps (kbd "e e") 'eval-expression)
 
 
 ;; Regex
-(define-key 'regex-funcs (kbd "r") 'replace-regexp)
+(define-key 'start-commands (kbd "r r") 'replace-regexp)
 ;;(define-key 'regex-funcs (kbd "s") 'rgrep)
 
 

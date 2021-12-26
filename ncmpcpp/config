@@ -24,7 +24,7 @@ ncmpcpp_directory = ~/.config/ncmpcpp
 #
 mpd_host = 127.0.0.1
 #
-mpd_port = 23955
+mpd_port = 23956
 #
 #mpd_connection_timeout = 5
 #

@@ -5,7 +5,9 @@ require('func.packadder').packadd({
    'lsp_extensions.nvim';
    'lspsaga.nvim';
    'nvim-cmp';
-   'cmp-nvim-lsp'
+   'cmp-nvim-lsp',
+   'LuaSnip',
+   'cmp_luasnip',
 })
 
 local lspuse = require('lspconfig')
@@ -15,13 +17,19 @@ local cmp_nvim = require('cmp_nvim_lsp')
 --{{{Completions
 local cmp = require'cmp'
 cmp.setup {
+   snippet = {
+      expand = function(args)
+         require('luasnip').lsp_expand(args.body)
+      end,
+   },
   mapping = {
      ['<C-Space>'] = cmp.mapping(cmp.mapping.complete(), { 'i', 'c' }),
      ['<CR>'] = cmp.mapping.confirm({select=true})
   };
   sources = cmp.config.sources({
      {name = 'nvim_lsp'},
-     {name = 'orgmode'}
+     {name = 'orgmode'},
+     {name = 'luasnip'}
   },
   {
      name = 'buffer'
@@ -81,15 +89,26 @@ cmp.setup.cmdline(':', {
 vim.o.shortmess = vim.o.shortmess..'c'
 --}}}
 
+
+
 local capabilities = cmp_nvim.update_capabilities(vim.lsp.protocol.make_client_capabilities())
 --capabilities.textDocument.completion.completionItem.snippetSupport = true
+--
 
 --{{{Setups
 lspuse.cssls.setup{capabilities=capabilities}
 lspuse.clangd.setup{capabilities=capabilities}
 lspuse.pylsp.setup{capabilities=capabilities}
--- lspuse.html.setup{on_attach=on_attach_vim}
+lspuse.html.setup{capabilities=capabilities}
 lspuse.tsserver.setup{capabilities=capabilities}
+lspuse.jdtls.setup{
+   capabilities=capabilities,
+   cmd = {'jdtls'},
+   root_dir = function(fname)
+      return lspuse.util.root_pattern('pom.xml', 'gradle.build', '.git')(fname)
+      or vim.fn.getcwd()
+   end
+}
 --lspuse.rls.setup{on_attach=on_attach_vim}
 lspuse.sumneko_lua.setup{
    cmd = {sumnekopath..'bin/Linux/lua-language-server', '-E', sumnekopath..'main.lua'};

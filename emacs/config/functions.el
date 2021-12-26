@@ -23,13 +23,3 @@
     )
   )
 
-
-(defun set-japanese ()
-  (interactive)
-  (dolist (charset '(kana han cjk-misc symbol bopomofo))
-    (set-fontset-font (frame-parameter nil 'font) charset (font-spec :family "Noto Sans CJK JP"))
-    )
-  )
-
-
-

@@ -10,6 +10,7 @@ else
    vim.cmd[[colorscheme gruvbox]]
    --vim.g.ayucolor = 'dark'
    vim.o.termguicolors = true
+   vim.o.background = 'dark'
 end
 --}}}
 

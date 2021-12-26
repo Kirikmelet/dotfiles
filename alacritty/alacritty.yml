@@ -97,7 +97,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Fira Code Retina
+    family: Source Code Pro
 
     # The `style` can be specified to pick a specific face.
     style: Retina
@@ -136,7 +136,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 8.0
+  size: 10.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -170,37 +170,29 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
 
-# Colors (Tomorrow Night Bright)
-  # Colors (Gruvbox dark)
-colors:
-  # Default colors
-  primary:
-    # hard contrast: background = '#1d2021'
-    background: '#282828'
-    # soft contrast: background = '#32302f'
-    foreground: '#ebdbb2'
+background: '#FDFDFD'
+foreground: '#4D4F59'
 
-  # Normal colors
-  normal:
-    black:   '#282828'
-    red:     '#cc241d'
-    green:   '#98971a'
-    yellow:  '#d79921'
-    blue:    '#458588'
-    magenta: '#b16286'
-    cyan:    '#689d6a'
-    white:   '#a89984'
+normal:
+  black:   '#FDFDFD'
+  red:     '#E5ACA8'
+  green:   '#F3C3B6'
+  yellow:  '#9CB1E9'
+  blue:    '#A7D1EF'
+  magenta: '#F5CDD0'
+  cyan:    '#D1D7F2'
+  white:   '#4D4F59'
 
-  # Bright colors
-  bright:
-    black:   '#928374'
-    red:     '#fb4934'
-    green:   '#b8bb26'
-    yellow:  '#fabd2f'
-    blue:    '#83a598'
-    magenta: '#d3869b'
-    cyan:    '#8ec07c'
-    white:   '#ebdbb2'
+bright:
+  black:   '#939194'
+  red:     '#E5ACA8'
+  green:   '#F3C3B6'
+  yellow:  '#9CB1E9'
+  blue:    '#A7D1EF'
+  magenta: '#F5CDD0'
+  cyan:    '#D1D7F2'
+  white:   '#4D4F59'
+
 
   # Cursor colors
   #
@@ -295,7 +287,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-#background_opacity: 1.0
+background_opacity: 1.0
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -575,3 +567,30 @@ cursor:
 
   # Print all received window events.
   #print_events: false
+# BEGIN ACE
+colors:
+  primary:
+    background: '#fdfdfd'
+    foreground: '#4D4F59'
+  cursor:
+    text:       '#fdfdfd'
+    cursor:     '#4D4F59'
+  normal:
+    black:      '#fdfdfd'
+    red:        '#E5ACA8'
+    green:      '#F3C3B6'
+    yellow:     '#9CB1E9'
+    blue:       '#A7D1EF'
+    magenta:    '#F5CDD0'
+    cyan:       '#D1D7F2'
+    white:      '#4D4F59'
+  bright:
+    black:      '#939194'
+    red:        '#E5ACA8'
+    green:      '#F3C3B6'
+    yellow:     '#9CB1E9'
+    blue:       '#A7D1EF'
+    magenta:    '#F5CDD0'
+    cyan:       '#D1D7F2'
+    white:      '#4D4F59'
+# END ACE

@@ -38,9 +38,13 @@ return require('packer').startup(function()
          };
          {'nvim-treesitter/nvim-treesitter', opt=true};
          {'glepnir/lspsaga.nvim', opt=true};
-               {'hrsh7th/cmp-nvim-lsp', opt=true},
-      },
-      --{'mhartington/formatter.nvim' };
+         {'hrsh7th/cmp-nvim-lsp', opt=true},
+         {'mfussenegger/nvim-jdtls', opt=true};
+         {
+            'L3MON4D3/LuaSnip', opt=true,
+            requires = {'saadparwaiz1/cmp_luasnip', opt=true}
+         }
+      }
    }
    -- Fuzzy Search
    use {

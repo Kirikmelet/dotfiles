@@ -1,34 +1,25 @@
 ;; -*- lexical-binding: t; -*-
 
 (use-package company
-  :hook ((c-mode . company-mode)
+  :config
+  (setq company-minimum-prefix-length 1
+      company-idle-delay 0.0) ;; default is 0.2
+  :hook (
          (c++-mode . company-mode)
+         (c-mode . company-mode)
          (typescript-mode . company-mode)
+         (js-mode . company-mode)
          (python-mode . company-mode)
          (css-mode . company-mode)
-         (js-mode . company-mode)
-         (html-mode . company-mode)
-        )
-  :custom
-  (company-minimum-prefix-length 1)
-  (company-idle-delay 0.0)) ;; Default is 0.2
-
-;; (use-package eglot
-;;   :hook (
-;;          (c++-mode . eglot-ensure)
-;;          (c-mode . eglot-ensure)
-;;          (typescript-mode . eglot-ensure)
-;;          (js-mode . eglot-ensure)
-;;          (python-mode . eglot-ensure))
-;;   :config
-;;   (add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd")))
+         (html-mode . company-mode)))
 
 (use-package lsp-mode
   :init
   (setq lsp-keymap-prefix "C-c l"
         lsp-headerline-breadcrumb-enable nil)
   :config
-  (setq lsp-enable-snippet nil)
+  ;; (setq
+  ;;  lsp-enable-snippet nil)
   :commands (lsp lsp-deferred)
   :hook (
          (c++-mode . lsp-deferred)

@@ -18,8 +18,17 @@
 (use-package vterm
   :defer 2
   :no-require t
-  :bind (:map app-funcs-map
-              ("t" . vterm)))
+  :bind (:map start-maps
+              ("a t" . vterm)))
+
+;; Dired
+(with-eval-after-load "dired"
+  (add-hook 'dired-mode-hook 'auto-revert-mode)
+  (require 'dired-x)
+  (add-hook 'dired-mode-hook 'dired-omit-mode)
+  (setq dired-dwim-target 1)
+  (setq dired-omit-files "^\\.$\\|^\\.\\.$\\|^\\..*$"))
+
 
 (if (executable-find "rg")
       (load-file (expand-file-name "st-utils.el" st-dir)))

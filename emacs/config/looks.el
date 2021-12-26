@@ -8,23 +8,15 @@
 (tool-bar-mode -1)
 (tab-bar-mode -1)
 
-;; No splash
-(setq inhibit-startup-screen t)
-
-;; Font speedup
-(setq frame-inhibit-implied-resize t)
-
-;; Comp speedup
-(setq comp-deferred-compilation nil)
-
 ;; Saveplaces
 (add-hook 'emacs-startup-hook #'save-place-mode)
 
-;; Copied from better-defaults.el
-;; Source: https://git.sr.ht/~technomancy/better-defaults/tree/master/better-defaults.el
-(setq-default indent-tabs-mode nil)
-
 (setq save-interprogram-paste-before-kill t
+      inhibit-startup-screen t
+      use-dialog-box nil
+      frame-inhibit-implied-resize t
+      comp-deferred-compilation nil
+      indent-tabs-mode nil
       apropos-do-all t
       toggle-truncate-lines t
       mouse-yank-at-point t
@@ -37,6 +29,9 @@
 (unless backup-directory-alist
   (setq backup-directory-alist `(("." . ,(concat user-emacs-directory
                                                  "backups")))))
+
+(fset 'yes-or-no-p 'y-or-n-p)
+
 (defun set-japanese ()
   """Allows you to use the Japanese language"""
   (dolist (charset '(kana han cjk-misc symbol bopomofo))

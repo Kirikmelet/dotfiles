@@ -103,8 +103,8 @@
          ("M-s m" . consult-multi-occur)
          ("M-y" . consult-yank-pop)
          ("<help> a" . consult-apropos)
-         :map regex-funcs
-         ("s" . consult-ripgrep)
+         :map start-maps
+         ("r s" . consult-ripgrep)
          )
   :init
   (fset 'multi-occur #'consult-multi-occur)
@@ -122,6 +122,7 @@
          :map minibuffer-local-completion-map
          ("C-x C-d" . consult-dir)
          ("C-x C-j" . consult-dir-jump-file)))
+
 
 (use-package emacs
   :init

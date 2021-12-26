@@ -9,7 +9,7 @@
 (setq file-name-handler-alist nil)
 
 ;; Load font
-(set-face-font 'default "Source Code Pro 14")
+(set-face-font 'default "Source Code Pro 16")
 
 ;; Load config files
 
@@ -17,11 +17,9 @@
 
 (dolist (config
          '(
-           "prefixes"
-           "customs"
+           "bindings"
            "packages"
            "functions"
-           "bindings"
            "filetype"
            )
          )

@@ -1,0 +1,48 @@
+bar:
+  height: 32
+  location: top
+  background: FDFDFDFF
+  foreground: 4D4F59FF
+  font: Mochiy Pop One
+  spacing: 5
+
+    # border:
+    #   width: 5
+    #   color: 00000000
+    #   margin: 5
+
+  left:
+    - i3:
+       content:
+         '':
+           map:
+             tag: state
+             default: {string: {text: ' {name} '}}
+             values:
+                focused: {string: {text: ' {name}*'}}
+
+  center:
+    - i3:
+        content:
+          current: {string: {text: '{title}'}}
+
+  right:
+    - network:
+        name: wlan0
+        content:
+          string: {text: ': {state}'}
+    - battery:
+        name: BAT1
+        content:
+          string: {text: ': {capacity}% {estimate}'}
+    - alsa:
+        card: pipewire
+        mixer: Master
+        content:
+          - string: {text: '墳:'}
+          - string: {text: '{percent}%'}
+    - clock:
+        content:
+          - string: {text: ':'}
+          - string: {text: '{time} {date}'}
+

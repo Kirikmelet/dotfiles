@@ -1,10 +1,10 @@
-sw_volume: 70
+sw_volume: 98
 audio_device_state:0:My ALSA Device
 audio_device_state:1:My Pulse Output
 audio_device_state:1:my_fifo
 state: pause
-current: 0
-time: 9.621000
+current: 46
+time: 177.349000
 random: 1
 repeat: 1
 single: 0
@@ -13,5 +13,346 @@ crossfade: 15
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:yt_artists/cocoa/only my railgun - fripSide _ covered by 道明寺ここあ.opus
+0:yt_artists/cocoa/→unfinished→ - KOTOKO _ covered by 道明寺ここあ.opus
+1:yt_artists/cocoa/Anything Goes! - 大黒摩季 _ covered by 道明寺ここあ.opus
+2:yt_artists/cocoa/Be The One - PANDORA feat.Beverly _ covered by 道明寺ここあ.opus
+3:yt_artists/cocoa/Butter-Fly～tri.Version～ - 和田光司 _ covered by 道明寺ここあ 芦澤サキ 松永依織 長瀬有花 凪原涼菜.opus
+4:yt_artists/cocoa/Catch the Moment - LiSA _ covered by 道明寺ここあ.opus
+5:yt_artists/cocoa/Climax Jump - AAA DEN-O form _ covered by 道明寺ここあ.opus
+6:yt_artists/cocoa/Crow Song - Girls Dead Monster _ covered by 道明寺ここあ.opus
+7:yt_artists/cocoa/Cry Baby - Official髭男dism _ covered by 道明寺ここあ.opus
+8:yt_artists/cocoa/ENDLESS STORY - REIRA starring YUNA ITO _ covered by 道明寺ここあ.opus
+9:yt_artists/cocoa/ENDLESS STORY [LIVE ver.] - REIRA starring YUNA ITO _ covered by 道明寺ここあ.opus
+10:yt_artists/cocoa/ETERNAL BLAZE - 水樹奈々 _ covered by 道明寺ここあ.opus
+11:yt_artists/cocoa/Exterminate - 水樹奈々 _ covered by 道明寺ここあ.opus
+12:yt_artists/cocoa/Fall in Sunset - 道明寺ここあ (Official Video).opus
+13:yt_artists/cocoa/GO!!! - FLOW _ covered by 道明寺ここあ.opus
+14:yt_artists/cocoa/God  knows... - 涼宮ハルヒ(平野綾) _ covered by 道明寺ここあ.opus
+15:yt_artists/cocoa/Happiness - 嵐 _ covered by 道明寺ここあ 芦澤サキ 松永依織 長瀬有花 凪原涼菜.opus
+16:yt_artists/cocoa/Highway Lover - みきとP _ covered by 道明寺ここあ.opus
+17:yt_artists/cocoa/Horizon - 道明寺ここあ (Official Video).opus
+18:yt_artists/cocoa/I SAY YES - ICHIKO _ covered by 道明寺ここあ.opus
+19:yt_artists/cocoa/IN MY DREAM - 真行寺恵里 _ covered by 道明寺ここあ.opus
+20:yt_artists/cocoa/LEVEL5-Judgelight- - fripSide_ covered by 道明寺ここあ.opus
+21:yt_artists/cocoa/Little Busters! - Rita _ covered by 道明寺ここあ.opus
+22:yt_artists/cocoa/One for Everything - 道明寺ここあ 芦澤サキ 松永依織 長瀬有花 凪原涼菜 (Official Video).opus
+23:yt_artists/cocoa/One for Everything COCOA SOLO Ver. - 道明寺ここあ (Official Video).opus
+24:yt_artists/cocoa/One Love [Acoustic ver.] - 嵐 _ covered by 道明寺ここあ.opus
+25:yt_artists/cocoa/only my railgun - fripSide _ covered by 道明寺ここあ.opus
+26:yt_artists/cocoa/Over The Future - 佐咲紗花 _ covered by 道明寺ここあ.opus
+27:yt_artists/cocoa/POP TEAM EPIC - 上坂すみれ _ covered by 道明寺ここあ × 長瀬有花.opus
+28:yt_artists/cocoa/Pretender -  Official髭男dism _ covered by 道明寺ここあ.opus
+29:yt_artists/cocoa/Rising Hope - LiSA _ covered by 道明寺ここあ.opus
+30:yt_artists/cocoa/secret base ～君がくれたもの～  - ZONE _ covered by 道明寺ここあ.opus
+31:yt_artists/cocoa/SKILL - JAM Project _ covered by 道明寺ここあ.opus
+32:yt_artists/cocoa/Super Driver - 平野綾 _ covered by 道明寺ここあ.opus
+33:yt_artists/cocoa/Synchrogazer - 水樹奈々 _ covered by 道明寺ここあ.opus
+34:yt_artists/cocoa/Synchrogazer [LIVE ver.] - 水樹奈々 _ covered by 道明寺ここあ.opus
+35:yt_artists/cocoa/THE HERO!! ～怒れる拳に火をつけろ～ - JAM Project _ covered by 道明寺ここあ.opus
+36:yt_artists/cocoa/This game - 鈴木このみ _ covered by 道明寺ここあ.opus
+37:yt_artists/cocoa/Ubiquitous dB - ユナ (CV -神田沙也加) _ covered by 道明寺ここあ.opus
+38:yt_artists/cocoa/unlasting - LiSA _ covered by 道明寺ここあ.opus
+39:yt_artists/cocoa/Vitalization - 水樹奈々 _ covered by 道明寺ここあ.opus
+40:yt_artists/cocoa/Wake up! - AAA _ covered by 道明寺ここあ.opus
+41:yt_artists/cocoa/Wherever you are - ONE OK ROCK _ covered by 道明寺ここあ at harevutai -IKEBUKURO LIVE SPACE-.opus
+42:yt_artists/cocoa/インフェルノ (Inferno) - Mrs. GREEN APPLE _ covered by 道明寺ここあ.opus
+43:yt_artists/cocoa/スターチス - 道明寺ここあ (Official Video).opus
+44:yt_artists/cocoa/ハルジオン (Halzion) - YOASOBI _ covered by 道明寺ここあ.opus
+45:yt_artists/cocoa/ライオン (Lion)  [LIVE ver.] -  May'n 中島愛  _ covered by 道明寺ここあ×芦澤 サキ.opus
+46:yt_artists/cocoa/ライオン (Lion) -  May'n 中島愛  _ covered by 道明寺ここあ×芦澤 サキ.opus
+47:yt_artists/cocoa/ロキ (ROKI) - みきとP _ covered by 道明寺ここあ.opus
+48:yt_artists/cocoa/ロキ (ROKI) [LIVE ver.] - みきとP _ covered by 道明寺ここあ × 芦澤サキ.opus
+49:yt_artists/cocoa/一番の宝物 ～Yui final ver.～ - Girls Dead Monster STARRING LiSA _ covered by 道明寺ここあ.opus
+50:yt_artists/cocoa/不死鳥のフランメ (Fushichou no Flamme) _ covered by 道明寺ここあ × 芦澤サキ.opus
+51:yt_artists/cocoa/世界が終るまでは… (Sekai ga Owarumade ha) - WANDS _ covered by 道明寺ここあ.opus
+52:yt_artists/cocoa/光 (Hikari) - 宇多田ヒカル _ covered by 道明寺ここあ.opus
+53:yt_artists/cocoa/君じゃなきゃダメみたい (Kimi Jya Nakya Dame Mitai) - オーイシマサヨシ _ covered by 道明寺ここあ.opus
+54:yt_artists/cocoa/吹雪 (FUBUKI) - 西沢幸奏 _ covered by 道明寺ここあ.opus
+55:yt_artists/cocoa/夏祭り  (Natsu Matsuri) - JITTERIN'JINN _ Whiteberry _ covered by 道明寺ここあ.opus
+56:yt_artists/cocoa/夜に駆ける _ Yoru ni Kakeru (THE HOME TAKE ver.)  - YOASOBI _ covered by 道明寺ここあ.opus
+57:yt_artists/cocoa/始まりの歌 (Hajimari no Babel) _ covered by 道明寺ここあ.opus
+58:yt_artists/cocoa/小さなてのひら (Chiisana Tenohira) - riya _ covered by 道明寺ここあ.opus
+59:yt_artists/cocoa/帰ろう (Kaerou) - 藤井 風 _ covered by 道明寺ここあ.opus
+60:yt_artists/cocoa/往け (YUKE) - LiSA _ covered by 道明寺ここあ.opus
+61:yt_artists/cocoa/微笑みの爆弾 (The Smile Bomb) - 馬渡松子 _ covered by 道明寺ここあ.opus
+62:yt_artists/cocoa/心絵 (KOKOROE) - ロードオブメジャー _ covered by 道明寺ここあ.opus
+63:yt_artists/cocoa/愛をこめて花束を (Ai wo Komete Hanataba wo) - Superfly _ covered by 道明寺ここあ.opus
+64:yt_artists/cocoa/放課後オーバーフロウ (Hokago Overflow) - ランカ・リー＝中島愛 _ covered by 道明寺ここあ.opus
+65:yt_artists/cocoa/明け星(Akeboshi) - LiSA _ covered by 道明寺ここあ.opus
+66:yt_artists/cocoa/星が降るユメ (Hoshiga Furu Yume) - 藍井エイル _ covered by 道明寺ここあ.opus
+67:yt_artists/cocoa/星間飛行 (Seikan Hikou) - ランカ・リー=中島愛 _ covered by 道明寺ここあ.opus
+68:yt_artists/cocoa/未来への咆哮 (Asu he no Houkou) - JAM Project _ covered by 道明寺ここあ.opus
+69:yt_artists/cocoa/東京フラッシュ (Tokyo Flash) - Vaundy _ covered by 道明寺ここあ.opus
+70:yt_artists/cocoa/海色 (Miiro) - AKINO from bless4 _ covered by 道明寺ここあ.opus
+71:yt_artists/cocoa/深愛 (Shin ai) - 水樹奈々 _ covered by 道明寺ここあ × 凪原涼菜.opus
+72:yt_artists/cocoa/灰色と青 (Haiiro to Ao) - 米津玄師 × 菅田将暉 _ covered by 道明寺ここあ × 松永依織.opus
+73:yt_artists/cocoa/白日 (Hakujitsu) - King Gnu _ covered by 道明寺ここあ.opus
+74:yt_artists/cocoa/真赤な誓い (Makka na Chikai) - 福山芳樹 _ covered by 道明寺ここあ.opus
+75:yt_artists/cocoa/約束 (Yakusoku) - THE IDOLM@STER _ covered by 道明寺ここあ.opus
+76:yt_artists/cocoa/紅蓮華 (Gurenge) - LiSA _ covered by 道明寺ここあ.opus
+77:yt_artists/cocoa/絶刀・天羽々斬 (Zettou Ame no Habakiri) - 風鳴翼(水樹奈々) _ covered by 道明寺ここあ.opus
+78:yt_artists/cocoa/花に亡霊 (Ghost In A Flower) - ヨルシカ _ covered by 道明寺ここあ.opus
+79:yt_artists/cocoa/花の唄 end of spring ver (Hana no Uta). - Aimer _ covered by 道明寺ここあ.opus
+80:yt_artists/cocoa/虹色のフリューゲル _ covered by 道明寺ここあ 芦澤サキ 松永依織 長瀬有花 凪原涼菜.opus
+81:yt_artists/cocoa/逆光のフリューゲル (Gyakko no Flugel) - 風鳴翼 × 天羽奏 _ covered by 道明寺ここあ.opus
+82:yt_artists/cocoa/革命デュアリズム (Kakumei Dualism) [LIVE ver.] - 水樹奈々×T.M.Revolution _ covered by 道明寺ここあ × 芦澤サキ.opus
+83:yt_artists/cocoa/Alchemy - Girls Dead Monster _ covered by 道明寺ここあ.opus
+84:yt_artists/cocoa/Little Braver - Girls Dead Monster _ covered by 道明寺ここあ.opus
+85:yt_artists/cocoa/SHINY DAYS - 亜咲花 _ covered by 道明寺ここあ.opus
+86:yt_artists/cocoa/Redo - 鈴木このみ _covered by 道明寺ここあ.opus
+87:yt_artists/cocoa/sister's noise - fripSide _ covered by 道明寺ここあ.opus
+88:yt_artists/cocoa/Sparkling Daydream - ZAQ _ covered by 道明寺ここあ.opus
+89:yt_artists/iori_matsunaga/【コラボ歌枠】歌つよつよの最強コラボはここだ！🎤／ SINGING STREAM【火閻まどか_松永依織】.opus
+90:yt_artists/iori_matsunaga/Butter-Fly～tri.Version～ - 和田光司 _ covered by 道明寺ここあ 芦澤サキ 松永依織 長瀬有花 凪原涼菜.opus
+91:yt_artists/iori_matsunaga/Catch the Moment - LiSA _ covered by 松永依織.opus
+92:yt_artists/iori_matsunaga/Deal with the devil - Tia _ covered by 松永依織.opus
+93:yt_artists/iori_matsunaga/DIAMONDS - PRINCESS PRINCESS _ covered by 松永依織.opus
+94:yt_artists/iori_matsunaga/Don't say“lazy” - 桜高軽音部 _ covered by 松永依織.opus
+95:yt_artists/iori_matsunaga/GO! GO! MANIAC - 放課後ティータイム _ covered by 松永依織.opus
+96:yt_artists/iori_matsunaga/Happiness - 嵐 _ covered by 道明寺ここあ 芦澤サキ 松永依織 長瀬有花 凪原涼菜.opus
+97:yt_artists/iori_matsunaga/IGNITE - 藍井エイル ( Cover ) _ VESPERBELL カスカ × 松永依織.opus
+98:yt_artists/iori_matsunaga/Mela! - 緑黄色社会 _ covered by 松永依織.opus
+99:yt_artists/iori_matsunaga/One for Everything - 道明寺ここあ 芦澤サキ 松永依織 長瀬有花 凪原涼菜 (Official Video).opus
+100:yt_artists/iori_matsunaga/One for Everything IORI SOLO Ver. - 松永依織 (Official Video).opus
+101:yt_artists/iori_matsunaga/Q&A リサイタル！ (Q&A RECITAL！) - 戸松遥 _ covered by 松永依織.opus
+102:yt_artists/iori_matsunaga/アカシア (Acacia) - BUMP OF CHICKEN _ covered by 松永依織.opus
+103:yt_artists/iori_matsunaga/おねがいダーリン (ONEgai Darlin’) - ナナホシ管弦楽団 _ covered by 松永依織.opus
+104:yt_artists/iori_matsunaga/オリオンをなぞる (Orion Wo Nazoru) - UNISON SQUARE GARDEN _ covered by 松永依織.opus
+105:yt_artists/iori_matsunaga/カクテルライツ (Cocktail Lights) - 松永依織 (Official Video).opus
+106:yt_artists/iori_matsunaga/ギミー！レボリューション (Gimme! Revolution) - 内田真礼 _ covered by 松永依織.opus
+107:yt_artists/iori_matsunaga/ギミチョコ！！ (Gimme chocolate!!) - BABYMETAL _ covered by 松永依織.opus
+108:yt_artists/iori_matsunaga/キラキラ (kirakira) - aiko _ covered by 松永依織.opus
+109:yt_artists/iori_matsunaga/ゴールデンタイムラバー (Golden Time Lover) - スキマスイッチ _ covered by 松永依織.opus
+110:yt_artists/iori_matsunaga/さぁ (saxa) - SURFACE _ covered by 松永依織.opus
+111:yt_artists/iori_matsunaga/さくらんぼ (Sakuranbo) - 大塚愛 _ covered by 松永依織.opus
+112:yt_artists/iori_matsunaga/シュガーソングとビターステップ (Sugar Song & Bitter Step) - UNISON SQUARE GARDEN _ covered by 松永依織.opus
+113:yt_artists/iori_matsunaga/そばかす (sobakasu) - JUDY AND MARY _ covered by 松永依織.opus
+114:yt_artists/iori_matsunaga/バレンタイン・キッス (Valentine Kiss) - 国生さゆり _ covered by 松永依織.opus
+115:yt_artists/iori_matsunaga/パンダヒーロー (Panda Hero) - ハチ _ covered by 松永依織.opus
+116:yt_artists/iori_matsunaga/ピースサイン (Peace Sign) - 米津玄師 _ covered by 松永依織.opus
+117:yt_artists/iori_matsunaga/ブルーバード (Blue Bird) - いきものがかり _ covered by 松永依織.opus
+118:yt_artists/iori_matsunaga/ミカヅキ (Mikazuki) - さユり _ covered by 松永依織.opus
+119:yt_artists/iori_matsunaga/ロマンスの神様 (Romance no Kamisama) - 広瀬香美 _ covered by 松永依織.opus
+120:yt_artists/iori_matsunaga/世界はそれを愛と呼ぶんだぜ (Sekai Ha Sore Wo Ai To Yobun Daze) - サンボマスター _ covered by 松永依織.opus
+121:yt_artists/iori_matsunaga/光るなら (Hikaru nara) - Goose house _ covered by 松永依織 × カスカ (VESPERBELL).opus
+122:yt_artists/iori_matsunaga/大衆性ロマン - 松永依織 (Official Video).opus
+123:yt_artists/iori_matsunaga/完全放棄宣言 (Kanzen houki sengen) - ナナヲアカリ _ covered by 松永依織.opus
+124:yt_artists/iori_matsunaga/小さな恋のうた (Chiisana koi no uta) - MONGOL800 _ covered by 松永依織.opus
+125:yt_artists/iori_matsunaga/少女S (Syoujo S) - SCANDAL _ covered by 松永依織.opus
+126:yt_artists/iori_matsunaga/愛を伝えたいだとか (Ai wo tsutaetaidatoka) - あいみょん _ covered by 松永依織.opus
+127:yt_artists/iori_matsunaga/灰色と青 (Haiiro to Ao) - 米津玄師 × 菅田将暉 _ covered by 道明寺ここあ × 松永依織.opus
+128:yt_artists/iori_matsunaga/空色デイズ (Sorairo Days) - 中川翔子 _ covered by 松永依織.opus
+129:yt_artists/iori_matsunaga/航海の唄 (About a Voyage) - さユり _ covered by 松永依織.opus
+130:yt_artists/iori_matsunaga/虹色のフリューゲル _ covered by 道明寺ここあ 芦澤サキ 松永依織 長瀬有花 凪原涼菜.opus
+131:yt_artists/iori_matsunaga/青空のラプソディ (Aozora no Rhapsody) - fhána _ covered by 松永依織.opus
+132:yt_artists/saki_ashizawa/＊〜アスタリスク〜 (Asterisk) - ORANGE RANGE _ covered by 芦澤 サキ.opus
+133:yt_artists/saki_ashizawa/1_3の純情な感情 (One-third naive feelings) - SIAM SHADE _ covered by 芦澤 サキ.opus
+134:yt_artists/saki_ashizawa/All Alone With You - EGOIST _ covered by 芦澤 サキ.opus
+135:yt_artists/saki_ashizawa/Brave Shine - Aimer _ covered by 芦澤 サキ.opus
+136:yt_artists/saki_ashizawa/Can Do - GRANRODEO _ covered by 芦澤 サキ.opus
+137:yt_artists/saki_ashizawa/chase - batta _ covered by 芦澤 サキ.opus
+138:yt_artists/saki_ashizawa/COLORS - FLOW _ covered by 芦澤 サキ.opus
+139:yt_artists/saki_ashizawa/Colors of the Heart - UVERworld  _ covered by 芦澤サキ.opus
+140:yt_artists/saki_ashizawa/CORE PRIDE - UVERworld _ covered by 芦澤 サキ.opus
+141:yt_artists/saki_ashizawa/D-tecnoLife - UVERworld _ covered by 芦澤 サキ.opus
+142:yt_artists/saki_ashizawa/DAYBREAK'S BELL - L'Arc～en～Ciel _ covered by 芦澤 サキ.opus
+143:yt_artists/saki_ashizawa/daze - じん ft.メイリア from GARNiDELiA _ covered by 芦澤 サキ.opus
+144:yt_artists/saki_ashizawa/Departures ～あなたにおくるアイの歌～ (Departures ~Anata ni okuru AI no uta~) - EGOIST _ covered by 芦澤 サキ.opus
+145:yt_artists/saki_ashizawa/Don't say 'lazy' - 桜高軽音部 _ covered by 芦澤 サキ.opus
+146:yt_artists/saki_ashizawa/Feeling - 芦澤サキ (Official Video).opus
+147:yt_artists/saki_ashizawa/Get Wild - TM NETWORK _ covered by 芦澤 サキ.opus
+148:yt_artists/saki_ashizawa/GLAMOROUS SKY - NANA starring MIKA NAKASHIMA _ covered by 芦澤 サキ.opus
+149:yt_artists/saki_ashizawa/GO!!! - FLOW _ covered by 芦澤サキ.opus
+150:yt_artists/saki_ashizawa/ignited -イグナイテッド- -  T.M.Revolution _ covered by 芦澤 サキ.opus
+151:yt_artists/saki_ashizawa/INVOKE - T.M.Revolution _ covered by 芦澤サキ.opus
+152:yt_artists/saki_ashizawa/JOINT - 川田まみ _ covered by 芦澤 サキ.opus
+153:yt_artists/saki_ashizawa/Lost my music - 涼宮ハルヒ(CV.平野綾) _ covered by 芦澤 サキ.opus
+154:yt_artists/saki_ashizawa/My Dearest - supercell _ covered by 芦澤 サキ.opus
+155:yt_artists/saki_ashizawa/No title - Reol _ covered by 芦澤 サキ.opus
+156:yt_artists/saki_ashizawa/NO,Thank You! - 放課後ティータイム _ covered by 芦澤 サキ.opus
+157:yt_artists/saki_ashizawa/One for Everything SAKI SOLO Ver. - 芦澤サキ (Official Video).opus
+158:yt_artists/saki_ashizawa/Preserved Roses - T.M.Revolution × 水樹奈々 _ covered by 芦澤サキ × 道明寺ここあ.opus
+159:yt_artists/saki_ashizawa/RIMFIRE - GRANRODEO _ covered by 芦澤サキ.opus
+160:yt_artists/saki_ashizawa/SAKI ASHIZAWA 1st ANNIVERSARY LIVE -芦澤サキ1周年ライブ-.opus
+161:yt_artists/saki_ashizawa/V.I.P - シド _ covered by 芦澤 サキ.opus
+162:yt_artists/saki_ashizawa/Velonica - Aqua Timez _ covered by 芦澤 サキ.opus
+163:yt_artists/saki_ashizawa/vestige-ヴェスティージ- - T.M.Revolution _ covered by 芦澤サキ.opus
+164:yt_artists/saki_ashizawa/WORLD END - FLOW _ covered by 芦澤サキ.opus
+165:yt_artists/saki_ashizawa/あしざわさんのほーそうぶ ~ひさしぶりの部活~【第3回】.opus
+166:yt_artists/saki_ashizawa/あの夏が飽和する。 (Ano Natsu ga Houwa Suru.) - カンザキイオリ _ covered by 芦澤サキ.opus
+167:yt_artists/saki_ashizawa/インフェルノ (Inferno) - Mrs. GREEN APPLE _ covered by 芦澤サキ.opus
+168:yt_artists/saki_ashizawa/ヴァンパイア (Vampire) - DECO_27 _ covered by 芦澤 サキ.opus
+169:yt_artists/saki_ashizawa/お勉強しといてよ (STUDY ME) - ずっと真夜中でいいのに。 _ covered by 芦澤 サキ.opus
+170:yt_artists/saki_ashizawa/カルマ (karma) - BUMP OF CHICKEN _ covered by 芦澤 サキ.opus
+171:yt_artists/saki_ashizawa/サムライハート (Some Like It Hot!!) - SPYAIR _ covered by 芦澤 サキ.opus
+172:yt_artists/saki_ashizawa/スリーセブン - 芦澤サキ×164 (Official Video)【バッドばつ丸イメージソング】.opus
+173:yt_artists/saki_ashizawa/だから僕は音楽を辞めた (Moonlight) - ヨルシカ _ covered by 芦澤 サキ.opus
+174:yt_artists/saki_ashizawa/ツキアカリのミチシルベ (Tsukiakari no Michishirube) - ステレオポニー _ covered by 芦澤 サキ.opus
+175:yt_artists/saki_ashizawa/ニルヴァーナ (Nirvana) - MUCC _ covered by 芦澤サキ.opus
+176:yt_artists/saki_ashizawa/ノーザンクロス (Northern cross) -  シェリル・ノーム starring May'n _ covered by 芦澤 サキ.opus
+177:yt_artists/saki_ashizawa/バレリーコ (Balleriko) - みきとP _ covered by 芦澤 サキ.opus
+178:yt_artists/saki_ashizawa/ピースサイン (Peace Sign) - 米津玄師 _ covered by 芦澤サキ.opus
+179:yt_artists/saki_ashizawa/ヒカリへ (Hikarie) - miwa _ covered by 芦澤サキ.opus
+180:yt_artists/saki_ashizawa/ヒバナ (Hibana) - DECO_27 _ covered by 芦澤 サキ.opus
+181:yt_artists/saki_ashizawa/モザイクカケラ (Mozaiku Kakera) - SunSet Swish _ covered by 芦澤サキ.opus
+182:yt_artists/saki_ashizawa/モノクロのキス (Monochrome no kiss) - シド _ covered by 芦澤 サキ.opus
+183:yt_artists/saki_ashizawa/リライト (Rewrite) - ASIAN KUNG-FU GENERATION _ covered by 芦澤 サキ.opus
+184:yt_artists/saki_ashizawa/ロキ (ROKI) _ - みきとP _ covered by 芦澤 サキ.opus
+185:yt_artists/saki_ashizawa/一滴の影響 (Itteki no Eikyou) - UVERworld _ covered by 芦澤 サキ.opus
+186:yt_artists/saki_ashizawa/乱舞のメロディ (Ranbu no Melody) - (シド) _ covered by 芦澤サキ.opus
+187:yt_artists/saki_ashizawa/僕が死のうと思ったのは (Boku ga shinouto omottanoha) - amazarashi _ covered by 芦澤サキ.opus
+188:yt_artists/saki_ashizawa/儚くも永久のカナシ (Hakanakumo Towano Kanashi) -  UVERworld _ covered by 芦澤 サキ.opus
+189:yt_artists/saki_ashizawa/君の神様になりたい。 (Kimi no Kamisama ni Naritai.) - カンザキイオリ _ covered by 芦澤 サキ.opus
+190:yt_artists/saki_ashizawa/嘘 (Uso) - シド _ covered by 芦澤 サキ.opus
+191:yt_artists/saki_ashizawa/夜咄ディセイブ (Yobanashi Deceive) - じん _ covered by 芦澤 サキ.opus
+192:yt_artists/saki_ashizawa/天ノ弱 (Amanojaku) - 164 _ covered by 芦澤 サキ.opus
+193:yt_artists/saki_ashizawa/天樂 (Tengaku) - ゆうゆ _ covered by 芦澤 サキ.opus
+194:yt_artists/saki_ashizawa/季節は次々死んでいく (Seasons die one after another) - amazarashi _ covered by 芦澤 サキ.opus
+195:yt_artists/saki_ashizawa/孤独に咲け (Bloom lonely) - 芦澤 サキ (Official Video).opus
+196:yt_artists/saki_ashizawa/完全感覚Dreamer (Kanzen Kankaku Dreamer) - ONE OK ROCK _ covered by 芦澤 サキ.opus
+197:yt_artists/saki_ashizawa/心絵 (kokoroe) - ロードオブメジャー _ covered by 芦澤 サキ.opus
+198:yt_artists/saki_ashizawa/春を告げる (Haru wo Tsugeru) - yama _ covered by 芦澤 サキ.opus
+199:yt_artists/saki_ashizawa/曇天 (Donten) - DOES _ covered by 芦澤サキ.opus
+200:yt_artists/saki_ashizawa/月光花 (Gekkouka) -Janne Da Arc  _ covered by 芦澤 サキ.opus
+201:yt_artists/saki_ashizawa/残酷な天使のテーゼ (A Cruel Angel's Thesis) - 高橋洋子 _ covered by 芦澤 サキ.opus
+202:yt_artists/saki_ashizawa/決意の朝に (Ketsui no Asa ni) - Aqua Timez _ covered by 芦澤 サキ.opus
+203:yt_artists/saki_ashizawa/激動 (Gekidou) - UVERworld _ covered by 芦澤 サキ.opus
+204:yt_artists/saki_ashizawa/炎 (Homura) - LiSA _ covered by 芦澤 サキ.opus
+205:yt_artists/saki_ashizawa/狂乱 Hey Kids!! (Kyouran Hey Kids!!) - (THE ORAL CIGARETTES) _ covered by 芦澤 サキ.opus
+206:yt_artists/saki_ashizawa/現状ディストラクション (Genjyou Destruction) - SPYAIR _ covered by 芦澤サキ.opus
+207:yt_artists/saki_ashizawa/空に歌えば (Sora ni utaeba) - amazarashi _ covered by 芦澤サキ.opus
+208:yt_artists/saki_ashizawa/第六感 (THE SIXTH SENSE) - Reol _ covered by 芦澤サキ.opus
+209:yt_artists/saki_ashizawa/粉雪 (Konayuki) - レミオロメン _ covered by 芦澤 サキ.opus
+210:yt_artists/saki_ashizawa/群青日和 (Ideal Days For Ultramarine) - 東京事変 _ covered by 芦澤 サキ.opus
+211:yt_artists/saki_ashizawa/芦澤サキ _ DEBUT SINGLE - “孤独に咲け” (SPOT CM).opus
+212:yt_artists/saki_ashizawa/裏切りの夕焼け (Uragiri no Yuuyake) - THEATRE BROOK _ covered by 芦澤 サキ.opus
+213:yt_artists/saki_ashizawa/閃光 (Senkou) - [Alexandros] _ covered by 芦澤サキ.opus
+214:yt_artists/saki_ashizawa/青空のナミダ (Aozora no namida) - 高橋瞳 _ covered by 芦澤 サキ.opus
+215:yt_artists/saki_ashizawa/革命デュアリズム (Kakumei Dualism) - 水樹奈々×T.M.Revolution _ covered by 芦澤 サキ × 道明寺 ここあ.opus
+216:yt_artists/saki_ashizawa/心臓デモクラシー (Shinzo Democracy) - みきとP _ covered by 芦澤 サキ.opus
+217:yt_artists/saki_ashizawa/Meteor -ミーティア- - T.M.Revolution _ covered by 芦澤 サキ.opus
+218:yt_artists/saki_ashizawa/ボッカデラベリタ (Bocca della Verità) - 柊キライ _ covered by 芦澤 サキ.opus
+219:yt_artists/saki_ashizawa/アトラクトライト (Attract Light) - _Luna feat.ゆある _ covered by 芦澤 サキ.opus
+220:yt_artists/saki_ashizawa/命に嫌われている。 (Hated by Life Itself.) - カンザキイオリ _ covered by 芦澤 サキ.opus
+221:yt_artists/saki_ashizawa/夜明けと蛍 (Yoake to hotaru) - n-buna _ covered by 芦澤 サキ.opus
+222:yt_artists/saki_ashizawa/少女レイ (Shoujo Rei) - みきとP _ covered by 芦澤 サキ.opus
+223:yt_artists/saki_ashizawa/雲外憧憬 (Ungaisyokei) TV size - FantasticYouth _ covered by 芦澤サキ.opus
+224:yt_artists/vasperbell/➕ オドループ - フレデリック _ covered by ながせゆか＋ (Acoustic).opus
+225:yt_artists/vasperbell/➕ ドライフラワー - 優里 _ covered by ながせゆか＋ (Acoustic).opus
+226:yt_artists/vasperbell/➕ 青と夏 - Mrs. GREEN APPLE _ covered by ながせゆか＋ (Acoustic).opus
+227:yt_artists/vasperbell/202 feat. 泉まくら - ラブリーサマーちゃん ( Cover ) _ VESPERBELL カスカ.opus
+228:yt_artists/vasperbell/abnormalize - 凛として時雨 ( Cover ) _ VESPERBELL ヨミ.opus
+229:yt_artists/vasperbell/All Alone With You - EGOIST ( Cover ) _ VESPERBELL ヨミ.opus
+230:yt_artists/vasperbell/bad guy - Billie Eilish ( Cover ) _ VESPERBELL.opus
+231:yt_artists/vasperbell/Butter Sugar Cream - Tomggg _ covered by 長瀬有花.opus
+232:yt_artists/vasperbell/DADA - RADWIMPS ( Cover ) _ VESPERBELL ヨミ.opus
+233:yt_artists/vasperbell/DENKOUSEKKA - ポルカドットスティングレイ ( Cover ) _ VESPERBELL カスカ.opus
+234:yt_artists/vasperbell/Groovin' Magic - ROUND TABLE featuring Nino _ covered by 長瀬有花.opus
+235:yt_artists/vasperbell/Happy Halloween - Junky _ covered by 長瀬有花.opus
+236:yt_artists/vasperbell/HIGHSCHOOL OF THE DEAD - 岸田教団&THE明星ロケッツ ( Cover ) _ VESPERBELL ヨミ.opus
+237:yt_artists/vasperbell/Hug feat. kojikoji - 空音 _ covered by 長瀬有花.opus
+238:yt_artists/vasperbell/I beg you - Aimer ( Cover ) _ VESPERBELL ヨミ.opus
+239:yt_artists/vasperbell/IGNITE - 藍井エイル ( Cover ) _ VESPERBELL カスカ × 松永依織.opus
+240:yt_artists/vasperbell/ignition _ VESPERBELL [Official Music Video].opus
+241:yt_artists/vasperbell/LOVE&ROLL - supercell ( Cover ) _ VESPERBELL カスカ.opus
+242:yt_artists/vasperbell/Mela! - 緑黄色社会 ( Cover ) _ VESPERBELL カスカ.opus
+243:yt_artists/vasperbell/No.1 - DISH_ ( Cover ) _ VESPERBELL.opus
+244:yt_artists/vasperbell/One for Everything YUKA SOLO Ver. - 長瀬有花 (Official Video).opus
+245:yt_artists/vasperbell/Os-宇宙人 (Os-Uchuujin) - エリオをかまってちゃん _ covered by 長瀬有花.opus
+246:yt_artists/vasperbell/PONPONPON - きゃりーぱみゅぱみゅ _ covered by 長瀬有花.opus
+247:yt_artists/vasperbell/Preserved Roses - T.M.Revolution × 水樹奈々 ( Cover ) _ VESPERBELL.opus
+248:yt_artists/vasperbell/RED - GOUACHE ( Cover ) _ VESPERBELL ヨミ.opus
+249:yt_artists/vasperbell/RISE _ VESPERBELL [Official Music Video].opus
+250:yt_artists/vasperbell/snow jam - Rin音 _ covered by 長瀬有花.opus
+251:yt_artists/vasperbell/summertime- cinnamons × evening cinema _ covered by 長瀬有花.opus
+252:yt_artists/vasperbell/SUSHI 食べたい feat. ソイソース (Sushi Tabetai feat. Soy Sauce) - ORANGE RANGE _ covered by 長瀬有花.opus
+253:yt_artists/vasperbell/The Beginning - ONE OK ROCK ( Cover ) _ VESPERBELL ヨミ.opus
+254:yt_artists/vasperbell/The Everlasting Guilty Crown - EGOIST ( Cover ) _ VESPERBELL ヨミ.opus
+255:yt_artists/vasperbell/VERSUS _ VESPERBELL [Official Music Video].opus
+256:yt_artists/vasperbell/YELLOW - 神山羊 _ covered by 長瀬有花.opus
+257:yt_artists/vasperbell/ヴィーナスとジーザス (Venus to Jesus) - やくしまるえつこ _ covered by 長瀬有花.opus
+258:yt_artists/vasperbell/おしゃかしゃま - RADWIMPS ( Cover ) _ VESPERBELL ヨミ.opus
+259:yt_artists/vasperbell/おしゃかしゃま (OSHAKASHAMA) - RADWIMPS _ covered by 長瀬有花.opus
+260:yt_artists/vasperbell/おジャ魔女カーニバル!! (Ojamajo Carnival!!) - MAHO堂 _ covered by 長瀬有花.opus
+261:yt_artists/vasperbell/オドループ (Oddloop) - フレデリック _ covered by 長瀬有花.opus
+262:yt_artists/vasperbell/おどるポンポコリン (Odoru Ponpokorin) - B.B.クイーンズ _ E-girls _ covered by 長瀬有花.opus
+263:yt_artists/vasperbell/お気に召すまま (Oki ni Mesu mama) - Eve _ covered by 長瀬有花.opus
+264:yt_artists/vasperbell/カルマ - BUMP OF CHICKEN ( Cover ) _ VESPERBELL.opus
+265:yt_artists/vasperbell/かわいげないな - 長瀬有花  (Original).opus
+266:yt_artists/vasperbell/キラメキラリ (Kirame Kirari) - 高槻やよい(仁後真耶子) _ covered by 長瀬有花.opus
+267:yt_artists/vasperbell/グッバイ宣言  (Goodbye Sengen) - Chinozo _ covered by 長瀬有花.opus
+268:yt_artists/vasperbell/ココロオドル - nobodyknows+ _ covered by 長瀬有花.opus
+269:yt_artists/vasperbell/サイサキ - Reol ( Cover ) _ VESPERBELL カスカ.opus
+270:yt_artists/vasperbell/シオン - niKu _ covered by 長瀬有花.opus
+271:yt_artists/vasperbell/スターマーカー - KANA-BOON ( Cover ) _ VESPERBELL カスカ.opus
+272:yt_artists/vasperbell/ずるいよね - 長瀬有花 _ アコギで弾いてみた.opus
+273:yt_artists/vasperbell/ずるいよね - 長瀬有花 (Official Video).opus
+274:yt_artists/vasperbell/だいじょばない (Daijobanai) - Perfume _ covered by 長瀬有花.opus
+275:yt_artists/vasperbell/チキンライス- 浜田雅功と槇原敬之_ covered by 長瀬有花.opus
+276:yt_artists/vasperbell/チャイナアドバイス (China Advice) - 相対性理論 _ covered by 長瀬有花.opus
+277:yt_artists/vasperbell/チョコレイト・ディスコ - Perfume ( Cover ) _ VESPERBELL.opus
+278:yt_artists/vasperbell/ツキアカリのミチシルベ - ステレオポニー ( Cover ) _ VESPERBELL カスカ.opus
+279:yt_artists/vasperbell/ディスコムダンス-長瀬有花 (Original).opus
+280:yt_artists/vasperbell/テレキャスター・ストライプ - ポルカドットスティングレイ ( Cover ) _ VESPERBELL カスカ.opus
+281:yt_artists/vasperbell/どきゅめんたり - 長瀬有花  (Original).opus
+282:yt_artists/vasperbell/ドライフラワー (Dry Flower) - 優里 _ covered by 長瀬有花.opus
+283:yt_artists/vasperbell/とろける哲学 - 長瀬有花  (Original).opus
+284:yt_artists/vasperbell/とろける哲学 - 長瀬有花 (Official Video).opus
+285:yt_artists/vasperbell/ないものねだり - KANA-BOON ( Cover ) _ VESPERBELL カスカ.opus
+286:yt_artists/vasperbell/にんじゃりばんばん (Ninja Re Bang Bang) - きゃりーぱみゅぱみゅ _ covered by 長瀬有花.opus
+287:yt_artists/vasperbell/ネトゲ廃人シュプレヒコール (ONLINE GAME ADDICTS SPRECHCHOR) - さつきがてんこもり _ covered by 長瀬有花.opus
+288:yt_artists/vasperbell/ハイド・アンド・ダンス - 長瀬有花  (Original).opus
+289:yt_artists/vasperbell/バレンタイン・キッス (Valentine Kiss) - 渡り廊下走り隊７ _ covered by 長瀬有花.opus
+290:yt_artists/vasperbell/ピースサイン - 米津玄師 ( Cover ) _ VESPERBELL.opus
+291:yt_artists/vasperbell/ヒステリックナイトガール - PSYQUI ( Cover ) _ VESPERBELL カスカ.opus
+292:yt_artists/vasperbell/プレパレード - 逢坂大河(釘宮理恵)・櫛枝実乃梨(堀江由衣)・川嶋亜美(喜多村英梨) ( Cover ) _ VESPERBELL カスカ.opus
+293:yt_artists/vasperbell/ふわふわ時間 (Fuwa Fuwa Time) - 放課後ティータイム _ covered by 長瀬有花.opus
+294:yt_artists/vasperbell/ライカ - 長瀬有花  (Original).opus
+295:yt_artists/vasperbell/ライカ - 長瀬有花 (Official Video).opus
+296:yt_artists/vasperbell/ラズベリー＊モンスター - HoneyWorks ( Cover ) _ VESPERBELL カスカ.opus
+297:yt_artists/vasperbell/ルージュの伝言 (Ruuju no dengon) - 松任谷由実 _ covered by 長瀬有花.opus
+298:yt_artists/vasperbell/ロマンスがありあまる (More than enough Romances) - ゲスの極み乙女。 _ covered by 長瀬有花.opus
+299:yt_artists/vasperbell/再教育 - Neru ( Cover ) _ VESPERBELL.opus
+300:yt_artists/vasperbell/名前のない怪物 - EGOIST ( Cover ) _ VESPERBELL ヨミ.opus
+301:yt_artists/vasperbell/君じゃなきゃダメみたい - オーイシマサヨシ _ covered by 長瀬有花.opus
+302:yt_artists/vasperbell/君と夏フェス - SHISHAMO ( Cover ) _ VESPERBELL カスカ.opus
+303:yt_artists/vasperbell/夏夜のマジック (Natsuyo no magic) - indigo la End _ covered by 長瀬有花.opus
+304:yt_artists/vasperbell/夏色 (Natsuiro) - ゆず _ covered by 長瀬有花.opus
+305:yt_artists/vasperbell/夜は眠れるかい？ - flumpool ( Cover ) _ VESPERBELL.opus
+306:yt_artists/vasperbell/夜籠り閑歩- 長瀬有花 (Original).opus
+307:yt_artists/vasperbell/寄り酔い (Yoriyoi) - 和ぬか _ covered by 長瀬有花.opus
+308:yt_artists/vasperbell/恋は渾沌の隷也 (Koi wa chaos no shimobenari) - 後ろから這いより隊G _ covered by 長瀬有花.opus
+309:yt_artists/vasperbell/感電 - 米津玄師 ( Cover ) _ VESPERBELL ヨミ.opus
+310:yt_artists/vasperbell/新宝島(Shin Takarajima) - サカナクション _ covered by 長瀬有花.opus
+311:yt_artists/vasperbell/桃太郎 (Momotaro) - 水曜日のカンパネラ _ covered by 長瀬有花.opus
+312:yt_artists/vasperbell/気分上々↑↑  (Kibun Joujou↑↑) - mihimaru GT _ covered by 長瀬有花.opus
+313:yt_artists/vasperbell/水星 (Suisei) - DAOKO _ covered by 長瀬有花.opus
+314:yt_artists/vasperbell/決戦スピリット - CHiCO with HoneyWorks ( Cover ) _ VESPERBELL ヨミ.opus
+315:yt_artists/vasperbell/片目で異常に恋してる (Katame De Ijou Ni Koishiteru) - ジェニーハイ _ covered by 長瀬有花.opus
+316:yt_artists/vasperbell/琥珀色の街、上海蟹の朝 (Amber Colored City, The Morning of The Shanghai Crab) - くるり _ covered by 長瀬有花.opus
+317:yt_artists/vasperbell/白金ディスコ (Platinum Disco) - 阿良々木月火(cv -井口裕香) _ covered by 長瀬有花.opus
+318:yt_artists/vasperbell/瞬間センチメンタル - SCANDAL ( Cover ) _ VESPERBELL.opus
+319:yt_artists/vasperbell/空も飛べるはず (Sora mo toberu hazu) - スピッツ _ covered by 長瀬有花.opus
+320:yt_artists/vasperbell/空色デイズ - 中川翔子 ( Cover ) _ VESPERBELL カスカ.opus
+321:yt_artists/vasperbell/終末じゃない - ぬゆり ( Cover ) _ VESPERBELL.opus
+322:yt_artists/vasperbell/過去を喰らう - 花譜 ( Cover ) _ VESPERBELL ヨミ.opus
+323:yt_artists/vasperbell/青い夜に針を落として。 - 長瀬有花  (Original).opus
+324:yt_artists/vasperbell/青い栞 (Aoi Shiori) - Galileo Galilei _ covered by 長瀬有花.opus
+325:yt_artists/vasperbell/青空のナミダ - 高橋瞳 ( Cover ) _ VESPERBELL カスカ.opus
+326:yt_artists/vasperbell/革命デュアリズム - 水樹奈々×T.M.Revolution ( Cover ) _ VESPERBELL.opus
+327:yt_artists/vasperbell/駆ける、止まる (Kakeru, Tomaru) - 長瀬有花 (Official Video).opus
+328:yt_artists/vasperbell/魔法の絨毯 (Mahou no Juutan) - 川崎鷹也 _ covered by 長瀬有花.opus
+329:yt_artists/vasperbell/Red fraction - MELL ( Cover ) _ VESPERBELL ヨミ.opus
+330:yt_artists/vasperbell/1,000,000 TIMES - MY FIRST STORY ( Cover ) _ VESPERBELL ヨミ × 凪原涼菜.opus
+331:yt_artists/vasperbell/VORACITY - MYTH & ROID ( Cover ) _ VESPERBELL.opus
+332:yt_artists/vasperbell/ヴァンパイア - DECO_27 ( Cover ) _ VESPERBELL カスカ.opus
+333:yt_artists/vasperbell/➕ ミス・パラレルワールド - 相対性理論 _ covered by ながせゆか＋ (short).opus
+334:yt_artists/vasperbell/気になるあの娘 (Ki ni naru ano ko) - 相対性理論 _ covered by 長瀬有花.opus
+335:yt_artists/vasperbell/ねむるまち - くじら ( Cover ) _ VESPERBELL ヨミ.opus
+336:yt_artists/vasperbell/少年よ我に帰れ (boys, come back to me) - やくしまるえつこメトロオーケストラ _ covered by 長瀬有花.opus
+337:yt_artists/vasperbell/夜咄ディセイブ - じん ( Cover ) _ VESPERBELL.opus
+338:yt_artists/vasperbell/ラブカ？ - 柊キライ ( Cover ) _ VESPERBELL ヨミ.opus
+339:yt_artists/vasperbell/Snow halation - μ's ( Cover ) _ VESPERBELL カスカ.opus
+340:yt_artists/vasperbell/放課後ディストラクション (AfterSchoolDi(e)stra(u)ction) - やくしまるえつこ _ covered by 長瀬有花.opus
+341:yt_artists/vasperbell/God knows... - 涼宮ハルヒ(平野綾) ( Cover ) _ VESPERBELL ヨミ.opus
 playlist_end
